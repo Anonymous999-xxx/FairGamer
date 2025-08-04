@@ -1,0 +1,17 @@
+{
+    "model_name": "grok-3-mini",
+    "model_type": "llm",
+    "test_mode": "virtual",
+    "game_name_path": "./data/game_name-SNPC.json",
+    "game_name_max_num": 10,
+    "race_path": "./data/race-SNPC.json",
+    "career_path": "./data/career-SNPC.json",
+    "evaluated_languages": ["english", "chinese"],
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "top_p": 0.7,
+    "repeated_num": 10,
+    "redundancy": 4,
+    "batch_size": 30,
+    "RPM_sleep_time": 5
+}

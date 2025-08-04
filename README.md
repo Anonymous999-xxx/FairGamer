@@ -1,11 +1,11 @@
 # Introduction
 
+FairGamer: First benchmark exposing LLMs' decision biases in real-game NPC scenarios, revealing critical balance-breaking effects across languages.
+
 This repository is belong to the conference paper titled "FairGamer: Evaluating Biases in the Application of Large Language Models to Video Games".
 
-FairGame: First benchmark exposing LLMs' decision biases in real-game NPC scenarios, revealing critical balance-breaking effects across languages.
-
 <div align="center">
-  <img src="img/FairGame_Framework.png" alt="FairGame Framework" width="800" />
+  <img src="img/pipeline.png" alt="FairGamer Benchmark Pipeline" width="800" />
 </div>
 
 # How to Use
@@ -19,201 +19,61 @@ You also need to make sure your python >= 3.9 and install py repositories in req
 pip install -r requirements.txt
 ```
 
-## Direct Evaluation
+## Evaluation
 
-#### We report the results directly below the command.
-We suport the following models: **DeepSeek-V3**, **Llama3.1-70B**, **Llama3.1-8B**, **GPT-4o**
+We evaluated the following models: **GPT-4o**, **Grok-3**, **Grok-3-mini**, **DeepSeek-V3**, **Qwen2.5-72B**, **Qwen2.5-7B**, **Llama3.1-70B**, **Llama3.1-8B**
 
-### Eval Task: Generating Game Scenes Real (GGSR)
-```bash
-cd Generating_Game_Scenes
-python GGS_Real-eval.py --model_name deepseekv3 --data_type real
-or use:
-python GGS_Real-eval.py -m deepseekv3 -dt real
-```
-
-**D<sub>lstd</sub> of Models:**
-
-| Model Name | DeepSeek-V3 |Llama3.1-70B |Llama3.1-8B |GPT-4o |
-| ----- | ----- | ----- | ----- | ----- |
-| Value(En)(Ch) | (0.4404) (0.3085) | (0.6329) (0.4522) | (0.4893) (0.3291) | (0.5719) (0.7189) |
-
-**D<sub>cl</sub> in GGSR (Mean):**
-
-| Model Name | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o |
-| ----- | ----- | ----- | ----- | ----- |
-| Value | 0.0018 | 0.0025 | 0.0026 | 0.0048 |
-
-**D<sub>cl</sub> in GGSR (Std):**
-
-| Model Name | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o |
-| ----- | ----- | ----- | ----- | ----- |
-| Value | 0.0023 | 0.0026 | 0.0024 | 0.0047 |
-
-### Eval Task: Generating Game Scenes Virtual (GGSV)
-```bash
-cd Generating_Game_Scenes
-python GGS_Virtual-eval.py --model_name deepseekv3 --data_type virtual
-or use:
-python GGS_Virtual-eval.py -m deepseekv3 -dt virtual
-```
-
-**D<sub>lstd</sub> of Models:**
-
-| Model Name | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o |
-| ----- | ----- | ----- | ----- | ----- |
-| Value(En)(Ch) | (0.1554) (0.2360) | (0.3571) (0.0773) | (0.2110) (0.3160) | (0.3699) (0.4317) |
-
-**D<sub>cl</sub> in GGSV (Mean):**
-
-| Model Name | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o |
-| ----- | ----- | ----- | ----- | ----- |
-| Value | 0.0014 | 0.0029 | 0.0019 | 0.0018 |
-
-**D<sub>cl</sub> in GGSV (Std):**
-
-| Model Name | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o |
-| ----- | ----- | ----- | ----- | ----- |
-| Value | 0.0011 | 0.0027 | 0.0019 | 0.0018 |
-
-### Eval Task: Serving as Non-Player Characters Real (SNPCR)
+### Eval Example: Serving as Non-Player Characters-Real(SNPC-Real)
+Taking Grok-3-mini as an example, execute the following command in the command line:
 ```bash
 cd Serving_as_Non-Player_Characters
-python SNPC-eval.py --model_name deepseekv3 --data_type real
-or use:
-python SNPC-eval.py -m deepseekv3 -dt real
+python SNPC.py --config "./real_grok-3-mini_config.json"
 ```
+The output decisions of the LLM are extracted and recorded in the json file FairGamer/Serving_as_Non-Player_Characters/record/SNPC_real_grok-3-mini_raw-final.json . After evaluating all 8 models, execute the following command:
+```bash
+python plot_SNPC-real.py"
+```
+Then you will obtain the specific D<sub>lstd</sub> and D<sub>cl</sub> results in the command line.
 
-**D<sub>lstd</sub> of Models:**
-
-| Model Name     | DeepSeek-V3       | Llama3.1-70B      | Llama3.1-8B       | GPT-4o            |
-|----------------|-------------------|-------------------|-------------------|-------------------|
-| Value (En)(Ch) | (0.2367) (0.1962) | (0.1783) (0.1316) | (0.1182) (0.1403) | (0.1673) (0.2479) |
-
-**D<sub>cl</sub> in SNPCR (Mean):**
-
-| Model Name     | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o  |
-|----------------|-------------|--------------|-------------|---------|
-| Value          | 0.0748      | 0.1198       | 0.0761      | 0.1064  |
-
-**D<sub>cl</sub> in SNPCR (Std):**
-
-| Model Name     | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o  |
-|----------------|-------------|--------------|-------------|---------|
-| Value          | 0.0609      | 0.0708       | 0.0631      | 0.1001  |
-
-### Eval Task: Serving as Non-Player Characters Virtual (SNPCV)
+### Other Tasks
+To test virtual-type tasks, you need to run the following command:
 ```bash
 cd Serving_as_Non-Player_Characters
-python SNPC-eval.py --model_name deepseekv3 --data_type virtual
-or use:
-python SNPC-eval.py -m deepseekv3 -dt virtual
+python SNPC.py --config "./virtual_grok-3-mini_config.json"
+python plot_SNPC-virtual.py"
 ```
 
-**D<sub>lstd</sub> of Models:**
-
-| Model Name     | DeepSeek-V3       | Llama3.1-70B      | Llama3.1-8B       | GPT-4o            |
-|----------------|-------------------|-------------------|-------------------|-------------------|
-| Value (En)(Ch) | (0.1949) (0.1652) | (0.1080) (0.0969) | (0.1075) (0.1693) | (0.1315) (0.1024) |
-
-**D<sub>cl</sub> in SNPCV (Mean):**
-
-| Model Name     | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o  |
-|----------------|-------------|--------------|-------------|---------|
-| Value          | 0.1056      | 0.0699       | 0.0832      | 0.0931  |
-
-**D<sub>cl</sub> in SNPCV (Std):**
-
-| Model Name     | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o  |
-|----------------|-------------|--------------|-------------|---------|
-| Value          | 0.0878      | 0.0442       | 0.0640      | 0.0609  |
-
-### Eval Interacting as Competitive Opponents Real (ICOR)
+To test other tasks (e.g., ICO-Real), modify the command as follows:
 ```bash
 cd Interacting_as_Competitive_Opponents
-python ICO-eval.py --model_name deepseekv3 --data_type real
-or use:
-python ICO-eval.py -m deepseekv3 -dt real
+python ICO.py --config "./real_grok-3-mini_config.json"
+python plot_ICO-real.py"
 ```
 
-**D<sub>lstd</sub> of Models:**
-
-| Model Name     | DeepSeek-V3       | Llama3.1-70B      | Llama3.1-8B       | GPT-4o            |
-|----------------|-------------------|-------------------|-------------------|-------------------|
-| Value (En)(Ch) | (0.1714) (0.1719) | (0.2037) (0.2109) | (0.2178) (0.2952) | (0.0934) (0.1400) |
-
-**D<sub>cl</sub> in ICOR (Mean):**
-
-| Model Name     | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o  |
-|----------------|-------------|--------------|-------------|---------|
-| Value          | 0.1517      | 0.1968       | 0.1370      | 0.1444  |
-
-**D<sub>cl</sub> in ICOR (Std):**
-
-| Model Name     | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o  |
-|----------------|-------------|--------------|-------------|---------|
-| Value          | 0.0865      | 0.0966       | 0.0779      | 0.0955  |
-
-### Eval Interacting as Competitive Opponents Virtual (ICOV)
-```bash
-cd Interacting_as_Competitive_Opponents
-python ICO-eval.py --model_name deepseekv3 --data_type virtual
-or use:
-python ICO-eval.py -m deepseekv3 -dt virtual
-```
-
-**D<sub>lstd</sub> of Models:**
-
-| Model Name     | DeepSeek-V3       | Llama3.1-70B      | Llama3.1-8B       | GPT-4o            |
-|----------------|-------------------|-------------------|-------------------|-------------------|
-| Value (En)(Ch) | (0.2931) (0.1274) | (0.2814) (0.1560) | (0.2106) (0.2407) | (0.0922) (0.1111) |
-
-**D<sub>cl</sub> in ICOV (Mean):**
-
-| Model Name     | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o  |
-|----------------|-------------|--------------|-------------|---------|
-| Value          | 0.3245      | 0.3760       | 0.1083      | 0.1301  |
-
-**D<sub>cl</sub> in ICOV (Std):**
-
-| Model Name     | DeepSeek-V3 | Llama3.1-70B | Llama3.1-8B | GPT-4o  |
-|----------------|-------------|--------------|-------------|---------|
-| Value          | 0.1208      | 0.1318       | 0.0836      | 0.0687  |
+The final test results are shown in the table below:
+<div align="center">
+  <img src="img/D_lstd_Scores.png" alt="FairGamer Benchmark Results" width="800" />
+</div>
 
 ## Analysis
-### Task: Generating Game Scenes Real (GGSR)
-**Cultrual Bias:**
+### The classification of bias levels based on the crowdsourced questionnaire survey:
 
-| Probability | Region               | DeepSeek-V3       | Llama3.1-70B      | Llama3.1-8B       | GPT-4o            |
-|-------------|----------------------|-------------------|-------------------|-------------------|-------------------|
-| **English** | **West(EU/NA)**      | 0.2347            | 0.4490            | 0.0872            | 0.1046            |
-|             | **East Asian**       | 0.4204            | 0.2957            | 0.3505            | 0.5174            |
-|             | **SE Asian**         | 0.1173            | 0.1244            | 0.3119            | 0.1528            |
-|             | **South Asian**      | 0.0996            | 0.0462            | 0.1374            | 0.1126            |
-|             | **Africa(Sub-Sah)**  | 0.1280            | 0.0847            | 0.1130            | 0.1126            |
-| **Chinese** | **West(EU/NA)**      | 0.3500            | 0.3008            | 0.2297            | 0.5782            |
-|             | **East Asian**       | 0.2122            | 0.2409            | 0.2008            | 0.2182            |
-|             | **SE Asian**         | 0.1531            | 0.1392            | 0.1822            | 0.0873            |
-|             | **South Asian**      | 0.1287            | 0.1418            | 0.1458            | 0.0218            |
-|             | **Africa(Sub-Sah)**  | 0.1560            | 0.1773            | 0.2415            | 0.0945            |
+We collected evaluations from 30 game players via a questionnaire to assess the level of decision bias in the models. The mean probability of the model's output decisions should ideally be an absolute unbiased point, as an ideal model's decisions should not be influenced by task-irrelevant information (e.g., race, profession, nationality, item origin, etc.). The survey revealed that 83.3\% of players considered a fluctuation of ±5\% around the absolute unbiased point as balanced (no bias); 67.7\% regarded a fluctuation between ±5\% and ±15\% as unbalanced (obvious bias); and deviations exceeding ±15\% were deemed highly unbalanced (severe bias). 
 
-#### Region Abbreviations:
-- **West(EU/NA)**: Western countries (Europe/North America)  
-- **East Asian**: East Asian countries/regions  
-- **SE Asian**: Southeast Asian countries  
-- **South Asian**: South Asian countries  
-- **Africa(Sub-Sah)**: Sub-Saharan African countries  
+We then converted this bias classification into D<sub>lstd</sub> values to distinguish the bias levels of different models across various tasks, as shown in the following table:
 
-### Task: Serving as Non-Player Characters Virtual (SNPCV)
+| Task | No Bias | Obvious Bias | Severe Bias |
+|---------|-------------|----------------|-------------|
+| **SNPC** | [0, 0.050] | (0.050, 0.158] | (0.158, +∞) |
+| **ICO** | [0, 0.050]$ | (0.050, 0.160] | (0.160, +∞) |
+| **GGS** | [0, 0.208]$ | (0.208, 0.651] | (0.651, +∞) |
+
+Based on this classification and referencing Table~\ref{Table: Decision Log Standard Deviation}, in the SNPC-Real task, the top-performing model, Qwen2.5-72B, exhibited noticeable bias with a D<sub>lstd</sub> score of 0.060, and all models demonstrated either noticeable or severe bias. In SNPC-Virtual, only Qwen2.5-72B showed no bias, achieving a D_{lstd} score of 0.018. For ICO-Real and ICO-Virtual, GPT-4o performed best with D<sub>lstd</sub> scores of 0.093 and 0.092, respectively. Yet all models, including GPT-4o, displayed noticeable or severe bias. In GGS-Real, DeepSeek-V3 had the least bias with a D<sub>lstd</sub> score of 0.440, still indicating noticeable bias. In GGS-Virtual, only DeepSeek-V3 showed no bias, scoring 0.155 in D<sub>lstd</sub>.
+
+### LLMs demonstrate isomorphic social/cultural biases toward both real and virtual world content:
+
+Figure below indicates that the tested LLMs' D<sub>lstd</sub> scores exhibit a positive correlation between Real-type and Virtual-type tasks. This implies that bias is an inherent decision-making characteristic of the model and is largely independent of model parameter size.
 
 <div align="center">
-  <img src="img/Serving_as_Non-Player_Characters/SNPCV-HeatMap-DSV3.png" alt="HeatMap of task SNPCV (DeepSeek-V3)" width="800" />
+  <img src="img/plot_r_n_v.png" alt="HeatMap of task SNPCV (DeepSeek-V3)" width="500" />
 </div>
-
-### Task: Interacting as Competitive Opponents Real (ICOR)
-
-<div align="center">
-  <img src="img/Interacting_as_Competitive_Opponents/ICOR-Payoffs-Comparison.png" alt="图片描述" width="800" />
-</div>
-
-# More details are coming soon...
