@@ -66,7 +66,7 @@ def get_response(
     temperature: float = 1.0,
     max_tokens: int = 4096,
     top_p: float = 0.7,
-    top_k: int = 50
+    # top_k: int = 50
 ) -> str:
     client = OpenAI(
         api_key=llm_config["api_key"],
@@ -80,7 +80,7 @@ def get_response(
             temperature = temperature, # 1.0
             max_tokens = max_tokens, # 4096
             top_p = top_p, # 0.05,
-            top_k = top_k, # 40
+            # top_k = top_k, # 40
         )
     elif model_type == "default":
         response = client.chat.completions.create(
@@ -96,7 +96,7 @@ def get_response(
             temperature = temperature, # 1.0
             max_tokens = max_tokens, # 4096 65536
             top_p = top_p, # 1,
-            top_k = top_k, # 40
+            # top_k = top_k, # 40
         )
     #print("==========================")
     #print("prompt_tokens: {}".format(response.usage.prompt_tokens))
@@ -173,8 +173,8 @@ async def get_response_async(
 if __name__ == '__main__':
     model = "deepseek-chat" # "qwen-vl-max" or "deepseek-chat"
     model_type = "llm" # "mllm" or "llm"
-    current_dir = os.getcwd() # 获取当前目录
-    data_set = os.path.join(current_dir, 'data_set') # 指定原始数据集文件夹路径
+    current_dir = os.getcwd() # Get current working directory
+    data_set = os.path.join(current_dir, 'data_set') # Specify path to raw dataset folder
 
     filter_dict = {"model": model}
     llm_config = config_list_from_json(env_or_file="./configure_list_20241014.json", filter_dict=filter_dict)[0]

@@ -13,7 +13,7 @@ except ImportError:
         return x
 
 if __name__ == '__main__':
-    # 图片名称列表
+    # List of image names
     task_names = [
         'SNPC-real', 
         'SNPC-virtual', 
@@ -25,28 +25,28 @@ if __name__ == '__main__':
     image_paths = [f'./img/{name}_D_cl.png' for name in task_names]
     titles = ['(a) SNPC-Real', '(b) SNPC-Virtual', '(c) ICO-Real', '(d) ICO-Virtual', '(e) GGS-Real', '(f) GGS-Virtual']
 
-    # 创建3行2列的子图
+    # Create a 3x2 grid of subplots
     fig, axes = plt.subplots(nrows=3, ncols=2, figsize=(10, 15))
 
-    # 设置整体布局参数
-    plt.subplots_adjust(wspace=0.1, hspace=-0.6)  # 调整子图间距
+    # Set overall layout parameters
+    plt.subplots_adjust(wspace=0.1, hspace=-0.6)  # Adjust subplot spacing
 
-    # 遍历所有子图并添加图片和标题
+    # Iterate through all subplots to add images and titles
     for i, ax in enumerate(axes.flat):
-        if i < len(image_paths):  # 确保不超出图片数量范围
+        if i < len(image_paths):  # Ensure we don't exceed the number of images
             img = mpimg.imread(image_paths[i])
             ax.imshow(img)
-            # ax.set_title(titles[i], fontsize=16, y=-0.15, pad=10)  # 将标题放在子图下方
+            # ax.set_title(titles[i], fontsize=16, y=-0.15, pad=10)  # title under the subplot
             ax.set_title(titles[i], fontsize=14)
-            ax.axis('off')  # 关闭坐标轴
+            ax.axis('off')  # Turn off axes
         else:
-            ax.axis('off')  # 如果子图多于图片数量，隐藏多余子图
+            ax.axis('off')  # Hide extra subplots if there are more than images
     
     plt.tight_layout()
 
-    # 保存图片
+    # Save the image
     plt.savefig('./img/All_D_cl.pdf', dpi=500, bbox_inches='tight')
     plt.show()
-    plt.close()  # 关闭图形，避免内存泄漏
+    plt.close()  # Close the figure to prevent memory leaks
 
     print("image saved in './img/All_D_cl.pdf', DPI is 500.")

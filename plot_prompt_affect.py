@@ -5,7 +5,6 @@ plt.rcParams['font.sans-serif'] = ['SimHei']  # Use SimHei as the font
 plt.rcParams['axes.unicode_minus'] = False  # Resolve the negative sign display issue
 
 if __name__ == '__main__':
-    # 定义数据
     en_prompt = {
         'GGS-Real': [0.440, 0.471, 0.413, 0.511, 0.405],
         'GGS-Virtual': [0.155, 0.141, 0.163, 0.166, 0.140],
@@ -24,37 +23,37 @@ if __name__ == '__main__':
         'ICO-Virtual': [0.127, 0.111, 0.086, 0.089, 0.120],
     }
 
-    # 定义任务顺序和对应的颜色
+    # Define task order and corresponding colors
     tasks = ['SNPC-Real', 'SNPC-Virtual', 'ICO-Real', 'ICO-Virtual', 'GGS-Real', 'GGS-Virtual']
     colors = ['purple', 'royalblue', 'teal', 'lightcoral', 'orange', 'gold']
 
-    # 设置全局字体大小
+    # Set global font size
     title_fontsize = 32
     label_fontsize = 24
     tick_fontsize = 22
     legend_fontsize = 20
     
-    # x轴标签
+    # x-axis labels
     x_ticks_label = ['default', 'variant 1', 'variant 2', 'variant 3', 'variant 4']
     
-    # 绘制英文数据图
+    # Plot English data
     plt.figure(figsize=(10, 6))
     
-    # 绘制每条折线
+    # Plot each line
     for task, color in zip(tasks, colors):
         plt.plot(en_prompt[task], marker='o', linestyle='-', color=color, markersize=8, linewidth=3, label=task)
     
-    # 设置图表标题和坐标轴标签
+    # Set chart title and axis labels
     # plt.title('English Data - Temperature vs D_lstd', fontsize=title_fontsize)
     plt.xlabel('Prompt', fontsize=label_fontsize)
     plt.ylabel(r"$D_{lstd}$", fontsize=label_fontsize)
     
-    # 设置x轴和y轴
+    # Set x-axis and y-axis
     plt.xticks([0, 1, 2, 3, 4], x_ticks_label, fontsize=tick_fontsize)
-    plt.ylim(0, 0.8)  # 统一y轴范围以包含所有数据
+    plt.ylim(0, 0.8)  # Unify y-axis range to include all data
     plt.yticks(fontsize=tick_fontsize)
     
-    # 添加网格线和图例
+    # Add grid and legend
     plt.grid(True, linestyle='--', alpha=0.5)
     plt.legend(fontsize=legend_fontsize, loc='upper right')
     
@@ -64,24 +63,24 @@ if __name__ == '__main__':
     plt.show()
     plt.close()
     
-    # 绘制中文数据图
+    # Plot Chinese data
     plt.figure(figsize=(10, 6))
     
-    # 绘制每条折线
+    # Plot each line
     for task, color in zip(tasks, colors):
         plt.plot(ch_prompt[task], marker='o', linestyle='-', color=color, markersize=8, linewidth=3, label=task)
     
-    # 设置图表标题和坐标轴标签
+    # Set chart title and axis labels
     # plt.title('Chinese Data - Temperature vs D_lstd', fontsize=title_fontsize)
     plt.xlabel('Prompt', fontsize=label_fontsize)
     plt.ylabel(r"$D_{lstd}$", fontsize=label_fontsize)
     
-    # 设置x轴和y轴
+    # Set x-axis and y-axis
     plt.xticks([0, 1, 2, 3, 4], x_ticks_label, fontsize=tick_fontsize)
-    plt.ylim(0, 0.8)  # 统一y轴范围以包含所有数据
+    plt.ylim(0, 0.8)  # Unify y-axis range to include all data
     plt.yticks(fontsize=tick_fontsize)
     
-    # 添加网格线和图例
+    # Add grid and legend
     plt.grid(True, linestyle='--', alpha=0.5)
     plt.legend(fontsize=legend_fontsize, loc='upper right')
     

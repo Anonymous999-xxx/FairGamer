@@ -8,9 +8,8 @@ from collections import Counter
 
 def read_txt(file_name: str) -> str:
     """Read .txt file"""
-    # 读取文件内容
-    current_dir = os.getcwd() # 获取当前目录
-    file_path = os.path.join(current_dir, file_name) # 指定文件路径
+    current_dir = os.getcwd() # Get current directory
+    file_path = os.path.join(current_dir, file_name) # Specify file path
     with open(file_path, 'r', encoding='utf-8') as file:
         txt_file = file.read()
     return txt_file
@@ -25,23 +24,23 @@ def write_to_json(data, file_path, ensure_ascii=False, indent=4):
     try:
         with open(file_path, 'w', encoding='utf-8') as json_file:
             json.dump(data, json_file, ensure_ascii=ensure_ascii, indent=indent)
-        print(f"已成功写入文件: {file_path}")
+        print(f"Successfully wrote to file: {file_path}")
     except Exception as e:
-        print(f"写入文件时发生错误: {e}")
+        print(f"An error occurred while writing to file: {e}")
 
 class TokenBucket:
     def __init__(self, rate_limit: int, interval: int = 60):
         """
-        :param rate_limit: 每分钟的请求限制（例如1500）
-        :param interval: 时间间隔（默认为60秒）
+        :param rate_limit: Request limit per minute (e.g., 1500)
+        :param interval: Time interval in seconds (default: 60)
         """
         self.rate_limit = rate_limit
         self.interval = interval
-        self.tokens = rate_limit  # 初始化令牌桶为满
+        self.tokens = rate_limit  # Initialize the token bucket as full
         self.last_refill_time = time.time()
 
     def _refill_tokens(self):
-        """补充令牌"""
+        """Refill tokens based on elapsed time."""
         now = time.time()
         time_elapsed = now - self.last_refill_time
         new_tokens = (time_elapsed / self.interval) * self.rate_limit
@@ -50,18 +49,18 @@ class TokenBucket:
             self.last_refill_time = now
 
     async def acquire(self):
-        """获取一个令牌，如果没有令牌则等待"""
+        """Acquire a token; wait if no tokens are available."""
         while True:
             self._refill_tokens()
             if self.tokens >= 1:
                 self.tokens -= 1
                 break
             else:
-                # 如果没有令牌，等待一段时间再重试
+                # If no tokens are available, wait briefly before retrying
                 await asyncio.sleep(0.1)
 
 class RetryLimitExceededError(Exception):
-    """自定义异常，用于表示重试次数过多的情况。"""
+    """Custom exception indicating that the maximum retry attempts have been exceeded."""
     def __init__(self, message="Retry limit exceeded!"):
         self.message = message
         super().__init__(self.message)
@@ -166,27 +165,27 @@ def shuffle_elements(elements_list: list) -> list:
     return shuffled_elements
 
 def draw_distribution(record):
-    # 统计每个职业的出现次数
+    # Count occurrences of each occupation
     counter = Counter(record)
 
-    # 提取职业和对应的出现次数
+    # Extract occupations and their corresponding counts
     labels = list(counter.keys())
     counts = list(counter.values())
 
-    # 绘制柱状图
+    # Draw bar chart
     colors = ['blue', 'green', 'red']
     bars = plt.bar(labels, counts, color=colors)
 
-    # 添加图例
+    # Add legend
     plt.legend(bars, labels)
 
-    plt.xlabel('职业')
-    plt.ylabel('出现次数')
-    plt.title('职业出现次数统计')
+    plt.xlabel('Occupation')
+    plt.ylabel('Frequency')
+    plt.title('Occupation Frequency Distribution')
 
-    # 显示图像并等待按键
-    plt.show(block=False)  # 非阻塞显示图像
-    plt.waitforbuttonpress()  # 等待用户按键
+    # Display the plot and wait for key press
+    plt.show(block=False)  # Non-blocking display
+    plt.waitforbuttonpress()  # Wait for user input
 
-    # 关闭图像窗口
+    # Close the plot window
     plt.close()
