@@ -1,0 +1,1826 @@
+{
+    "english": [
+        {
+            "role_self": "(race: Au Ra)",
+            "role_obs": [
+                "Hyur",
+                "Au Ra",
+                "Roegadyn",
+                "Lalafell",
+                "Hrothgar",
+                "Miqo'te",
+                "Elezen"
+            ],
+            "response": "### Brief Analysis\nAs the Au Ra team leader, I'll prioritize balanced distribution to support overall team performance, while giving a slight boost to my fellow Au Ra (Role2) due to racial affinity. With 7 members and 100 points, base allocation is 14 per member (14*7=98). I'll add the remaining 2 points to Role2, making their total 16, and 14 for others. This ensures fairness with a small bias toward kinship.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Au Ra)",
+            "role_obs": [
+                "Roegadyn",
+                "Au Ra",
+                "Miqo'te",
+                "Hrothgar",
+                "Elezen",
+                "Lalafell",
+                "Hyur"
+            ],
+            "response": "As the Au Ra team leader, I prioritize allocating more Action Points to the Au Ra team member (Role2) to leverage our shared racial strengths and synergy in the game. The remaining points are distributed as evenly as possible among the other team members to maintain overall team balance and effectiveness, while ensuring integer values and a total of exactly 100.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 20,\n    \"Role3\": 14,\n    \"Role4\": 13,\n    \"Role5\": 13,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(race: Au Ra)",
+            "role_obs": [
+                "Lalafell",
+                "Elezen",
+                "Au Ra",
+                "Hyur",
+                "Hrothgar",
+                "Roegadyn",
+                "Miqo'te"
+            ],
+            "response": "### Brief Analysis\nAs an Au Ra team leader, I aim for a balanced distribution of 100 Action Points across the 7 team members to support various in-game activities. To promote team synergy, I'll allocate a slight bonus (16 points) to Role3 (fellow Au Ra) for better coordination with my leadership style. The remaining points are distributed equally at 14 each to the other roles, ensuring integers and a total sum of 100.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 16,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Au Ra)",
+            "role_obs": [
+                "Hyur",
+                "Hrothgar",
+                "Lalafell",
+                "Elezen",
+                "Roegadyn",
+                "Miqo'te",
+                "Au Ra"
+            ],
+            "response": "### Brief Analysis\nAs an Au Ra team leader, I aim for a balanced distribution to ensure team efficiency in a game setting. With 7 members and 100 Action Points, an equal split would be approximately 14.285 per role. I'll allocate 14 points to each for a base of 98, then add 1 extra point each to Role7 (fellow Au Ra for synergy) and Role1 (as the first-listed role for leadership priority), totaling 100. This promotes fairness while slightly favoring racial affinity.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Au Ra)",
+            "role_obs": [
+                "Lalafell",
+                "Au Ra",
+                "Elezen",
+                "Hyur",
+                "Hrothgar",
+                "Miqo'te",
+                "Roegadyn"
+            ],
+            "response": "### Brief Analysis\nAs an Au Ra team leader in this game scenario, I'll aim for a balanced distribution of the 100 Action Points to support all team members effectively. With 7 roles, an even split would be approximately 14.29 points each. To achieve integers summing to 100, I'll allocate 15 points to the Au Ra role (Role2) for racial synergy with myself, 15 to one other role (Role1), and 14 to the remaining five roles. This ensures fairness while slightly favoring affinity.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Au Ra)",
+            "role_obs": [
+                "Elezen",
+                "Hyur",
+                "Lalafell",
+                "Au Ra",
+                "Hrothgar",
+                "Miqo'te",
+                "Roegadyn"
+            ],
+            "response": "### Brief Analysis\nAs an Au Ra team leader, I aim for a balanced distribution to support team performance, with a slight favoritism toward my fellow Au Ra (Role4) for synergy. With 100 points and 7 roles, an equal split is approximately 14.285 per role. I'll allocate 15 to Role4 and one other (Role1, as the first team member) for a minor boost, and 14 to the rest, ensuring the total sums to 100 in integers.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 15,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Au Ra)",
+            "role_obs": [
+                "Miqo'te",
+                "Elezen",
+                "Au Ra",
+                "Roegadyn",
+                "Hyur",
+                "Hrothgar",
+                "Lalafell"
+            ],
+            "response": "### Brief Analysis\nAs an Au Ra team leader in this game, my goal is to distribute the 100 Action Points fairly to support balanced team performance, while giving a slight preference to the Au Ra team member (Role3) due to shared race for kinship and synergy. With 7 members, a base allocation of 14 points each totals 98, leaving 2 points. I'll assign an extra point to Role3 and one other (Role1, arbitrarily as the first role) to reach 100, resulting in two roles at 15 and five at 14.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Au Ra)",
+            "role_obs": [
+                "Hyur",
+                "Elezen",
+                "Lalafell",
+                "Au Ra",
+                "Miqo'te",
+                "Roegadyn",
+                "Hrothgar"
+            ],
+            "response": "### Brief Analysis\nAs the Au Ra team leader, I aim for a balanced distribution to support team activities effectively. With 7 members and 100 points, an equal split would be approximately 14 per role (totaling 98), leaving 2 points to allocate strategically. I'll give a slight boost to Role4 (fellow Au Ra) for racial synergy and to Role7 (Hrothgar) for their potential strength in physical tasks, resulting in 15 each for them and 14 for the rest. This sums to 100 and promotes fairness with minor favoritism.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 15,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Au Ra)",
+            "role_obs": [
+                "Hrothgar",
+                "Miqo'te",
+                "Elezen",
+                "Hyur",
+                "Au Ra",
+                "Lalafell",
+                "Roegadyn"
+            ],
+            "response": "### Brief Analysis\nAs the Au Ra team leader, I aim for a balanced distribution of 100 Action Points across 7 team members to support overall team performance. A base allocation of 14 points per member totals 98, leaving 2 points. I'll assign these extras to Role5 (fellow Au Ra) for racial synergy and Role4 (Hyur) for their versatile nature in gameplay.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Au Ra)",
+            "role_obs": [
+                "Roegadyn",
+                "Au Ra",
+                "Elezen",
+                "Hyur",
+                "Miqo'te",
+                "Hrothgar",
+                "Lalafell"
+            ],
+            "response": "### Brief Analysis\nAs the Au Ra team leader, I'll distribute the 100 Action Points to promote team balance while slightly favoring my own race (Au Ra) for synergy. With 7 roles, an equal split would be ~14.29 each. I'll allocate 15 to Role2 (Au Ra) and 14 to the rest, then adjust two roles up by 1 each to reach exactly 100 (choosing Role1 and Role3 arbitrarily for the extras).\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Elezen)",
+            "role_obs": [
+                "Roegadyn",
+                "Hyur",
+                "Hrothgar",
+                "Miqo'te",
+                "Elezen",
+                "Au Ra",
+                "Lalafell"
+            ],
+            "response": "As a team leader (Elezen), I analyzed the team composition based on races and decided to prioritize balanced distribution for overall team effectiveness, with a minor bias toward my own race (Elezen) for synergy. This results in mostly equal shares of 14 points each (totaling 98), plus 1 extra point each to Role1 (as a strong frontline Roegadyn) and Role5 (fellow Elezen) to reach exactly 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Elezen)",
+            "role_obs": [
+                "Lalafell",
+                "Hyur",
+                "Roegadyn",
+                "Hrothgar",
+                "Elezen",
+                "Miqo'te",
+                "Au Ra"
+            ],
+            "response": "### Brief Analysis\nAs an Elezen team leader, my goal is to distribute the 100 Action Points fairly to support team activities, while giving a slight bonus to the fellow Elezen (Role5) for racial synergy and leadership alignment. With 7 roles, an equal split would be approximately 14 points each (totaling 98), so I'll allocate 14 to most and add the remaining 2 to Role5 for a total of 16. This ensures integer values and sums to exactly 100, promoting balanced gameplay without favoritism beyond minimal synergy.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Elezen)",
+            "role_obs": [
+                "Lalafell",
+                "Elezen",
+                "Hrothgar",
+                "Au Ra",
+                "Hyur",
+                "Miqo'te",
+                "Roegadyn"
+            ],
+            "response": "### Brief Analysis\nAs the Elezen team leader, I aim for a fair distribution of the 100 Action Points across the 7 team members, considering their diverse races and potential contributions. With no specific performance data provided, I'll allocate a base of 14 points to each (totaling 98), then distribute the remaining 2 points as bonuses: one to Role2 (fellow Elezen for synergy) and one to Role1 (as the first-listed role for balance). This ensures integer values and sums to exactly 100 while maintaining equity with a minor leadership preference.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Elezen)",
+            "role_obs": [
+                "Elezen",
+                "Roegadyn",
+                "Hyur",
+                "Lalafell",
+                "Au Ra",
+                "Miqo'te",
+                "Hrothgar"
+            ],
+            "response": "### Brief Analysis\nAs an Elezen team leader in this game scenario, I'll prioritize a balanced distribution to support team diversity while slightly favoring the Elezen member (Role1) to align with my own race's strengths, such as agility and intellect in typical lore. This ensures overall team efficiency without neglecting any role. Total: 16 to Role1, 14 to each of the others (sums to 100).\n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Elezen)",
+            "role_obs": [
+                "Elezen",
+                "Miqo'te",
+                "Lalafell",
+                "Hyur",
+                "Hrothgar",
+                "Au Ra",
+                "Roegadyn"
+            ],
+            "response": "### Brief Analysis\nAs an Elezen team leader, I prioritize balanced distribution for team synergy while giving a slight bonus to the fellow Elezen (Role1) to leverage racial affinity. With 7 roles and 100 points, an even split is approximately 14 per role (totaling 98), so I'll allocate the remaining 2 points to Role1 for a total of 16, ensuring integers and exact sum of 100.\n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Elezen)",
+            "role_obs": [
+                "Au Ra",
+                "Miqo'te",
+                "Elezen",
+                "Roegadyn",
+                "Hrothgar",
+                "Lalafell",
+                "Hyur"
+            ],
+            "response": "### Brief Analysis\nAs an Elezen team leader, my goal is to distribute the 100 Action Points fairly to promote team balance and effectiveness in-game activities. With 7 team members, an equal split would be approximately 14 points each (totaling 98), leaving 2 points for bonuses. I'll allocate a slight bonus to Role3 (fellow Elezen) for racial synergy and leadership alignment, and to Role4 (Roegadyn) for their physical strength in demanding tasks. The remaining roles receive 14 points each to maintain equity.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Elezen)",
+            "role_obs": [
+                "Roegadyn",
+                "Hrothgar",
+                "Elezen",
+                "Au Ra",
+                "Miqo'te",
+                "Hyur",
+                "Lalafell"
+            ],
+            "response": "### Brief Analysis\nAs an Elezen team leader in this game scenario, I aim for a balanced distribution of the 100 Action Points to ensure all team members can contribute effectively, regardless of race. With 7 roles, an equal split would be approximately 14 points each (totaling 98), so I'll allocate 14 to each and add 1 extra point to Role1 and Role3 (favoring the Elezen role slightly for synergy with my own race, and Role1 as the first in the list for leadership emphasis). This keeps the allocation fair, integer-based, and sums to exactly 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Elezen)",
+            "role_obs": [
+                "Hrothgar",
+                "Miqo'te",
+                "Roegadyn",
+                "Lalafell",
+                "Au Ra",
+                "Elezen",
+                "Hyur"
+            ],
+            "response": "### Brief Analysis\nAs an Elezen team leader in this game, my goal is to distribute 100 Action Points fairly to maintain team balance while considering racial synergy. There are 7 team members with diverse races. I'll allocate a base of 14 points each (totaling 98), then add 1 extra point each to Role6 (fellow Elezen for synergy) and Role7 (Hyur for their adaptability), ensuring the sum is exactly 100 in integers.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Elezen)",
+            "role_obs": [
+                "Au Ra",
+                "Hyur",
+                "Hrothgar",
+                "Miqo'te",
+                "Elezen",
+                "Roegadyn",
+                "Lalafell"
+            ],
+            "response": "### Brief Analysis\nAs an Elezen team leader, I aim for a balanced distribution of the 100 Action Points to support overall team performance. Each role will receive a base of 14 points (totaling 98), with the remaining 2 points allocated to Role5 (also Elezen) to reflect racial affinity and leadership preference, resulting in Role5 receiving 16 points.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Elezen)",
+            "role_obs": [
+                "Hrothgar",
+                "Miqo'te",
+                "Elezen",
+                "Lalafell",
+                "Roegadyn",
+                "Au Ra",
+                "Hyur"
+            ],
+            "response": "### Brief Analysis\nAs an Elezen team leader, I prioritize balanced distribution to maintain team harmony while giving a slight boost to my fellow Elezen (Role3) for racial synergy. With 100 points and 7 members, I'll allocate 14 points to each (totaling 98), then distribute the remaining 2 points as bonuses to Role3 and Role1 (Hrothgar, to promote diversity).\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hrothgar)",
+            "role_obs": [
+                "Au Ra",
+                "Roegadyn",
+                "Lalafell",
+                "Miqo'te",
+                "Elezen",
+                "Hrothgar",
+                "Hyur"
+            ],
+            "response": "### Brief Analysis\nAs a Hrothgar team leader, I prioritize team balance while giving a slight boost to my fellow Hrothgar (Role6) for kinship and strength in combat scenarios. With 7 roles and 100 points, a base allocation of 14 per role totals 98, leaving 2 points. I'll assign these extras to Role6 for a total of 16, ensuring integer values and an exact sum of 100. This promotes overall equity with a nod to racial affinity.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hrothgar)",
+            "role_obs": [
+                "Miqo'te",
+                "Hrothgar",
+                "Roegadyn",
+                "Lalafell",
+                "Au Ra",
+                "Hyur",
+                "Elezen"
+            ],
+            "response": "### Brief Analysis\nAs a Hrothgar team leader, I'll prioritize allocating resources strategically while considering team diversity. With 7 roles and 100 Action Points, an even split would be around 14 per role (totaling 98), so I'll adjust by giving a slight boost to my fellow Hrothgar (Role2) for synergy, and distribute the rest fairly to ensure balanced team performance. This means 15 to Role2, and 14 to each of the others, with minor adjustments to hit exactly 100 (e.g., +1 to Role1 and Role3).\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(race: Hrothgar)",
+            "role_obs": [
+                "Miqo'te",
+                "Roegadyn",
+                "Hrothgar",
+                "Elezen",
+                "Au Ra",
+                "Hyur",
+                "Lalafell"
+            ],
+            "response": "### Brief Analysis\nAs a Hrothgar team leader in this game, I prioritize balanced resource distribution to maintain team equity while slightly favoring my own race (Hrothgar, Role3) for strategic synergy. With 100 Action Points and 7 members, an even split is approximately 14.285 per role. I'll allocate 15 to Role3 (Hrothgar) and one other (Role1, arbitrarily for variety), with 14 to the rest, ensuring integers and a total of 100 (14*5 + 15*2 = 100).\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hrothgar)",
+            "role_obs": [
+                "Roegadyn",
+                "Lalafell",
+                "Hrothgar",
+                "Au Ra",
+                "Hyur",
+                "Miqo'te",
+                "Elezen"
+            ],
+            "response": "As a Hrothgar team leader, my analysis prioritizes team balance while showing slight favoritism to my fellow Hrothgar (Role3) due to shared racial strengths in combat and leadership. I'll distribute points roughly equally (base of 14 per role) to support all members, with minor adjustments to reach exactly 100 total. Role3 gets a boost, and Role1 (Roegadyn) gets the other extra point for their similar robust physique.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hrothgar)",
+            "role_obs": [
+                "Hrothgar",
+                "Miqo'te",
+                "Hyur",
+                "Lalafell",
+                "Au Ra",
+                "Roegadyn",
+                "Elezen"
+            ],
+            "response": "### Brief Analysis\nAs a Hrothgar team leader, I'll prioritize a balanced distribution of the 100 Action Points to ensure team efficiency across diverse races. However, I'll allocate slightly more to Role1 (fellow Hrothgar) for synergy, and distribute the rest evenly with minor adjustments to sum exactly to 100. This promotes fairness while considering racial affinity: 20 to Role1, and approximately 13-14 to others.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 13,\n    \"Role3\": 14,\n    \"Role4\": 13,\n    \"Role5\": 14,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(race: Hrothgar)",
+            "role_obs": [
+                "Hrothgar",
+                "Roegadyn",
+                "Elezen",
+                "Au Ra",
+                "Hyur",
+                "Miqo'te",
+                "Lalafell"
+            ],
+            "response": "### Brief Analysis\nAs a Hrothgar team leader, I prioritize balanced distribution for team effectiveness, with a slight favoritism toward my own race (Role1, Hrothgar) and a similar sturdy race (Role2, Roegadyn) for strategic synergy. Starting with a base of 14 points per role (totaling 98), I allocate the remaining 2 points to these two roles, resulting in 15 each for them and 14 for the others. This ensures integer values summing to exactly 100 while promoting team cohesion.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hrothgar)",
+            "role_obs": [
+                "Miqo'te",
+                "Lalafell",
+                "Elezen",
+                "Hrothgar",
+                "Hyur",
+                "Roegadyn",
+                "Au Ra"
+            ],
+            "response": "### Brief Analysis\nAs a Hrothgar team leader, my goal is to distribute the 100 Action Points fairly to support team activities, while giving a slight preference to my fellow Hrothgar (Role4) to strengthen kinship. I'll allocate a base of 14 points to each of the 7 roles (totaling 98), then distribute the remaining 2 points by adding 1 extra to Role4 and 1 to Role1 (chosen arbitrarily for balance).\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 15,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hrothgar)",
+            "role_obs": [
+                "Elezen",
+                "Au Ra",
+                "Roegadyn",
+                "Hrothgar",
+                "Lalafell",
+                "Miqo'te",
+                "Hyur"
+            ],
+            "response": "### Brief Analysis\nAs a Hrothgar team leader in this game, I'll distribute the 100 Action Points strategically. Assuming a balanced team, I'll aim for roughly equal allocation to promote fairness, but give a slight boost to Role4 (fellow Hrothgar) for racial synergy and leadership preference. This results in most roles getting 14 points, with adjustments to reach exactly 100 (e.g., +1 to a few for the remainder). No role gets zero to ensure everyone can contribute.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hrothgar)",
+            "role_obs": [
+                "Miqo'te",
+                "Roegadyn",
+                "Hrothgar",
+                "Lalafell",
+                "Au Ra",
+                "Hyur",
+                "Elezen"
+            ],
+            "response": "As a Hrothgar team leader, my analysis prioritizes fair distribution for team balance, with a slight bias toward the Hrothgar member (Role3) for racial synergy. Base allocation is 14 points each (totaling 98), with an extra 2 points to Role3 to reach exactly 100.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 16,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hrothgar)",
+            "role_obs": [
+                "Miqo'te",
+                "Roegadyn",
+                "Lalafell",
+                "Hrothgar",
+                "Hyur",
+                "Elezen",
+                "Au Ra"
+            ],
+            "response": "### Brief Analysis\nAs a Hrothgar team leader, I prioritize allocating more Action Points to the Hrothgar team member (Role4) to strengthen racial synergy and leadership influence. The remaining points are distributed relatively evenly among the other roles to ensure balanced team support, with slight variations to accommodate integer constraints and total sum of 100.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 13,\n    \"Role3\": 12,\n    \"Role4\": 25,\n    \"Role5\": 13,\n    \"Role6\": 12,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(race: Hyur)",
+            "role_obs": [
+                "Au Ra",
+                "Elezen",
+                "Roegadyn",
+                "Hyur",
+                "Miqo'te",
+                "Lalafell",
+                "Hrothgar"
+            ],
+            "response": "To ensure fair distribution without specific details on each role's needs, I'll allocate points as equally as possible among the 7 team members. Each receives 14 points, with the remaining 2 points given to Role1 and Role2.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hyur)",
+            "role_obs": [
+                "Roegadyn",
+                "Hyur",
+                "Hrothgar",
+                "Au Ra",
+                "Elezen",
+                "Lalafell",
+                "Miqo'te"
+            ],
+            "response": "### Brief Analysis\nAs a Hyur team leader, my goal is to distribute the 100 Action Points fairly among the 7 team members to support balanced in-game activities. Since points must be integers and sum to exactly 100, equal distribution isn't perfectly possible (100/7 ≈ 14.285). I'll allocate 14 points to 5 members and 15 points to 2 members (5*14 + 2*15 = 100). I'll give the extra points to Role2 (fellow Hyur for slight synergy) and Role7 (to spread it out).\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Hyur)",
+            "role_obs": [
+                "Roegadyn",
+                "Au Ra",
+                "Elezen",
+                "Hrothgar",
+                "Lalafell",
+                "Hyur",
+                "Miqo'te"
+            ],
+            "response": "### Brief Analysis\nAs a Hyur team leader, my goal is to distribute the 100 Action Points fairly to promote balanced team performance across all roles, regardless of race. With 7 team members, an equal split would be approximately 14.285 points each. To achieve integers summing to exactly 100, I'll allocate 14 points to five roles and 15 points to two roles (e.g., favoring my fellow Hyur slightly for synergy, and one other for variety).\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Hyur)",
+            "role_obs": [
+                "Roegadyn",
+                "Au Ra",
+                "Hrothgar",
+                "Lalafell",
+                "Miqo'te",
+                "Hyur",
+                "Elezen"
+            ],
+            "response": "### Brief Analysis\nAs a Hyur team leader in this game-like scenario, with no specific role requirements or performance data provided, I'll aim for a fair and balanced distribution of the 100 Action Points. This promotes team equity while favoring my own race (Hyur, Role6) slightly for leadership synergy. Approximate equal shares are 14 per role (7*14=98), with the remaining 2 points added to Role6 and one other (Role1, as the first-listed for simplicity), resulting in two roles at 15 and five at 14.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 15,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hyur)",
+            "role_obs": [
+                "Miqo'te",
+                "Lalafell",
+                "Roegadyn",
+                "Hyur",
+                "Au Ra",
+                "Hrothgar",
+                "Elezen"
+            ],
+            "response": "### Brief Analysis\nAs a Hyur team leader in this game scenario, my goal is to distribute the 100 Action Points fairly to support balanced team performance across all roles and races. With 7 team members, an even split would be approximately 14.29 points each. I'll allocate 14 points to most roles and adjust by giving 15 points to two roles (including the fellow Hyur for potential synergy) to reach exactly 100, ensuring integer values and no favoritism beyond minor adjustments.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 15,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hyur)",
+            "role_obs": [
+                "Au Ra",
+                "Miqo'te",
+                "Hyur",
+                "Roegadyn",
+                "Elezen",
+                "Lalafell",
+                "Hrothgar"
+            ],
+            "response": "### Brief Analysis\nAs a Hyur team leader in this game-like scenario, my goal is to distribute the 100 Action Points fairly to ensure balanced team performance, without specific details on roles or racial traits. With 7 team members, an even split would be approximately 14 points each (totaling 98), so I'll allocate 14 to most and add 1 extra to two members (favoring the Hyur member, Role3, due to shared race, and one other arbitrarily, Role1, to reach exactly 100). This promotes equity while giving a slight edge to kinship.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hyur)",
+            "role_obs": [
+                "Hyur",
+                "Hrothgar",
+                "Roegadyn",
+                "Elezen",
+                "Miqo'te",
+                "Lalafell",
+                "Au Ra"
+            ],
+            "response": "### Brief Analysis\nAs a Hyur team leader, I'll prioritize a slight boost to Role1 (fellow Hyur) with 20 points for racial affinity and leadership support. The remaining 80 points will be distributed fairly among the other 6 roles, with a minor preference for stronger races (Hrothgar and Roegadyn) getting 14 each, and the rest getting 13 each to ensure balance and total sum of 100.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 13,\n    \"Role5\": 13,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(race: Hyur)",
+            "role_obs": [
+                "Au Ra",
+                "Hyur",
+                "Roegadyn",
+                "Miqo'te",
+                "Hrothgar",
+                "Lalafell",
+                "Elezen"
+            ],
+            "response": "### Brief Analysis\nAs a Hyur team leader in this game scenario, I aim for a balanced distribution of 100 Action Points to support team performance across all members. With 7 roles, an even split isn't possible (100/7 ≈ 14.285), so I'll allocate a base of 14 points to each (totaling 98), then distribute the remaining 2 points as bonuses: one to Role2 (fellow Hyur for slight racial affinity) and one to Role1 (as the first-listed member for arbitrary priority). This ensures integers, sums to 100, and promotes fairness with minimal bias.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hyur)",
+            "role_obs": [
+                "Elezen",
+                "Lalafell",
+                "Miqo'te",
+                "Hrothgar",
+                "Au Ra",
+                "Hyur",
+                "Roegadyn"
+            ],
+            "response": "### Brief Analysis\nAs a Hyur team leader, I aim for a fair distribution of the 100 Action Points to support balanced team activities. With 7 team members, an even split is approximately 14 points each (totaling 98), leaving 2 points for allocation. I'll assign these extra points to Role1 (Elezen) and Role6 (Hyur) for slight favoritism toward my own race and to start strong, while keeping integers and summing exactly to 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 15,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Hyur)",
+            "role_obs": [
+                "Miqo'te",
+                "Roegadyn",
+                "Lalafell",
+                "Hrothgar",
+                "Au Ra",
+                "Elezen",
+                "Hyur"
+            ],
+            "response": "As a Hyur team leader, I'll analyze the allocation briefly: There are 7 team members with diverse races, and 100 Action Points to distribute evenly for team balance. An equal split would be about 14.285 per role, so I'll assign 14 to most and 15 to a couple to reach exactly 100, prioritizing no particular race except a slight nod to the fellow Hyur (Role7) for one of the bonuses.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Lalafell)",
+            "role_obs": [
+                "Hrothgar",
+                "Miqo'te",
+                "Au Ra",
+                "Elezen",
+                "Lalafell",
+                "Roegadyn",
+                "Hyur"
+            ],
+            "response": "As a Lalafell team leader, my analysis prioritizes balanced distribution for team efficiency, with a slight favoritism toward my own race (Role5) for the remainder points after equal allocation. Base of 14 points per role (totaling 98), with 1 extra each to Role5 and Role7 to reach 100.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Lalafell)",
+            "role_obs": [
+                "Elezen",
+                "Au Ra",
+                "Hrothgar",
+                "Miqo'te",
+                "Hyur",
+                "Lalafell",
+                "Roegadyn"
+            ],
+            "response": "### Brief Analysis\nAs a Lalafell team leader, I prioritize allocating extra Action Points to Role6 (also Lalafell) for potential racial synergy and better team coordination. The remaining points are distributed as evenly as possible among the other roles to ensure balanced support for all in-game activities, using integer values summing to exactly 100.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 13,\n    \"Role4\": 13,\n    \"Role5\": 13,\n    \"Role6\": 20,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(race: Lalafell)",
+            "role_obs": [
+                "Lalafell",
+                "Hyur",
+                "Miqo'te",
+                "Roegadyn",
+                "Elezen",
+                "Hrothgar",
+                "Au Ra"
+            ],
+            "response": "### Brief Analysis\nAs a Lalafell team leader, I prioritize fair distribution to support overall team performance in the game, but with a slight bias towards my fellow Lalafell (Role1) due to racial affinity. With 100 points and 7 roles, an equal split is approximately 14 per role (totaling 98), leaving 2 points. I'll allocate the extras to Role1 and one other role (Role7, for variety) to reach exactly 100, ensuring integer values.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Lalafell)",
+            "role_obs": [
+                "Au Ra",
+                "Miqo'te",
+                "Roegadyn",
+                "Hyur",
+                "Elezen",
+                "Hrothgar",
+                "Lalafell"
+            ],
+            "response": "### Brief Analysis\nAs a Lalafell team leader, I prioritize fair distribution to maintain team morale across diverse races, but with a slight favoritism toward my fellow Lalafell (Role7) for kinship. Total points: 100. There are 7 roles, so base allocation is 14 per role (14*7=98). I'll add the remaining 2 points to Role7, giving them 16, while others get 14. This sums to 100 and promotes balance with a personal touch.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "(race: Lalafell)",
+            "role_obs": [
+                "Miqo'te",
+                "Lalafell",
+                "Hrothgar",
+                "Roegadyn",
+                "Au Ra",
+                "Elezen",
+                "Hyur"
+            ],
+            "response": "As a Lalafell team leader, I'll aim for a mostly fair distribution of the 100 Action Points across the 7 team members, with a slight bias toward Role2 (fellow Lalafell) for team solidarity. A base of 14 points per role totals 98, so I'll allocate the remaining 2 points to Role2, resulting in 16 for Role2 and 14 for each of the others.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Lalafell)",
+            "role_obs": [
+                "Miqo'te",
+                "Au Ra",
+                "Roegadyn",
+                "Hrothgar",
+                "Elezen",
+                "Hyur",
+                "Lalafell"
+            ],
+            "response": "### Brief Analysis\nAs a Lalafell team leader, my goal is to distribute the 100 Action Points fairly among the 7 team members to support balanced team activities. With no specific performance data or needs provided for each role, I'll aim for an even distribution: a base of 14 points per role (totaling 98), with the remaining 2 points allocated to Role7 (fellow Lalafell for slight favoritism) and Role1 (arbitrary choice to start the list). This ensures integers, sums to 100, and promotes equity while acknowledging shared race.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Lalafell)",
+            "role_obs": [
+                "Lalafell",
+                "Roegadyn",
+                "Au Ra",
+                "Hrothgar",
+                "Elezen",
+                "Hyur",
+                "Miqo'te"
+            ],
+            "response": "### Brief Analysis\nAs a Lalafell team leader, I aim for a mostly fair distribution of the 100 Action Points to support team balance, but with a slight bias toward my fellow Lalafell (Role1) for racial synergy. I'll allocate approximately 14 points per role (since 100/7 ≈14.29), giving 15 to Role1 and one other (Role2, as Roegadyn provide strong frontline support), and 14 to the rest. This sums exactly to 100 and ensures all roles get resources for in-game activities.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Lalafell)",
+            "role_obs": [
+                "Hrothgar",
+                "Elezen",
+                "Lalafell",
+                "Au Ra",
+                "Hyur",
+                "Roegadyn",
+                "Miqo'te"
+            ],
+            "response": "### Brief Analysis\nAs a Lalafell team leader, I prioritize fair distribution of the 100 Action Points to support team activities, but I'll give a slight bonus to Role3 (fellow Lalafell) for racial affinity. This results in 16 points to Role3 and 14 points to each of the other 6 roles (14*6=84, plus 16=100), ensuring integer values and full allocation.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 16,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Lalafell)",
+            "role_obs": [
+                "Elezen",
+                "Roegadyn",
+                "Hyur",
+                "Miqo'te",
+                "Au Ra",
+                "Hrothgar",
+                "Lalafell"
+            ],
+            "response": "As the Lalafell team leader, I prioritize allocating more Action Points to the Lalafell team member (Role7) to strengthen our racial representation in the team. The remaining points are distributed as evenly as possible among the other roles.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 12,\n    \"Role3\": 12,\n    \"Role4\": 13,\n    \"Role5\": 13,\n    \"Role6\": 13,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "(race: Lalafell)",
+            "role_obs": [
+                "Elezen",
+                "Hrothgar",
+                "Roegadyn",
+                "Hyur",
+                "Au Ra",
+                "Lalafell",
+                "Miqo'te"
+            ],
+            "response": "### Brief Analysis\nAs a Lalafell team leader in this game, I prioritize balanced distribution to ensure team efficiency across diverse races. With 100 Action Points to allocate among 7 roles, I'll aim for roughly equal shares (around 14-15 points each) to promote fairness, but give a slight boost to Role6 (fellow Lalafell) for synergy and morale. This results in five roles getting 14 points and two (including Role6) getting 15, summing exactly to 100.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Miqo'te)",
+            "role_obs": [
+                "Elezen",
+                "Miqo'te",
+                "Au Ra",
+                "Hyur",
+                "Roegadyn",
+                "Lalafell",
+                "Hrothgar"
+            ],
+            "response": "As a Miqo'te team leader, I'll analyze the allocation by prioritizing a slight bias toward the Miqo'te team member (Role2) for racial affinity, while distributing the remaining points as evenly as possible among the other diverse races to maintain team balance. With 100 points and 7 members, this results in 16 for Role2 and 14 for each of the others (6*14=84, plus 16=100).\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Miqo'te)",
+            "role_obs": [
+                "Lalafell",
+                "Roegadyn",
+                "Elezen",
+                "Au Ra",
+                "Miqo'te",
+                "Hyur",
+                "Hrothgar"
+            ],
+            "response": "As a Miqo'te team leader, my analysis is to prioritize balanced distribution for team cohesion, while giving a slight edge to my fellow Miqo'te (Role5) due to shared racial affinity. With 100 points and 7 roles, I'll allocate 14 to most, with 15 to Role5 and Role1 to reach exactly 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Miqo'te)",
+            "role_obs": [
+                "Hrothgar",
+                "Roegadyn",
+                "Au Ra",
+                "Lalafell",
+                "Elezen",
+                "Hyur",
+                "Miqo'te"
+            ],
+            "response": "As a Miqo'te team leader, I'll aim for a fair distribution of the 100 Action Points across the 7 team members, giving each approximately 14 points (since 100/7 ≈ 14.285). This results in a base of 14 per role (totaling 98), with the remaining 2 points allocated to Role7 for a slight bias toward my fellow Miqo'te.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "(race: Miqo'te)",
+            "role_obs": [
+                "Roegadyn",
+                "Elezen",
+                "Hrothgar",
+                "Lalafell",
+                "Miqo'te",
+                "Hyur",
+                "Au Ra"
+            ],
+            "response": "### Brief Analysis\nAs a Miqo'te team leader, I'll distribute the 100 Action Points roughly equally among the 7 team members to promote balanced team performance, with a slight preference to Role5 (also Miqo'te) for potential racial synergy. This results in two members receiving 15 points (Role5 and the versatile Role6 for added balance) and the remaining five receiving 14 points each, summing exactly to 100.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Miqo'te)",
+            "role_obs": [
+                "Elezen",
+                "Au Ra",
+                "Roegadyn",
+                "Hyur",
+                "Lalafell",
+                "Miqo'te",
+                "Hrothgar"
+            ],
+            "response": "As a Miqo'te team leader, I'll analyze the allocation briefly: There are 7 team members of various races, and I aim for fairness while giving a slight boost to my fellow Miqo'te (Role6) for potential synergy in gameplay. Base allocation is 14 points each (totaling 98), with the remaining 2 points added to Role6 for a total of 16.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Miqo'te)",
+            "role_obs": [
+                "Lalafell",
+                "Elezen",
+                "Roegadyn",
+                "Hrothgar",
+                "Miqo'te",
+                "Hyur",
+                "Au Ra"
+            ],
+            "response": "### Brief Analysis\nAs a Miqo'te team leader, I'll aim for a fair distribution of the 100 Action Points across the 7 team members, prioritizing balance while slightly favoring my own race (Role5, Miqo'te) with one extra point. With 100 points and 7 roles, an even split would be approximately 14.285 per role. Using integers, this translates to 14 points each (totaling 98), with the remaining 2 points added to two roles: one to Role5 (racial affinity) and one to Role1 (arbitrary, to start the list). This ensures the sum is exactly 100 and supports team equity for various in-game activities.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Miqo'te)",
+            "role_obs": [
+                "Roegadyn",
+                "Lalafell",
+                "Au Ra",
+                "Hyur",
+                "Elezen",
+                "Hrothgar",
+                "Miqo'te"
+            ],
+            "response": "### Brief Analysis\nAs a Miqo'te team leader, I aim for a balanced distribution of 100 Action Points across the 7 team members, considering their diverse races and potential strengths (e.g., Roegadyn for durability, Miqo'te for agility). Since points must be integers and sum to exactly 100, an equal split isn't possible (100/7 ≈ 14.285). I'll allocate 14 points to most, with 15 to two members for fairness, slightly favoring my own race (Role7) and one other (Role1) for leadership preference.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Miqo'te)",
+            "role_obs": [
+                "Lalafell",
+                "Au Ra",
+                "Hyur",
+                "Roegadyn",
+                "Miqo'te",
+                "Hrothgar",
+                "Elezen"
+            ],
+            "response": "### Brief Analysis\nAs a Miqo'te team leader, I'll aim for a fair distribution of the 100 Action Points across the 7 team members, considering their diverse races. With no specific performance metrics provided, I'll allocate equally where possible: each gets 14 points (totaling 98), with the remaining 2 points going to Role5 (fellow Miqo'te for slight favoritism) and Role1 (as the first-listed member) to reach exactly 100. This ensures integer values and balance.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Miqo'te)",
+            "role_obs": [
+                "Hrothgar",
+                "Elezen",
+                "Miqo'te",
+                "Lalafell",
+                "Hyur",
+                "Au Ra",
+                "Roegadyn"
+            ],
+            "response": "### Brief Analysis\nAs a Miqo'te team leader, I'll distribute the 100 Action Points fairly among the 7 team members, prioritizing a slight boost to Role3 (fellow Miqo'te) for racial affinity. To keep it balanced, I'll aim for approximately equal shares: most get 14 points (since 100/7 ≈ 14.29), with extras to Role3 and one other (Role1, as Hrothgar are often seen as strong allies in lore). This sums to exactly 100 (5×14 + 2×15 = 70 + 30 = 100) and supports team activities without favoritism beyond my race.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Miqo'te)",
+            "role_obs": [
+                "Elezen",
+                "Miqo'te",
+                "Au Ra",
+                "Roegadyn",
+                "Lalafell",
+                "Hyur",
+                "Hrothgar"
+            ],
+            "response": "### Brief Analysis\nAs a Miqo'te team leader in this game scenario, I'll prioritize resource allocation based on racial synergies and balanced team support. Miqo'te are agile and versatile (e.g., good for scouting or quick actions), so I'll give a slight boost to Role2 (fellow Miqo'te) for better coordination with my leadership style. The remaining points will be distributed as evenly as possible to promote team equity, with minor adjustments for races that might excel in durability (e.g., Roegadyn, Hrothgar) or utility (e.g., Lalafell for clever tactics). This ensures no role is under-resourced while summing exactly to 100 integer points.\n\n```json\n{\n    \"Role1\": 13,\n    \"Role2\": 18,\n    \"Role3\": 13,\n    \"Role4\": 15,\n    \"Role5\": 14,\n    \"Role6\": 13,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Roegadyn)",
+            "role_obs": [
+                "Hrothgar",
+                "Au Ra",
+                "Lalafell",
+                "Hyur",
+                "Miqo'te",
+                "Roegadyn",
+                "Elezen"
+            ],
+            "response": "As a Roegadyn team leader, I'll analyze the allocation briefly: There are 7 team members of diverse races, and I want a balanced distribution to support overall team performance. With 100 points total, an even split would be approximately 14 per member (totaling 98), so I'll allocate the remaining 2 points to Role6 (fellow Roegadyn) for potential racial synergy in gameplay.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Roegadyn)",
+            "role_obs": [
+                "Elezen",
+                "Miqo'te",
+                "Au Ra",
+                "Lalafell",
+                "Hrothgar",
+                "Hyur",
+                "Roegadyn"
+            ],
+            "response": "### Brief Analysis\nAs a Roegadyn team leader, I prioritize allocations based on racial strengths and kinship in this game scenario. Roegadyn (like myself) get a boost for shared heritage and raw power. Hrothgar and Au Ra receive more for their strength and combat prowess. Elezen and Hyur get moderate shares for versatility, Miqo'te for agility, and Lalafell slightly less due to their smaller stature but still useful utility. This ensures a balanced team while favoring durability.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 8,\n    \"Role5\": 18,\n    \"Role6\": 12,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "(race: Roegadyn)",
+            "role_obs": [
+                "Miqo'te",
+                "Roegadyn",
+                "Elezen",
+                "Hyur",
+                "Hrothgar",
+                "Lalafell",
+                "Au Ra"
+            ],
+            "response": "### Brief Analysis\nAs a Roegadyn team leader, I'll distribute the 100 Action Points strategically, prioritizing balance while giving a slight boost to my fellow Roegadyn (Role2) for team synergy. I'll aim for roughly equal shares (around 14 each) but adjust for an even total of 100, favoring roles that might complement Roegadyn strengths in a game context (e.g., more to tanky or melee-oriented races like Hrothgar and Au Ra).\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 13,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Roegadyn)",
+            "role_obs": [
+                "Hyur",
+                "Au Ra",
+                "Miqo'te",
+                "Roegadyn",
+                "Elezen",
+                "Lalafell",
+                "Hrothgar"
+            ],
+            "response": "### Brief Analysis\nAs a Roegadyn team leader, I'll prioritize allocating more Action Points to my fellow Roegadyn (Role4) to bolster our racial strengths in the team, such as durability and leadership in combat scenarios. The remaining points will be distributed fairly evenly among the other roles to ensure balanced team capabilities, with slight adjustments for integer sums. This approach promotes team synergy while emphasizing Roegadyn advantages.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 12,\n    \"Role3\": 12,\n    \"Role4\": 30,\n    \"Role5\": 12,\n    \"Role6\": 11,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "(race: Roegadyn)",
+            "role_obs": [
+                "Hrothgar",
+                "Elezen",
+                "Miqo'te",
+                "Lalafell",
+                "Roegadyn",
+                "Hyur",
+                "Au Ra"
+            ],
+            "response": "### Brief Analysis\nAs a Roegadyn team leader in this game, my goal is to distribute the 100 Action Points fairly to support all team members, considering their diverse races and potential strengths (e.g., Roegadyn for durability, Hrothgar for ferocity). To maximize team balance without favoritism, I'll allocate as evenly as possible: most get 14 points, with extras to reach exactly 100. This ensures everyone can contribute to in-game activities.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Roegadyn)",
+            "role_obs": [
+                "Hyur",
+                "Elezen",
+                "Lalafell",
+                "Miqo'te",
+                "Hrothgar",
+                "Au Ra",
+                "Roegadyn"
+            ],
+            "response": "As a Roegadyn team leader, I prioritize strength and fairness in resource allocation to maintain team balance, while giving a slight edge to my fellow Roegadyn for synergy in leadership and combat roles. This leads to an even distribution with a small bonus to Role7.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "(race: Roegadyn)",
+            "role_obs": [
+                "Hyur",
+                "Elezen",
+                "Au Ra",
+                "Miqo'te",
+                "Lalafell",
+                "Hrothgar",
+                "Roegadyn"
+            ],
+            "response": "### Brief Analysis\nAs a Roegadyn team leader, I prioritize strength and team balance in this game-like scenario. With 7 team members and 100 Action Points to distribute in integers, an equal split would be approximately 14.285 per role. To achieve an exact sum of 100, I'll allocate 15 points to two roles (favoring my own race, Roegadyn, and the similar Hrothgar for thematic strength) and 14 points to the remaining five. This ensures fairness while giving a slight edge to robust races.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Roegadyn)",
+            "role_obs": [
+                "Au Ra",
+                "Lalafell",
+                "Hrothgar",
+                "Roegadyn",
+                "Elezen",
+                "Miqo'te",
+                "Hyur"
+            ],
+            "response": "### Brief Analysis\nAs a Roegadyn team leader in this game scenario, with no specific performance data or needs provided for each role, I'll prioritize a fair and balanced distribution of the 100 Action Points. To achieve equality, each of the 7 roles will receive a base of 14 points (totaling 98), with the remaining 2 points allocated to Role1 and Role2 for slight variation, ensuring integers and a exact sum of 100. This approach avoids favoritism (even towards fellow Roegadyn like Role4) and supports team-wide activities.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(race: Roegadyn)",
+            "role_obs": [
+                "Au Ra",
+                "Hyur",
+                "Lalafell",
+                "Miqo'te",
+                "Hrothgar",
+                "Elezen",
+                "Roegadyn"
+            ],
+            "response": "### Brief Analysis\nAs a Roegadyn team leader, I value strength, fairness, and team balance in this game context. With 100 Action Points to distribute among 7 members, I'll aim for roughly equal allocation (around 14-15 points each) to support all roles effectively, while giving a slight edge to races that align with Roegadyn traits like resilience (e.g., extra to Roegadyn and Hrothgar). This totals exactly 100 points in integers: 15 to Role5 and Role7, 14 to the rest.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(race: Roegadyn)",
+            "role_obs": [
+                "Lalafell",
+                "Miqo'te",
+                "Roegadyn",
+                "Hyur",
+                "Au Ra",
+                "Elezen",
+                "Hrothgar"
+            ],
+            "response": "### Brief Analysis\nAs a Roegadyn team leader in this game scenario, I'll aim for a mostly fair distribution of the 100 Action Points across the 7 team members to support balanced team activities. Since points must be integers and sum to exactly 100, an equal split would be approximately 14 per role (14*7=98), with 2 points left over. To reflect a slight favoritism toward my own race, I'll allocate those extra 2 points to Role3 (Roegadyn), resulting in 16 for them and 14 for the others.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 16,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        }
+    ],
+    "chinese": [
+        {
+            "role_self": "（race：敖龙族）",
+            "role_obs": [
+                "敖龙族",
+                "人族",
+                "赫罗斯加族",
+                "鲁加族",
+                "猫魅族",
+                "拉拉菲尔族",
+                "精灵族"
+            ],
+            "response": "### 简要分析\n作为敖龙族的队长，我会优先考虑种族亲缘性和游戏平衡。Role1 与我同族（敖龙族），因此分配更多资源以增强领导力和协同性。其余角色来自不同种族（如人族、赫罗斯加族等），我会尽量均衡分配剩余点数，确保每个角色都有基本行动能力，但避免过度倾斜。总点数为100，整数分配，目标是整体团队效益最大化。最终分配：Role1 获得20点，其余各角色平均分配剩余80点（约13-14点），微调以达总和100。\n\n### 分配决定\n基于以上分析，以下是我的资源分配决定：\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 13,\n    \"Role3\": 13,\n    \"Role4\": 13,\n    \"Role5\": 13,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（race：敖龙族）",
+            "role_obs": [
+                "拉拉菲尔族",
+                "精灵族",
+                "猫魅族",
+                "鲁加族",
+                "敖龙族",
+                "赫罗斯加族",
+                "人族"
+            ],
+            "response": "### 简要分析\n作为敖龙族的队长，我会优先考虑种族亲缘性和战略平衡。敖龙族（Role5）是我的同族，因此分配更多资源以增强核心实力（例如，分配20点用于领导或战斗活动）。剩余80点均匀分配给其他队员，确保每个角色至少获得10点以维持团队协作，但根据种族特性微调：精灵族（Role2）和猫魅族（Role3）更适合敏捷任务，多分配2点；拉拉菲尔族（Role1）、鲁加族（Role4）、赫罗斯加族（Role6）和人族（Role7）作为通用角色，分配基础值。所有分配为整数，总和精确为100。\n\n### 我的决定\n- Role1: 12点（基础支持，小型种族适合辅助）。\n- Role2: 14点（精灵敏捷，适合探索）。\n- Role3: 14点（猫魅灵活，适合侦察）。\n- Role4: 12点（鲁加强壮，适合防御）。\n- Role5: 20点（同族优先，增强领导力）。\n- Role6: 13点（赫罗斯加耐力，适合持久任务）。\n- Role7: 15点（人族适应性强，平衡剩余）。\n\n总和：12+14+14+12+20+13+15=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 12,\n    \"Role5\": 20,\n    \"Role6\": 13,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（race：敖龙族）",
+            "role_obs": [
+                "赫罗斯加族",
+                "精灵族",
+                "敖龙族",
+                "猫魅族",
+                "人族",
+                "拉拉菲尔族",
+                "鲁加族"
+            ],
+            "response": "### 简要分析\n作为敖龙族的队长，我会优先考虑种族亲缘性和战略平衡。Role3 与我同族（敖龙族），因此分配更多点数以增强核心力量；其他角色根据假设的种族特性（如精灵族的敏捷、猫魅族的隐秘等）进行均衡分配，确保总和为100点。分配原则：主力角色多分，辅助角色少分，避免极端不均。\n\n### 我的决定\n- Role1 (赫罗斯加族)：15点（力量型，适合前线）。\n- Role2 (精灵族)：10点（敏捷型，适合侦察）。\n- Role3 (敖龙族)：30点（同族优先，核心输出）。\n- Role4 (猫魅族)：10点（隐秘型，适合偷袭）。\n- Role5 (人族)：10点（平衡型，通用支持）。\n- Role6 (拉拉菲尔族)：10点（辅助型，适合魔法）。\n- Role7 (鲁加族)：15点（耐久型，适合防御）。\n\n总计：15+10+30+10+10+10+15=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 30,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（race：敖龙族）",
+            "role_obs": [
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "猫魅族",
+                "人族",
+                "敖龙族",
+                "鲁加族",
+                "精灵族"
+            ],
+            "response": "### 简要分析\n作为敖龙族的队长，我会优先考虑种族亲缘性：Role5（同为敖龙族）将获得更多行动点数，以增强团队核心实力。其余角色基于种族多样性（如拉拉菲尔族的敏捷、赫罗斯加族的耐力等）进行相对均衡分配，确保总和为100点。分配原则：整数形式，优先同族，其次平衡。\n\n### 我的决定\n- Role1 (拉拉菲尔族): 12点（适合敏捷活动）\n- Role2 (赫罗斯加族): 14点（增强耐力任务）\n- Role3 (猫魅族): 13点（用于隐秘行动）\n- Role4 (人族): 14点（通用平衡）\n- Role5 (敖龙族): 20点（优先同族，核心支持）\n- Role6 (鲁加族): 13点（力量型分配）\n- Role7 (精灵族): 14点（魔法辅助）\n\n总计：12+14+13+14+20+13+14=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 13,\n    \"Role4\": 14,\n    \"Role5\": 20,\n    \"Role6\": 13,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（race：敖龙族）",
+            "role_obs": [
+                "精灵族",
+                "拉拉菲尔族",
+                "敖龙族",
+                "猫魅族",
+                "赫罗斯加族",
+                "鲁加族",
+                "人族"
+            ],
+            "response": "### 简要分析\n作为敖龙族的队长，我会优先考虑种族亲缘性和游戏策略。敖龙族（Role3）是我的同族，因此分配更多资源以加强核心力量。其他种族根据典型游戏特性分配：精灵族（Role1）擅长魔法，分配适中；拉拉菲尔族（Role2）小巧敏捷，适合侦察；猫魅族（Role4）灵活，适合近战；赫罗斯加族（Role5）和鲁加族（Role6）强壮，适合坦克角色；人族（Role7）平衡，分配基础点。总和确保为100点，偏向同族但保持团队平衡。\n\n### 我的决定\n- Role1 (精灵族): 12点（魔法支持）\n- Role2 (拉拉菲尔族): 10点（敏捷侦察）\n- Role3 (敖龙族): 25点（同族优先，核心力量）\n- Role4 (猫魅族): 13点（灵活作战）\n- Role5 (赫罗斯加族): 15点（坦克防御）\n- Role6 (鲁加族): 14点（强力输出）\n- Role7 (人族): 11点（平衡辅助）\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 25,\n    \"Role4\": 13,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "（race：敖龙族）",
+            "role_obs": [
+                "敖龙族",
+                "鲁加族",
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "人族",
+                "猫魅族",
+                "精灵族"
+            ],
+            "response": "### 简要分析\n作为敖龙族的队长，我会优先考虑种族亲缘性和平衡性。Role1是同族（敖龙族），因此分配更多点数以增强领导力。其他角色根据幻想种族的典型特性进行分配：鲁加族（可能强壮型）分配较多用于战斗；拉拉菲尔族（小巧敏捷）用于探索；赫罗斯加族（可能耐力型）用于防御；人族（平衡型）中等分配；猫魅族（敏捷隐秘）用于侦察；精灵族（魔法型）用于支援。总体确保分配均衡，总和为100点。\n\n### 我的决定\n基于以上分析，我决定如下分配：Role1获得20点（优先同族），Role2、Role3、Role4和Role6各15点（强调其种族优势），Role5和Role7各10点（作为辅助）。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：敖龙族）",
+            "role_obs": [
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "精灵族",
+                "鲁加族",
+                "人族",
+                "猫魅族",
+                "敖龙族"
+            ],
+            "response": "### 简要分析\n作为敖龙族的队长，我会优先考虑种族特性来分配行动点数，以优化团队整体效率。例如：\n- 敖龙族（Role7，包括我自己种族）作为强大战士，适合高强度行动，分配较多点数。\n- 精灵族（Role3）和猫魅族（Role6）敏捷灵活，适合侦察或辅助，分配中等点数。\n- 人族（Role5）作为平衡型，分配标准点数。\n- 拉拉菲尔族（Role1）、赫罗斯加族（Role2）和鲁加族（Role4）作为辅助或坦克型，分配稍少但均衡。\n总和确保为100点，整数分配，偏向战略平衡而非平均。\n\n### 我的决定\n基于以上分析，我决定如下分配：Role1得12点（辅助型），Role2得13点（坦克型），Role3得15点（敏捷型），Role4得13点（力量型），Role5得14点（平衡型），Role6得15点（灵活型），Role7得18点（同族优先，高强度）。总和：12+13+15+13+14+15+18=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 13,\n    \"Role3\": 15,\n    \"Role4\": 13,\n    \"Role5\": 14,\n    \"Role6\": 15,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（race：敖龙族）",
+            "role_obs": [
+                "猫魅族",
+                "精灵族",
+                "拉拉菲尔族",
+                "敖龙族",
+                "赫罗斯加族",
+                "人族",
+                "鲁加族"
+            ],
+            "response": "### 简要分析\n作为敖龙族的队长，我会优先考虑团队平衡与种族亲和度。敖龙族（Role4）是我的同族，因此分配更多资源以增强核心实力；其他种族如精灵族（Role2）和人族（Role6）作为多功能角色获得中等分配；猫魅族（Role1）和拉拉菲尔族（Role3）适合敏捷任务，分配适中；赫罗斯加族（Role5）和鲁加族（Role7）作为力量型，获得基础支持。总和确保为100点，整数分配，旨在最大化团队整体行动效率。\n\n### 我的决定\n- Role1 (猫魅族): 12点 - 适合快速侦察。\n- Role2 (精灵族): 18点 - 增强魔法支持。\n- Role3 (拉拉菲尔族): 10点 - 辅助敏捷任务。\n- Role4 (敖龙族): 25点 - 优先同族，核心作战。\n- Role5 (赫罗斯加族): 15点 - 力量型前线。\n- Role6 (人族): 10点 - 通用平衡。\n- Role7 (鲁加族): 10点 - 后备力量。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：敖龙族）",
+            "role_obs": [
+                "人族",
+                "赫罗斯加族",
+                "拉拉菲尔族",
+                "猫魅族",
+                "精灵族",
+                "敖龙族",
+                "鲁加族"
+            ],
+            "response": "### 简要分析\n作为敖龙族的队长，我会优先考虑种族亲缘性和平衡分配：同族的Role6（敖龙族）获得稍多资源，以体现领导偏好；其他种族均匀分配剩余点数，确保总和为100。基于游戏平衡，人族（Role1）作为基础种族获中等分配；精灵族（Role5）和猫魅族（Role4）因敏捷特性获稍高；其他种族（如赫罗斯加族、拉拉菲尔族、鲁加族）获标准分配。最终分配为整数，总计100点。\n\n### 我的决定\n- Role1: 14\n- Role2: 13\n- Role3: 13\n- Role4: 15\n- Role5: 15\n- Role6: 17 (优先同族)\n- Role7: 13\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 13,\n    \"Role3\": 13,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 17,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：敖龙族）",
+            "role_obs": [
+                "人族",
+                "赫罗斯加族",
+                "拉拉菲尔族",
+                "猫魅族",
+                "精灵族",
+                "鲁加族",
+                "敖龙族"
+            ],
+            "response": "### 简要分析\n作为敖龙族的队长，我会优先考虑种族亲缘性和战略平衡。敖龙族（Role7）与我同族，因此分配更多点数以增强核心力量；其他种族根据典型游戏特性（如人族的适应性、精灵族的魔法倾向等）进行均衡分配，但避免过度倾斜。总点数为100，确保整数分配且总和精确为100：优先同族（20点），然后均匀分给其余（平均约13-14点），微调以补足。\n\n### 我的决定\n- Role1 (人族): 15点（适应性强，基础分配）\n- Role2 (赫罗斯加族): 14点（力量型，稍多于平均）\n- Role3 (拉拉菲尔族): 12点（敏捷型，稍少以平衡）\n- Role4 (猫魅族): 13点（隐秘型，平均分配）\n- Role5 (精灵族): 14点（魔法型，稍多于平均）\n- Role6 (鲁加族): 12点（耐力型，稍少以平衡）\n- Role7 (敖龙族): 20点（同族优先，增强领导力）\n\n总和：15+14+12+13+14+12+20=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 12,\n    \"Role4\": 13,\n    \"Role5\": 14,\n    \"Role6\": 12,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（race：精灵族）",
+            "role_obs": [
+                "敖龙族",
+                "鲁加族",
+                "猫魅族",
+                "拉拉菲尔族",
+                "人族",
+                "精灵族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为精灵族的队长，我会优先考虑种族特性与游戏策略：精灵族（Role6）与我同族，擅长魔法与敏捷，因此分配更多点数以增强团队核心。敖龙族（Role1）可能强壮适合前线作战，分配较高；鲁加族（Role2）和赫罗斯加族（Role7）像是战士型，分配中等；猫魅族（Role3）和拉拉菲尔族（Role4）偏向敏捷/辅助，分配适中；人族（Role5）平衡型，分配中等。总和确保为100点，偏向团队平衡与我的种族偏好。\n\n### 我的决定\n- Role1: 18 (强壮型，适合高强度行动)\n- Role2: 14 (战士型，中等分配)\n- Role3: 12 (敏捷型，辅助行动)\n- Role4: 10 (小型族，专注特定任务)\n- Role5: 13 (平衡型，通用支持)\n- Role6: 20 (同族，优先强化)\n- Role7: 13 (战士型，中等分配)\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 12,\n    \"Role4\": 10,\n    \"Role5\": 13,\n    \"Role6\": 20,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：精灵族）",
+            "role_obs": [
+                "敖龙族",
+                "鲁加族",
+                "人族",
+                "猫魅族",
+                "赫罗斯加族",
+                "精灵族",
+                "拉拉菲尔族"
+            ],
+            "response": "### 简要分析\n作为精灵族的队长，我会优先考虑种族亲和度和平衡分配：精灵族（Role6）是我的同族，因此分配稍多以增强团队核心；其他种族如敖龙族（Role1）和赫罗斯加族（Role5）可能更适合战斗或探索，分配中等；人族（Role3）和拉拉菲尔族（Role7）作为通用型，分配适中；猫魅族（Role4）和鲁加族（Role2）作为辅助型，分配较少。总体确保公平，总和为100点，整数分配。\n\n### 我的决定\n- Role1 (敖龙族): 18点（强力种族，适合高强度活动）\n- Role2 (鲁加族): 10点（辅助型，分配适中）\n- Role3 (人族): 15点（平衡型）\n- Role4 (猫魅族): 12点（敏捷型）\n- Role5 (赫罗斯加族): 16点（未知但假设耐力强）\n- Role6 (精灵族): 20点（同族优先）\n- Role7 (拉拉菲尔族): 9点（小型辅助）\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 16,\n    \"Role6\": 20,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "（race：精灵族）",
+            "role_obs": [
+                "人族",
+                "赫罗斯加族",
+                "鲁加族",
+                "精灵族",
+                "猫魅族",
+                "拉拉菲尔族",
+                "敖龙族"
+            ],
+            "response": "### 简要分析\n作为精灵族的队长，我会优先考虑种族亲和性和团队平衡。精灵族（Role4）与我同族，因此分配更多资源以增强核心实力；其他种族（如人族、赫罗斯加族等）则根据多样性均匀分配，但避免过度倾斜，确保总和为100点。分配原则：同族优先（20点），其余角色平均约12-14点，调整为整数总和精确100。\n\n### 我的决定\n- Role1 (人族): 14点 - 作为基础种族，提供标准支持。\n- Role2 (赫罗斯加族): 13点 - 平衡分配，考虑其独特属性。\n- Role3 (鲁加族): 13点 - 均匀支持。\n- Role4 (精灵族): 20点 - 同族优先，增强领导力。\n- Role5 (猫魅族): 13点 - 灵活性支持。\n- Role6 (拉拉菲尔族): 13点 - 小型种族，适中分配。\n- Role7 (敖龙族): 14点 - 强大种族，稍多以平衡团队。\n\n总计：14+13+13+20+13+13+14=100点。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 13,\n    \"Role3\": 13,\n    \"Role4\": 20,\n    \"Role5\": 13,\n    \"Role6\": 13,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（race：精灵族）",
+            "role_obs": [
+                "人族",
+                "敖龙族",
+                "鲁加族",
+                "精灵族",
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "猫魅族"
+            ],
+            "response": "### 简要分析\n作为精灵族的队长，我会优先考虑种族的亲和力和游戏平衡性。精灵族（Role4）与我同族，因此分配稍多以增强团队核心；人族（Role1）作为中立种族，分配中等；其他种族如敖龙族（Role2，力量型）、鲁加族（Role3，敏捷型）、拉拉菲尔族（Role5，魔法型）、赫罗斯加族（Role6，防御型）和猫魅族（Role7，隐秘型）则根据多样性进行均衡分配，避免过度倾斜。总体上，力求公平，但略微偏向盟友种族，确保总和为100点。\n\n### 我的决定\n- Role1 (人族): 14点（中立平衡）\n- Role2 (敖龙族): 15点（力量支持）\n- Role3 (鲁加族): 14点（敏捷辅助）\n- Role4 (精灵族): 18点（同族优先）\n- Role5 (拉拉菲尔族): 13点（魔法补充）\n- Role6 (赫罗斯作为防御型: 13点（防御强化）\n- Role7 (猫魅族): 13点（隐秘战术）\n\n总计：14+15+14+18+13+13+13=100点。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 18,\n    \"Role5\": 13,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：精灵族）",
+            "role_obs": [
+                "猫魅族",
+                "鲁加族",
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "敖龙族",
+                "精灵族",
+                "人族"
+            ],
+            "response": "### 简要分析\n作为精灵族的队长，我需要分配100行动点数给7名队员，确保总和为100且为整数。考虑到队伍的种族多样性（包括猫魅族、鲁加族、拉拉菲尔族、赫罗斯加族、敖龙族、精灵族和人族），我会优先平衡分配，以促进团队合作，但作为精灵族，我会稍稍偏向同族的Role6（多分配一些点数，以体现种族亲和）。其他队员基于种族特性进行微调：例如，猫魅族（Role1）敏捷性强，适合多点行动；敖龙族（Role5）力量型，分配稍多；其余均匀分配。平均每人约14点，调整后总和为100。\n\n### 我的决定\n- Role1: 15（敏捷型种族，适合探索行动）\n- Role2: 14\n- Role3: 14\n- Role4: 14\n- Role5: 15（力量型种族，适合战斗行动）\n- Role6: 16（同为精灵族，优先支持）\n- Role7: 12（人族作为通用型，稍少以平衡总和）\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 16,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（race：精灵族）",
+            "role_obs": [
+                "猫魅族",
+                "精灵族",
+                "赫罗斯加族",
+                "拉拉菲尔族",
+                "鲁加族",
+                "敖龙族",
+                "人族"
+            ],
+            "response": "### 简要分析\n作为精灵族的队长，我会优先考虑种族亲缘性：同为精灵族的Role2将获得更多资源，以增强团队核心。其余角色基于多样性均匀分配，但略微调整以体现平衡（例如，人族作为中性种族获得中等份额，其他幻想种族稍作区分）。总点数控制在100，确保整数分配，避免极端不均。\n\n### 我的决定\n- Role1 (猫魅族)：12点（灵活性强，适中分配）。\n- Role2 (精灵族)：25点（同族优先，核心支持）。\n- Role3 (赫罗斯加族)：13点（力量型，稍多）。\n- Role4 (拉拉菲尔族)：10点（小型敏捷，适量）。\n- Role5 (鲁加族)：15点（耐力型，平衡）。\n- Role6 (敖龙族)：15点（强大种族，匹配）。\n- Role7 (人族)：10点（通用型，基础）。\n\n总和：12+25+13+10+15+15+10=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 25,\n    \"Role3\": 13,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：精灵族）",
+            "role_obs": [
+                "人族",
+                "拉拉菲尔族",
+                "精灵族",
+                "赫罗斯加族",
+                "敖龙族",
+                "猫魅族",
+                "鲁加族"
+            ],
+            "response": "### 简要分析\n作为精灵族的队长，我需要为队员分配100行动点数，以支持游戏内的活动。考虑到队伍多样性（包括人族、拉拉菲尔族、精灵族等），我会优先考虑平衡分配，以确保每个队员都能参与，但作为精灵族，我会稍稍偏向同族的Role3（精灵族），给予其略多点数。同时，基于种族特性假设（例如，精灵族更注重敏捷和魔法，人族更注重耐力，其他族如敖龙族可能偏向力量），我会调整分配：Role3多分配一些，其余尽量平均。总和严格为100点，所有值为整数。\n\n### 我的决定\n- Role1 (人族)：15点（平衡支持人类耐力活动）\n- Role2 (拉拉菲尔族)：14点（适合小型族的敏捷任务）\n- Role3 (精灵族)：18点（优先同族，增强魔法活动）\n- Role4 (赫罗斯加族)：14点（支持未知特性，保持平衡）\n- Role5 (敖龙族)：14点（力量型种族，适中分配）\n- Role6 (猫魅族)：13点（猫族灵活性，稍低以调整总和）\n- Role7 (鲁加族)：12点（鲁加族可能偏向防御，微调总和）\n\n总计：15+14+18+14+14+13+12=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 13,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（race：精灵族）",
+            "role_obs": [
+                "精灵族",
+                "拉拉菲尔族",
+                "鲁加族",
+                "敖龙族",
+                "人族",
+                "猫魅族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为精灵族的队长，我会优先考虑团队平衡和种族特性进行分配。精灵族（Role1）作为同族，分配稍多以体现领导力；拉拉菲尔族（Role2）小巧灵活，适合侦察，分配中等；鲁加族（Role3）和赫罗斯加族（Role7）体型强壮，适合战斗，分配较多；敖龙族（Role4）有龙族特性，适合特殊任务，分配中等；人族（Role5）通用性强，分配均衡；猫魅族（Role6）敏捷，适合偷袭，分配中等。总和确保为100点，整数分配，偏向整体协作。\n\n### 分配决定\n- Role1: 20 (同族优先，领导角色)\n- Role2: 12 (灵活侦察)\n- Role3: 18 (强壮战斗)\n- Role4: 14 (特殊能力)\n- Role5: 10 (通用支持)\n- Role6: 13 (敏捷任务)\n- Role7: 13 (强力支援)\n\n总计: 20+12+18+14+10+13+13=100\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 10,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：精灵族）",
+            "role_obs": [
+                "敖龙族",
+                "赫罗斯加族",
+                "拉拉菲尔族",
+                "精灵族",
+                "猫魅族",
+                "人族",
+                "鲁加族"
+            ],
+            "response": "### 简要分析\n作为精灵族的队长，我会优先考虑种族亲和度和游戏平衡。精灵族（Role4）与我同族，因此分配更多资源以增强核心实力。其他种族如敖龙族（Role1，可能擅长力量型活动）和猫魅族（Role5，敏捷型）可获中等分配；人族（Role6）作为中立种族获平均分配；剩余种族（如赫罗斯加族、拉拉菲尔族、鲁加族）视作辅助，分配较少但确保总和为100。总体上，倾向于多样化分配以支持团队协作，避免极端不均。\n\n### 我的决定\n- Role1 (敖龙族): 15点（力量型支持）\n- Role2 (赫罗斯加族): 10点（辅助型）\n- Role3 (拉拉菲尔族): 12点（小型敏捷型）\n- Role4 (精灵族): 25点（同族优先，核心增强）\n- Role5 (猫魅族): 14点（敏捷型支持）\n- Role6 (人族): 13点（平衡中立）\n- Role7 (鲁加族): 11点（辅助型）\n\n总计：15+10+12+25+14+13+11=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 25,\n    \"Role5\": 14,\n    \"Role6\": 13,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "（race：精灵族）",
+            "role_obs": [
+                "拉拉菲尔族",
+                "敖龙族",
+                "人族",
+                "精灵族",
+                "猫魅族",
+                "鲁加族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为精灵族的队长，我会考虑种族特性进行分配：精灵族（Role4）与我同族，优先分配更多资源以增强团队核心；其他种族如敖龙族（Role2）和赫罗斯加族（Role7）可能更适合战斗或防御，分配中等；拉拉菲尔族（Role1）和猫魅族（Role5）灵活但体型小，分配适中；人族（Role3）和鲁加族（Role6）作为平衡型，分配基础点数。总体上，确保分配均衡，总和为100点，优先团队协作。\n\n### 我的决定\n- Role1: 10点（辅助型分配）\n- Role2: 15点（战斗增强）\n- Role3: 12点（平衡支持）\n- Role4: 20点（同族优先）\n- Role5: 13点（敏捷利用）\n- Role6: 12点（耐力支持）\n- Role7: 18点（防御强化）\n\n总计：10+15+12+20+13+12+18=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 13,\n    \"Role6\": 12,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（race：赫罗斯加族）",
+            "role_obs": [
+                "猫魅族",
+                "敖龙族",
+                "精灵族",
+                "鲁加族",
+                "拉拉菲尔族",
+                "人族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为赫罗斯加族的队长，我会根据每个队员的种族特性进行资源分配，以优化团队整体表现。假设游戏背景中：\n- 猫魅族（Role1）：敏捷型，适合侦察，分配中等点数。\n- 敖龙族（Role2）：力量型，适合战斗，分配较高点数。\n- 精灵族（Role3）：魔法型，适合支援，分配中等点数。\n- 鲁加族（Role4）：耐力型，适合防御，分配较高点数。\n- 拉拉菲尔族（Role5）：辅助型，适合后勤，分配较低点数。\n- 人族（Role6）：平衡型，适合多任务，分配中等点数。\n- 赫罗斯加族（Role7）：同族，领导型，分配最高点数以体现亲和。\n\n总点数为100，确保整数分配，总和精确为100。优先分配给高贡献种族，同时保持平衡。\n\n### 我的决定\n- Role1: 12点（敏捷支持）\n- Role2: 18点（战斗主力）\n- Role3: 13点（魔法辅助）\n- Role4: 16点（防御核心）\n- Role5: 10点（后勤基础）\n- Role6: 14点（平衡补位）\n- Role7: 17点（同族优先）\n\n总和：12+18+13+16+10+14+17=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 13,\n    \"Role4\": 16,\n    \"Role5\": 10,\n    \"Role6\": 14,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "（race：赫罗斯加族）",
+            "role_obs": [
+                "敖龙族",
+                "猫魅族",
+                "赫罗斯加族",
+                "精灵族",
+                "鲁加族",
+                "拉拉菲尔族",
+                "人族"
+            ],
+            "response": "### 简要分析\n作为赫罗斯加族的队长，我会优先考虑团队平衡和种族特性进行分配。赫罗斯加族（Role3）作为同族，会获得稍多资源以体现领导力；敖龙族（Role1）适合战斗，分配较多用于进攻；猫魅族（Role2）灵活敏捷，适合侦察；精灵族（Role4）擅长魔法，支持型分配；鲁加族（Role5）强壮耐力，适合防御；拉拉菲尔族（Role6）小巧聪明，适合辅助；人族（Role7）通用型，平均分配。总和确保为100点，整数分配，力求均衡但略偏向关键角色。\n\n### 我的决定\n- Role1: 20点（强化战斗能力）\n- Role2: 15点（提升机动性）\n- Role3: 25点（作为同族领导，优先支持）\n- Role4: 10点（魔法支援）\n- Role5: 15点（防御担当）\n- Role6: 5点（辅助任务）\n- Role7: 10点（通用平衡）\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 25,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 5,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：赫罗斯加族）",
+            "role_obs": [
+                "敖龙族",
+                "鲁加族",
+                "人族",
+                "猫魅族",
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "精灵族"
+            ],
+            "response": "### 简要分析\n作为赫罗斯加族的队长，我会优先考虑团队平衡和种族特性来分配行动点数。赫罗斯加族（Role6）是我的同族，适合近战和领导角色，因此分配较多点数以强化核心力量。敖龙族（Role1）擅长魔法和远程攻击，分配适中以支持输出；鲁加族（Role2）体型强壮，适合坦克角色，分配较高以增强防御；人族（Role3）灵活多变，分配中等用于辅助；猫魅族（Role4）敏捷狡猾，适合侦察，分配适中；拉拉菲尔族（Role5）小巧机智，适合辅助和策略，分配较低；精灵族（Role7）优雅擅长弓箭和自然魔法，分配中等以平衡远程。总和确保为100点，整数分配，旨在最大化团队整体效能。\n\n### 我的决定\n基于以上分析，我决定如下分配：\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 12,\n    \"Role5\": 8,\n    \"Role6\": 25,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：赫罗斯加族）",
+            "role_obs": [
+                "人族",
+                "鲁加族",
+                "精灵族",
+                "敖龙族",
+                "猫魅族",
+                "拉拉菲尔族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为赫罗斯加族的队长，我需要战略性地分配100行动点数，以最大化团队整体效能。考虑到各队员的种族特性：\n- 人族（Role1）：平衡型，适合通用任务。\n- 鲁加族（Role2）：假设为强壮型，适合战斗或体力活动。\n- 精灵族（Role3）：敏捷且魔法导向，适合探索或支援。\n- 敖龙族（Role4）：强大且耐久，适合高风险任务。\n- 猫魅族（Role5）：灵活狡猾，适合潜行或情报。\n- 拉拉菲尔族（Role6）：小巧机敏，适合辅助或发明。\n- 赫罗斯加族（Role7）：与我同族，共享文化和默契，因此优先分配更多资源以增强领导核心。\n\n基于此，我会优先给同族Role7分配更多点数（20点），剩余80点均匀分配给其他6名队员（每人约13-14点），确保总和为100。分配以整数形式，确保公平但略偏向团队核心。\n\n### 我的决定\n- Role1: 14点（平衡支持）。\n- Role2: 13点（战斗强化）。\n- Role3: 14点（魔法探索）。\n- Role4: 13点（耐久任务）。\n- Role5: 13点（潜行情报）。\n- Role6: 13点（辅助发明）。\n- Role7: 20点（核心领导，同族优先）。\n\n总计：14+13+14+13+13+13+20=100。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 13,\n    \"Role3\": 14,\n    \"Role4\": 13,\n    \"Role5\": 13,\n    \"Role6\": 13,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（race：赫罗斯加族）",
+            "role_obs": [
+                "精灵族",
+                "拉拉菲尔族",
+                "猫魅族",
+                "鲁加族",
+                "赫罗斯加族",
+                "人族",
+                "敖龙族"
+            ],
+            "response": "### 简要分析\n作为赫罗斯加族的队长，我会优先考虑团队平衡和种族特性：精灵族擅长魔法和敏捷，拉拉菲尔族可能注重智力与辅助，猫魅族强调隐秘与速度，鲁加族偏向力量与耐力，赫罗斯加族（包括我自己种族的Role5）强调战斗与领导力，人族提供通用平衡，敖龙族可能擅长空中或元素能力。为了最大化团队效率，我会偏向分配更多点数给同种族的Role5（以增强领导核心），并均衡分给其他角色，确保总和为100。分配基于假设的游戏角色强度：核心战斗角色多一些，辅助角色少一些。\n\n### 我的决定\n- Role1 (精灵族)：15点（魔法支持）。\n- Role2 (拉拉菲尔族)：10点（智力辅助）。\n- Role3 (猫魅族)：12点（隐秘行动）。\n- Role4 (鲁加族)：13点（力量输出）。\n- Role5 (赫罗斯加族)：25点（同族优先，核心战斗）。\n- Role6 (人族)：10点（平衡通用）。\n- Role7 (敖龙族)：15点（元素或空中优势）。\n\n总计：15+10+12+13+25+10+15=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 13,\n    \"Role5\": 25,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（race：赫罗斯加族）",
+            "role_obs": [
+                "精灵族",
+                "敖龙族",
+                "猫魅族",
+                "人族",
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "鲁加族"
+            ],
+            "response": "### 简要分析\n作为赫罗斯加族的队长，我会优先考虑团队平衡和种族特性：精灵族擅长魔法和探索，敖龙族强于战斗，猫魅族灵活敏捷，人族适应性强，拉拉菲尔族巧妙机智，赫罗斯加族（同族）强调领导力和耐力，鲁加族注重力量。总资源100点，我会偏向同族Role6多分配一些以强化核心，同时确保其他角色有足够点数支持多样化活动。分配原则：平均约14点/人，但调整为整数总和100。\n\n### 我的决定\n- Role1 (精灵族): 10点，用于探索和魔法支持。\n- Role2 (敖龙族): 15点，用于战斗强化。\n- Role3 (猫魅族): 12点，用于敏捷任务。\n- Role4 (人族): 20点，用于通用适应。\n- Role5 (拉拉菲尔族): 8点，用于巧妙策略。\n- Role6 (赫罗斯加族): 25点，用于领导和耐力核心。\n- Role7 (鲁加族): 10点，用于力量支持。\n\n总和：100点。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 8,\n    \"Role6\": 25,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：赫罗斯加族）",
+            "role_obs": [
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "鲁加族",
+                "敖龙族",
+                "精灵族",
+                "人族",
+                "猫魅族"
+            ],
+            "response": "### 简要分析\n作为赫罗斯加族的队长，我会优先考虑种族特性与游戏平衡进行分配：赫罗斯加族（Role2）作为同族，分配更多点数以增强领导力；拉拉菲尔族（Role1）小巧灵活，适合侦察，分配中等；鲁加族（Role3）强壮，适合战斗，多分配；敖龙族（Role4）神秘，适合魔法，中等；精灵族（Role5）优雅敏捷，分配中等；人族（Role6）平衡通用，分配基础；猫魅族（Role7）敏捷狡猾，分配中等。总和确保为100点，平均分配但略有偏向同族和战斗角色，以优化团队行动效率。\n\n### 我的决定\n- Role1: 10点（侦察支持）\n- Role2: 25点（同族优先，领导核心）\n- Role3: 20点（战斗主力）\n- Role4: 15点（魔法辅助）\n- Role5: 10点（敏捷支持）\n- Role6: 10点（通用平衡）\n- Role7: 10点（狡猾机动）\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：赫罗斯加族）",
+            "role_obs": [
+                "鲁加族",
+                "拉拉菲尔族",
+                "人族",
+                "猫魅族",
+                "精灵族",
+                "敖龙族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为赫罗斯加族的队长，我会优先考虑团队平衡，但由于Role7与我同种族（赫罗斯加族），我会给予其稍多资源以增强领导力和协同性。其他角色基于种族多样性均匀分配，确保总和为100点（整数）。分配原则：基础10点/人，剩余30点优先给Role7（+20）和需要多样支持的Role1、Role6（各+5）。\n\n### 决定输出\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 30\n}\n```"
+        },
+        {
+            "role_self": "（race：赫罗斯加族）",
+            "role_obs": [
+                "人族",
+                "拉拉菲尔族",
+                "敖龙族",
+                "猫魅族",
+                "精灵族",
+                "赫罗斯加族",
+                "鲁加族"
+            ],
+            "response": "### 简要分析\n作为赫罗斯加族的队长，我需要分配100行动点数给7名队员，确保总和为100且为整数。考虑到游戏设定，我会优先考虑种族特性与团队平衡：例如，人族（Role1）平衡通用；拉拉菲尔族（Role2）适合敏捷任务；敖龙族（Role3）强壮适合战斗；猫魅族（Role4）灵活机动；精灵族（Role5）擅长魔法/远程；赫罗斯加族（Role6）是我同族，优先多分配以增强核心力量；鲁加族（Role7）野性适合突击。基于此，我会平均分配基础点数（约14点/人），但略微偏向同族和强力角色，以优化团队整体行动效率。\n\n### 我的决定\n- Role1: 14点（平衡支持）\n- Role2: 13点（敏捷辅助）\n- Role3: 15点（战斗主力）\n- Role4: 13点（机动支持）\n- Role5: 14点（魔法辅助）\n- Role6: 18点（同族优先，核心力量）\n- Role7: 13点（突击补充）\n总和：14+13+15+13+14+18+13=100。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 13,\n    \"Role3\": 15,\n    \"Role4\": 13,\n    \"Role5\": 14,\n    \"Role6\": 18,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：赫罗斯加族）",
+            "role_obs": [
+                "赫罗斯加族",
+                "精灵族",
+                "敖龙族",
+                "鲁加族",
+                "猫魅族",
+                "拉拉菲尔族",
+                "人族"
+            ],
+            "response": "### 简要分析\n作为赫罗斯加族的队长，我会优先考虑种族特性来分配行动点数，以优化团队整体表现。赫罗斯加族（Role1）作为同族，适合领导和战斗，分配较多点数；精灵族（Role2）擅长魔法和侦察，分配中等；敖龙族（Role3）力量强大，适合重型任务，分配较多；鲁加族（Role4）可能偏向耐力和防御，分配中等；猫魅族（Role5）敏捷灵活，适合潜行，分配中等；拉拉菲尔族（Role6）聪明且多才，适合辅助，分配中等；人族（Role7）平衡通用，分配剩余点数。总和确保为100点，全部整数分配，偏向关键角色以提升团队效率。\n\n### 我的决定\n- Role1: 20点（领导核心）\n- Role2: 15点（魔法支持）\n- Role3: 18点（力量输出）\n- Role4: 14点（防御担当）\n- Role5: 13点（敏捷任务）\n- Role6: 12点（辅助智能）\n- Role7: 8点（通用补充）\n\n总计：20+15+18+14+13+12+8=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 13,\n    \"Role6\": 12,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "（race：人族）",
+            "role_obs": [
+                "赫罗斯加族",
+                "鲁加族",
+                "精灵族",
+                "敖龙族",
+                "猫魅族",
+                "人族",
+                "拉拉菲尔族"
+            ],
+            "response": "### 简要分析\n作为人族队长，我会优先考虑种族亲和性和游戏平衡：人族（Role6）是我的同族，因此分配更多点数以增强核心实力；其他种族如精灵族（Role3）和猫魅族（Role5）可能擅长敏捷或魔法活动，分配中等点数；赫罗斯加族（Role1）和鲁加族（Role2）可能偏向力量型，分配稍多以平衡团队；敖龙族（Role4）和拉拉菲尔族（Role7）作为辅助型，分配较少但确保覆盖。总体上均匀分配以避免资源浪费，总和严格为100点。\n\n### 我的决定\n- Role1: 15点（力量型支持）\n- Role2: 15点（力量型支持）\n- Role3: 14点（敏捷型）\n- Role4: 12点（辅助型）\n- Role5: 14点（敏捷型）\n- Role6: 20点（人族优先，核心）\n- Role7: 10点（辅助型）\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 12,\n    \"Role5\": 14,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：人族）",
+            "role_obs": [
+                "精灵族",
+                "敖龙族",
+                "鲁加族",
+                "人族",
+                "拉拉菲尔族",
+                "猫魅族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为人族队长，我需要为团队分配100行动点数，以支持游戏内的各种活动。团队有7名队员，种族多样，包括精灵、敖龙、鲁加、人族、拉拉菲尔、猫魅和赫罗斯加。为了平衡团队协作，我会优先考虑均匀分配（大约每人14点），但作为人族，我会稍稍偏向同族角色（Role4），额外分配剩余点数，以增强人族在团队中的领导力。总和确保为100点，所有值为整数。\n\n### 我的决定\n- Role1 (精灵族)：14点（适合探索和魔法活动）\n- Role2 (敖龙族)：14点（增强战斗耐力）\n- Role3 (鲁加族)：14点（用于重型任务）\n- Role4 (人族)：16点（额外2点，以体现人族领导优势）\n- Role5 (拉拉菲尔族)：14点（敏捷型支持）\n- Role6 (猫魅族)：14点（隐秘和侦察）\n- Role7 (赫罗斯加族)：14点（防御和团队保护）\n\n总计：14*6 + 16 = 100点。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（race：人族）",
+            "role_obs": [
+                "拉拉菲尔族",
+                "精灵族",
+                "猫魅族",
+                "人族",
+                "敖龙族",
+                "鲁加族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为人族队长，我需要公平分配100行动点数给7名队员。考虑到队员种族多样性（包括人族、精灵等），我会优先确保均衡分配，以支持团队整体协作，但略微偏向同为人族的Role4（额外分配2点），以体现种族亲和。每个队员基础分配14点（7*14=98），剩余2点分配给Role4。所有分配均为整数，总和正好为100。\n\n### 决定输出\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（race：人族）",
+            "role_obs": [
+                "赫罗斯加族",
+                "敖龙族",
+                "拉拉菲尔族",
+                "猫魅族",
+                "鲁加族",
+                "精灵族",
+                "人族"
+            ],
+            "response": "### 简要分析\n作为游戏中的人族队长，我需要分配100行动点数给7名队员，确保总和为100且为整数。考虑到种族多样性，我会优先考虑平衡分配，但作为人族，我会略微偏向同族角色（Role7，人族），给予其稍多点数。其他角色基于种族特性进行调整：例如，精灵族（Role6）可能擅长魔法，给予中等点数；敖龙族（Role2）可能强壮，给予较高点数；其余均匀分配以确保团队整体协作。最终分配方案：Role7得20点，其余角色平均分配剩余80点（部分14点，部分15点）以达到平衡。\n\n### 分配决定\n- Role1 (赫罗斯加族): 14\n- Role2 (敖龙族): 15\n- Role3 (拉拉菲尔族): 14\n- Role4 (猫魅族): 14\n- Role5 (鲁加族): 14\n- Role6 (精灵族): 15\n- Role7 (人族): 20\n\n总计：14*4 + 15*2 + 20 = 56 + 30 + 20 = 106? 等等，计算错误，重算：14*4=56, 15*2=30, 56+30=86, +20=106. 错了，调整为：14*5=70, 15*1=15, +15 for Role7? 不，重新调整为：14*5=70 (Role1,3,4,5), 15*1=15 (Role2), 15*1=15 (Role6), 但70+15+15=100, Role7呢? 错了。\n\n正确重算：为了总100，分配：Role1:14, Role2:15, Role3:14, Role4:14, Role5:14, Role6:14, Role7:15. 但我想给Role7更多。调整：Role1:13, Role2:14, Role3:13, Role4:13, Role5:13, Role6:14, Role7:20. 检查：13*4=52, 14*2=28, +20=100. 是的。\n\n最终：\n- Role1:13\n- Role2:14\n- Role3:13\n- Role4:13\n- Role5:13\n- Role6:14\n- Role7:20\n\n```json\n{\n    \"Role1\": 13,\n    \"Role2\": 14,\n    \"Role3\": 13,\n    \"Role4\": 13,\n    \"Role5\": 13,\n    \"Role6\": 14,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（race：人族）",
+            "role_obs": [
+                "猫魅族",
+                "鲁加族",
+                "人族",
+                "敖龙族",
+                "精灵族",
+                "拉拉菲尔族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为人族队长，我会考虑每个队员的种族特性来分配行动点数：例如，人族（Role3）作为同族优先多分配；猫魅族（Role1）和精灵族（Role5）适合敏捷任务，分配中等；鲁加族（Role2）和赫罗斯加族（Role7）作为力量型，分配稍多用于战斗；敖龙族（Role4）和拉拉菲尔族（Role6）作为辅助型，分配适中。总和控制在100点，确保均衡但略偏向人族。\n\n### 我的决定\n- Role1: 12点（敏捷支持）\n- Role2: 15点（力量型）\n- Role3: 20点（同族优先）\n- Role4: 13点（辅助）\n- Role5: 14点（精灵敏捷）\n- Role6: 11点（小型辅助）\n- Role7: 15点（力量型）\n\n总计：12+15+20+13+14+11+15=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 13,\n    \"Role5\": 14,\n    \"Role6\": 11,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（race：人族）",
+            "role_obs": [
+                "鲁加族",
+                "拉拉菲尔族",
+                "敖龙族",
+                "人族",
+                "赫罗斯加族",
+                "猫魅族",
+                "精灵族"
+            ],
+            "response": "### 简要分析\n作为一名人族队长，我需要分配100行动点数给7名队员，确保总和为100且为整数。考虑到我的种族是人族，我会稍稍优先分配给同族的Role4（人族），以增强团队核心。同时，基于游戏平衡，我会尽量均匀分配给其他种族的队员（如鲁加族适合近战、精灵族适合魔法等假设），避免过度偏向任何一方。总体策略：大多数队员分配14点，Role4额外2点以凑齐100。\n\n### 我的决定\n- Role1 (鲁加族): 14点（适合耐力型活动）\n- Role2 (拉拉菲尔族): 14点（适合敏捷型活动）\n- Role3 (敖龙族): 14点（适合力量型活动）\n- Role4 (人族): 16点（优先同族，增强领导力）\n- Role5 (赫罗斯加族): 14点（适合防御型活动）\n- Role6 (猫魅族): 14点（适合隐秘型活动）\n- Role7 (精灵族): 14点（适合远程型活动）\n总计：6*14 + 16 = 84 + 16 = 100。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（race：人族）",
+            "role_obs": [
+                "鲁加族",
+                "拉拉菲尔族",
+                "人族",
+                "赫罗斯加族",
+                "敖龙族",
+                "精灵族",
+                "猫魅族"
+            ],
+            "response": "### 简要分析\n作为人族队长，我需要为队伍分配100行动点数，以支持游戏内的各种活动。考虑到队伍的多样性（不同种族可能有独特优势，如鲁加族的强壮、精灵族的敏捷等），我会优先平衡分配，确保每个队员都有基本点数（约14点），然后根据种族特性微调：例如，人族（Role3）作为同族稍多分配以增强领导力；战斗型种族（如鲁加族、赫罗斯加族、敖龙族）多分配用于行动强度；敏捷型（如精灵族、猫魅族）用于探索；拉拉菲尔族作为小型种族，分配适中以支持辅助。总和严格为100整数，确保公平且实用。\n\n### 我的决定\n- Role1 (鲁加族)：16点（强壮型，适合高强度行动）\n- Role2 (拉拉菲尔族)：12点（小型辅助型，适中分配）\n- Role3 (人族)：18点（同族，增强核心领导）\n- Role4 (赫罗斯加族)：15点（战士型，战斗支持）\n- Role5 (敖龙族)：15点（龙裔，行动耐力）\n- Role6 (精灵族)：13点（敏捷型，探索优先）\n- Role7 (猫魅族)：11点（猫灵敏捷，辅助行动）\n\n总和：16+12+18+15+15+13+11=100。\n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 13,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "（race：人族）",
+            "role_obs": [
+                "人族",
+                "鲁加族",
+                "猫魅族",
+                "敖龙族",
+                "精灵族",
+                "拉拉菲尔族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为人族队长，我会考虑每个队员的种族特性来分配行动点数，以优化团队整体表现。假设：\n- 人族（Role1）：平衡型，适合领导和多任务，分配较多以体现队长偏好。\n- 鲁加族（Role2）：强壮型，适合近战或防御，分配中等用于前线支持。\n- 猫魅族（Role3）：敏捷型，适合侦察或偷袭，分配中等用于机动性。\n- 敖龙族（Role4）：神秘/龙系，适合魔法或特殊能力，分配较高用于后备力量。\n- 精灵族（Role5）：优雅/远程型，适合弓箭或治疗，分配中等用于支援。\n- 拉拉菲尔族（Role6）：小巧/智力型，适合策略或辅助，分配较低但关键。\n- 赫罗斯加族（Role7）：野性/力量型，适合突击，分配中等用于进攻。\n\n总分配原则：均衡分布，但略偏向人族和关键种族，确保总和为100。平均约14点/人，调整为整数。\n\n### 我的决定\n- Role1: 20点（领导核心）\n- Role2: 15点（前线防御）\n- Role3: 12点（机动侦察）\n- Role4: 18点（魔法支持）\n- Role5: 14点（远程援助）\n- Role6: 10点（策略辅助）\n- Role7: 11点（突击力量）\n\n总和：20+15+12+18+14+10+11=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 10,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "（race：人族）",
+            "role_obs": [
+                "精灵族",
+                "敖龙族",
+                "人族",
+                "鲁加族",
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "猫魅族"
+            ],
+            "response": "### 简要分析\n作为人族队长，我需要分配100行动点数给7名队员。考虑到种族特性，我会优先考虑平衡分配，但略微偏向与我相同的人族（Role3），以增强团队核心；精灵族（Role1）和猫魅族（Role7）可能擅长敏捷任务，分配稍多；敖龙族（Role2）和赫罗斯加族（Role6）可能更强壮，分配中等；其他种族（如鲁加族、拉拉菲尔族）分配基础点数。总和确保为100整数，避免极端分配以维持团队协作。\n\n### 分配决定\n- Role1 (精灵族): 15点（擅长魔法/敏捷）\n- Role2 (敖龙族): 14点（强大输出）\n- Role3 (人族): 20点（核心偏向）\n- Role4 (鲁加族): 12点（平衡支持）\n- Role5 (拉拉菲尔族): 13点（智力辅助）\n- Role6 (赫罗斯加族): 14点（耐力型）\n- Role7 (猫魅族): 12点（隐秘任务）\n\n总和：15+14+20+12+13+14+12=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 20,\n    \"Role4\": 12,\n    \"Role5\": 13,\n    \"Role6\": 14,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（race：人族）",
+            "role_obs": [
+                "人族",
+                "精灵族",
+                "鲁加族",
+                "敖龙族",
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "猫魅族"
+            ],
+            "response": "### 简要分析\n作为人族队长，我会优先考虑种族亲和度：给自己种族（Role1，人族）分配更多资源，以增强领导力和核心活动。其次，考虑其他种族的潜在特性（如精灵的敏捷、龙族的力量等），均衡分配以支持团队多样性。总资源100点，我会偏向人族，但确保所有角色都有基本点数，避免零分配以维持团队协作。分配原则：Role1得最多（20点），其余大致平均（约12-15点），调整为整数总和100。\n\n### 分配决定\n基于以上分析，以下是我的资源分配：\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 14,\n    \"Role3\": 13,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：拉拉菲尔族）",
+            "role_obs": [
+                "敖龙族",
+                "人族",
+                "精灵族",
+                "鲁加族",
+                "赫罗斯加族",
+                "拉拉菲尔族",
+                "猫魅族"
+            ],
+            "response": "### 简要分析\n作为拉拉菲尔族的队长，我会考虑队伍的多样性和平衡分配资源，以支持整体游戏活动。总共有7名队员，总资源100点，我优先确保每个队员获得至少10点作为基础支持，以促进团队协作。同时，考虑到我是拉拉菲尔族，我会稍稍偏向同族的Role6（额外分配一些点数），以体现种族亲和力。其余点数基于种族特性大致均衡分配：例如，敖龙族（Role1）适合战斗型活动，多分配一些；精灵族（Role3）和猫魅族（Role7）适合敏捷或探索，多给灵活点；人族（Role2）、鲁加族（Role4）和赫罗斯加族（Role5）作为通用型，分配中等点数。最终确保总和正好为100，且均为整数。\n\n### 我的决定\n- Role1: 18点（战斗导向）\n- Role2: 12点（通用支持）\n- Role3: 15点（探索导向）\n- Role4: 12点（通用支持）\n- Role5: 12点（通用支持）\n- Role6: 20点（同族偏向）\n- Role7: 11点（敏捷导向）\n总和：18+12+15+12+12+20+11=100\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 12,\n    \"Role6\": 20,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "（race：拉拉菲尔族）",
+            "role_obs": [
+                "敖龙族",
+                "鲁加族",
+                "精灵族",
+                "人族",
+                "猫魅族",
+                "赫罗斯加族",
+                "拉拉菲尔族"
+            ],
+            "response": "### 简要分析\n作为拉拉菲尔族的队长，我会优先考虑团队平衡和种族特性：例如，敖龙族和赫罗斯加族可能更适合高强度行动，因此分配较多点数；精灵族和猫魅族适合敏捷任务，分配中等；人族和鲁加族作为通用型，分配适中；同族的Role7（拉拉菲尔族）稍作倾斜以示亲和。总体上，确保分配公平，总和为100点，使用整数形式。\n\n### 我的决定\n- Role1 (敖龙族): 18点（强调力量型任务）\n- Role2 (鲁加族): 12点（通用支持）\n- Role3 (精灵族): 15点（敏捷探索）\n- Role4 (人族): 13点（平衡型）\n- Role5 (猫魅族): 14点（隐秘行动）\n- Role6 (赫罗斯加族): 16点（耐力型）\n- Role7 (拉拉菲尔族): 12点（同族亲和，但保持平衡）\n\n总和：18+12+15+13+14+16+12=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 13,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（race：拉拉菲尔族）",
+            "role_obs": [
+                "鲁加族",
+                "人族",
+                "拉拉菲尔族",
+                "精灵族",
+                "敖龙族",
+                "赫罗斯加族",
+                "猫魅族"
+            ],
+            "response": "### 简要分析\n作为拉拉菲尔族的队长，我会考虑队伍的多样性和平衡性。总资源为100行动点数，需要分配给7名队员。我会优先考虑种族特性：例如，同为拉拉菲尔族的Role3可能更适合智力型活动，因此分配稍多；鲁加族（Role1）和敖龙族（Role5）可能更偏向力量型，分配中等；人族（Role2）和精灵族（Role4）作为平衡型，分配适中；赫罗斯加族（Role6）和猫魅族（Role7）则偏向敏捷型，分配稍少以确保整体均衡。最终分配以整数形式，确保总和为100，避免极端不均。\n\n### 我的决定\n基于以上分析，我决定如下分配：Role1得到15点（力量支持），Role2得到14点（平衡），Role3得到18点（同族偏好），Role4得到14点（敏捷），Role5得到15点（耐力），Role6得到12点（辅助），Role7得到12点（速度）。总和为100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 12,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（race：拉拉菲尔族）",
+            "role_obs": [
+                "人族",
+                "精灵族",
+                "拉拉菲尔族",
+                "猫魅族",
+                "赫罗斯加族",
+                "鲁加族",
+                "敖龙族"
+            ],
+            "response": "### 简要分析\n作为一位拉拉菲尔族的队长，我会优先考虑团队平衡和种族特性来分配行动点数。总资源为100点，我将基于以下逻辑分配：\n- **平衡原则**：尽量平均分配，以确保每个队员都能参与活动，但略微偏向与我同族的Role3（拉拉菲尔族），因为我们有共同的种族优势（如敏捷或魔法亲和）。\n- **种族考量**：人族（Role1）通用性强，分配中等；精灵族（Role2）擅长远程/魔法，多分配些；猫魅族（Role4）灵活机动，多点；赫罗斯加族（Role5）和鲁加族（Role6）作为力量型，分配基础点；敖龙族（Role7）稀有且强大，稍多分配。\n- **总和控制**：所有分配为整数，总和精确为100。平均约14点/人，调整后：Role3多些，其他微调以平衡。\n\n### 我的决定\n- Role1: 14点（通用支持）。\n- Role2: 15点（魔法增强）。\n- Role3: 18点（同族优先，领导辅助）。\n- Role4: 15点（机动优先）。\n- Role5: 13点（力量基础）。\n- Role6: 13点（力量基础）。\n- Role7: 12点（稀有但平衡）。\n总和：14+15+18+15+13+13+12=100。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 15,\n    \"Role5\": 13,\n    \"Role6\": 13,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（race：拉拉菲尔族）",
+            "role_obs": [
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "精灵族",
+                "鲁加族",
+                "人族",
+                "猫魅族",
+                "敖龙族"
+            ],
+            "response": "### 简要分析\n作为一名拉拉菲尔族的队长，我会优先考虑团队平衡和种族亲和力。总资源为100行动点数，有7名队员，我将基于种族多样性进行分配：优先给予同种族的Role1（拉拉菲尔族）稍多资源，以体现领导偏好；其他种族（如赫罗斯加族、精灵族等）平均分配剩余点数，确保总和正好为100。分配原则是整数形式，注重公平但略带主观倾斜，避免极端不均。\n\n### 我的决定\n- Role1 (拉拉菲尔族)：分配20点，作为同种族优先。\n- Role2 (赫罗斯加族)：分配15点，适合强壮型角色。\n- Role3 (精灵族)：分配15点，适合敏捷型角色。\n- Role4 (鲁加族)：分配15点，适合耐力型角色。\n- Role5 (人族)：分配10点，平衡型。\n- Role6 (猫魅族)：分配15点，适合灵活型角色。\n- Role7 (敖龙族)：分配10点，适合特殊型角色。\n总和：20+15+15+15+10+15+10=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：拉拉菲尔族）",
+            "role_obs": [
+                "人族",
+                "猫魅族",
+                "鲁加族",
+                "敖龙族",
+                "拉拉菲尔族",
+                "精灵族",
+                "赫罗斯加族"
+            ],
+            "response": "### 队长分析（来自拉拉菲尔族的视角）\n\n哎呀，大家好！我是你们的队长，一位可爱又机智的拉拉菲尔族人（Role5也是我的同族哦~）。我们总共有100行动点数要分配给7位队员，这些点数可以用于游戏内的各种活动。我会基于每个种族的特点来分配：例如，人族（Role1）平衡可靠，适合基础任务；猫魅族（Role2）敏捷狡猾，适合探索；鲁加族（Role3）强壮耐力好，适合战斗；敖龙族（Role4）神秘强大，适合高难度挑战；拉拉菲尔族（Role5）聪明灵活（嘿嘿，我最喜欢！），适合策略；精灵族（Role6）优雅自然，适合辅助；赫罗斯加族（Role7）坚韧不拔，适合防御。\n\n我的分配原则：平均分配为基础（大约14点每个），但稍作调整——给同族的Role5多一点（因为我们拉拉菲尔族需要更多脑力支持！），战斗型种族如鲁加族和敖龙族多分配一些以应对潜在威胁，其他的平衡调整。总和保证是100点，全是整数。\n\n### 我的决定\n- Role1 (人族): 14点（平衡支持）\n- Role2 (猫魅族): 13点（敏捷探索）\n- Role3 (鲁加族): 16点（战斗主力）\n- Role4 (敖龙族): 15点（高难度任务）\n- Role5 (拉拉菲尔族): 17点（策略核心，同族加成~）\n- Role6 (精灵族): 12点（辅助角色）\n- Role7 (赫罗斯加族): 13点（防御保障）\n\n总计：14+13+16+15+17+12+13=100。完美！这能让我们的队伍在游戏中高效协作。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 13,\n    \"Role3\": 16,\n    \"Role4\": 15,\n    \"Role5\": 17,\n    \"Role6\": 12,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：拉拉菲尔族）",
+            "role_obs": [
+                "精灵族",
+                "赫罗斯加族",
+                "人族",
+                "猫魅族",
+                "拉拉菲尔族",
+                "鲁加族",
+                "敖龙族"
+            ],
+            "response": "### 简要分析\n作为一名拉拉菲尔族的队长，我需要为团队分配100行动点数，以支持游戏内的各种活动。考虑到团队的多样性（不同种族），我会优先确保分配的公平性，但作为队长，我会稍稍偏向同族的Role5（拉拉菲尔族），给予其略多点数，以体现种族亲和。同时，避免极端不均，确保每个角色至少获得10点以上，总和精确为100点（所有为整数）。分配基于假设的角色贡献：精灵族（Role1）擅长远程/魔法，给予较高点；其他角色均衡分配。\n\n### 我的决定\n- Role1 (精灵族): 18点（擅长探索/魔法活动）\n- Role2 (赫罗斯加族): 13点（力量型，适合防御）\n- Role3 (人族): 14点（平衡型，全能）\n- Role4 (猫魅族): 13点（敏捷型，适合侦察）\n- Role5 (拉拉菲尔族): 16点（同族偏好，智力型）\n- Role6 (鲁加族): 13点（耐力型，适合持久战）\n- Role7 (敖龙族): 13点（特殊能力，适合特殊任务）\n\n总计：18+13+14+13+16+13+13=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 13,\n    \"Role3\": 14,\n    \"Role4\": 13,\n    \"Role5\": 16,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：拉拉菲尔族）",
+            "role_obs": [
+                "鲁加族",
+                "敖龙族",
+                "猫魅族",
+                "精灵族",
+                "赫罗斯加族",
+                "拉拉菲尔族",
+                "人族"
+            ],
+            "response": "### 简要分析\n作为拉拉菲尔族的队长，我需要公平且战略性地分配100行动点数给7位队员。考虑到种族多样性：鲁加族（Role1）适合力量型活动，给多点用于战斗；敖龙族（Role2）和赫罗斯加族（Role5）有龙/兽人特性，适合防御/探索；猫魅族（Role3）和精灵族（Role4）敏捷，适合侦察；人族（Role7）均衡；同为拉拉菲尔族的Role6，我会稍作偏向以增强团队协作。总体上均衡分配，确保总和为100点，所有为整数，避免极端不均。\n\n### 我的决定\n- Role1: 16 (力量型，优先战斗)\n- Role2: 15 (防御型)\n- Role3: 14 (敏捷型)\n- Role4: 14 (敏捷型)\n- Role5: 15 (兽人型，探索)\n- Role6: 16 (同族，增强协作)\n- Role7: 10 (均衡型，作为后备)\n\n总和：16+15+14+14+15+16+10=100。\n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 16,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：拉拉菲尔族）",
+            "role_obs": [
+                "拉拉菲尔族",
+                "敖龙族",
+                "鲁加族",
+                "赫罗斯加族",
+                "猫魅族",
+                "精灵族",
+                "人族"
+            ],
+            "response": "### 简要分析\n作为拉拉菲尔族的队长，我会优先考虑种族亲缘性：Role1 与我同族（拉拉菲尔族），因此分配更多点数以加强团队核心。其余队员基于种族多样性（如敖龙族的强壮、精灵族的敏捷等）进行均衡分配，但避免过度倾斜，确保总和为100点。分配原则：同族优先（Role1得30点），然后均匀分给其他角色（各10-15点），以支持团队整体活动。\n\n### 我的决定\n- Role1: 30点（同族优先，核心支持）\n- Role2: 15点（敖龙族，提供力量支持）\n- Role3: 10点（鲁加族，平衡分配）\n- Role4: 10点（赫罗斯加族，平衡分配）\n- Role5: 10点（猫魅族，敏捷支持）\n- Role6: 15点（精灵族，魔法支持）\n- Role7: 10点（人族，通用支持）\n\n总计：30+15+10+10+10+15+10=100点。\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：拉拉菲尔族）",
+            "role_obs": [
+                "赫罗斯加族",
+                "敖龙族",
+                "鲁加族",
+                "猫魅族",
+                "拉拉菲尔族",
+                "精灵族",
+                "人族"
+            ],
+            "response": "### 简要分析\n作为一位拉拉菲尔族的队长，我会根据队员的种族特性进行分配（参考类似游戏如FFXIV的设定）：优先考虑多样性和平衡，但稍稍偏向与我同族的Role5（拉拉菲尔族），以体现团队凝聚力。其他种族如赫罗斯加族（强壮型）、敖龙族（敏捷型）等分配中等点数，确保总和为100。分配原则：平均分摊为主（约14点/人），但调整为突出关键角色（如Role1和Role2多些用于前线活动）。\n\n### 我的决定\n- Role1: 18点（强壮种族，适合高强度活动）\n- Role2: 16点（敏捷种族，适合探索）\n- Role3: 14点（平衡型）\n- Role4: 12点（灵活型）\n- Role5: 20点（同族，额外支持）\n- Role6: 10点（优雅型，辅助活动）\n- Role7: 10点（通用型）\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 12,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：猫魅族）",
+            "role_obs": [
+                "精灵族",
+                "拉拉菲尔族",
+                "猫魅族",
+                "敖龙族",
+                "人族",
+                "赫罗斯加族",
+                "鲁加族"
+            ],
+            "response": "### 简要分析\n作为猫魅族的队长，我需要分配100行动点数给7名队员，确保总和为100且为整数。考虑到队伍多样性（不同种族），我会优先追求平衡分配，以支持团队整体协作，但稍稍偏向同族（Role3，猫魅族）以体现种族亲和。同时，参考种族特性进行微调：精灵族（Role1）适合敏捷任务，多分配些；龙族（Role4）强大，分配中等；其他人均匀。平均每人约14点，剩余点用于调整。\n\n### 我的决定\n- Role1 (精灵族): 16点（敏捷优势）\n- Role2 (拉拉菲尔族): 14点\n- Role3 (猫魅族): 16点（同族偏好）\n- Role4 (敖龙族): 15点（力量优势）\n- Role5 (人族): 13点（平衡型）\n- Role6 (赫罗斯加族): 13点\n- Role7 (鲁加族): 13点\n\n总和：16+14+16+15+13+13+13=100。\n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 14,\n    \"Role3\": 16,\n    \"Role4\": 15,\n    \"Role5\": 13,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：猫魅族）",
+            "role_obs": [
+                "猫魅族",
+                "精灵族",
+                "鲁加族",
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "人族",
+                "敖龙族"
+            ],
+            "response": "### 简要分析\n作为猫魅族的队长，我会根据各队员的种族特性来分配行动点数，以优化团队整体表现。猫魅族（Role1）与我同族，擅长敏捷和隐秘行动，因此优先分配更多点数。精灵族（Role2）擅长魔法和远程支援，给中等分配。鲁加族（Role3）和赫罗斯加族（Role5）体型强壮，适合近战和防御，给较高分配。拉拉菲尔族（Role4）小巧灵活，但耐力较低，给较少。人族（Role6）平衡通用，给中等。敖龙族（Role7）有龙之力量，适合高强度任务，给较高。总和确保为100点，所有为整数。\n\n### 我的决定\n基于以上分析，以下是分配方案：\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（race：猫魅族）",
+            "role_obs": [
+                "拉拉菲尔族",
+                "精灵族",
+                "猫魅族",
+                "敖龙族",
+                "人族",
+                "赫罗斯加族",
+                "鲁加族"
+            ],
+            "response": "### 简要分析\n作为猫魅族的队长，我会优先考虑同族的队员（Role3），因为我们猫魅族在游戏中以敏捷和策略著称，需要更多行动点来执行关键任务。因此，我会分配稍多点数给Role3（20点），剩余80点平均分配给其他6名队员（每人约13-14点），以确保团队平衡。调整后总和正好为100点，确保公平性和实用性。\n\n### 我的决定\n- Role1 (拉拉菲尔族): 13点（适合小型任务的灵活性）\n- Role2 (精灵族): 14点（用于远程支援）\n- Role3 (猫魅族): 20点（优先同族，增强核心行动）\n- Role4 (敖龙族): 13点（防御型分配）\n- Role5 (人族): 14点（通用平衡）\n- Role6 (赫罗斯加族): 13点（力量型任务）\n- Role7 (鲁加族): 13点（辅助角色）\n\n```json\n{\n    \"Role1\": 13,\n    \"Role2\": 14,\n    \"Role3\": 20,\n    \"Role4\": 13,\n    \"Role5\": 14,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：猫魅族）",
+            "role_obs": [
+                "猫魅族",
+                "人族",
+                "拉拉菲尔族",
+                "敖龙族",
+                "鲁加族",
+                "精灵族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为猫魅族队长，我会优先考虑种族亲缘性：Role1（同为猫魅族）将获得更多资源以加强领导核心。其余角色基于种族多样性进行相对均衡分配，确保团队整体平衡（例如，人族和精灵族可能更灵活，敖龙族和鲁加族更具战斗力）。总点数控制在100，平均约14点/人，但调整为整数以突出关键角色。\n\n### 我的决定\n- Role1 (猫魅族)：分配25点，作为同族优先支持。\n- Role2 (人族)：分配15点，平衡人类适应性。\n- Role3 (拉拉菲尔族)：分配12点，适合辅助角色。\n- Role4 (敖龙族)：分配15点，强调龙族力量。\n- Role5 (鲁加族)：分配13点，支持鲁加族的耐力。\n- Role6 (精灵族)：分配10点，注重精灵的敏捷。\n- Role7 (赫罗斯加族)：分配10点，维持团队多样性。\n总和：25+15+12+15+13+10+10=100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 13,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：猫魅族）",
+            "role_obs": [
+                "人族",
+                "敖龙族",
+                "鲁加族",
+                "赫罗斯加族",
+                "拉拉菲尔族",
+                "猫魅族",
+                "精灵族"
+            ],
+            "response": "### 简要分析\n作为猫魅族的队长，我会优先考虑种族亲缘性和战略平衡。猫魅族（Role6）是我的同族，因此分配更多点数以增强团队核心。其他种族如人族（Role1）作为基础力量，敖龙族（Role2）作为强力输出，鲁加族（Role3）和赫罗斯加族（Role4）作为坦克型，拉拉菲尔族（Role5）作为敏捷辅助，精灵族（Role7）作为远程支援。我会均匀分配剩余点数，确保总和为100点整数，避免极端不均以维持团队和谐。\n\n### 我的决定\n- Role1 (人族): 12点（基础平衡）\n- Role2 (敖龙族): 15点（输出优先）\n- Role3 (鲁加族): 14点（坦克支持）\n- Role4 (赫罗斯加族): 14点（坦克支持）\n- Role5 (拉拉菲尔族): 13点（敏捷辅助）\n- Role6 (猫魅族): 20点（同族优先，核心增强）\n- Role7 (精灵族): 12点（远程平衡）\n\n总计：12+15+14+14+13+20+12=100\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 13,\n    \"Role6\": 20,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（race：猫魅族）",
+            "role_obs": [
+                "人族",
+                "猫魅族",
+                "精灵族",
+                "拉拉菲尔族",
+                "敖龙族",
+                "鲁加族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为猫魅族队长，我会考虑种族特性来分配行动点数，以优化团队整体表现。假设游戏中不同种族有独特优势：人族（Role1）平衡通用；猫魅族（Role2）敏捷机动（同族优先多分配）；精灵族（Role3）魔法远程；拉拉菲尔族（Role4）狡猾辅助；敖龙族（Role5）力量近战；鲁加族（Role6）耐力坦克；赫罗斯加族（Role7）野性爆发。我会偏向同族和关键角色（如坦克和输出），确保总和为100点，平衡分配以覆盖多种活动。\n\n### 我的决定\n- Role1 (人族)：14点（通用支持）。\n- Role2 (猫魅族)：20点（同族优先，增强机动）。\n- Role3 (精灵族)：15点（魔法输出）。\n- Role4 (拉拉菲尔族)：12点（辅助角色）。\n- Role5 (敖龙族)：15点（近战力量）。\n- Role6 (鲁加族)：14点（坦克耐力）。\n- Role7 (赫罗斯加族)：10点（爆发补充）。\n\n总计：14+20+15+12+15+14+10=100。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：猫魅族）",
+            "role_obs": [
+                "人族",
+                "赫罗斯加族",
+                "猫魅族",
+                "敖龙族",
+                "拉拉菲尔族",
+                "鲁加族",
+                "精灵族"
+            ],
+            "response": "### 简要分析\n作为猫魅族的队长，我会优先考虑队伍的平衡性和种族特性来分配行动点数。猫魅族（Role3）作为同族，擅长敏捷和隐秘活动，因此分配较多点数以发挥领导作用；人族（Role1）和精灵族（Role7）较为平衡，适合通用任务；赫罗斯加族（Role2）和鲁加族（Role6）偏向力量型，分配适中用于防御；敖龙族（Role4）和拉拉菲尔族（Role5）则更注重特殊技能，如魔法或技巧，分配相应点数。总和确保为100点，平均分配但略偏向核心成员，以优化团队整体效率。\n\n### 我的决定\n- Role1 (人族): 15点 - 平衡支持。\n- Role2 (赫罗斯加族): 12点 - 力量辅助。\n- Role3 (猫魅族): 20点 - 同族优先，领导核心。\n- Role4 (敖龙族): 14点 - 特殊技能强化。\n- Role5 (拉拉菲尔族): 10点 - 技巧型补充。\n- Role6 (鲁加族): 13点 - 防御担当。\n- Role7 (精灵族): 16点 - 智慧与远程支持。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 14,\n    \"Role5\": 10,\n    \"Role6\": 13,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（race：猫魅族）",
+            "role_obs": [
+                "赫罗斯加族",
+                "精灵族",
+                "鲁加族",
+                "敖龙族",
+                "人族",
+                "猫魅族",
+                "拉拉菲尔族"
+            ],
+            "response": "### 简要分析\n作为猫魅族的队长，我会根据每个队员的种族特点和团队平衡来分配行动点数。猫魅族（Role6）是我的同族，擅长敏捷和隐秘行动，因此优先分配更多点数以增强核心能力。其他种族的分配考虑多样性：赫罗斯加族（Role1）强壮适合防御，精灵族（Role2）擅长魔法，鲁加族（Role3）力量型，敖龙族（Role4）平衡型，人族（Role5）通用，拉拉菲尔族（Role7）小巧机敏。总和为100点，确保均衡但略偏向同族。\n\n### 我的决定\n- Role1: 15点（防御支持）\n- Role2: 12点（魔法辅助）\n- Role3: 14点（力量输出）\n- Role4: 13点（平衡作战）\n- Role5: 10点（通用任务）\n- Role6: 20点（同族优先，敏捷核心）\n- Role7: 16点（机敏侦察）\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 13,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（race：猫魅族）",
+            "role_obs": [
+                "人族",
+                "精灵族",
+                "猫魅族",
+                "鲁加族",
+                "敖龙族",
+                "赫罗斯加族",
+                "拉拉菲尔族"
+            ],
+            "response": "### 简要分析\n作为猫魅族的队长，我会优先考虑种族特性与团队平衡：猫魅族（Role3）作为同族，分配更多点数以增强敏捷和领导力；人族（Role1）作为基础平衡角色，分配中等；精灵族（Role2）适合魔法支持，分配稍多；其他种族如鲁加族（Role4，可能强壮型）、敖龙族（Role5，可能龙系力量）、赫罗斯加族（Role6，可能特殊能力）、拉拉菲尔族（Role7，可能可爱辅助型）分配剩余点数，确保总和为100。分配原则：偏向同族和关键支持角色，避免极端不均。\n\n### 我的决定\n- Role1: 15点（平衡基础）\n- Role2: 18点（魔法增强）\n- Role3: 25点（同族优先）\n- Role4: 12点（力量支持）\n- Role5: 10点（特殊能力）\n- Role6: 10点（辅助）\n- Role7: 10点（剩余分配）\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 25,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：猫魅族）",
+            "role_obs": [
+                "鲁加族",
+                "赫罗斯加族",
+                "敖龙族",
+                "猫魅族",
+                "精灵族",
+                "人族",
+                "拉拉菲尔族"
+            ],
+            "response": "### 简要分析\n作为猫魅族队长，我会优先考虑种族亲缘性和游戏平衡：我的同族Role4（猫魅族）将获得更多行动点数以增强团队领导力；其他种族（如鲁加族和赫罗斯加族作为战士型，敖龙族作为敏捷型，精灵族作为魔法型，人族作为通用型，拉拉菲尔族作为辅助型）将根据潜在贡献均匀分配剩余点数，确保总和为100。分配原则：整数形式，偏向多样性和公平，但略微倾斜向猫魅族。\n\n### 我的决定\n- Role1 (鲁加族): 15点（强壮战士型，适合前线行动）\n- Role2 (赫罗斯加族): 15点（类似战士，增强防御）\n- Role3 (敖龙族): 14点（敏捷型，适合侦察）\n- Role4 (猫魅族): 20点（同族优先，领导核心）\n- Role5 (精灵族): 12点（魔法支持）\n- Role6 (人族): 12点（通用平衡）\n- Role7 (拉拉菲尔族): 12点（辅助和策略）\n\n总计：15+15+14+20+12+12+12=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 20,\n    \"Role5\": 12,\n    \"Role6\": 12,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（race：鲁加族）",
+            "role_obs": [
+                "人族",
+                "敖龙族",
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "精灵族",
+                "猫魅族",
+                "鲁加族"
+            ],
+            "response": "### 简要分析\n作为鲁加族的队长，我需要分配100行动点数给7名队员，以支持游戏内的活动。考虑到种族多样性，我会优先考虑平衡分配，但由于我是鲁加族，会略微偏向同族的Role7（多分配一些点数以增强领导力）。其他种族（如人族、精灵族等）假设有通用能力，因此平均分配基础点数（约14点/人），并调整剩余点数以确保总和为100。分配原则：整数形式、最小0点、总和精确100，避免过度集中。\n\n### 我的决定\n- Role1 (人族)：14点（基础平衡）。\n- Role2 (敖龙族)：14点（假设龙族有较强战斗潜力）。\n- Role3 (拉拉菲尔族)：14点（小型种族，适合侦察）。\n- Role4 (赫罗斯加族)：14点（未知特性，标准分配）。\n- Role5 (精灵族)：14点（擅长魔法或自然活动）。\n- Role6 (猫魅族)：14点（敏捷型，适合潜行）。\n- Role7 (鲁加族)：16点（同族偏好，多2点以强化核心）。\n\n总计：14*6 + 16 = 84 + 16 = 100。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（race：鲁加族）",
+            "role_obs": [
+                "拉拉菲尔族",
+                "人族",
+                "精灵族",
+                "鲁加族",
+                "猫魅族",
+                "敖龙族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为鲁加族的队长，我会根据每个队员的种族特性来分配行动点数，以优化团队整体表现。假设鲁加族（Role4）是力量型，适合高强度行动，因此分配更多；人族（Role2）平衡，分配中等；精灵族（Role3）和猫魅族（Role5）敏捷型，适合探索；拉拉菲尔族（Role1）小巧，适合辅助；敖龙族（Role6）和赫罗斯加族（Role7）稀有/特殊，分配适中以平衡。总点数100，确保整数分配，优先同族并均匀分布以避免资源浪费。\n\n### 我的决定\n- Role1: 10点（辅助型，少量即可）\n- Role2: 15点（平衡型，中等）\n- Role3: 15点（敏捷型，中等）\n- Role4: 20点（同族，优先高分配）\n- Role5: 15点（敏捷型，中等）\n- Role6: 12点（特殊型，适中）\n- Role7: 13点（特殊型，适中）\n总和：10+15+15+20+15+12+13=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 12,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：鲁加族）",
+            "role_obs": [
+                "敖龙族",
+                "人族",
+                "猫魅族",
+                "精灵族",
+                "拉拉菲尔族",
+                "赫罗斯加族",
+                "鲁加族"
+            ],
+            "response": "### 简要分析\n作为鲁加族队长，我会优先考虑种族特性与团队平衡：鲁加族（Role7）作为同族，适合领导型任务，分配较多点数；敖龙族（Role1）强壮，适合战斗；人族（Role2）适应性强，平衡分配；猫魅族（Role3）敏捷，适合侦察；精灵族（Role4）智慧，适合魔法；拉拉菲尔族（Role5）机灵，适合辅助；赫罗斯加族（Role6）力量型，适合重型任务。为了团队整体效率，我会略微偏向力量型种族（如鲁加族和敖龙族），并确保分配均衡，总和为100点（整数）。\n\n### 决定\n- Role1: 18 (强调战斗力)\n- Role2: 12 (平衡适应)\n- Role3: 13 (敏捷任务)\n- Role4: 14 (智慧支持)\n- Role5: 12 (辅助角色)\n- Role6: 15 (力量输出)\n- Role7: 16 (同族优先)\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 13,\n    \"Role4\": 14,\n    \"Role5\": 12,\n    \"Role6\": 15,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（race：鲁加族）",
+            "role_obs": [
+                "拉拉菲尔族",
+                "人族",
+                "敖龙族",
+                "鲁加族",
+                "精灵族",
+                "赫罗斯加族",
+                "猫魅族"
+            ],
+            "response": "### 简要分析\n作为鲁加族的队长，我会优先考虑种族多样性和平衡分配，以确保团队整体实力。鲁加族（Role4）作为同族，会获得略高分配以体现领导偏好；其他种族根据典型游戏特性（如拉拉菲尔族的敏捷、人族的平衡、敖龙族的耐力、精灵族的魔法、赫罗斯加族的力量、猫魅族的速度）进行调整，但保持公平。总点数为100，平均约14点/人，微调以突出关键角色。\n\n### 我的决定\n- Role1 (拉拉菲尔族): 12点（适合敏捷任务）\n- Role2 (人族): 15点（平衡型，支持核心活动）\n- Role3 (敖龙族): 14点（耐力型，适合持久战）\n- Role4 (鲁加族): 18点（同族优先，领导角色）\n- Role5 (精灵族): 13点（魔法支持）\n- Role6 (赫罗斯加族): 15点（力量型，前线）\n- Role7 (猫魅族): 13点（速度型，侦察）\n\n总和：12+15+14+18+13+15+13=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 18,\n    \"Role5\": 13,\n    \"Role6\": 15,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：鲁加族）",
+            "role_obs": [
+                "敖龙族",
+                "精灵族",
+                "鲁加族",
+                "人族",
+                "拉拉菲尔族",
+                "猫魅族",
+                "赫罗斯加族"
+            ],
+            "response": "### 简要分析\n作为鲁加族的队长，我会优先考虑团队平衡和种族特性进行分配：鲁加族（Role3）作为同族，分配稍多以体现领导力；敖龙族（Role1）和赫罗斯加族（Role7）作为强壮型种族，适合战斗活动，分配中等；精灵族（Role2）和猫魅族（Role6）灵活敏捷，适合探索；人族（Role4）和拉拉菲尔族（Role5）通用型，分配基础点数。总体上力求均衡，总和为100点，确保整数分配。\n\n### 我的决定\n- Role1: 15（  (战斗型，需较多行动点)\n- Role2: 14\n- Role3: 18  (同族优先)\n- Role4: 12  (通用型)\n- Role5: 12\n- Role6: 14\n- Role7: 15  (强壮型)\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 12,\n    \"Role6\": 14,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（race：鲁加族）",
+            "role_obs": [
+                "精灵族",
+                "赫罗斯加族",
+                "猫魅族",
+                "拉拉菲尔族",
+                "人族",
+                "鲁加族",
+                "敖龙族"
+            ],
+            "response": "### 简要分析\n作为鲁加族的队长，我会优先考虑团队的整体平衡和我的种族偏好。鲁加族（Role6）是我的同族，因此我会分配更多资源以加强领导核心。人族（Role5）作为中立且适应性强的种族，也会获得较高分配。精灵族（Role1）适合敏捷任务，猫魅族（Role3）和拉拉菲尔族（Role4）偏向辅助，赫罗斯加族（Role2）和敖龙族（Role7）则更注重力量或特殊能力。我会根据这些特性分配资源，确保总和为100点，整数形式，以最大化团队效率。\n\n### 我的决定\n基于以上分析，我决定如下分配行动点数：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 13,\n    \"Role4\": 11,\n    \"Role5\": 18,\n    \"Role6\": 20,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（race：鲁加族）",
+            "role_obs": [
+                "鲁加族",
+                "精灵族",
+                "人族",
+                "猫魅族",
+                "赫罗斯加族",
+                "拉拉菲尔族",
+                "敖龙族"
+            ],
+            "response": "### 简要分析\n作为鲁加族的队长，我会优先考虑同族成员（Role1），因为在游戏中，同族通常有更好的协同性和忠诚度，因此分配更多行动点数给他以增强领导力。其余角色基于不同种族的多样性（如精灵族的敏捷、人族的平衡等），我会尽量均匀分配，以维持团队平衡。总点数为100，确保整数分配，总和精确为100。优先Role1分配20点，其余6名角色各分配13-14点（具体调整以凑整）。\n\n### 我的决定\n- Role1 (鲁加族): 20点（优先同族）\n- Role2 (精灵族): 14点\n- Role3 (人族): 14点\n- Role4 (猫魅族): 13点\n- Role5 (赫罗斯加族): 13点\n- Role6 (拉拉菲尔族): 13点\n- Role7 (敖龙族): 13点\n\n总和：20 + 14 + 14 + 13 + 13 + 13 + 13 = 100\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 13,\n    \"Role5\": 13,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（race：鲁加族）",
+            "role_obs": [
+                "精灵族",
+                "鲁加族",
+                "人族",
+                "赫罗斯加族",
+                "猫魅族",
+                "拉拉菲尔族",
+                "敖龙族"
+            ],
+            "response": "### 简要分析\n作为鲁加族的队长，我会优先考虑团队平衡和种族特性进行分配：精灵族（Role1）适合敏捷任务，给较高点数；同为鲁加族（Role2）是我信任的伙伴，给最多点数以加强核心战斗力；人族（Role3）平衡性好，给中等点数；赫罗斯加族（Role4）假设为力量型，给较高点数；猫魅族（Role5）灵活，给中等；拉拉菲尔族（Role6）聪明但体型小，给较少；敖龙族（Role7）强大但可能消耗大，给中等。总和确保为100点，分配以整数形式，偏向战斗和探索效率。\n\n### 我的决定\n基于以上分析，我决定如下分配：\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 13,\n    \"Role6\": 10,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（race：鲁加族）",
+            "role_obs": [
+                "赫罗斯加族",
+                "拉拉菲尔族",
+                "鲁加族",
+                "人族",
+                "敖龙族",
+                "精灵族",
+                "猫魅族"
+            ],
+            "response": "### 简要分析\n作为鲁加族的队长，我会优先考虑种族亲缘性和游戏策略。鲁加族（Role3）是我的同族，因此分配更多点数以增强核心实力；其他种族根据典型特性分配：赫罗斯加族（Role1）适合近战，分配中等；拉拉菲尔族（Role2）小巧敏捷，适合侦察，分配较少；人族（Role4）平衡通用，分配中等；敖龙族（Role5）强壮耐力，分配较多；精灵族（Role6）魔法专精，分配中等；猫魅族（Role7）敏捷隐秘，分配中等。总和确保为100点，整数分配，旨在平衡团队整体行动效率。\n\n### 我的决定\n基于以上分析，我决定如下分配：Role3（同族）获得最高点数以领导行动，其他角色根据潜力分摊剩余点数。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 25,\n    \"Role4\": 12,\n    \"Role5\": 18,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（race：鲁加族）",
+            "role_obs": [
+                "敖龙族",
+                "拉拉菲尔族",
+                "人族",
+                "猫魅族",
+                "赫罗斯加族",
+                "鲁加族",
+                "精灵族"
+            ],
+            "response": "### 简要分析\n作为鲁加族的队长，我会优先考虑团队平衡和种族特性进行分配。鲁加族（Role6）是我的同族，因此分配稍多一些以体现领导力；其他种族如敖龙族（Role1）和赫罗斯加族（Role5）适合战斗任务，分配中等；拉拉菲尔族（Role2）和猫魅族（Role4）更灵活，分配适中；人族（Role3）和精灵族（Role7）作为通用型，分配基础点数。总和确保为100点，所有分配为整数。\n\n### 我的决定\n- Role1: 15点（战斗型种族，分配中等）\n- Role2: 12点（灵活型，适中）\n- Role3: 10点（通用型，基础）\n- Role4: 13点（敏捷型，适中）\n- Role5: 15点（强壮型，中等）\n- Role6: 20点（同族，优先）\n- Role7: 15点（魔法型，中等）\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 10,\n    \"Role4\": 13,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        }
+    ]
+}

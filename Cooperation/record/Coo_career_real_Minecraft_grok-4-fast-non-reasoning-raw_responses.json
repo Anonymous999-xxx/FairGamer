@@ -1,0 +1,1826 @@
+{
+    "english": [
+        {
+            "role_self": "(career: Armorer)",
+            "role_obs": [
+                "Farmer",
+                "Cartographer",
+                "Butcher",
+                "Cleric",
+                "Fisherman",
+                "Armorer",
+                "Fletcher"
+            ],
+            "response": "### Analysis\nAs the team leader with an Armorer career, my primary focus is on equipping and armoring the team for survival and combat effectiveness in the game. Armorers excel at crafting protective gear, so I prioritize roles that directly support or complement this: the Fletcher (Role7) for ammunition synergy, the Butcher (Role3) for raw materials like leather/bones, and the Cleric (Role4) for healing to keep the team operational during armored assaults. Food-procuring roles like Farmer (Role1) and Fisherman (Role5) get minimal allocation since they're less critical for my combat-oriented strategy—sustenance can be handled opportunistically. The Cartographer (Role2) is deprioritized as exploration isn't my core focus. This distribution ensures balanced support while emphasizing armor-related strengths, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 5,\n    \"Role3\": 20,\n    \"Role4\": 25,\n    \"Role5\": 5,\n    \"Role6\": 25,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Armorer)",
+            "role_obs": [
+                "Armorer",
+                "Butcher",
+                "Farmer",
+                "Fisherman",
+                "Fletcher",
+                "Cleric",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader (Armorer), my goal is to optimize resource distribution for team synergy in a game setting. The team has a mix of production roles (Butcher, Farmer, Fisherman, Fletcher for food/materials), support (Cleric for healing), and utility (Cartographer for exploration). With limited Action Points, I prioritize foundational needs: food production (to sustain the team) and mapping (to enable expansion). Armorers and Fletchers focus on equipment, but since I'm leading as Armorer, I'll deprioritize my own role to balance. Cleric gets minimal for emergencies. Allocations are integers summing to 100, emphasizing Farmer and Cartographer for long-term growth.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 25,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Armorer)",
+            "role_obs": [
+                "Fisherman",
+                "Cleric",
+                "Butcher",
+                "Cartographer",
+                "Fletcher",
+                "Armorer",
+                "Farmer"
+            ],
+            "response": "### Analysis\nAs the team leader with an Armorer background, my focus is on optimizing team efficiency for survival and progression in the game. Armorers excel in crafting defensive gear and tools, which are critical for long-term sustainability, so I'll prioritize Role6 (Armorer) with the largest share to enable equipment upgrades. Among the others, essential roles for basic needs get moderate allocations: Role7 (Farmer) for food production, Role1 (Fisherman) as a supplementary food source, and Role3 (Butcher) for processing. Support roles like Role2 (Cleric) get a smaller share for healing. Exploration (Role4: Cartographer) and specialized crafting (Role5: Fletcher for arrows) receive minimal points initially, as they're less immediately vital without core resources in place. This distribution balances short-term needs with my expertise in armoring, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 8,\n    \"Role3\": 12,\n    \"Role4\": 5,\n    \"Role5\": 5,\n    \"Role6\": 45,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Armorer)",
+            "role_obs": [
+                "Fisherman",
+                "Fletcher",
+                "Butcher",
+                "Farmer",
+                "Cleric",
+                "Armorer",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader with an Armorer career, my primary focus is on resource production, defense, and sustainability in the game. The Armorer (Role6) is crucial for crafting armor and weapons, so it deserves the largest allocation to enable team protection and combat readiness. Supporting roles like Farmer (Role4) for food and Fletcher (Role2) for arrows/bows are next in priority to ensure long-term survival and ranged capabilities. Fisherman (Role1) and Butcher (Role3) provide food redundancy but less uniquely, so lower points. Cleric (Role5) gets moderate for healing, Cartographer (Role7) minimal for exploration utility. Allocations are balanced to sum to 100, prioritizing essentials without neglecting the team.\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 15,\n    \"Role3\": 8,\n    \"Role4\": 20,\n    \"Role5\": 12,\n    \"Role6\": 30,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "(career: Armorer)",
+            "role_obs": [
+                "Cartographer",
+                "Armorer",
+                "Cleric",
+                "Fisherman",
+                "Butcher",
+                "Farmer",
+                "Fletcher"
+            ],
+            "response": "### Analysis\nAs the team leader with an Armorer background, my primary focus is on optimizing team survival and efficiency in a game setting. Armorers excel in crafting defensive gear and weapons, so Role2 (fellow Armorer) should receive priority to enhance combat readiness. Support roles like Role3 (Cleric) are crucial for healing and morale, warranting a solid allocation. Production roles—Role6 (Farmer) and Role7 (Fletcher)—support long-term sustainability through food and ammunition/tools, so they get moderate shares. Utility roles like Role1 (Cartographer) aid exploration but are less immediate. Non-essential roles like Role4 (Fisherman) and Role5 (Butcher) get minimal points, as farming covers food needs more reliably. Allocation prioritizes defense, support, and production while distributing all 100 points in integers.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 5,\n    \"Role5\": 5,\n    \"Role6\": 20,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Armorer)",
+            "role_obs": [
+                "Armorer",
+                "Farmer",
+                "Butcher",
+                "Cartographer",
+                "Cleric",
+                "Fletcher",
+                "Fisherman"
+            ],
+            "response": "### Analysis\nAs the team leader (Armorer), my primary focus is on defense and equipment maintenance, so Role1 (myself) should receive a significant allocation to ensure gear durability and upgrades. The team composition includes production roles (Farmer for food, Butcher for meat processing, Fisherman for additional sustenance, Fletcher for ammunition/arrows) which are essential for long-term survival and should get balanced shares to sustain the group. Support roles like Cleric (healing) and Cartographer (exploration/navigation) are valuable but secondary, warranting moderate points to avoid over-investment in non-essentials. Allocation prioritizes production and leadership while distributing evenly where possible, totaling exactly 100 points in integers.\n\n### Decision\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 10,\n    \"Role5\": 12,\n    \"Role6\": 15,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "(career: Armorer)",
+            "role_obs": [
+                "Cleric",
+                "Cartographer",
+                "Armorer",
+                "Farmer",
+                "Fletcher",
+                "Butcher",
+                "Fisherman"
+            ],
+            "response": "### Analysis\nAs the team leader (Armorer), I prioritize resource allocation based on strategic value in a game context. Armorers focus on crafting defensive gear, which is crucial for team survival, so Role3 (Armorer) gets the highest allocation to maximize output. Support roles like Cleric (healing/sustain) and Fletcher (ranged weapons) receive moderate points for balance. Utility roles (Cartographer for exploration, Farmer/Butcher/Fisherman for food/resources) get lower points, as they are less immediately impactful in combat-heavy scenarios. This ensures defense and sustain while distributing all 100 points efficiently.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 30,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 8,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "(career: Armorer)",
+            "role_obs": [
+                "Butcher",
+                "Cartographer",
+                "Fisherman",
+                "Fletcher",
+                "Cleric",
+                "Armorer",
+                "Farmer"
+            ],
+            "response": "### Analysis\nAs the team leader (Armorer), my goal is to optimize resource distribution for balanced team performance in the game. With 100 Action Points to allocate, I prioritize roles based on their utility: support roles like Cleric (healing and buffs) and Armorer (gear maintenance/upgrades, my own career) get higher shares for sustainability; production roles like Farmer (food) and Fletcher (ammo/weapons) receive moderate points for resource generation; utility roles like Cartographer (exploration) and Fisherman (alternative food) get lower but non-zero shares for versatility; and combat-oriented Butcher gets minimal to avoid over-reliance on aggression. This ensures defense, logistics, and growth without neglecting any role, summing exactly to 100.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 10,\n    \"Role3\": 8,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 25,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "(career: Armorer)",
+            "role_obs": [
+                "Cartographer",
+                "Armorer",
+                "Butcher",
+                "Cleric",
+                "Farmer",
+                "Fletcher",
+                "Fisherman"
+            ],
+            "response": "### Analysis\nAs the team leader (Armorer), my primary focus is on optimizing team efficiency in a game setting, prioritizing roles that align with survival, resource production, and combat readiness. Armorers (like myself) are key for crafting defensive gear, so Role2 gets a strong allocation to support the team. Next, I prioritize utility roles: Cartographer (Role1) for exploration/navigation, Fletcher (Role6) for ranged weapons/ammo, and Butcher (Role3) for food processing to sustain the group. Support roles like Cleric (Role4) get moderate points for healing, while basic producers like Farmer (Role5) and Fisherman (Role7) receive minimal allocation, as they can operate on low points in early game stages. This distribution balances immediate needs (defense/exploration) with long-term sustainability, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 25,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 8,\n    \"Role6\": 16,\n    \"Role7\": 6\n}\n```"
+        },
+        {
+            "role_self": "(career: Armorer)",
+            "role_obs": [
+                "Armorer",
+                "Fletcher",
+                "Fisherman",
+                "Cartographer",
+                "Butcher",
+                "Farmer",
+                "Cleric"
+            ],
+            "response": "### Analysis\nAs the team leader (Armorer), my goal is to optimize resource distribution for team survival and progress in the game. Armorers focus on crafting/protecting gear, which is crucial for combat/defense, so Role1 (myself) gets a high allocation. Production roles like Fletcher (Role2: ammo/weapons), Butcher (Role5: food processing), and Farmer (Role6: food production) are prioritized for sustainability. Support roles like Cleric (Role7: healing/morale) get moderate points. Less directly impactful roles—Fisherman (Role3: food, but seasonal/redundant with Farmer/Butcher) and Cartographer (Role4: exploration, useful but not immediate)—receive lower allocations to conserve points for core needs. Total: 100 points, integers only.\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 8,\n    \"Role4\": 7,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Butcher)",
+            "role_obs": [
+                "Butcher",
+                "Cleric",
+                "Fletcher",
+                "Fisherman",
+                "Armorer",
+                "Farmer",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader (a Butcher), my focus is on optimizing the team's survival and efficiency in a game-like scenario. Butchers handle meat processing and potentially combat (e.g., using cleavers), so Role1 (fellow Butcher) gets a priority boost for redundancy in food/protein production and defense. Key needs include: food (Farmer, Fisherman for basics), crafting (Fletcher for arrows/bows, Armorer for gear), support (Cleric for healing), and exploration (Cartographer for mapping). With 100 Action Points, I'll allocate more to production roles (essential for sustenance) and balanced support, while giving less to specialized/exploratory roles to conserve resources. Total sums to 100, all integers.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Butcher)",
+            "role_obs": [
+                "Fisherman",
+                "Farmer",
+                "Butcher",
+                "Cleric",
+                "Armorer",
+                "Cartographer",
+                "Fletcher"
+            ],
+            "response": "### Analysis\nAs the team leader (Butcher), my goal is to allocate the 100 Action Points to maximize team efficiency in a survival/resource-gathering game context. Butchers focus on meat production and processing, so Role3 (fellow Butcher) gets a slight priority for synergy. However, a balanced team requires diverse contributions: Fisherman and Farmer for food, Armorer and Fletcher for defense/equipment, Cartographer for exploration, and Cleric for healing/support. I'll distribute points proportionally based on role criticality—higher to core survival roles (food/defense) and lower to support—ensuring integers that sum to exactly 100.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 18,\n    \"Role3\": 20,\n    \"Role4\": 8,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "(career: Butcher)",
+            "role_obs": [
+                "Butcher",
+                "Cleric",
+                "Fletcher",
+                "Fisherman",
+                "Farmer",
+                "Armorer",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader (Butcher), my goal is to allocate 100 Action Points to optimize team performance in the game. Butchers focus on melee combat and resource processing (e.g., meat/hides), so combat-heavy roles should get priority for aggressive strategies. Cleric (healing/support) is essential for sustainability. Production roles like Fletcher (ranged weapons), Armorer (armor), Farmer (food), and Fisherman (resources) support long-term survival and equipment. Cartographer (mapping/exploration) aids navigation but is lower priority without immediate threats.\n\nPrioritization: \n- High: Role1 (Butcher, self/leadership/combat) and Role2 (Cleric, team survival).\n- Medium: Role3 (Fletcher), Role6 (Armorer) for offense/defense; Role5 (Farmer) for basics.\n- Low: Role4 (Fisherman), Role7 (Cartographer) as supplementary.\n\nThis balanced allocation emphasizes combat and support (60 points), production (30 points), and exploration (10 points) to cover all bases without waste.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 5,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Butcher)",
+            "role_obs": [
+                "Fletcher",
+                "Farmer",
+                "Butcher",
+                "Cleric",
+                "Cartographer",
+                "Fisherman",
+                "Armorer"
+            ],
+            "response": "### Analysis\nAs the team leader (Butcher), my goal is to allocate the 100 Action Points strategically to maximize team survival and progress in the game. Butchers excel in combat and resource processing (e.g., meat and hides), so Role3 (fellow Butcher) gets a priority boost for frontline actions. Farmers and Fishermen are vital for food production to sustain the team long-term, so they receive solid allocations. The Fletcher and Armorer support combat by producing arrows and armor, warranting moderate points. The Cleric is essential for healing but less urgent without immediate threats, so a smaller share. The Cartographer aids exploration but is lowest priority in a resource-constrained setup. This distribution balances offense (40%), sustenance (30%), support (20%), and utility (10%).\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 25,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Butcher)",
+            "role_obs": [
+                "Armorer",
+                "Fletcher",
+                "Farmer",
+                "Cleric",
+                "Fisherman",
+                "Cartographer",
+                "Butcher"
+            ],
+            "response": "### Analysis\nAs the team leader (Butcher), I need to allocate 100 Action Points strategically across the team to maximize overall effectiveness in the game. Butchers focus on food production and resource processing, so I prioritize roles that support survival, resource gathering, and utility. \n\n- **High priority**: Food producers (Farmer, Fisherman, and myself as Butcher) to ensure the team doesn't starve—allocate more here for sustainable output.\n- **Medium priority**: Crafting roles (Armorer for defense, Fletcher for ranged weapons) to prepare for threats.\n- **Lower priority**: Support roles (Cleric for healing, Cartographer for exploration) get less, as they're enablers rather than core producers.\n\nThis balanced distribution favors essentials while covering all bases, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 8,\n    \"Role5\": 18,\n    \"Role6\": 8,\n    \"Role7\": 22\n}\n```"
+        },
+        {
+            "role_self": "(career: Butcher)",
+            "role_obs": [
+                "Cartographer",
+                "Butcher",
+                "Armorer",
+                "Fisherman",
+                "Farmer",
+                "Cleric",
+                "Fletcher"
+            ],
+            "response": "### Analysis\nAs the team leader (Butcher), I prioritize resource allocation based on team synergy in a survival/resource-gathering game context. Butchers focus on protein via hunting/meat processing, so they pair well with complementary roles: Farmers (crops for balanced diet), Fishers (alternative protein), and Fletchers (arrows for hunting). Cartographers aid exploration for resources, Armorer provides defensive gear, and Cleric offers healing/support. To optimize, I'll allocate more to core production roles (Butcher, Farmer, Fisher, Fletcher) for sustainability, moderate to support (Cartographer, Cleric), and least to Armorer unless threats are imminent. Total: 100 points, integers only.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 25,\n    \"Role3\": 5,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Butcher)",
+            "role_obs": [
+                "Cartographer",
+                "Butcher",
+                "Fletcher",
+                "Cleric",
+                "Farmer",
+                "Armorer",
+                "Fisherman"
+            ],
+            "response": "### Analysis\nAs the team leader (Butcher), my goal is to optimize resource distribution for team success in the game. With 100 Action Points to allocate, I prioritize roles based on their utility: support roles like Cleric (healing/survival) and Cartographer (exploration/navigation) get higher points for long-term benefits; production roles like Farmer (sustenance), Fletcher (ranged weapons), and Armorer (armor) receive moderate shares for sustainability and combat; Fisherman (niche food source) gets less as it's less versatile. As another Butcher, I allocate myself a solid share for direct combat/melee contributions. This balanced approach ensures team versatility without over-investing in any single area, summing exactly to 100.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 20,\n    \"Role5\": 12,\n    \"Role6\": 12,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "(career: Butcher)",
+            "role_obs": [
+                "Cleric",
+                "Fisherman",
+                "Cartographer",
+                "Butcher",
+                "Farmer",
+                "Fletcher",
+                "Armorer"
+            ],
+            "response": "### Analysis\nAs the team leader (Butcher), I prioritize resource allocation based on team synergy in a survival or resource-gathering game context. Butchers focus on meat production and processing, so they benefit from support roles like Farmers (for livestock/animal feed), Fishers (alternative protein sources), and Fletchers/Armorer (for hunting tools/weapons to supply meat). Clerics provide healing/support, Cartographers aid exploration for resources. To balance, I'll allocate more to core production roles (Butcher, Farmer, Fisherman) for immediate gains, moderate to utility roles (Fletcher, Armorer, Cartographer), and minimal to Cleric unless combat-heavy. Total must sum to 100 integers.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Butcher)",
+            "role_obs": [
+                "Fisherman",
+                "Butcher",
+                "Cartographer",
+                "Armorer",
+                "Fletcher",
+                "Farmer",
+                "Cleric"
+            ],
+            "response": "### Analysis\nAs the team leader (Butcher), my goal is to optimize resource distribution for team survival and progress in the game. Butchers like myself focus on hunting/meat production, so I'll prioritize that while balancing other roles: Fisherman for alternative food, Farmer for sustained agriculture, Cartographer for exploration/navigation, and Armorer/Fletcher for defense/equipment. Cleric gets minimal allocation as support roles are secondary unless threats are high. Total must sum to 100, using integers. Prioritizing offense/defense (Butcher, Armorer, Fletcher) with food/exploration support.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 25,\n    \"Role3\": 15,\n    \"Role4\": 18,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Butcher)",
+            "role_obs": [
+                "Butcher",
+                "Fisherman",
+                "Cartographer",
+                "Armorer",
+                "Farmer",
+                "Fletcher",
+                "Cleric"
+            ],
+            "response": "### Analysis\nAs the team leader (Butcher), I need to distribute 100 Action Points strategically across the team to maximize overall effectiveness in the game. The team composition includes resource producers (Farmer, Fisherman), crafters (Butcher, Fletcher, Armorer), a support role (Cleric), and an explorer (Cartographer). \n\nKey considerations:\n- **Balance production and support**: Prioritize farmers and fishermen for food/resources (essential for sustainability), but allocate to crafters for tools/weapons to enable combat/exploration.\n- **Team leader priority**: As Butcher (me, Role1), I take a leadership share to coordinate, but not excessively to avoid imbalance.\n- **Risk mitigation**: Give Cleric points for healing/support to keep the team alive. Cartographer gets some for mapping to avoid dangers.\n- **Even-ish distribution with focus**: Aim for integers summing to 100, weighting towards producers (e.g., Farmer highest) while ensuring everyone contributes minimally to prevent idle roles.\n\nFinal allocation: Farmer (20) for core food, Fisherman (18) for variety, Armorer (15) for defense, Fletcher (14) for ranged, Butcher/Role1 (12) for leadership/meat processing, Cleric (11) for support, Cartographer (10) for intel.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 14,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "(career: Cartographer)",
+            "role_obs": [
+                "Farmer",
+                "Fletcher",
+                "Fisherman",
+                "Cleric",
+                "Armorer",
+                "Cartographer",
+                "Butcher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Cartography background, my focus is on exploration, mapping, and strategic planning to guide the team's overall progress in the game. With 100 Action Points to distribute, I prioritize roles that support mobility, resource gathering for sustained operations, and essential support, while de-emphasizing less critical or redundant functions in a balanced team setup. \n\n- High priority: Role6 (Cartographer, my own role) gets the most to enable mapping and navigation, crucial for team coordination.\n- Medium priority: Resource producers like Role1 (Farmer) for food sustainability, Role3 (Fisherman) for alternative food sources, Role2 (Fletcher) for arrows/ammo to support ranged defense during exploration, and Role5 (Armorer) for equipment durability.\n- Low priority: Role7 (Butcher) overlaps with food production (can be secondary to farming/fishing), and Role4 (Cleric) for healing, which is useful but not immediately essential if the team avoids heavy combat initially.\n\nThis allocation ensures exploration (40 points) drives the team, food/resources (30 points total) prevent shortages, crafting/defense (20 points) supports logistics, and minimal support (10 points) covers basics, totaling 100 points.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 40,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Cartographer)",
+            "role_obs": [
+                "Farmer",
+                "Cleric",
+                "Fletcher",
+                "Armorer",
+                "Fisherman",
+                "Cartographer",
+                "Butcher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Cartography background, my focus is on exploration, mapping, and strategic planning to ensure the team's long-term success in the game. This means prioritizing resources for roles that support scouting, resource gathering, and production chains essential for expansion (e.g., food for sustainability, tools/weapons for defense and efficiency). Farmers and Fishermen are critical for food production to sustain the team during travels. Butchers complement this by processing food. Fletcher and Armorer enable equipment for safe mapping expeditions. Cleric provides support/healing for risks in unknown territories. As Cartographer myself (Role6), I allocate modestly to my own role for core mapping tasks, but not excessively to avoid imbalance. Overall, I distribute to balance immediate needs (food) with future growth (tools/exploration), aiming for efficiency without starving any key area.\n\n### Decision\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Cartographer)",
+            "role_obs": [
+                "Butcher",
+                "Cartographer",
+                "Fisherman",
+                "Farmer",
+                "Cleric",
+                "Armorer",
+                "Fletcher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Cartography background, my focus is on exploration, mapping, and strategic planning to ensure the team's long-term success in the game. With 100 Action Points to distribute, I prioritize roles that support survival basics (food production via Butcher, Fisherman, and Farmer), defense (Armorer and Fletcher for equipment), and utility (Cleric for healing/support). However, since I'm the Cartographer (Role2), I allocate more to myself for scouting and resource discovery, which benefits the whole team. Role5 (Cleric) gets a moderate share for team sustainment, while production roles get balanced shares to avoid bottlenecks. This distribution ensures balanced growth without over-investing in any single area.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 25,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 18,\n    \"Role6\": 10,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "(career: Cartographer)",
+            "role_obs": [
+                "Butcher",
+                "Farmer",
+                "Cleric",
+                "Fisherman",
+                "Armorer",
+                "Cartographer",
+                "Fletcher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Cartography background, my focus is on exploration, mapping, and strategic planning to advance the team in the game. This means prioritizing resources for roles that support scouting, travel, and resource gathering (e.g., Farmer for food sustainability, Fisherman for alternative supplies, and myself as Cartographer for core mapping). Defensive and utility roles like Armorer and Fletcher get moderate support for equipment needs, while combat (Butcher) and support (Cleric) receive less emphasis unless threats arise, which isn't indicated here. Allocations are balanced to total 100 points, favoring long-term team mobility and survival over immediate combat.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 25,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Cartographer)",
+            "role_obs": [
+                "Butcher",
+                "Cartographer",
+                "Farmer",
+                "Fisherman",
+                "Armorer",
+                "Fletcher",
+                "Cleric"
+            ],
+            "response": "### Analysis\nAs the team leader (Cartographer), my goal is to allocate the 100 Action Points strategically to support team survival, production, and defense in the game. Prioritizing roles based on essential needs: food production (Farmer and Fisherman) gets the highest allocation to sustain the team; crafting roles (Butcher for processing food/meat, Armorer for armor, Fletcher for arrows/weapons) receive moderate points for resource creation and protection; support (Cleric for healing/morale) gets a fair share; and my own role (Cartographer for mapping/exploration) gets a smaller portion since I'm coordinating rather than executing. This balances short-term needs (food/defense) with long-term growth (exploration/crafting), ensuring no role is zeroed out for team cohesion. Allocations are integers summing to exactly 100.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 20,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(career: Cartographer)",
+            "role_obs": [
+                "Fletcher",
+                "Butcher",
+                "Armorer",
+                "Cartographer",
+                "Farmer",
+                "Cleric",
+                "Fisherman"
+            ],
+            "response": "### Analysis\nAs the team leader with a Cartography background, my focus is on exploration, mapping, and strategic planning to ensure the team's overall success in the game. This means prioritizing resources for roles that support discovery and efficiency while providing balanced support for survival and production. \n\n- **High priority**: Role4 (Cartographer, my own role) gets the most points to enable mapping and pathfinding, which benefits the entire team.\n- **Medium priority**: Role1 (Fletcher) for ranged weapons/ammo, Role3 (Armorer) for gear durability, and Role7 (Fisherman) for reliable food—essential for sustained adventures.\n- **Lower priority**: Role2 (Butcher) for meat processing (overlaps with fishing/farming), Role5 (Farmer) for agriculture (slower but steady), and Role6 (Cleric) for healing (useful but less critical if we avoid risks via better mapping).\n\nTotal allocation: 100 points, distributed in integers to optimize team synergy without over-investing in redundancies.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 8,\n    \"Role3\": 15,\n    \"Role4\": 30,\n    \"Role5\": 10,\n    \"Role6\": 12,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Cartographer)",
+            "role_obs": [
+                "Fletcher",
+                "Cleric",
+                "Armorer",
+                "Fisherman",
+                "Cartographer",
+                "Farmer",
+                "Butcher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Cartography background, my primary focus is on exploration, mapping, and strategic planning to guide the team's overall progress in the game. This means prioritizing resources for roles that support navigation, reconnaissance, and foundational survival needs, while de-emphasizing less critical or specialized roles. Key considerations:\n- **High priority**: Role5 (Cartographer, my own career) gets the bulk to enable mapping and team coordination. Role6 (Farmer) and Role4 (Fisherman) are essential for sustainable food production to keep the team operational long-term.\n- **Medium priority**: Role7 (Butcher) supports food processing, Role1 (Fletcher) for basic tools/weapons, and Role3 (Armorer) for equipment if expansion is needed.\n- **Low priority**: Role2 (Cleric) for healing/support, as early-game threats may be minimal without exploration data.\nTotal allocation sums to 100 integer points, balanced for team sustainability while advancing my cartographic goals.\n\n### Decision\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 5,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 30,\n    \"Role6\": 20,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "(career: Cartographer)",
+            "role_obs": [
+                "Armorer",
+                "Cleric",
+                "Cartographer",
+                "Butcher",
+                "Farmer",
+                "Fletcher",
+                "Fisherman"
+            ],
+            "response": "### Analysis\nAs the team leader (Cartographer), my primary focus is on exploration, mapping, and navigation, which are crucial for overall team progress in the game. This requires significant Action Points for activities like scouting and charting routes. Support roles like Armorer (Role1) for equipment maintenance and Cleric (Role2) for healing should get moderate allocations to sustain the team. Production roles—Butcher (Role4), Farmer (Role5), and Fisherman (Role7)—are essential for food and resources, so they warrant solid shares to ensure survival. The Fletcher (Role6) for ammunition can be deprioritized if ranged combat isn't immediate. Role3 (myself, Cartographer) gets the largest share to drive the team's advancement. Allocations are balanced to total exactly 100 points, prioritizing strategic impact.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 12,\n    \"Role3\": 25,\n    \"Role4\": 13,\n    \"Role5\": 13,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Cartographer)",
+            "role_obs": [
+                "Butcher",
+                "Fletcher",
+                "Farmer",
+                "Armorer",
+                "Fisherman",
+                "Cleric",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader (Cartographer), my goal is to allocate the 100 Action Points strategically to maximize team efficiency in a game context. Cartographers focus on exploration, mapping, and navigation, so I prioritize myself (Role7) for scouting and pathfinding. Next, I emphasize production and support roles for sustainability: Farmer (Role3) for food, Fisherman (Role5) for resources, Fletcher (Role2) for ranged weapons, and Armorer (Role4) for defense. Butcher (Role1) gets minimal allocation as it's more niche (e.g., meat processing, less critical than farming). Cleric (Role6) receives moderate points for healing/support. This balances offense, defense, and logistics without over-allocating to any single role.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Cartographer)",
+            "role_obs": [
+                "Butcher",
+                "Farmer",
+                "Cartographer",
+                "Armorer",
+                "Fletcher",
+                "Cleric",
+                "Fisherman"
+            ],
+            "response": "### Analysis\nAs the team leader (Cartographer), my goal is to allocate the 100 Action Points strategically to support team survival, resource production, and defense in the game. Cartographers typically focus on exploration, mapping, and navigation, so I'll prioritize Role3 (fellow Cartographer) for scouting and pathfinding. To balance the team:\n\n- Prioritize food production (Role2: Farmer and Role7: Fisherman) for sustainability, as hunger can cripple the group.\n- Allocate modestly to crafting roles (Role1: Butcher for food processing, Role4: Armorer and Role5: Fletcher for equipment and weapons) to enable defense and tools.\n- Give minimal support to Role6: Cleric for healing, as it's valuable but less immediate than basics.\n- Total must sum to exactly 100, using integers.\n\nThis distribution emphasizes exploration (30 to Role3) and food (40 total to producers), with the rest spread for support.\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 20,\n    \"Role3\": 30,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 5,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Fletcher",
+                "Butcher",
+                "Cartographer",
+                "Fisherman",
+                "Cleric",
+                "Farmer",
+                "Armorer"
+            ],
+            "response": "### Analysis\nAs the team leader (Cleric career), my goal is to allocate 100 Action Points to maximize team effectiveness in a game scenario. Clerics typically focus on healing, support, and morale, so I prioritize Role5 (fellow Cleric) for core sustainment. The team has a mix of utility roles (e.g., Cartographer for exploration, Farmer for sustainment) and production roles (e.g., Fletcher for ammo/ranged, Armorer for gear, Butcher/Fisherman for food/resources). In a balanced strategy, I allocate modestly to production roles to ensure equipment and supplies, more to utility for long-term survival, and the bulk to the Cleric for team resilience. This avoids over-investing in niche roles like Fisherman while ensuring integer sums to exactly 100.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 8,\n    \"Role3\": 15,\n    \"Role4\": 7,\n    \"Role5\": 40,\n    \"Role6\": 12,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Fisherman",
+                "Farmer",
+                "Cleric",
+                "Cartographer",
+                "Fletcher",
+                "Butcher",
+                "Armorer"
+            ],
+            "response": "### Analysis\nAs the team leader (Cleric career), my goal is to optimize resource distribution for team synergy in a game context. Clerics typically focus on healing, support, and spiritual/morale boosts, so Role3 (fellow Cleric) should receive priority to enhance team sustainability during activities like exploration or combat. Production roles (Fisherman, Farmer, Butcher for food/sustenance; Fletcher, Armorer for equipment) get moderate allocations to ensure basic supplies. Utility roles like Cartographer (mapping/exploration) get some support for navigation. Overall, prioritize support/production balance: 40% to Cleric core, 40% split among production, 20% to utility. Total must sum to 100 integers.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 12,\n    \"Role3\": 30,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Armorer",
+                "Fletcher",
+                "Cleric",
+                "Fisherman",
+                "Butcher",
+                "Farmer",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader (Cleric career), my goal is to allocate the 100 Action Points strategically to maximize team effectiveness in a game context. The team has a mix of combat support (Armorer for gear repair/creation, Fletcher for ammunition/weapons), healing/utility (fellow Cleric), and resource-gathering/survival roles (Fisherman, Butcher, Farmer for food/supplies, Cartographer for exploration/mapping). Prioritizing balance, I'd emphasize resource production for sustainability (40 points total across Fisherman, Butcher, Farmer) to ensure long-term survival, combat readiness (30 points to Armorer and Fletcher) for defense, mapping/exploration (15 to Cartographer) for progression, and internal support (15 to the other Cleric) for healing/morale. This prevents bottlenecks in food, gear, or navigation while keeping allocations integer and summing to exactly 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Farmer",
+                "Butcher",
+                "Fisherman",
+                "Armorer",
+                "Cartographer",
+                "Fletcher",
+                "Cleric"
+            ],
+            "response": "### Analysis\nAs the team leader (Cleric), my goal is to optimize resource distribution for team efficiency in a game setting. The team has a mix of production roles (Farmer, Butcher, Fisherman for food/resources), crafting roles (Armorer, Fletcher for equipment), and support (Cartographer for exploration). With another Cleric (Role7) present, this suggests a focus on healing/survival alongside production. Prioritizing food production ensures sustainability, while allocating moderately to crafting and support maintains balance. The second Cleric gets a slight edge for redundancy in critical healing roles, but no role gets everything to avoid bottlenecks. Total: 100 points, integers only.\n\n### Decision\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 8,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Fisherman",
+                "Cleric",
+                "Farmer",
+                "Fletcher",
+                "Butcher",
+                "Armorer",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader (Cleric career), my goal is to optimize resource distribution for team synergy in a game setting. Clerics typically focus on healing, support, and spiritual/morale roles, so I prioritize my own role (Role2) for core team sustainability. Production careers like Farmer (Role3, food), Fisherman (Role1, food/alternate resources), Fletcher (Role4, weapons/arrows), Butcher (Role5, meat processing), and Armorer (Role6, gear) get moderate allocations to ensure supply chain and defense. Cartographer (Role7) gets minimal points as exploration/mapping is secondary unless the game emphasizes navigation. Total must sum to 100, using integers, with emphasis on balanced support for survival and growth.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 30,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Cartographer",
+                "Armorer",
+                "Fisherman",
+                "Fletcher",
+                "Cleric",
+                "Farmer",
+                "Butcher"
+            ],
+            "response": "### Analysis\nAs the Cleric team leader, my primary focus is on team survival, healing, and long-term sustainability in this game setting. With 100 Action Points to distribute, I prioritize roles that support essential needs: food production (Farmer, Fisherman, Butcher for nutrition and morale), crafting (Armorer for defense, Fletcher for weapons), exploration (Cartographer for mapping resources), and another Cleric for additional healing/support. The Armorer gets a slight edge for protection in potential conflicts, while production roles share the bulk to ensure steady resource flow. Non-essential or redundant roles get minimal points to conserve for core functions.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 0\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Farmer",
+                "Armorer",
+                "Fletcher",
+                "Cleric",
+                "Fisherman",
+                "Cartographer",
+                "Butcher"
+            ],
+            "response": "### Analysis\nAs the team leader (Cleric), my goal is to optimize resource allocation for team survival and progress in the game. Clerics typically focus on healing, support, and morale, so Role4 (fellow Cleric) deserves priority to sustain the team during challenges. Production roles like Farmer (Role1, food), Fisherman (Role5, food), Butcher (Role7, food/meat), Armorer (Role2, gear), and Fletcher (Role3, weapons/ammo) are essential for basic needs and defense, warranting moderate shares. Cartographer (Role6, exploration/mapping) is useful but less critical short-term, so it gets minimal allocation. Distribution prioritizes sustenance and support while ensuring integer sums to exactly 100.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 25,\n    \"Role5\": 12,\n    \"Role6\": 5,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Cartographer",
+                "Fisherman",
+                "Cleric",
+                "Farmer",
+                "Fletcher",
+                "Butcher",
+                "Armorer"
+            ],
+            "response": "### Analysis\nAs the team leader (Cleric), my goal is to optimize resource distribution for team synergy in this game. Clerics typically focus on healing, support, and morale, so Role3 (fellow Cleric) gets priority to enhance sustainment. Support roles like Role1 (Cartographer) for exploration/navigation and Role7 (Armorer) for equipment durability receive moderate allocations to enable mobility and defense. Production roles (Role4 Farmer for food, Role2 Fisherman for resources, Role5 Fletcher for ammo/weapons, Role6 Butcher for meat processing) get balanced shares to maintain supply chains without over-investing in any single area. This ensures a well-rounded team capable of long-term survival and progress, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 25,\n    \"Role4\": 12,\n    \"Role5\": 12,\n    \"Role6\": 8,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Cleric",
+                "Cartographer",
+                "Fisherman",
+                "Armorer",
+                "Farmer",
+                "Butcher",
+                "Fletcher"
+            ],
+            "response": "### Analysis\nAs the team leader (Cleric), my primary focus is on supporting the team's overall sustainability and growth in this game-like scenario. Clerics typically handle healing, morale, and spiritual guidance, so Role1 (fellow Cleric) deserves a significant allocation to maintain team health. The other roles represent a balanced economy: Cartographer for exploration/mapping (essential for expansion), Fisherman and Farmer for food production (core survival), Armorer and Fletcher for defense/equipment (protection against threats), and Butcher for processing food/resources (supporting efficiency). To optimize, I'll prioritize defense and sustenance slightly higher (as they enable long-term play), while ensuring even distribution to avoid bottlenecks. Total must sum to 100 integers.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 15,\n    \"Role5\": 14,\n    \"Role6\": 12,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Cartographer",
+                "Cleric",
+                "Butcher",
+                "Farmer",
+                "Fisherman",
+                "Armorer",
+                "Fletcher"
+            ],
+            "response": "### Analysis\nAs the team leader (Cleric career), my primary focus is on team survival, healing, and balanced resource generation in this game-like scenario. With 100 Action Points to distribute, I prioritize roles based on their utility:\n\n- **Cleric (Role2)**: As a healer and support role (matching my own career), this gets the highest allocation to ensure team health and sustainability.\n- **Production roles (Farmer Role4, Fisherman Role5, Butcher Role3)**: These provide essential food and resources, so they receive moderate shares to maintain supply chains.\n- **Crafting roles (Armorer Role6, Fletcher Role7)**: Useful for equipment and defense, but secondary to basics, so lower allocation.\n- **Cartographer (Role1)**: Exploration/mapping is valuable for long-term strategy but least immediate, so minimal points.\n\nThis distribution emphasizes core needs (healing and food) while supporting growth, totaling exactly 100 points in integers.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 30,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Farmer)",
+            "role_obs": [
+                "Cleric",
+                "Butcher",
+                "Fisherman",
+                "Armorer",
+                "Fletcher",
+                "Cartographer",
+                "Farmer"
+            ],
+            "response": "### Analysis\nAs the team leader (Farmer), my primary focus is on optimizing resource production and team sustainability. Farmers like myself are key for growing food and basic supplies, so I'll allocate a significant portion to Role7 (myself) to ensure steady output. The team has a mix of production roles (Butcher for meat, Fisherman for seafood, Fletcher for arrows, Armorer for gear) and support roles (Cleric for healing, Cartographer for exploration). I'll prioritize production roles to build resources, give moderate support to utility roles, and minimize the Cleric unless combat is imminent, as the team seems geared toward gathering and crafting. Total allocation: 100 points, distributed in integers for balance.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "(career: Farmer)",
+            "role_obs": [
+                "Fisherman",
+                "Armorer",
+                "Cleric",
+                "Farmer",
+                "Fletcher",
+                "Butcher",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader (Farmer), my goal is to distribute the 100 Action Points to optimize team performance in a balanced way. Farmers focus on agriculture and food production, so self-allocation is prioritized for sustainability. Fisherman and Butcher support food gathering, Armorer and Fletcher handle equipment (armor and arrows), Cleric provides healing/support, and Cartographer aids exploration/mapping. To promote synergy: higher points to food roles (including self) for base needs, moderate to production/craft roles, and lower to support/exploration. This ensures survival, defense, and progress without over-specializing.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 12,\n    \"Role6\": 15,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "(career: Farmer)",
+            "role_obs": [
+                "Cleric",
+                "Farmer",
+                "Fisherman",
+                "Butcher",
+                "Cartographer",
+                "Armorer",
+                "Fletcher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Farmer background, my focus is on sustainable resource production and team balance in this game-like scenario. Farmers like myself excel in agriculture and steady output, so I'll prioritize self-allocation for core food/security needs. Other roles have specialized strengths: Cleric for support/healing (moderate allocation), Fisherman and Butcher for complementary food production (higher to synergize with farming), Cartographer for exploration/mapping (useful but secondary), and Armorer/Fletcher for defense/crafting (essential but not immediate priorities). Total must sum to 100 integers. I'll distribute to ensure balanced growth: heavy on production roles, lighter on support/defense.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Farmer)",
+            "role_obs": [
+                "Cleric",
+                "Armorer",
+                "Cartographer",
+                "Butcher",
+                "Fisherman",
+                "Fletcher",
+                "Farmer"
+            ],
+            "response": "### Analysis\nAs the team leader (Farmer), my goal is to optimize resource distribution for balanced team growth and sustainability in this game. With 100 Action Points total, I prioritize agriculture and food production for long-term stability, given my farming background. Farmers (myself) get the largest share to boost crop yields. Food-related roles like Butcher and Fisherman receive substantial points for immediate sustenance. Crafting roles (Armorer, Fletcher) get moderate support for defense and tools. Support roles (Cleric for healing, Cartographer for exploration) get smaller allocations to avoid over-investment in non-essentials early on. Allocations are integers summing to exactly 100.\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 12,\n    \"Role3\": 7,\n    \"Role4\": 18,\n    \"Role5\": 17,\n    \"Role6\": 11,\n    \"Role7\": 27\n}\n```"
+        },
+        {
+            "role_self": "(career: Farmer)",
+            "role_obs": [
+                "Cartographer",
+                "Cleric",
+                "Fisherman",
+                "Fletcher",
+                "Farmer",
+                "Butcher",
+                "Armorer"
+            ],
+            "response": "### Analysis\nAs the team leader with a Farmer background, my priority is to ensure balanced resource distribution for team sustainability, focusing on food production, exploration, and crafting to support long-term survival in the game. With 100 Action Points total:\n\n- **Food and resources**: Allocate more to Farmer (myself, for crop growth), Fisherman (aquatic food), and Butcher (meat processing) to secure nutrition.\n- **Crafting and defense**: Moderate points to Fletcher (arrows/weapons) and Armorer (armor) for combat readiness.\n- **Support roles**: Lower points to Cartographer (mapping/exploration, useful but secondary) and Cleric (healing, needed but less urgent without immediate threats).\n\nThis distribution emphasizes core survival (45 points total) while covering crafting (30 points) and support (25 points), allowing flexibility for in-game activities like farming, fishing, and building.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Farmer)",
+            "role_obs": [
+                "Cleric",
+                "Butcher",
+                "Armorer",
+                "Farmer",
+                "Fletcher",
+                "Fisherman",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader (Farmer), my goal is to distribute the 100 Action Points to maximize team efficiency in a survival/resource-gathering game context. Farmers like myself focus on core food production, so I'll prioritize agriculture-related roles (e.g., Fisherman for alternative food sources). Next, I allocate to crafting roles (Butcher for meat processing, Fletcher for tools/weapons, Armorer for equipment) to support sustainability. Utility roles (Cleric for healing/support, Cartographer for exploration) get minimal points, as they're less immediately impactful without a combat-heavy scenario. The distribution favors production (60 points), crafting (30 points), and support (10 points) to ensure balanced growth, with the remainder to my own role for leadership oversight.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Farmer)",
+            "role_obs": [
+                "Armorer",
+                "Fisherman",
+                "Cartographer",
+                "Cleric",
+                "Farmer",
+                "Butcher",
+                "Fletcher"
+            ],
+            "response": "### Analysis\nAs the team leader (Farmer), my goal is to allocate the 100 Action Points strategically to maximize team productivity in a game setting. Since I'm a Farmer, I prioritize agriculture and food production, which benefits from support roles like the Butcher (for meat processing) and Fisherman (for additional food sources). The Armorer and Fletcher provide defensive/utility tools (armor and arrows), which are essential but secondary. The Cartographer aids exploration and mapping, useful for resource gathering. The Cleric offers healing/support, valuable for long-term sustainability but less immediate. The other Farmer (Role5) can directly assist my core farming efforts.\n\nTo balance: Allocate more to food-related roles (Butcher, Fisherman, Farmer) for self-sufficiency (~50% total), moderate to production/crafting (Armorer, Fletcher ~25%), and lower to support/exploration (Cartographer, Cleric ~25%). Allocations are integers summing to exactly 100.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 10,\n    \"Role4\": 8,\n    \"Role5\": 20,\n    \"Role6\": 20,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Farmer)",
+            "role_obs": [
+                "Armorer",
+                "Cleric",
+                "Butcher",
+                "Farmer",
+                "Cartographer",
+                "Fisherman",
+                "Fletcher"
+            ],
+            "response": "### Analysis\nAs the team leader (Farmer), my goal is to allocate the 100 Action Points strategically to maximize team efficiency in a survival/resource-gathering game. Farmers (like myself) are core to food production, so Role4 gets a high allocation for sustained growth. Other roles have varying priorities: Armorer (Role1) and Fletcher (Role7) for tools/weapons, Cleric (Role2) for support/healing, Butcher (Role3) and Fisherman (Role6) for food processing/harvesting, and Cartographer (Role5) for exploration (lower priority initially). I'll prioritize food and defense over mapping, distributing integers that sum to exactly 100, with slight emphasis on farming synergies.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 25,\n    \"Role5\": 8,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Farmer)",
+            "role_obs": [
+                "Cleric",
+                "Butcher",
+                "Cartographer",
+                "Fletcher",
+                "Armorer",
+                "Fisherman",
+                "Farmer"
+            ],
+            "response": "### Analysis\nAs the team leader (Farmer), my goal is to allocate the 100 Action Points strategically to maximize team productivity in a game-like setting. Farmers typically focus on agriculture and food production, so I'll prioritize roles that support or complement this (e.g., Fisherman for additional food sources, Butcher for processing food/meat, and Cartographer for exploration to find fertile lands). Defensive/crafting roles like Armorer and Fletcher get moderate points for security, while Cleric (healing/support) gets the least unless combat is imminent. Role7 (myself as Farmer) gets the largest share to drive core production. Allocations are integers summing to 100, emphasizing sustainability over equal distribution.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 35\n}\n```"
+        },
+        {
+            "role_self": "(career: Farmer)",
+            "role_obs": [
+                "Cartographer",
+                "Fisherman",
+                "Farmer",
+                "Butcher",
+                "Armorer",
+                "Cleric",
+                "Fletcher"
+            ],
+            "response": "### Analysis\nAs the team leader (Farmer), my goal is to allocate the 100 Action Points to maximize team efficiency in a balanced way. Since the game involves in-game activities, I'll prioritize roles based on their careers' typical contributions: \n\n- Farmers (like myself) are core for food production, so Role3 gets a slight boost for sustainability.\n- Support roles like Cartographer (exploration/mapping) and Cleric (healing/spiritual aid) are essential for long-term survival and get moderate shares.\n- Resource gatherers like Fisherman and Butcher (food-related) get solid allocations to ensure supplies.\n- Crafters like Fletcher (arrows/weapons) and Armorer (armor) are important for defense but secondary if no immediate threats, so they get less.\n\nThis results in a somewhat even distribution with priorities: food/production (30%), support (25%), gathering (25%), crafting (20%). Allocations are integers summing to exactly 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisherman)",
+            "role_obs": [
+                "Armorer",
+                "Farmer",
+                "Fletcher",
+                "Butcher",
+                "Cleric",
+                "Fisherman",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader (Fisherman), my goal is to allocate the 100 Action Points to maximize team efficiency in a survival/resource-gathering game context. Fisherman roles (like mine) focus on food production via fishing, so I'll prioritize food-related careers to ensure sustainability. \n\n- **Food priority**: Butcher (meat processing) and Farmer (crops/livestock) get higher allocations to boost food output, complementing fishing.\n- **Crafting support**: Armorer (armor/weapons) and Fletcher (arrows/bows) receive moderate points for defense and hunting tools.\n- **Utility**: Cartographer (mapping/exploration) gets some for long-term scouting.\n- **Lower priority**: Cleric (healing/support) gets minimal, as immediate resource gathering trumps it in early game.\n- **Self (Fisherman)**: A solid share to maintain core food production.\n\nThis balances short-term survival (food/crafting) with exploration, totaling exactly 100 points in integers.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 5,\n    \"Role6\": 20,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisherman)",
+            "role_obs": [
+                "Fletcher",
+                "Fisherman",
+                "Cartographer",
+                "Cleric",
+                "Butcher",
+                "Farmer",
+                "Armorer"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisherman background, my allocation prioritizes sustainability and team balance in a game-like scenario. Food and resource production are critical for long-term survival, so I favor producers like farmers and butchers. The other Fisherman (Role2) gets a boost for synergy with my career. Mapping (Cartographer) aids exploration, while crafting (Fletcher, Armorer) and support (Cleric) get moderate shares for defense and healing. Total sums to 100 points, allocated in integers based on strategic utility: high for food (Farmer/Butcher), medium for production/exploration, low for niche roles.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisherman)",
+            "role_obs": [
+                "Farmer",
+                "Butcher",
+                "Fletcher",
+                "Fisherman",
+                "Armorer",
+                "Cleric",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisherman background, my focus is on sustainable resource gathering and team balance in a game setting. We have 100 Action Points to distribute across diverse roles: Farmer (food production), Butcher (meat processing), Fletcher (ranged weapons/ammo), Fisherman (sea-based food/resources, aligning with my expertise), Armorer (armor/gear crafting), Cleric (healing/support), and Cartographer (exploration/mapping). \n\nPriorities: \n- Emphasize core survival roles (food chain: Farmer, Butcher, Fisherman) to ensure steady supplies.\n- Allocate moderately to production/crafting (Fletcher, Armorer) for combat readiness.\n- Give lighter support to utility roles (Cleric, Cartographer) for long-term benefits without overcommitting.\n- As Fisherman leader, boost my own role slightly for synergy.\n\nThis distribution promotes balanced growth: 40% to food (40 points), 30% to crafting (30 points), 20% to support (20 points), 10% to exploration (10 points). All integers, summing to 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisherman)",
+            "role_obs": [
+                "Armorer",
+                "Farmer",
+                "Cartographer",
+                "Fletcher",
+                "Cleric",
+                "Butcher",
+                "Fisherman"
+            ],
+            "response": "### Analysis\nAs the team leader (Fisherman), my goal is to allocate the 100 Action Points to maximize team efficiency in a survival or adventure game context. Fisherman careers focus on food production via fishing, so self-allocation should be moderate to sustain the group. Prioritize roles that support essentials: Farmer and Butcher for reliable food (high allocation to ensure steady supply), Armorer and Fletcher for defense/equipment (medium, as they're enablers), Cartographer for exploration (low-medium for mapping resources), and Cleric for healing/support (low, assuming less immediate need). Total must sum to 100, using integers.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 25,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 5,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisherman)",
+            "role_obs": [
+                "Butcher",
+                "Fisherman",
+                "Cleric",
+                "Farmer",
+                "Armorer",
+                "Fletcher",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisherman career, my focus is on survival and efficiency in a game-like setting, prioritizing resource gathering (food, materials) and support roles over less immediate needs like mapping. With 100 Action Points to distribute:\n\n- **High priority**: Role2 (Fisherman, same career as me) gets the most to maximize food/fish production, synergizing with my leadership. Role4 (Farmer) next for diverse food sources. Role1 (Butcher) supports by processing meat/fish.\n- **Medium priority**: Role3 (Cleric) for team health/healing to sustain operations. Role5 (Armorer) and Role6 (Fletcher) for basic equipment/defense, as they're somewhat specialized but useful early on.\n- **Low priority**: Role7 (Cartographer) is exploratory and less critical for immediate survival; minimal allocation.\n\nThis balances short-term needs (sustenance, health) with moderate preparation (tools/weapons), totaling exactly 100 points in integers.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 25,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisherman)",
+            "role_obs": [
+                "Armorer",
+                "Cartographer",
+                "Cleric",
+                "Farmer",
+                "Fletcher",
+                "Butcher",
+                "Fisherman"
+            ],
+            "response": "### Analysis\nAs the team leader (Fisherman), my goal is to allocate 100 Action Points to optimize team survival and progress in this game-like scenario. Resources should prioritize essential needs: food production for sustenance, tools/weapons for defense and utility, mapping for exploration, and healing for longevity. \n\n- Prioritize food roles (Farmer, Butcher, Fisherman) heavily, as starvation is a core risk—allocate ~50% total here.\n- Support production roles (Armorer for gear, Fletcher for arrows/weapons) next, ~25%, to enable combat and crafting.\n- Allocate moderately to utility (Cartographer for navigation) and support (Cleric for healing), ~25%, to avoid overexposure to risks.\n- As leader (Fisherman), I boost my own role slightly for coordination, but balance across the team.\n\nThis distribution ensures balanced growth: 30 to Farmer (crop reliability), 20 to Butcher (meat processing), 15 to me (Fisherman, for sustainable fishing), 10 to Armorer (armor), 10 to Fletcher (ammo), 8 to Cleric (health), and 7 to Cartographer (scouting).\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 7,\n    \"Role3\": 8,\n    \"Role4\": 30,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisherman)",
+            "role_obs": [
+                "Armorer",
+                "Farmer",
+                "Fisherman",
+                "Cartographer",
+                "Fletcher",
+                "Butcher",
+                "Cleric"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisherman career, my primary focus is on maritime and resource-gathering efficiency, so I'll prioritize the Fisherman (Role3) for core activities like fishing and exploration support. The Cartographer (Role4) is next, as mapping aids navigation and discovery in a game setting. Support roles like Armorer (Role1) and Fletcher (Role5) get moderate points for equipment maintenance, while Farmer (Role2), Butcher (Role6), and Cleric (Role7) receive lower allocations since they provide indirect benefits (food production/healing) that are less critical for a fishing-oriented team. Allocations are balanced to sum to 100, favoring direct team productivity.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 30,\n    \"Role4\": 20,\n    \"Role5\": 12,\n    \"Role6\": 8,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisherman)",
+            "role_obs": [
+                "Cleric",
+                "Farmer",
+                "Fisherman",
+                "Fletcher",
+                "Cartographer",
+                "Armorer",
+                "Butcher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisherman career, my focus is on optimizing resource allocation for team survival and progress in this game-like scenario. Key priorities: Food production is essential for sustainability, so the Farmer (Role2) and Butcher (Role7) get higher allocations to ensure reliable food supply. The Fisherman (Role3, my own role) receives a solid share to support fishing activities, aligning with my expertise. Defensive and utility roles like Armorer (Role6) and Fletcher (Role4) get moderate points for crafting tools/weapons. Support roles like Cleric (Role1) get minimal for healing, while exploratory roles like Cartographer (Role5) get the least, as mapping is secondary to immediate needs. This balances short-term survival (food/defense) with long-term utility, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 5,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisherman)",
+            "role_obs": [
+                "Butcher",
+                "Armorer",
+                "Fisherman",
+                "Fletcher",
+                "Cleric",
+                "Cartographer",
+                "Farmer"
+            ],
+            "response": "### Analysis\nAs the team leader (a Fisherman myself), I prioritize resource allocation based on team synergy and survival needs in a game setting. Key factors: Food production is essential for sustainability, so the Farmer (Role7) and fellow Fisherman (Role3) get higher points to ensure reliable food supply. Crafting roles like Butcher (Role1) for meat processing, Fletcher (Role4) for arrows/weapons, and Armorer (Role2) for gear get moderate shares to support defense and tools. Support roles—Cleric (Role5) for healing and Cartographer (Role6) for exploration—receive lower points as they're valuable but less immediately critical. Total must sum to 100, distributed in integers for balanced efficiency.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 13,\n    \"Role5\": 10,\n    \"Role6\": 8,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisherman)",
+            "role_obs": [
+                "Armorer",
+                "Fletcher",
+                "Cartographer",
+                "Butcher",
+                "Cleric",
+                "Fisherman",
+                "Farmer"
+            ],
+            "response": "### Analysis\nAs the team leader (Fisherman), I need to distribute 100 Action Points to support team survival and progress in this game-like scenario. Key considerations:  \n- **Resource production**: Prioritize roles that generate food and essentials. Farmer (Role7) is critical for crops, Butcher (Role4) for meat processing, and Fisherman (Role6, my own role) for fish—allocating more here ensures food security.  \n- **Crafting and tools**: Armorer (Role1) and Fletcher (Role2) produce gear (armor, arrows), which are vital for defense/hunting but secondary to immediate needs.  \n- **Support roles**: Cleric (Role5) for healing/morale and Cartographer (Role3) for exploration/navigation get moderate points to avoid bottlenecks.  \n- **Balance**: Even distribution risks inefficiency; weighted toward production (60% total) while giving crafting (25%) and support (15%) enough to function. All integers, summing to 100. This setup promotes sustainability without over-investing in non-essentials.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 13,\n    \"Role3\": 8,\n    \"Role4\": 18,\n    \"Role5\": 7,\n    \"Role6\": 20,\n    \"Role7\": 22\n}\n```"
+        },
+        {
+            "role_self": "(career: Fletcher)",
+            "role_obs": [
+                "Fisherman",
+                "Cleric",
+                "Farmer",
+                "Cartographer",
+                "Fletcher",
+                "Butcher",
+                "Armorer"
+            ],
+            "response": "### Analysis\nAs the team leader (Fletcher), my goal is to allocate 100 Action Points efficiently for team survival and progress in this game-like scenario. Fletchers focus on crafting ranged weapons and tools, so I'll prioritize my own role (Role5) for production of essentials like arrows or bows. Next, core survival roles: Farmer (Role3) for food sustainability, Fisherman (Role1) for alternative food sources, and Butcher (Role6) for meat processing. Support roles like Cleric (Role2) get moderate points for healing/maintenance, while specialized/exploratory roles like Cartographer (Role4) and Armorer (Role7) receive less unless expansion is needed—here, I'll minimize them to focus on basics. Allocation balances immediate needs (food/production) with some flexibility, totaling exactly 100 points in integers.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 20,\n    \"Role4\": 5,\n    \"Role5\": 25,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Fletcher)",
+            "role_obs": [
+                "Fisherman",
+                "Farmer",
+                "Cleric",
+                "Butcher",
+                "Cartographer",
+                "Fletcher",
+                "Armorer"
+            ],
+            "response": "### Analysis\nAs the team leader (Fletcher), my goal is to allocate the 100 Action Points strategically to maximize team efficiency in a game setting. Fletchers focus on crafting arrows and ranged weapons, so combat and exploration are key priorities. I'll prioritize roles that support resource gathering (essential for crafting), production, mapping/exploration, and combat readiness, while deprioritizing less synergistic roles like the Cleric (healing/support, assuming low immediate threats).\n\n- **High priority (gathering/production for sustainability)**: Fisherman (food/aquatic resources), Farmer (crops/food), Butcher (meat processing). Allocate evenly to build a stable supply chain.\n- **Medium priority (exploration/crafting support)**: Cartographer (mapping for resource discovery), Fletcher (my own role for weapons), Armorer (armor for defense).\n- **Low priority**: Cleric (minimal allocation unless threats arise).\n\nThis balanced distribution ensures short-term survival (40 points) and long-term growth/exploration (60 points), totaling exactly 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 5,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Fletcher)",
+            "role_obs": [
+                "Butcher",
+                "Fletcher",
+                "Cleric",
+                "Cartographer",
+                "Farmer",
+                "Fisherman",
+                "Armorer"
+            ],
+            "response": "### Analysis\nAs the team leader (Fletcher), my goal is to optimize resource distribution for balanced team performance in the game. Fletchers focus on ranged combat and precision tasks, so I'll prioritize myself (Role2) moderately. Butchers (Role1) are key for close combat and resource processing, warranting a solid share. Support roles like Cleric (Role3) get points for healing/sustain, while utility roles (Cartographer Role4 for exploration, Farmer Role5 and Fisherman Role6 for food/supplies) receive balanced allocations to ensure long-term survival. Armorer (Role7) gets the least, as equipment crafting is secondary without immediate threats. Distribution aims for equity with emphasis on combat and essentials: combat-heavy roles get more, sustain/utility get medium, niche gets low. Total: 100 points.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 12,\n    \"Role6\": 12,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "(career: Fletcher)",
+            "role_obs": [
+                "Armorer",
+                "Fletcher",
+                "Cleric",
+                "Farmer",
+                "Fisherman",
+                "Butcher",
+                "Cartographer"
+            ],
+            "response": "### Analysis\nAs the team leader (Fletcher), my goal is to optimize resource distribution for team synergy in a game setting. Fletchers focus on ranged combat and archery, so prioritizing production roles that support weapons/ammo (e.g., Armorer for gear, another Fletcher for specialization) is key. Support roles like Cleric aid survival/healing, while resource-gatherers (Farmer, Fisherman, Butcher) ensure food sustainability. Cartographer provides exploration utility but is lower priority without immediate scouting needs. To balance, allocate more to combat/production (40% total), moderate to support/sustenance (50%), and minimal to utility (10%), ensuring integer sums to 100.\n\n### Decision\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Fletcher)",
+            "role_obs": [
+                "Cartographer",
+                "Fisherman",
+                "Cleric",
+                "Fletcher",
+                "Butcher",
+                "Farmer",
+                "Armorer"
+            ],
+            "response": "### Analysis\nAs the team leader (Fletcher), my goal is to allocate 100 Action Points to maximize team effectiveness in a game setting, assuming a balanced survival/exploration scenario. Fletchers focus on crafting ranged weapons/ammo, so they benefit from resource production and mapping for material sourcing. Priorities:\n- **High priority (resource production)**: Farmer (food/sustenance), Fisherman (alternative food/supplies), Butcher (meat processing). These ensure long-term survival and provide materials for crafting.\n- **Medium priority (support/exploration)**: Cartographer (mapping for resource discovery), Cleric (healing/morale to sustain the team).\n- **Lower priority (specialized crafting)**: Armorer (armor, less versatile than fletching in varied scenarios), and myself as Fletcher (already leading, so minimal self-allocation to promote team focus).\n\nAllocation strategy: Distribute ~50% to production roles for sustainability, ~30% to support, ~20% to crafting. All integers, summing to 100.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 16,\n    \"Role6\": 20,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "(career: Fletcher)",
+            "role_obs": [
+                "Cartographer",
+                "Butcher",
+                "Cleric",
+                "Armorer",
+                "Fisherman",
+                "Fletcher",
+                "Farmer"
+            ],
+            "response": "### Analysis\nAs the team leader (Fletcher), my goal is to allocate 100 Action Points to optimize team performance in a game setting. Fletchers specialize in archery and ranged combat, so I prioritize my own role (Role6) for offensive capabilities. Next, I emphasize support roles: Cleric (Role3) for healing and sustainability, Armorer (Role4) for equipment durability, and Cartographer (Role1) for exploration and navigation. Farmers (Role7) and Fishermen (Role5) get moderate shares for long-term resource generation (food). Butchers (Role2) receive the least, as their utility overlaps with Farmer/Fisherman but lacks unique strategic value in combat or exploration. This distribution balances immediate action (combat/exploration) with sustainment, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 5,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 25,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Fletcher)",
+            "role_obs": [
+                "Cartographer",
+                "Farmer",
+                "Armorer",
+                "Cleric",
+                "Fisherman",
+                "Fletcher",
+                "Butcher"
+            ],
+            "response": "### Analysis\nAs the team leader (Fletcher), my goal is to optimize resource distribution for a balanced team in this game-like scenario. Fletchers typically focus on crafting ranged weapons (e.g., bows/arrows), so I'll prioritize my own role (Role6) for combat effectiveness. The team composition includes support roles (Cartographer for exploration, Cleric for healing), production roles (Farmer, Fisherman, Butcher for food/sustenance; Armorer and Fletcher for gear), suggesting a mix of survival, crafting, and combat needs. With 100 Action Points, I'll allocate more to production (to sustain the team) and crafting (for defense), moderate to support, and minimal to exploration unless critical. This ensures long-term viability: ~40% to production, ~30% to crafting, ~20% to support, ~10% to exploration.\n\n### Decision\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 20,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Fletcher)",
+            "role_obs": [
+                "Farmer",
+                "Fletcher",
+                "Butcher",
+                "Armorer",
+                "Cleric",
+                "Cartographer",
+                "Fisherman"
+            ],
+            "response": "### Analysis\nAs the team leader (Fletcher), my goal is to optimize resource distribution for balanced team performance in the game. Fletchers focus on ranged weapons and archery, so I'll prioritize combat and support roles that synergize with that (e.g., Armorer for gear, Cleric for healing). Farmers and Fishermen are vital for food/sustenance to maintain team health over time. Butchers provide meat resources, Cartographers aid exploration/navigation, and the secondary Fletcher (Role2) can assist in production. I'll allocate more to core survival (20-25% each to Farmer/Fisherman), production (15-20% to Fletcher/Armorer/Butcher), support (15% to Cleric), and less to utility (10% to Cartographer) to ensure efficiency without overcommitting to any single area. Total: 100 points, integers only.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Fletcher)",
+            "role_obs": [
+                "Farmer",
+                "Cleric",
+                "Cartographer",
+                "Butcher",
+                "Armorer",
+                "Fletcher",
+                "Fisherman"
+            ],
+            "response": "### Analysis\nAs the team leader (Fletcher), my goal is to allocate 100 Action Points to optimize team performance in a game setting, likely involving survival, exploration, and combat. Fletchers craft arrows and ranged weapons, so I prioritize roles that support production chains, resource gathering, and defense. \n\n- **Priorities**: \n  - Resource gatherers (Farmer, Fisherman, Butcher) get higher points for food/sustenance to sustain the team.\n  - Crafters (Armorer for armor, Fletcher for arrows) get solid allocation for equipment, with a slight bias to my own role.\n  - Support (Cleric for healing) is essential but secondary to basics.\n  - Utility (Cartographer for mapping/exploration) gets the least, as it's less immediately critical.\n\nThis balances short-term survival (gathering) with long-term capability (crafting/exploration), ensuring the sum is exactly 100 integers.\n\n### Decision\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 5,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Fletcher)",
+            "role_obs": [
+                "Cartographer",
+                "Fletcher",
+                "Armorer",
+                "Cleric",
+                "Farmer",
+                "Fisherman",
+                "Butcher"
+            ],
+            "response": "### Analysis\nAs the team leader (a Fletcher myself), my goal is to allocate the 100 Action Points strategically to support team survival, exploration, and combat in the game. Fletchers focus on ranged weapons and agility, so I'll prioritize roles that enhance offense, defense, and sustainability. \n\n- **High priority**: Armorer (Role3) for crafting armor/weapons (essential for protection and combat readiness). Fletcher roles (myself as leader, but allocating to Role2 for additional arrow production/scouting). Cleric (Role4) for healing and morale boosts.\n- **Medium priority**: Cartographer (Role1) for mapping/exploration to uncover resources. Butcher (Role7) for food processing from hunts.\n- **Low priority**: Farmer (Role5) and Fisherman (Role6) for long-term food, but less urgent if we can hunt or trade initially.\n\nThis balances short-term needs (combat/survival) with exploration, totaling exactly 100 points in integers.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 25,\n    \"Role4\": 20,\n    \"Role5\": 8,\n    \"Role6\": 7,\n    \"Role7\": 10\n}\n```"
+        }
+    ],
+    "chinese": [
+        {
+            "role_self": "（career：盔甲匠）",
+            "role_obs": [
+                "渔夫",
+                "盔甲匠",
+                "屠夫",
+                "农民",
+                "牧师",
+                "制箭师",
+                "制图师"
+            ],
+            "response": "### 分析\n作为盔甲匠队长，我需要根据游戏逻辑合理分配100行动点数。资源分配应考虑每个职业的核心贡献：渔夫（Role1）负责食物采集，优先支持生存；我自己（Role2，盔甲匠）需维护装备，分配中等份额；屠夫（Role3）处理肉类，次要但必要；农民（Role4）提供作物基础，需较高投入；牧师（Role5）提供精神/治疗支持，适中；制箭师（Role6）专注远程武器，较低但关键；制图师（Role7）探索地图，分配少量以避免浪费。总体上，优先基础生存（渔夫、农民）和团队核心（盔甲、牧师），剩余均匀分布，确保总和为100。\n\n### 决定\n- Role1 (渔夫): 18点（高优先，食物是基础）。\n- Role2 (盔甲匠): 16点（自我维护装备）。\n- Role3 (屠夫): 14点（肉类补充）。\n- Role4 (农民): 20点（作物产量关键）。\n- Role5 (牧师): 15点（团队恢复）。\n- Role6 (制箭师): 10点（武器支持）。\n- Role7 (制图师): 7点（探索辅助）。\n\n总和：18+16+14+20+15+10+7=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "（career：盔甲匠）",
+            "role_obs": [
+                "农民",
+                "盔甲匠",
+                "屠夫",
+                "制箭师",
+                "渔夫",
+                "牧师",
+                "制图师"
+            ],
+            "response": "### 分析\n作为队长（盔甲匠），我需要根据游戏逻辑分配100行动点数给队员。分配原则考虑每个角色的职业特性及其对团队的贡献：农民和渔夫负责基础食物生产，优先分配以确保生存；屠夫和牧师次之，支持食物加工和团队福祉；制箭师用于武器制作，中等分配；制图师用于探索，低优先级；作为另一位盔甲匠，我（队长）会给自己中等分配以强化防御，但这里只分配给队员。总和必须为100整数，确保平衡以最大化团队效率。\n\n### 决定\n- Role1 (农民): 20点（基础食物生产关键）。\n- Role2 (盔甲匠): 15点（与我同职业，支持装备制作）。\n- Role3 (屠夫): 18点（食物加工重要）。\n- Role4 (制箭师): 12点（武器支持中等）。\n- Role5 (渔夫): 16点（补充食物来源）。\n- Role6 (牧师): 10点（团队恢复作用）。\n- Role7 (制图师): 9点（探索辅助，低优先）。\n\n总计：20+15+18+12+16+10+9=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 16,\n    \"Role6\": 10,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "（career：盔甲匠）",
+            "role_obs": [
+                "牧师",
+                "制箭师",
+                "盔甲匠",
+                "屠夫",
+                "渔夫",
+                "制图师",
+                "农民"
+            ],
+            "response": "### 分析\n作为盔甲匠队长，我需要根据团队角色在游戏中的实用性和协同性来分配100行动点数。团队组成包括支持型（牧师）、生产型（制箭师、渔夫、农民、屠夫）、技术型（制图师）和战斗型（盔甲匠）。优先考虑核心生存和战斗需求：盔甲匠（我自己）需要资源强化装备；农民和渔夫确保食物供应；牧师提供治疗支持；制箭师辅助远程战斗；屠夫处理肉食；制图师用于探索，但优先级较低。分配原则：基础生存角色多分（15-20点），战斗/支持次之（10-15点），辅助最低（5-10点），总和精确为100，确保整数。\n\n### 决定\n- Role1 (牧师): 15点（治疗支持关键）。\n- Role2 (制箭师): 12点（箭矢生产辅助战斗）。\n- Role3 (盔甲匠): 20点（队长强化装备）。\n- Role4 (屠夫): 10点（肉食加工）。\n- Role5 (渔夫): 15点（稳定食物来源）。\n- Role6 (制图师): 8点（探索辅助，非核心）。\n- Role7 (农民): 20点（农业基础，长期生存）。\n\n总计：15+12+20+10+15+8+20=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 8,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：盔甲匠）",
+            "role_obs": [
+                "屠夫",
+                "农民",
+                "制图师",
+                "制箭师",
+                "牧师",
+                "盔甲匠",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为盔甲匠队长，我需要根据团队角色分工合理分配100行动点数，以最大化整体效率。团队包括生产型（屠夫、农民、渔夫提供食物）、支持型（牧师提供治疗）、工艺型（制箭师、盔甲匠制作装备）和探索型（制图师提供地图情报）。考虑到盔甲匠（我自己）和制箭师的装备生产对战斗至关重要，应优先分配给他们；农民和渔夫的食物生产次之，以维持生存；屠夫作为肉食供应商中等；制图师的探索价值较高但非即时；牧师的治疗支持最后，以节省点数。分配原则：工艺>生产>探索>支持，总和精确为100，确保整数。\n\n### 决定\n- Role1 (屠夫): 12点（中等食物生产）。\n- Role2 (农民): 18点（基础食物保障）。\n- Role3 (制图师): 10点（情报支持）。\n- Role4 (制箭师): 20点（箭矢生产关键）。\n- Role5 (牧师): 8点（基本治疗）。\n- Role6 (盔甲匠): 22点（队长装备优先）。\n- Role7 (渔夫): 10点（补充食物）。\n\n总计：12+18+10+20+8+22+10=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 8,\n    \"Role6\": 22,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：盔甲匠）",
+            "role_obs": [
+                "牧师",
+                "制箭师",
+                "屠夫",
+                "农民",
+                "制图师",
+                "渔夫",
+                "盔甲匠"
+            ],
+            "response": "### 分析\n作为盔甲匠队长，我需要根据团队的整体平衡和角色职业特性来分配100行动点数。团队中包括支持型（牧师）、生产型（制箭师、农民、渔夫、屠夫）、探索型（制图师）和我的同职业（Role7作为另一位盔甲匠）。优先考虑核心生存和战斗需求：牧师提供治疗支持，制箭师和盔甲匠强化武器/防具，农民/渔夫/屠夫确保食物供应，制图师辅助探索。分配原则是均衡但倾斜向高优先级角色，避免任何角色为0，以最大化团队效率。总和严格为100，均为整数。\n\n### 决定\n- Role1 (牧师): 15点，用于治疗和团队恢复。\n- Role2 (制箭师): 18点，用于武器生产，支持战斗。\n- Role3 (屠夫): 12点，用于肉食供应和基本资源。\n- Role4 (农民): 14点，用于作物种植，确保长期食物。\n- Role5 (制图师): 10点，用于地图绘制和路径优化。\n- Role6 (渔夫): 13点，用于水产补充食物链。\n- Role7 (盔甲匠): 18点，作为我的副手，强化盔甲生产。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 14,\n    \"Role5\": 10,\n    \"Role6\": 13,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：盔甲匠）",
+            "role_obs": [
+                "盔甲匠",
+                "屠夫",
+                "农民",
+                "牧师",
+                "制图师",
+                "制箭师",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为队长（盔甲匠），我需要根据游戏逻辑和角色职业特性分配100行动点数，以最大化团队整体效率。盔甲匠（我自己和Role1）专注于装备制作，优先级高，应分配较多点数以提升防御。屠夫（Role2）和渔夫（Role7）提供肉食资源，适合中等分配以确保食物供应。农民（Role3）负责作物，基础但关键，也需中等支持。牧师（Role4）处理治疗和精神，分配适中以维持团队健康。制图师（Role5）和制箭师（Role6）为探索和远程作战服务，分配较少但非零，以平衡进攻潜力。分配原则：优先核心生产（盔甲、食物），次之支持（农业、治疗），最后辅助（探索、武器），总和精确为100，确保整数。\n\n### 决定\n- Role1 (盔甲匠)：25点（同职业，强化装备生产）。\n- Role2 (屠夫)：15点（肉食供应关键）。\n- Role3 (农民)：15点（基础食物平衡）。\n- Role4 (牧师)：15点（团队恢复必需）。\n- Role5 (制图师)：10点（探索辅助）。\n- Role6 (制箭师)：10点（箭矢支持进攻）。\n- Role7 (渔夫)：10点（补充食物来源）。\n\n总计：25+15+15+15+10+10+10=100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：盔甲匠）",
+            "role_obs": [
+                "盔甲匠",
+                "渔夫",
+                "制箭师",
+                "屠夫",
+                "牧师",
+                "制图师",
+                "农民"
+            ],
+            "response": "### 分析\n作为队长（盔甲匠），我需要根据团队的整体生存和发展需求分配100行动点数。团队包括多个生产角色：Role1和我一样是盔甲匠，适合强化防御；Role2渔夫负责食物捕获；Role3制箭师专注武器制作；Role4屠夫处理肉食；Role5牧师提供精神/医疗支持；Role6制图师辅助探索；Role7农民确保农业基础。优先考虑食物和基本资源生产（渔夫、屠夫、农民），其次是防御和工具（盔甲匠、制箭师），最后是支持角色（牧师、制图师）。分配原则：基础保障每人5-10点，剩余倾斜向食物链和防御，总和精确为100。\n\n### 决定\n- Role1 (盔甲匠)：15点（强化团队盔甲，与我协作）。\n- Role2 (渔夫)：20点（高优先食物来源）。\n- Role3 (制箭师)：10点（武器支持）。\n- Role4 (屠夫)：15点（肉食加工，与渔夫互补）。\n- Role5 (牧师)：10点（团队恢复）。\n- Role6 (制图师)：10点（探索规划）。\n- Role7 (农民)：20点（长期粮食基础）。\n\n总计：15+20+10+15+10+10+20=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：盔甲匠）",
+            "role_obs": [
+                "屠夫",
+                "制箭师",
+                "农民",
+                "牧师",
+                "制图师",
+                "盔甲匠",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为盔甲匠队长，我需要根据团队的整体策略分配100行动点数。游戏中，行动点数可用于探索、生产、战斗或支持活动。我的职业是盔甲匠，因此优先考虑强化防御和装备相关角色（如我自己和相关支持角色），同时确保团队的基本生存和资源链条。角色职业分析如下：\n- Role1 (屠夫)：生产肉食和皮革，基础生存必需，分配中等点数以维持食物供应。\n- Role2 (制箭师)：制作箭矢，支持远程战斗，分配较高点数以提升团队进攻潜力。\n- Role3 (农民)：农业生产，长期资源基础，分配中等点数确保稳定。\n- Role4 (牧师)：治疗和精神支持，关键于团队耐久，分配较高点数以防意外。\n- Role5 (制图师)：地图绘制和探索，分配较低点数作为辅助。\n- Role6 (盔甲匠，我自己)：盔甲制作，核心防御，分配最高点数以强化团队装备。\n- Role7 (渔夫)：水产资源补充，分配较低点数作为备用食物来源。\n\n分配原则：总和为100，整数形式；平衡生存（农民、屠夫、渔夫）、战斗（制箭师、盔甲匠）、支持（牧师、制图师）。优先盔甲相关以匹配我的职业，总分配：生存30%、战斗40%、支持30%。\n\n### 决定\n- Role1: 12（维持食物链）\n- Role2: 18（提升箭矢生产，支持战斗）\n- Role3: 14（农业稳定）\n- Role4: 16（治疗优先）\n- Role5: 8（探索辅助）\n- Role6: 22（核心盔甲强化）\n- Role7: 10（备用资源）\n\n总计：12+18+14+16+8+22+10=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 8,\n    \"Role6\": 22,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：盔甲匠）",
+            "role_obs": [
+                "渔夫",
+                "制箭师",
+                "牧师",
+                "屠夫",
+                "盔甲匠",
+                "制图师",
+                "农民"
+            ],
+            "response": "### 分析\n作为盔甲匠队长，我需要根据游戏逻辑分配100行动点数，以优化团队整体效率。资源分配应优先考虑基础生存、生产链和支持角色：渔夫和农民确保食物供应（基础需求），屠夫处理肉类，制箭师和盔甲匠（我自己）聚焦装备制造，牧师提供治疗支持，制图师用于探索/规划（但优先级较低）。为了平衡，我会给生产角色更多点数（15-20），支持角色中等（10-15），探索角色较少（5-10），总和精确为100。这能维持团队可持续性，同时强化防御（盔甲相关）。\n\n### 决定\n- Role1 (渔夫): 15点（食物采集核心）。\n- Role2 (制箭师): 18点（武器生产，支持战斗）。\n- Role3 (牧师): 12点（治疗维持团队健康）。\n- Role4 (屠夫): 14点（肉类加工，补充食物）。\n- Role5 (盔甲匠): 20点（我自己，强化盔甲制造）。\n- Role6 (制图师): 8点（辅助探索，非核心）。\n- Role7 (农民): 13点（作物生产，长期食物保障）。\n\n总计：15+18+12+14+20+8+13=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 14,\n    \"Role5\": 20,\n    \"Role6\": 8,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：盔甲匠）",
+            "role_obs": [
+                "牧师",
+                "制箭师",
+                "农民",
+                "盔甲匠",
+                "屠夫",
+                "制图师",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为盔甲匠队长，我需要根据游戏逻辑和每个队员的职业特性分配100行动点数。总资源有限，因此优先考虑团队平衡：支持生产链（如农民提供食物基础、渔夫和屠夫补充资源）、辅助角色（如牧师恢复、制图师探索）和制造角色（如制箭师和另一个盔甲匠）。农民和渔夫作为基础生产者应获较多点数以确保生存；屠夫次之；牧师获中等以维持团队健康；制箭师和盔甲匠用于装备升级；制图师获较少用于辅助规划。分配原则：整数，总和正好100，避免零分配以保持全员活跃。\n\n### 决定\n- Role1 (牧师)：12点，用于团队恢复和支持。\n- Role2 (制箭师)：15点，用于武器制造，提升战斗力。\n- Role3 (农民)：20点，作为食物生产核心。\n- Role4 (盔甲匠)：18点，同职业互补，强化防御。\n- Role5 (屠夫)：16点，补充肉食资源。\n- Role6 (制图师)：10点，用于地图和策略规划。\n- Role7 (渔夫)：9点，辅助水产资源采集。\n\n总和：12+15+20+18+16+10+9=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 18,\n    \"Role5\": 16,\n    \"Role6\": 10,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "（career：屠夫）",
+            "role_obs": [
+                "屠夫",
+                "农民",
+                "盔甲匠",
+                "制图师",
+                "制箭师",
+                "渔夫",
+                "牧师"
+            ],
+            "response": "### 分析\n作为游戏中的队长（职业：屠夫），我需要根据团队的整体策略分配100行动点数。团队中包括另一个屠夫（Role1），这意味着我们有双重近战/战斗潜力，因此应优先强化战斗输出以确保生存和进攻。其他角色更偏向支持和资源生产：农民（Role2）和渔夫（Role6）负责食物/资源采集，盔甲匠（Role3）提供防御升级，制箭师（Role5）支持远程攻击，制图师（Role4）可能用于探索/规划，牧师（Role7）处理治疗/精神支持。\n\n分配原则：\n- **优先战斗核心**：给两个屠夫（包括我自己，但分配针对队员）较高点数，用于战斗行动（如攻击、探索危险区域），以最大化团队的输出。\n- **平衡支持**：农民和渔夫获得中等点数，确保资源可持续；盔甲匠和制箭师少量用于装备维护；制图师和牧师最低，用于辅助而不分散主力。\n- **总和约束**：所有分配为整数，总计正好100点。避免零分配以保持团队活跃，但根据职业重要性倾斜。\n\n最终分配：Role1（屠夫）得25点（强化战斗）；Role2（农民）得15点（资源基础）；Role3（盔甲匠）得10点（防御）；Role4（制图师）得5点（辅助）；Role5（制箭师）得10点（远程支持）；Role6（渔夫）得15点（资源补充）；Role7（牧师）得20点（治疗关键）。总和：25+15+10+5+10+15+20=100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 5,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：屠夫）",
+            "role_obs": [
+                "盔甲匠",
+                "农民",
+                "牧师",
+                "制图师",
+                "制箭师",
+                "屠夫",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为游戏中的屠夫队长（Role6），我的首要目标是确保团队生存和进攻能力。总资源为100行动点，我需要根据各队员的职业（career）合理分配：盔甲匠（Role1）优先用于防御装备，农民（Role2）和渔夫（Role7）用于食物供应以维持团队耐力，牧师（Role3）用于治疗和士气，制图师（Role4）用于探索路径，制箭师（Role5）用于远程武器支持，而我自己（屠夫，Role6）作为近战核心，需要足够点数执行主要任务。分配原则：优先核心支持角色（盔甲、食物、治疗），次要探索和辅助，最后平衡自身。总和严格为100，确保整数分配。\n\n### 决定\n- Role1 (盔甲匠): 20点（强化防御装备）。\n- Role2 (农民): 15点（农业生产食物）。\n- Role3 (牧师): 18点（治疗和团队恢复）。\n- Role4 (制图师): 12点（地图绘制辅助探索）。\n- Role5 (制箭师): 10点（箭矢制作支持远程）。\n- Role6 (屠夫，我自己): 15点（执行屠杀和近战任务）。\n- Role7 (渔夫): 10点（补充食物来源）。\n\n总计：20+15+18+12+10+15+10=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：屠夫）",
+            "role_obs": [
+                "盔甲匠",
+                "牧师",
+                "制图师",
+                "渔夫",
+                "屠夫",
+                "制箭师",
+                "农民"
+            ],
+            "response": "### 分析\n作为游戏中的屠夫队长（Role5），我的核心职责是确保团队的生存和资源获取。团队职业多样，包括盔甲匠（防御装备）、牧师（治疗支持）、制图师（探索规划）、渔夫（食物来源）、制箭师（远程武器）、农民（基础农业）和我自己（屠夫，负责狩猎和肉类资源）。总行动点数为100，我需要优先分配给能直接提升团队战斗力和生存力的角色，同时平衡支持性职业。\n\n优先级考虑：\n- **高优先（战斗/生存核心）**：我自己（屠夫，队长需保持强势）和制箭师（提供箭矢，支持远程攻击），各分配较高点数以强化狩猎和防御。\n- **中优先（资源/支持）**：渔夫和农民（食物保障）、盔甲匠（装备防护），分配中等点数以维持后勤。\n- **低优先（辅助）**：牧师（治疗，仅在必要时）和制图师（规划，非即时需求），分配较少点数以节省资源。\n\n分配原则：总和精确为100，使用整数，确保无角色为0（团队协作需人人参与）。最终偏向实用，避免过度投资探索。\n\n### 决定\n基于以上，我决定如下分配：\n- Role1 (盔甲匠)：12点（强化防御）。\n- Role2 (牧师)：8点（基本治疗）。\n- Role3 (制图师)：6点（辅助规划）。\n- Role4 (渔夫)：14点（食物供应）。\n- Role5 (屠夫，我自己)：20点（核心狩猎）。\n- Role6 (制箭师)：18点（武器支持）。\n- Role7 (农民)：22点（农业基础）。\n\n总和：12+8+6+14+20+18+22=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 6,\n    \"Role4\": 14,\n    \"Role5\": 20,\n    \"Role6\": 18,\n    \"Role7\": 22\n}\n```"
+        },
+        {
+            "role_self": "（career：屠夫）",
+            "role_obs": [
+                "牧师",
+                "盔甲匠",
+                "农民",
+                "屠夫",
+                "制图师",
+                "渔夫",
+                "制箭师"
+            ],
+            "response": "### 分析\n作为游戏中的屠夫队长（Role4），我的职业专注于狩猎、肉类生产和近战战斗，因此我需要优先确保自己的行动点数充足，以维持团队的核心输出。同时，考虑到团队平衡：\n- **Role1 (牧师)**：提供治疗和精神支持，适合分配中等点数以维持团队生存。\n- **Role2 (盔甲匠)**：负责装备维护和防御升级，与我的战斗角色互补，需适量支持。\n- **Role3 (农民)**：基础食物生产，分配少量以确保后勤稳定。\n- **Role4 (屠夫，我自己)**：核心角色，分配最多点数用于狩猎和领导。\n- **Role5 (制图师)**：探索和地图绘制，有助于团队移动，分配中等以扩展视野。\n- **Role6 (渔夫)**：补充食物来源，与农民类似，少量分配。\n- **Role7 (制箭师)**：远程武器支持，适合辅助战斗，分配中等以增强团队火力。\n\n总点数100，我会优先自己（40点），然后分配给战斗/支持角色（盔甲匠、制箭师、牧师各15点），探索角色（制图师10点），后勤角色（农民、渔夫各5点），确保总和为100，实现团队高效协作。\n\n### 决定\n分配如下：Role1:15, Role2:15, Role3:5, Role4:40, Role5:10, Role6:5, Role7:10。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 5,\n    \"Role4\": 40,\n    \"Role5\": 10,\n    \"Role6\": 5,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：屠夫）",
+            "role_obs": [
+                "渔夫",
+                "盔甲匠",
+                "农民",
+                "制图师",
+                "屠夫",
+                "牧师",
+                "制箭师"
+            ],
+            "response": "### 分析\n作为队长（职业：屠夫），我的目标是优化团队资源分配，以支持游戏内的整体生存和战斗效率。总资源为100行动点数，需要全部分配给7名队员。分配原则基于职业协同性：\n- **渔夫 (Role1)** 和 **农民 (Role3)**：基础资源生产者（食物），优先中高分配以确保团队补给。\n- **盔甲匠 (Role2)** 和 **制箭师 (Role7)**：防御/武器制造，支持战斗，分配中等以强化装备。\n- **制图师 (Role4)**：探索/导航辅助，分配较低但非零，以提供情报。\n- **屠夫 (Role5)**：与我同职业，优先高分配以增强肉类处理和近战能力，形成核心战斗力。\n- **牧师 (Role6)**：治疗/精神支持，分配中等以维持团队耐久。\n\n考虑到平衡，我会避免任何角色得0点（确保全员参与），并偏向生产和战斗职业，总和精确为100。\n\n### 决定\n- Role1 (渔夫): 15点（食物生产关键）。\n- Role2 (盔甲匠): 12点（装备支持）。\n- Role3 (农民): 14点（农业稳定）。\n- Role4 (制图师): 8点（探索辅助）。\n- Role5 (屠夫): 20点（同职业强化）。\n- Role6 (牧师): 13点（治疗必需）。\n- Role7 (制箭师): 18点（远程战斗）。\n\n总计：15+12+14+8+20+13+18=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 8,\n    \"Role5\": 20,\n    \"Role6\": 13,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：屠夫）",
+            "role_obs": [
+                "农民",
+                "制箭师",
+                "制图师",
+                "屠夫",
+                "牧师",
+                "渔夫",
+                "盔甲匠"
+            ],
+            "response": "### 分析\n作为队长（职业：屠夫），我的目标是优化团队资源分配，以支持游戏内的整体活动，如资源采集、生产和战斗准备。总行动点数为100，必须以整数分配给所有7名队员，总和正好为100。我会优先考虑每个职业的核心贡献：\n\n- **Role1 (农民)**：负责食物和基本资源生产，基础且必需，需要较高分配以维持团队生存。\n- **Role2 (制箭师)**：生产箭矢等远程武器，支持战斗，需要中等分配以提升输出。\n- **Role3 (制图师)**：提供地图和探索情报，有战略价值，但非即时必需，分配适中。\n- **Role4 (屠夫)**：与我同职业，擅长肉类加工和近战，可能有协同效应，作为“内部”队员优先多分配。\n- **Role5 (牧师)**：提供治疗和精神支持，关键于团队耐久，分配较高以确保后勤。\n- **Role6 (渔夫)**：补充食物来源，类似于农民，但更偏向水域，分配中等以平衡资源。\n- **Role7 (盔甲匠)**：制造盔甲，提升防御，战斗中重要，分配较高。\n\n分配原则：基础生存角色（农民、渔夫）占30%，战斗/生产角色（制箭师、盔甲匠、屠夫）占40%，支持角色（制图师、牧师）占30%。避免零分配，确保每个人至少有基本行动力，同时突出屠夫的优先级。\n\n### 决定\n基于以上分析，我决定如下分配：农民和牧师各15点以稳固后勤；盔甲匠和屠夫各18点以强化战斗；制箭师和渔夫各12点以支持生产；制图师10点以辅助探索。总和：15+12+10+18+15+12+18=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 15,\n    \"Role6\": 12,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：屠夫）",
+            "role_obs": [
+                "制箭师",
+                "农民",
+                "渔夫",
+                "牧师",
+                "制图师",
+                "盔甲匠",
+                "屠夫"
+            ],
+            "response": "### 分析\n作为游戏中的屠夫队长，我需要根据团队整体策略分配100行动点数。团队组成包括制箭师（Role1，适合狩猎/战斗准备）、农民（Role2，基础食物生产）、渔夫（Role3，水产资源）、牧师（Role4，精神/恢复支持）、制图师（Role5，探索/规划）和盔甲匠（Role6，防御装备）。我自己（Role7，屠夫）专注于肉类获取和近战。\n\n优先级考虑：\n- **生存基础**：农民和渔夫提供稳定食物，分配较高点数以确保团队不饥饿。\n- **战斗与防御**：作为屠夫，我优先自己以强化团队输出；盔甲匠次之，提供装备支持；制箭师辅助远程。\n- **支持与探索**：牧师用于恢复，制图师用于长远规划，但初期分配较低以聚焦即时需求。\n- 总和必须为100，整数分配，避免零分配以保持团队平衡。\n\n分配逻辑：食物生产占40%（Role2/3），战斗核心占40%（Role7/6/1），支持占20%（Role4/5）。\n\n### 决定\n- Role1 (制箭师): 12点（辅助战斗准备）。\n- Role2 (农民): 20点（核心食物供应）。\n- Role3 (渔夫): 18点（补充食物多样性）。\n- Role4 (牧师): 10点（团队恢复）。\n- Role5 (制图师): 8点（探索规划）。\n- Role6 (盔甲匠): 15点（防御强化）。\n- Role7 (屠夫，我自己): 17点（领导与肉类/战斗输出）。\n\n总计：12+20+18+10+8+15+17=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 20,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 8,\n    \"Role6\": 15,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "（career：屠夫）",
+            "role_obs": [
+                "农民",
+                "盔甲匠",
+                "屠夫",
+                "制箭师",
+                "渔夫",
+                "牧师",
+                "制图师"
+            ],
+            "response": "### 分析\n作为游戏中的屠夫队长（career: 屠夫），我的分配策略优先考虑团队的整体生存和战斗效率。屠夫职业强调近战和资源获取（如狩猎或肉食生产），因此我需要平衡支持性角色（如农民提供食物基础、盔甲匠提供防御装备、渔夫和牧师补充资源与恢复）与辅助角色（如制箭师支持远程、制图师提供探索情报）。Role3作为另一位屠夫，应获得较高分配以强化核心战斗力。总资源100点数，我会避免零分配，确保每个角色至少有基本行动能力，同时倾斜向生产和防御角色。分配原则：核心生产/战斗角色多分（15-20点），辅助角色少分（5-10点），总和精确为100。\n\n### 决定\n- Role1 (农民): 15点 – 基础食物生产至关重要，支持团队长期生存。\n- Role2 (盔甲匠): 18点 – 提供盔甲，提升屠夫系的近战耐久。\n- Role3 (屠夫): 20点 – 同职业，优先强化战斗输出。\n- Role4 (制箭师): 10点 – 辅助远程支持，但非核心。\n- Role5 (渔夫): 12点 – 补充食物资源，与农民互补。\n- Role6 (牧师): 13点 – 提供治疗，保障团队续航。\n- Role7 (制图师): 12点 – 情报支持探索，但优先级较低。\n\n总和：15+18+20+10+12+13+12=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 12,\n    \"Role6\": 13,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：屠夫）",
+            "role_obs": [
+                "制箭师",
+                "渔夫",
+                "制图师",
+                "牧师",
+                "屠夫",
+                "盔甲匠",
+                "农民"
+            ],
+            "response": "### 分析\n作为队长（职业：屠夫），我的目标是优化团队在游戏中的生存和发展。总资源为100行动点数，需要分配给7名队员，确保总和为100。分配原则基于每个职业的核心贡献和团队协同：\n\n- **优先级考虑**：团队需要食物、资源、生产和支持。农民（Role7）是食物基础，优先高分配以确保生存。渔夫（Role2）补充食物资源，也需较高份额。制箭师（Role1）和盔甲匠（Role6）负责武器/防御生产，中等分配以提升战斗力。屠夫（Role5）作为我的同职业队员，需适中支持以协同狩猎/肉类获取。制图师（Role3）提供探索情报，低优先但不可或缺。牧师（Role4）提供治疗/精神支持，最低分配以节省资源。\n\n- **平衡策略**：总分配100点，避免任何角色为0以保持团队活跃。农民和渔夫合计占40%（食物安全），生产/战斗角色占35%，支持角色占25%。这能快速建立基地，同时准备扩张。\n\n### 分配决定\n- Role1 (制箭师): 12点（武器生产，支持早期防御）。\n- Role2 (渔夫): 18点（食物补充，确保短期生存）。\n- Role3 (制图师): 8点（情报收集，辅助探索）。\n- Role4 (牧师): 10点（治疗支持，维持团队健康）。\n- Role5 (屠夫): 15点（同职业协同，增强狩猎效率）。\n- Role6 (盔甲匠): 14点（盔甲生产，提升耐久）。\n- Role7 (农民): 23点（核心食物生产，长期基础）。\n\n总和：12+18+8+10+15+14+23=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 8,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 23\n}\n```"
+        },
+        {
+            "role_self": "（career：屠夫）",
+            "role_obs": [
+                "屠夫",
+                "盔甲匠",
+                "制箭师",
+                "牧师",
+                "渔夫",
+                "制图师",
+                "农民"
+            ],
+            "response": "### 分析\n作为游戏中的队长（职业：屠夫），我需要根据团队协作和职业特性分配100行动点数。团队包括多个职业：另一个屠夫（Role1，可能作为副手支持我）、盔甲匠（Role2，负责防御装备）、制箭师（Role3，负责远程武器）、牧师（Role4，提供治疗和支援）、渔夫（Role5，确保食物供应）、制图师（Role6，负责探索和导航）、农民（Role7，负责农业和资源基础）。  \n\n分配原则：  \n- 优先支持生存和战斗核心：农民和渔夫作为基础资源提供者（食物和农产品），需较高分配以维持团队长期运作。  \n- 战斗相关职业（如屠夫、盔甲匠、制箭师）次之，用于直接对抗和装备。  \n- 支援职业（如牧师和制图师）分配适中，以增强团队耐久和探索效率。  \n- 总和严格为100，确保整数分配，平衡整体而不偏废任何角色。  \n\n基于此，我决定：基础资源者（Role5、Role7）各20点；战斗者（Role1、Role2、Role3）各15点；支援者（Role4、Role6）各10点。总计：20+20+15+15+15+10+10=105（调整Role6至5点，总和正好100）。\n\n### 决定\n分配如下：Role1（屠夫）15点，用于近战支援；Role2（盔甲匠）15点，强化防御；Role3（制箭师）15点，提升远程能力；Role4（牧师）10点，提供治疗；Role5（渔夫）20点，确保食物；Role6（制图师）5点，支持导航；Role7（农民）20点，维持农业基础。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 5,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：制图师）",
+            "role_obs": [
+                "制箭师",
+                "渔夫",
+                "牧师",
+                "屠夫",
+                "制图师",
+                "盔甲匠",
+                "农民"
+            ],
+            "response": "### 分析\n作为队长（制图师），我需要根据团队整体需求分配100行动点数。游戏中，资源分配应优先支持生存、生产和探索等核心活动：\n- **Role1 (制箭师)**：负责武器制作，支持战斗和狩猎，优先级高，需要资源制作箭矢。\n- **Role2 (渔夫)**：提供食物来源，基础生存必需，分配中等以确保稳定食物供应。\n- **Role3 (牧师)**：可能涉及治疗或精神支持，团队健康关键，但非即时生产，分配较低。\n- **Role4 (屠夫)**：处理肉类，进一步支持食物链，与渔夫互补，分配中等。\n- **Role5 (制图师)**：作为另一位制图师（可能是我或副手），专注地图绘制和探索规划，分配较高以推进游戏进度。\n- **Role6 (盔甲匠)**：制作防护装备，支持长期生存和战斗，优先级高但需材料，分配较高。\n- **Role7 (农民)**：农业生产，提供长期食物和资源，基础但缓慢，分配中等以平衡短期需求。\n\n总体策略：优先战斗/防护（制箭师、盔甲匠）和探索（制图师），其次食物生产（渔夫、屠夫、农民），牧师最低。总和严格为100，确保整数分配。\n\n### 决定\n- Role1: 18（支持武器生产）\n- Role2: 12（确保食物）\n- Role3: 8（辅助支持）\n- Role4: 14（肉类处理）\n- Role5: 16（探索规划）\n- Role6: 17（防护装备）\n- Role7: 15（农业基础）\n\n总计：18+12+8+14+16+17+15=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 8,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 17,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：制图师）",
+            "role_obs": [
+                "牧师",
+                "屠夫",
+                "制图师",
+                "盔甲匠",
+                "制箭师",
+                "渔夫",
+                "农民"
+            ],
+            "response": "### 分析\n作为队长（制图师），我需要根据游戏逻辑分配100行动点数给7名队员，确保总和为100且均为整数。分配原则考虑职业的实用性和团队平衡：在生存类游戏中，农民（Role7）是食物基础，优先高分配；渔夫（Role6）补充食物，中等分配；牧师（Role1）提供治疗支持，中等分配；屠夫（Role2）处理肉食，稍高分配；制箭师（Role5）和盔甲匠（Role4）负责武器/防具，中低分配；另一名制图师（Role3）作为我的副手，低分配以避免资源浪费。总体目标：确保食物和生存需求优先，总和精确100。\n\n### 决定\n- Role1 (牧师): 12点（支持团队恢复）\n- Role2 (屠夫): 15点（处理食物资源）\n- Role3 (制图师): 8点（辅助探索）\n- Role4 (盔甲匠): 14点（防具维护）\n- Role5 (制箭师): 13点（武器生产）\n- Role6 (渔夫): 18点（额外食物来源）\n- Role7 (农民): 20点（核心食物生产）\n\n总和：12+15+8+14+13+18+20=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 8,\n    \"Role4\": 14,\n    \"Role5\": 13,\n    \"Role6\": 18,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：制图师）",
+            "role_obs": [
+                "牧师",
+                "制图师",
+                "渔夫",
+                "盔甲匠",
+                "屠夫",
+                "农民",
+                "制箭师"
+            ],
+            "response": "### 分析\n作为队长（制图师），我需要根据团队角色平衡分配100行动点数。优先考虑游戏内活动的多样性：制图师（包括我自己）适合探索和规划，牧师提供支持和治疗，渔夫和农民确保食物供应，屠夫辅助狩猎，盔甲匠和制箭师专注装备制造。分配原则是：核心生存角色（如农民、渔夫）多分以维持基础；支持和制造角色适中；同职业（Role2）稍多以协同；总和严格为100整数。\n\n- Role1 (牧师)：支持角色，分配15点用于治疗和辅助。\n- Role2 (制图师)：同我职业，分配20点用于地图和探索协同。\n- Role3 (渔夫)：食物来源，分配18点用于捕鱼。\n- Role4 (盔甲匠)：装备制造，分配12点用于防护。\n- Role5 (屠夫)：辅助食物/狩猎，分配10点。\n- Role6 (农民)：基础食物生产，分配15点。\n- Role7 (制箭师)：武器制造，分配10点。\n\n总计：15+20+18+12+10+15+10=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：制图师）",
+            "role_obs": [
+                "渔夫",
+                "制图师",
+                "盔甲匠",
+                "制箭师",
+                "牧师",
+                "农民",
+                "屠夫"
+            ],
+            "response": "### 分析\n作为队长（制图师），我需要根据游戏逻辑合理分配100行动点数。总资源有限，我会优先考虑团队平衡：渔夫（Role1）和农民（Role6）负责食物生产，应获得较高分配以确保生存基础；屠夫（Role7）辅助食物链，也需适中支持；制图师（Role2，包括我自己）用于探索和规划，分配中等；盔甲匠（Role3）和制箭师（Role4）专注装备制造，分配较低以节省资源；牧师（Role5）提供精神支持，分配最低以避免过度消耗。分配原则：整数，总和精确为100，确保每个角色至少1点以保持活跃。\n\n### 决定\n- Role1 (渔夫): 20点（食物生产核心）\n- Role2 (制图师): 15点（探索支持）\n- Role3 (盔甲匠): 12点（防御装备）\n- Role4 (制箭师): 12点（进攻装备）\n- Role5 (牧师): 8点（辅助恢复）\n- Role6 (农民): 18点（农业基础）\n- Role7 (屠夫): 15点（食物加工）\n\n总和：20+15+12+12+8+18+15=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 12,\n    \"Role5\": 8,\n    \"Role6\": 18,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：制图师）",
+            "role_obs": [
+                "渔夫",
+                "屠夫",
+                "牧师",
+                "制箭师",
+                "制图师",
+                "农民",
+                "盔甲匠"
+            ],
+            "response": "### 分析\n作为队长（制图师），我需要根据游戏逻辑合理分配100行动点数给队员。分配原则考虑每个职业的核心作用和团队平衡：渔夫（Role1）和农民（Role6）负责食物生产，应获得较高点数以确保生存基础；屠夫（Role2）辅助食物加工，分配中等；牧师（Role3）提供精神/治疗支持，适中分配；制箭师（Role4）和盔甲匠（Role7）负责武器/防御，分配较高以提升战斗力；另一位制图师（Role5）作为我的副手，分配中等以支持探索/规划。总和严格为100，确保整数分配，避免零分配以保持团队活跃。\n\n### 决定\n- Role1 (渔夫): 15点（优先食物采集）\n- Role2 (屠夫): 10点（辅助加工）\n- Role3 (牧师): 12点（团队支持）\n- Role4 (制箭师): 18点（武器生产）\n- Role5 (制图师): 14点（探索辅助）\n- Role6 (农民): 16点（农业基础）\n- Role7 (盔甲匠): 15点（防御强化）\n\n总计: 15+10+12+18+14+16+15=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：制图师）",
+            "role_obs": [
+                "牧师",
+                "制图师",
+                "盔甲匠",
+                "农民",
+                "屠夫",
+                "制箭师",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为队长（制图师），我的角色专注于探索和地图绘制，因此我会优先分配资源给自己（Role2）以支持团队的整体战略，如发现新路径或资源点。同时，考虑到团队的平衡，我会根据各队员职业的实用性进行分配：\n- **Role1 (牧师)**：提供治疗和支持，重要但非即时生存必需，分配中等资源。\n- **Role2 (制图师，我自己)**：核心探索角色，需要最高资源以最大化团队效率。\n- **Role3 (盔甲匠)**：制造防护装备，有助于长期生存，分配较高。\n- **Role4 (农民)**：食物生产基础，稳定但缓慢，分配中等。\n- **Role5 (屠夫)**：快速肉食获取，补充食物链，分配较高。\n- **Role6 (制箭师)**：远程武器支持，战斗中关键，分配中等。\n- **Role7 (渔夫)**：额外食物来源，类似农民但更针对水域，分配较低以优化总和。\n\n分配原则：总和精确为100，使用整数；优先高影响角色（探索、战斗、食物），确保团队可持续性，避免任何角色为0以保持活跃。\n\n### 决定\n基于以上分析，我决定如下分配行动点数：Role1得12，Role2得20，Role3得15，Role4得10，Role5得15，Role6得13，Role7得5（总和100）。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 13,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：制图师）",
+            "role_obs": [
+                "屠夫",
+                "盔甲匠",
+                "牧师",
+                "渔夫",
+                "制图师",
+                "农民",
+                "制箭师"
+            ],
+            "response": "### 分析\n作为队长（制图师），我需要将100行动点数分配给7名队员，确保总和为100，且均为非负整数。分配原则基于游戏逻辑：优先考虑团队平衡和角色专长贡献。制图师（Role5，我自己）作为队长，应获得适中资源以支持探索和规划；生产型角色如农民（Role6，提供食物）、渔夫（Role4，提供资源）和制箭师（Role7，提供武器）需较多点数以维持后勤；战斗/防护角色如屠夫（Role1）和盔甲匠（Role2）适中支持；牧师（Role3）作为辅助，分配较少以节省资源。总体目标：后勤40%、战斗30%、辅助/规划30%，避免任何角色为0以保持团队活跃。\n\n### 决定\n- Role1 (屠夫): 15点（战斗支持）。\n- Role2 (盔甲匠): 15点（防护装备）。\n- Role3 (牧师): 10点（治疗辅助）。\n- Role4 (渔夫): 15点（资源获取）。\n- Role5 (制图师): 15点（队长规划）。\n- Role6 (农民): 20点（食物生产核心）。\n- Role7 (制箭师): 10点（武器补充）。\n\n总和：15+15+10+15+15+20+10=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：制图师）",
+            "role_obs": [
+                "渔夫",
+                "制箭师",
+                "屠夫",
+                "牧师",
+                "农民",
+                "盔甲匠",
+                "制图师"
+            ],
+            "response": "### 分析\n作为队长（制图师），我需要根据游戏逻辑合理分配100行动点数给队员。资源分配应考虑每个职业的核心贡献：渔夫和农民侧重食物生产，屠夫和牧师辅助资源与恢复，制箭师和盔甲匠提供武器与防御，而作为制图师的我（Role7）需要优先探索与规划，因此分配给自己较高点数。总体策略是平衡生产（渔夫、农民、屠夫约占40%）、防御/支持（制箭师、盔甲匠、牧师约30%）和探索（我自己约30%），确保总和为100整数。\n\n### 决定\n- Role1 (渔夫): 15点，用于捕鱼确保食物供应。\n- Role2 (制箭师): 12点，用于制作箭矢支持狩猎/战斗。\n- Role3 (屠夫): 14点，用于处理肉类维持团队营养。\n- Role4 (牧师): 10点，用于治疗与精神支持。\n- Role5 (农民): 16点，用于耕作稳定长期食物。\n- Role6 (盔甲匠): 13点，用于锻造盔甲提升防御。\n- Role7 (制图师，我自己): 20点，用于地图绘制与路径规划，推动团队前进。\n\n总计：15+12+14+10+16+13+20=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 10,\n    \"Role5\": 16,\n    \"Role6\": 13,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：制图师）",
+            "role_obs": [
+                "盔甲匠",
+                "屠夫",
+                "牧师",
+                "制箭师",
+                "渔夫",
+                "农民",
+                "制图师"
+            ],
+            "response": "### 分析\n作为制图师队长，我需要根据游戏逻辑合理分配100行动点数。制图师（Role7，我自己）专注于探索和地图绘制，因此优先获得较高点数以支持团队整体战略（如发现新资源点）。其他角色基于其职业的实用性和团队贡献分配：盔甲匠（Role1）和牧师（Role3）提供防御与恢复，适合中等分配；屠夫（Role2）和农民（Role6）确保食物供应，分配稍高；渔夫（Role5）作为补充食物来源，分配适中；制箭师（Role4）用于武器生产，分配较低以平衡资源。总和严格为100，确保整数分配。\n\n### 决定\n- Role1 (盔甲匠): 12点（强化防御）。\n- Role2 (屠夫): 15点（食物加工）。\n- Role3 (牧师): 13点（团队恢复）。\n- Role4 (制箭师): 8点（武器支持）。\n- Role5 (渔夫): 10点（额外食物）。\n- Role6 (农民): 15点（基础食物生产）。\n- Role7 (制图师): 27点（探索优先）。\n\n总计：12+15+13+8+10+15+27=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 13,\n    \"Role4\": 8,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 27\n}\n```"
+        },
+        {
+            "role_self": "（career：制图师）",
+            "role_obs": [
+                "农民",
+                "屠夫",
+                "盔甲匠",
+                "牧师",
+                "渔夫",
+                "制图师",
+                "制箭师"
+            ],
+            "response": "### 分析\n作为制图师队长，我需要根据游戏逻辑分配100行动点数。制图师（我自己，Role6）擅长探索和规划，因此应获得较高份额以支持团队整体策略。其他角色基于其职业实用性分配：农民（Role1）和渔夫（Role5）作为基础资源生产者，获得中等份额；屠夫（Role2）和牧师（Role4）提供食物和支持，稍低；盔甲匠（Role3）和制箭师（Role7）作为装备专家，获得最低以平衡团队。总和确保为100整数点，避免浪费。\n\n### 决定\n- Role1 (农民): 18点 - 基础食物生产优先。\n- Role2 (屠夫): 12点 - 辅助资源加工。\n- Role3 (盔甲匠): 8点 - 防御装备支持。\n- Role4 (牧师): 14点 - 团队恢复关键。\n- Role5 (渔夫): 16点 - 稳定资源补充。\n- Role6 (制图师): 22点 - 队长探索核心。\n- Role7 (制箭师): 10点 - 远程武器辅助。\n\n总计: 18+12+8+14+16+22+10=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 8,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 22,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "盔甲匠",
+                "屠夫",
+                "渔夫",
+                "制图师",
+                "农民",
+                "制箭师",
+                "牧师"
+            ],
+            "response": "### 分析\n作为牧师队长，我需要根据团队的整体需求分配100行动点数。团队角色多样，包括生产型（如盔甲匠、屠夫、渔夫、农民、制箭师）和支持型（如制图师）。我的目标是平衡资源：优先支持生存与战斗准备（如食物、装备、箭矢），同时确保生产效率。分配原则：\n- **盔甲匠 (Role1)**：生产盔甲，提升防御，分配较高点数以强化团队装备。\n- **屠夫 (Role2)** 和 **渔夫 (Role3)**：提供肉食和鱼类，确保食物供应，分配中等点数以维持生存。\n- **农民 (Role5)**：基础粮食生产，分配较高以支持长期自给。\n- **制箭师 (Role6)**：制作箭矢，支持远程战斗，分配中等以备战。\n- **制图师 (Role4)**：探索与导航，分配较低点数，因为短期内非必需。\n- **牧师 (Role7)**：我自己，分配剩余点数用于治疗或支持活动，确保团队健康。\n\n总和严格为100，优先生产链（装备>食物>战斗准备>探索）。\n\n### 决定\n- Role1 (盔甲匠): 20  \n- Role2 (屠夫): 15  \n- Role3 (渔夫): 15  \n- Role4 (制图师): 5  \n- Role5 (农民): 20  \n- Role6 (制箭师): 15  \n- Role7 (牧师): 10  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 5,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "屠夫",
+                "制箭师",
+                "制图师",
+                "牧师",
+                "农民",
+                "盔甲匠",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为游戏中的牧师队长，我需要根据每个队员的职业（career）来分配100行动点数，以最大化团队整体效率。牧师职业通常侧重支持、治疗和精神提升，因此分配应优先强化团队的生存、生产和探索能力：\n\n- **Role1 (屠夫)**：负责肉食生产和战斗支持，适合高行动点以提升食物链和防御。\n- **Role2 (制箭师)**：制作箭矢等远程武器，适合中等分配以支持狩猎和战斗准备。\n- **Role3 (制图师)**：绘制地图，促进探索和资源发现，适合中等分配以扩展团队视野。\n- **Role4 (牧师)**：与我同职业，专注于治疗和buff，适合较高分配以确保团队健康。\n- **Role5 (农民)**：基础粮食生产，适合高分配以维持团队后勤稳定。\n- **Role6 (盔甲匠)**：制作护甲，提升防御，适合中等分配以强化战斗力。\n- **Role7 (渔夫)**：水产资源获取，适合较低分配作为补充食物来源。\n\n总体策略：优先农民和屠夫（后勤核心，合计40点），其次牧师和盔甲匠（支持与防御，合计30点），剩余分配给制箭师、制图师和渔夫（战斗与探索，合计30点）。确保总和为100整数。\n\n### 决定\n基于以上分析，我分配如下：\n- Role1 (屠夫): 20点（强化食物与战斗）。\n- Role2 (制箭师): 10点（武器支持）。\n- Role3 (制图师): 15点（探索扩展）。\n- Role4 (牧师): 15点（治疗优先）。\n- Role5 (农民): 20点（后勤基础）。\n- Role6 (盔甲匠): 15点（防御提升）。\n- Role7 (渔夫): 5点（补充资源）。\n\n总计：20+10+15+15+20+15+5=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "制箭师",
+                "牧师",
+                "制图师",
+                "盔甲匠",
+                "渔夫",
+                "屠夫",
+                "农民"
+            ],
+            "response": "### 分析\n作为游戏中的牧师队长，我需要考虑团队的整体平衡和生存需求。资源（行动点数）总计100点，用于游戏内的活动，如生产、探索或支持。团队角色多样，包括生产型（制箭师、制图师、盔甲匠用于装备和地图）、基础资源型（渔夫、屠夫、农民提供食物和原料）和另一个牧师（可能用于治疗或辅助）。优先分配给基础资源角色（如农民、渔夫、屠夫），因为食物和原料是团队生存核心；其次是生产角色（如盔甲匠和制箭师）以提升防御和狩猎；制图师用于探索，可稍低；作为队长，我会给自己（Role2）适中分配以支持团队。分配原则：整数，总和100，确保每个角色至少1点以保持活跃，避免过度集中。\n\n### 决定\n- Role1 (制箭师)：12点（支持狩猎和箭矢生产）。\n- Role2 (牧师)：15点（作为队长，用于团队治疗和协调）。\n- Role3 (制图师)：8点（探索地图，但非核心）。\n- Role4 (盔甲匠)：14点（提升团队防护）。\n- Role5 (渔夫)：13点（提供鱼类食物）。\n- Role6 (屠夫)：13点（处理肉类资源）。\n- Role7 (农民)：25点（农业是长期食物基础，优先最高）。\n\n总和：12+15+8+14+13+13+25=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 8,\n    \"Role4\": 14,\n    \"Role5\": 13,\n    \"Role6\": 13,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "制图师",
+                "制箭师",
+                "渔夫",
+                "农民",
+                "牧师",
+                "盔甲匠",
+                "屠夫"
+            ],
+            "response": "### 分析\n作为游戏中的牧师队长，我的角色是支持团队的生存、恢复和精神指导，因此资源分配应优先考虑团队的基本需求：食物生产（渔夫、农民、屠夫）、工具与装备制作（制图师、制箭师、盔甲匠），以及另一个牧师的辅助支持。总资源为100行动点，我会确保分配均衡，避免任何角色为0，以维持团队平衡。优先级：食物相关角色稍高（约占40%），因为生存基础；制作角色次之（约占40%）；另一个牧师最低但仍有支持（约占20%）。这样可以促进整体发展，而非单一角色主导。\n\n### 决定\n- Role1 (制图师): 15点，用于探索和规划。\n- Role2 (制箭师): 12点，用于武器制作。\n- Role3 (渔夫): 18点，用于食物采集。\n- Role4 (农民): 18点，用于农业生产。\n- Role5 (牧师): 10点，用于团队恢复支持。\n- Role6 (盔甲匠): 14点，用于防御装备。\n- Role7 (屠夫): 13点，用于肉食加工。\n\n总和：15+12+18+18+10+14+13=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 14,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "制图师",
+                "渔夫",
+                "农民",
+                "盔甲匠",
+                "牧师",
+                "制箭师",
+                "屠夫"
+            ],
+            "response": "### 分析\n作为游戏中的牧师队长，我需要根据团队整体需求分配100行动点数。团队角色多样，包括资源采集（渔夫、农民、屠夫）、生产（制图师、制箭师、盔甲匠）和支持（另一位牧师）。优先考虑基础生存和生产链：农民和渔夫提供食物基础，屠夫处理肉类，盔甲匠和制箭师支持防御，制图师辅助探索，最后牧师（包括我自己）用于治疗和支持。分配原则是平衡发展，避免任何角色为0，确保总和为100整数。给予采集角色稍多点数以维持供给，生产角色中等，支持角色较少。\n\n### 决定\n- Role1 (制图师): 10点（探索支持）\n- Role2 (渔夫): 18点（食物采集）\n- Role3 (农民): 20点（核心食物生产）\n- Role4 (盔甲匠): 12点（防御装备）\n- Role5 (牧师): 8点（团队治疗）\n- Role6 (制箭师): 14点（武器生产）\n- Role7 (屠夫): 18点（肉类处理）\n\n总和：10+18+20+12+8+14+18=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 18,\n    \"Role3\": 20,\n    \"Role4\": 12,\n    \"Role5\": 8,\n    \"Role6\": 14,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "盔甲匠",
+                "屠夫",
+                "牧师",
+                "制图师",
+                "制箭师",
+                "农民",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为游戏中的牧师队长，我需要根据团队整体策略分配100行动点数。团队组成包括生产型角色（盔甲匠、屠夫、制箭师、农民、渔夫）和支持型角色（另一位牧师、制图师）。优先考虑生存与发展：农民和渔夫负责食物基础，盔甲匠和制箭师提供防御与武器，屠夫辅助资源加工，制图师用于探索，另一位牧师用于团队治疗与支持。分配原则是均衡但倾斜向核心生产与防御，避免任何角色为0，以确保团队可持续性。最终总和精确为100。\n\n### 决定\n- Role1 (盔甲匠): 18点（强化防御装备）。\n- Role2 (屠夫): 12点（加工食物与材料）。\n- Role3 (牧师): 15点（作为副手，提供治疗支持）。\n- Role4 (制图师): 10点（辅助探索规划）。\n- Role5 (制箭师): 14点（制造远程武器）。\n- Role6 (农民): 16点（确保食物供应核心）。\n- Role7 (渔夫): 15点（补充食物来源）。\n\n总计：18+12+15+10+14+16+15=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "渔夫",
+                "盔甲匠",
+                "农民",
+                "制箭师",
+                "牧师",
+                "制图师",
+                "屠夫"
+            ],
+            "response": "### 分析\n作为游戏中的牧师队长，我需要根据每个队员的职业特性来分配100行动点数，以最大化团队整体效率。优先考虑资源生产和支持性角色：\n\n- **渔夫 (Role1)**：专注于食物生产，基础生存需求高，应分配较多点数以确保食物供应。\n- **盔甲匠 (Role2)**：生产防护装备，支持战斗和探索，需要中等资源来维持生产。\n- **农民 (Role3)**：农业生产，类似于渔夫但更稳定，分配较高以平衡食物链。\n- **制箭师 (Role4)**：武器制造，针对远程战斗，分配中等以增强进攻能力。\n- **牧师 (Role5)**：与我同职业，提供治疗和精神支持，作为队长我优先支持自己以维持团队士气。\n- **制图师 (Role6)**：探索和导航，重要但非即时需求，分配较低以辅助长期发展。\n- **屠夫 (Role7)**：肉类加工，依赖渔夫/农民，分配中等以优化食物转化。\n\n总体策略：食物相关角色（渔夫、农民、屠夫）获较高分配（约50%总点），支持角色（盔甲匠、制箭师、牧师）中等（约40%），探索角色（制图师）较低（10%）。总和精确为100，确保整数分配。\n\n### 决定\n分配如下：\n- Role1 (渔夫): 20\n- Role2 (盔甲匠): 15\n- Role3 (农民): 20\n- Role4 (制箭师): 15\n- Role5 (牧师): 15\n- Role6 (制图师): 5\n- Role7 (屠夫): 10\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 5,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "渔夫",
+                "制箭师",
+                "农民",
+                "制图师",
+                "屠夫",
+                "牧师",
+                "盔甲匠"
+            ],
+            "response": "### 分析\n作为游戏中的牧师队长，我需要根据队员的职业特性分配100行动点数，以优化团队整体效率。渔夫（Role1）负责捕鱼，提供食物；制箭师（Role2）制作箭矢，支持狩猎和防御；农民（Role3）耕种粮食，是食物基础；制图师（Role4）绘制地图，有助于探索但非即时必需；屠夫（Role5）处理肉类，提升食物产量；牧师（Role6）是我自己，专注于治疗和精神支持；盔甲匠（Role7）锻造盔甲，提升生存能力。\n\n优先级考虑：食物生产（渔夫、农民、屠夫）最基础，分配较高点数以确保生存；防御和支持（制箭师、盔甲匠、牧师）次之；探索（制图师）最低。总和严格为100整数，确保平衡。\n\n### 决定\n- Role1 (渔夫): 18点（高食物产出）\n- Role2 (制箭师): 12点（防御支持）\n- Role3 (农民): 20点（核心粮食）\n- Role4 (制图师): 8点（辅助探索）\n- Role5 (屠夫): 15点（食物加工）\n- Role6 (牧师): 14点（团队治疗，我自己）\n- Role7 (盔甲匠): 13点（生存防护）\n\n总计：18+12+20+8+15+14+13=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 8,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "屠夫",
+                "农民",
+                "牧师",
+                "制图师",
+                "制箭师",
+                "盔甲匠",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为游戏中的牧师队长，我需要根据团队的整体平衡来分配100行动点数。团队职业多样，包括战斗型（屠夫）、生产型（农民、渔夫、制箭师、盔甲匠）、探索型（制图师）和支持型（另一个牧师）。核心目标是确保资源生产稳定（农民和渔夫作为基础食物来源）、装备支持（盔甲匠和制箭师增强防御和攻击）、探索推进（制图师）和团队恢复（牧师）。我优先分配给生产和支持角色，以维持长期生存，避免过度倾斜战斗或探索导致资源短缺。分配原则：生产角色稍高（15-20点），支持和探索中等（10-15点），战斗较低（5点），另一个牧师稍低以避免重复。总和严格为100，确保整数分配。\n\n### 决定\n- Role1 (屠夫，战斗型)：5点，用于基本战斗准备。\n- Role2 (农民，生产型)：20点，优先食物生产。\n- Role3 (牧师，支持型)：10点，辅助团队恢复。\n- Role4 (制图师，探索型)：15点，支持地图扩展。\n- Role5 (制箭师，生产型)：15点，箭矢供应。\n- Role6 (盔甲匠，生产型)：20点，盔甲维护。\n- Role7 (渔夫，生产型)：15点，补充食物资源。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "制箭师",
+                "屠夫",
+                "盔甲匠",
+                "牧师",
+                "渔夫",
+                "农民",
+                "制图师"
+            ],
+            "response": "### 分析\n作为团队中的牧师队长，我需要根据游戏逻辑合理分配100行动点数。牧师职业通常聚焦于治疗、支援和精神恢复，因此我优先考虑支持团队的生存和生产链。角色职业分析如下：\n- **Role1 (制箭师)**：生产箭矢，支持远程作战和狩猎，优先级高（15点），以确保远程输出。\n- **Role2 (屠夫)**：处理肉食，提供食物和皮革，维持团队体力（12点），中等优先。\n- **Role3 (盔甲匠)**：制造盔甲，提升防御，关键但资源密集（18点），稍高分配。\n- **Role4 (牧师)**：我自己，作为队长，需保留行动用于治疗和协调（20点），最高优先。\n- **Role5 (渔夫)**：捕鱼补充食物，稳定但非核心（10点），较低分配。\n- **Role6 (农民)**：农业生产基础食物，长远重要（15点），平衡分配。\n- **Role7 (制图师)**：探索和地图绘制，支持战略，但短期收益低（10点），最低分配。\n\n总分配确保为100点，强调防御、生产和支援的平衡，避免任何角色为0以保持团队活跃。\n\n### 决定\n分配如下：Role1:15, Role2:12, Role3:18, Role4:20, Role5:10, Role6:15, Role7:10。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：农民）",
+            "role_obs": [
+                "制图师",
+                "屠夫",
+                "牧师",
+                "盔甲匠",
+                "制箭师",
+                "渔夫",
+                "农民"
+            ],
+            "response": "### 分析\n作为游戏中的农民队长，我需要根据队员的职业特性来分配100行动点数，以最大化团队整体效率。农民职业强调农业和资源生产，因此优先支持能直接贡献食物、工具或生存资源的队员，同时平衡团队需求：\n\n- **Role1 (制图师)**：探索和规划相关，适合少量分配以辅助团队定位资源点。\n- **Role2 (屠夫)**：处理肉类和狩猎产出，直接提供食物，支持农民的农业循环。\n- **Role3 (牧师)**：提供精神或治疗支持，必要但非核心生产，分配中等以维持团队士气。\n- **Role4 (盔甲匠)**：制造防护装备，提升团队生存，但资源消耗高，分配适中。\n- **Role5 (制箭师)**：生产远程武器，支持狩猎和防御，与屠夫和渔夫协同。\n- **Role6 (渔夫)**：水产食物来源，与农民的陆地农业互补，优先较高分配。\n- **Role7 (农民)**：同职业队员，直接增强农业产量，作为队长我视其为核心，分配最多。\n\n分配原则：总和精确为100，整数形式。优先食物链（屠夫、渔夫、农民）和工具支持（制箭师、盔甲匠），次优先探索和辅助（制图师、牧师）。最终分配：Role7 (25)、Role2 (18)、Role6 (18)、Role5 (15)、Role4 (12)、Role3 (8)、Role1 (4)。\n\n### 决定\n基于以上分析，我决定如下分配行动点数，以确保团队的食物生产和基本生存需求得到优先满足，同时覆盖防御和探索。\n\n```json\n{\n    \"Role1\": 4,\n    \"Role2\": 18,\n    \"Role3\": 8,\n    \"Role4\": 12,\n    \"Role5\": 15,\n    \"Role6\": 18,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "（career：农民）",
+            "role_obs": [
+                "制箭师",
+                "农民",
+                "渔夫",
+                "盔甲匠",
+                "屠夫",
+                "制图师",
+                "牧师"
+            ],
+            "response": "### 分析\n作为农民队长，我需要根据团队整体策略分配100行动点数。游戏中，资源分配应优先支持基础生产和生存需求，同时兼顾防御、探索和精神支持。考虑到我的农民身份（Role2），我会偏向强化农业和食物链（如渔夫和屠夫），以确保团队可持续性。其他角色：制箭师（Role1）和盔甲匠（Role4）用于防御；制图师（Role6）用于探索；牧师（Role7）用于恢复。分配原则：农民和食物相关角色多分（基础），防御次之，探索和支持少分，总和精确为100整数。\n\n- Role1 (制箭师)：武器生产，分配15点用于狩猎/防御。\n- Role2 (农民，我自己)：核心农业，分配25点确保粮食。\n- Role3 (渔夫)：补充食物，分配20点。\n- Role4 (盔甲匠)：防护装备，分配15点。\n- Role5 (屠夫)：肉食加工，分配10点。\n- Role6 (制图师)：地图绘制，分配10点用于未来扩张。\n- Role7 (牧师)：团队恢复，分配5点作为辅助。\n\n总计：15+25+20+15+10+10+5=100。\n\n### 决定\n基于以上分析，我决定按此分配行动点数，以平衡生产、防御和支持。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：农民）",
+            "role_obs": [
+                "牧师",
+                "制图师",
+                "屠夫",
+                "制箭师",
+                "渔夫",
+                "盔甲匠",
+                "农民"
+            ],
+            "response": "### 分析\n作为队长（农民职业），我需要根据游戏逻辑合理分配100行动点数给队员。资源分配应考虑每个角色的职业功能性和团队平衡：优先支持核心生产和生存角色（如渔夫、屠夫、制箭师和盔甲匠），以确保食物、武器和防御；牧师提供辅助支持，可适中分配；制图师用于探索，分配较少以节省资源；作为农民，我会给自己（Role7）分配基础点数以维持农业生产。总和严格为100，确保整数分配，避免浪费。\n\n### 决定\n- Role1 (牧师)：15点，用于团队恢复和精神支持。\n- Role2 (制图师)：5点，用于基本探索。\n- Role3 (屠夫)：20点，用于食物加工和肉类供应。\n- Role4 (制箭师)：15点，用于武器制作。\n- Role5 (渔夫)：20点，用于水产捕获，确保食物稳定。\n- Role6 (盔甲匠)：15点，用于装备维护。\n- Role7 (农民，我自己)：10点，用于基础耕作。\n\n总计：15+5+20+15+20+15+10=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 5,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：农民）",
+            "role_obs": [
+                "牧师",
+                "盔甲匠",
+                "渔夫",
+                "农民",
+                "屠夫",
+                "制图师",
+                "制箭师"
+            ],
+            "response": "### 分析\n作为游戏中的队长（农民职业），我需要根据队员的职业合理分配100行动点数，以最大化团队整体效率。农民职业强调农业和资源生产，因此优先支持能直接或间接贡献食物、材料和生存资源的队员，同时平衡其他角色以避免团队短板。\n\n- **优先级考虑**：\n  - Role4 (农民)：与我相同职业，应获得最高分配，支持农业生产作为团队基础。\n  - Role3 (渔夫) 和 Role5 (屠夫)：直接提供食物资源，优先级高，以确保团队生存。\n  - Role2 (盔甲匠) 和 Role7 (制箭师)：生产防御和武器，次优先，支持战斗准备。\n  - Role1 (牧师)：提供精神或治疗支持，但非核心生产，分配中等。\n  - Role6 (制图师)：探索和地图功能有用，但短期内非必需，分配较低。\n\n总分配确保整数且和为100：农民20、渔夫18、屠夫16、盔甲匠12、制箭师10、牧师14、制图师10。\n\n### 决定\n基于以上分析，我决定如下分配行动点数，以强化生产和生存链条。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 20,\n    \"Role5\": 16,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：农民）",
+            "role_obs": [
+                "制箭师",
+                "农民",
+                "屠夫",
+                "渔夫",
+                "制图师",
+                "牧师",
+                "盔甲匠"
+            ],
+            "response": "### 分析\n作为队长（农民职业），我的目标是优化团队资源分配，以支持游戏内的整体生存和发展。总行动点数为100，必须以整数分配给7名队员，且总和精确为100。分配原则基于每个角色的职业贡献和农民队长的视角：优先支持基础资源生产（如农业、狩猎、捕鱼），其次是工艺（如箭矢、盔甲、地图）和精神支持（如牧师），以确保团队的食物、安全和探索能力均衡。考虑到农民职业的相似性，我会给Role2（农民）稍多分配以强化核心生产；制箭师和盔甲匠用于防御，渔夫和屠夫用于食物，制图师用于探索，牧师用于恢复。避免零分配以保持团队活跃，最终分配趋于均衡但略偏向生产角色，总和严格为100。\n\n### 决定\n- Role1 (制箭师): 15点（支持武器制作，提升战斗力）\n- Role2 (农民): 18点（与队长职业匹配，强化农业生产）\n- Role3 (屠夫): 14点（确保肉食供应）\n- Role4 (渔夫): 14点（补充水产资源）\n- Role5 (制图师): 12点（辅助探索和规划）\n- Role6 (牧师): 13点（提供治疗和士气支持）\n- Role7 (盔甲匠): 14点（增强防御装备）\n\n总计：15+18+14+14+12+13+14=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 12,\n    \"Role6\": 13,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（career：农民）",
+            "role_obs": [
+                "渔夫",
+                "制箭师",
+                "制图师",
+                "盔甲匠",
+                "农民",
+                "屠夫",
+                "牧师"
+            ],
+            "response": "### 分析\n作为农民队长，我需要根据游戏逻辑和每个队员的职业特性来分配100行动点数。农民职业强调农业和资源生产，因此优先支持能直接贡献食物、工具和生存资源的队员（如渔夫、屠夫、农民），以确保团队的基本需求。制箭师和盔甲匠可适度支持以提升防御和狩猎效率；制图师有助于探索但非即时必需；牧师提供精神支持，但优先级较低。分配原则：总和为100整数，确保平衡但偏向生产型角色，避免任何角色为0以保持团队活跃。\n\n### 决定\n- Role1 (渔夫)：15点（支持捕鱼，确保食物供应）。\n- Role2 (制箭师)：12点（制作箭矢，提升狩猎效率）。\n- Role3 (制图师)：10点（辅助探索，间接支持资源获取）。\n- Role4 (盔甲匠)：12点（强化防护，保护生产活动）。\n- Role5 (农民)：20点（同职业，高优先，支持耕作核心）。\n- Role6 (屠夫)：18点（处理肉食，补充食物链）。\n- Role7 (牧师)：13点（维持士气，平衡团队）。\n\n总和：15+12+10+12+20+18+13=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 10,\n    \"Role4\": 12,\n    \"Role5\": 20,\n    \"Role6\": 18,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：农民）",
+            "role_obs": [
+                "牧师",
+                "盔甲匠",
+                "农民",
+                "制图师",
+                "渔夫",
+                "制箭师",
+                "屠夫"
+            ],
+            "response": "### 分析\n作为农民队长的我，需要根据队员的职业特性合理分配100行动点数，以最大化团队在游戏中的整体效率。农民职业强调农业和资源生产，因此我优先考虑支持基础资源链（如食物、工具和探索）的角色，同时确保平衡分配，避免任何角色闲置。以下是简要评估：\n\n- **Role1 (牧师)**: 提供精神支持和治疗，适合中等工作量以维持团队健康。分配15点。\n- **Role2 (盔甲匠)**: 制造防护装备，对团队生存关键，但需材料支持。分配18点。\n- **Role3 (农民)**: 与我同职业，专注耕作和食物生产，是核心支柱。分配20点（最高优先）。\n- **Role4 (制图师)**: 探索和规划路径，有助于长期发展，但短期收益较低。分配12点。\n- **Role5 (渔夫)**: 补充食物来源，与农民互补。分配16点。\n- **Role6 (制箭师)**: 生产远程武器，支持狩猎/防御。分配10点。\n- **Role7 (屠夫)**: 处理肉类资源，直接提升食物效率。分配9点。\n\n总和：15+18+20+12+16+10+9=100点。这种分配偏向资源生产（农民、渔夫、屠夫）和支持（盔甲匠、牧师），确保团队可持续性。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 20,\n    \"Role4\": 12,\n    \"Role5\": 16,\n    \"Role6\": 10,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "（career：农民）",
+            "role_obs": [
+                "制箭师",
+                "制图师",
+                "屠夫",
+                "盔甲匠",
+                "农民",
+                "牧师",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为农民队长，我需要根据游戏逻辑合理分配100行动点数。农民职业擅长农业生产（如种植、收获），因此优先支持其他角色以增强整体团队生产力和生存能力。角色职业特性考虑：\n- Role1 (制箭师)：需要资源制作箭矢，支持狩猎/战斗，分配中等以提升防御。\n- Role2 (制图师)：探索和规划地图，分配较低但必要，以避免迷失。\n- Role3 (屠夫)：处理肉食，提高食物供应，分配较高以确保营养。\n- Role4 (盔甲匠)：制作护甲，提升团队耐久，分配较高以强化保护。\n- Role5 (农民)：与我同职业，核心生产者，分配最高以最大化资源输出。\n- Role6 (牧师)：提供治疗和精神支持，分配中等以维持团队健康。\n- Role7 (渔夫)：补充食物来源，分配中等以平衡狩猎依赖。\n\n分配原则：总和100，整数；优先生产（农民、屠夫、盔甲匠）和支持（牧师、渔夫），次要探索（制图师）和武器（制箭师）。避免零分配，确保每个人有基本行动。\n\n### 决定\n- Role1: 10（基本箭矢生产）\n- Role2: 5（最小地图支持）\n- Role3: 15（食物加工优先）\n- Role4: 15（护甲强化）\n- Role5: 25（农民核心，最大生产）\n- Role6: 15（治疗维护）\n- Role7: 15（渔获补充）\n\n总和：10+5+15+15+25+15+15=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 5,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 25,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：农民）",
+            "role_obs": [
+                "渔夫",
+                "盔甲匠",
+                "牧师",
+                "农民",
+                "制箭师",
+                "制图师",
+                "屠夫"
+            ],
+            "response": "### 分析\n作为队长（农民职业），我需要根据游戏逻辑合理分配100行动点数给队员。分配原则考虑每个职业的核心贡献：渔夫（Role1）负责食物获取，应优先支持以维持团队生存；盔甲匠（Role2）提供防御装备，次要重要；牧师（Role3）处理医疗和精神支持，也需适度；农民（Role4）与我同职业，可分担农业任务；制箭师（Role5）支持远程攻击，战术价值高；制图师（Role6）提供探索情报，战略性强；屠夫（Role7）处理肉食加工，与渔夫互补。总体上，优先食物链（渔夫、屠夫、农民）和战略支持（制图师、制箭师），剩余分配给防御和医疗，确保总和为100且均为整数。\n\n### 决定\n- Role1 (渔夫): 20点（核心食物来源）\n- Role2 (盔甲匠): 12点（防御支持）\n- Role3 (牧师): 15点（医疗保障）\n- Role4 (农民): 18点（同职业协同农业）\n- Role5 (制箭师): 14点（攻击准备）\n- Role6 (制图师): 11点（情报探索）\n- Role7 (屠夫): 10点（食物加工）\n\n总计: 20+12+15+18+14+11+10=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 11,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：农民）",
+            "role_obs": [
+                "农民",
+                "渔夫",
+                "制图师",
+                "牧师",
+                "制箭师",
+                "屠夫",
+                "盔甲匠"
+            ],
+            "response": "### 分析\n作为队长（农民），我需要根据每个队员的职业（career）合理分配100行动点数，以最大化团队整体效率。农民职业强调农业和资源生产基础，因此我优先考虑支持食物和基本资源链的角色（如渔夫、屠夫），其次是支持性角色（如制图师用于探索、牧师用于恢复），最后是制造角色（如制箭师、盔甲匠，用于后期战斗）。分配原则：整数分配，总和精确为100；农民队员（Role1）作为我的同类，获得较高份额以强化生产核心；渔夫和屠夫各获较多以确保食物供应；其他角色适中分配，避免浪费。\n\n### 决定\n- Role1 (农民): 25点（核心生产，支持团队基础）。\n- Role2 (渔夫): 20点（食物来源，优先级高）。\n- Role3 (制图师): 10点（探索辅助，中等）。\n- Role4 (牧师): 15点（恢复支持，必要但非核心）。\n- Role5 (制箭师): 10点（武器制造，后期用）。\n- Role6 (屠夫): 15点（肉食加工，与渔夫互补）。\n- Role7 (盔甲匠): 5点（防护制造，初期低优先）。\n\n总和：25+20+10+15+10+15+5=100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "牧师",
+                "屠夫",
+                "盔甲匠",
+                "制箭师",
+                "渔夫",
+                "农民",
+                "制图师"
+            ],
+            "response": "### 分析\n作为渔夫队长的我，需要根据团队整体需求分配100行动点数。团队包括牧师（Role1，提供精神支持，可能用于团队士气或治疗活动）、屠夫（Role2，处理肉食，可能用于狩猎或食物加工）、盔甲匠（Role3，制造防护装备，适合防御活动）、制箭师（Role4，制作箭矢，适合远程狩猎或战斗）、渔夫（Role5，与我同职业，强化捕鱼以确保食物供应）、农民（Role6，农业生产，基础食物来源）和制图师（Role7，探索地图，可能用于发现新资源）。  \n\n优先考虑食物安全（渔夫和农民）和探索（制图师），其次是狩猎/战斗支持（屠夫、制箭师）和防护（盔甲匠），牧师作为辅助分配较少。分配原则：基础保障每人5-10点，核心角色多分，以整数确保总和为100。最终分配：强调渔夫（同职业）和农民（食物），平衡其他。\n\n### 决定\n- Role1 (牧师): 8点（辅助支持）。\n- Role2 (屠夫): 12点（狩猎食物）。\n- Role3 (盔甲匠): 10点（防护装备）。\n- Role4 (制箭师): 12点（狩猎工具）。\n- Role5 (渔夫): 18点（核心食物来源，与队长协同）。\n- Role6 (农民): 20点（农业基础）。\n- Role7 (制图师): 20点（探索新机会）。\n\n总和：8+12+10+12+18+20+20=100。\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 12,\n    \"Role3\": 10,\n    \"Role4\": 12,\n    \"Role5\": 18,\n    \"Role6\": 20,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "制箭师",
+                "制图师",
+                "农民",
+                "渔夫",
+                "屠夫",
+                "盔甲匠",
+                "牧师"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据游戏逻辑合理分配100行动点数给队员。优先考虑资源生产和团队生存：农民（Role3）负责食物基础，渔夫（Role4）作为我的职业同类可强化捕鱼效率，屠夫（Role5）补充肉食，牧师（Role7）提供恢复或精神支持。制箭师（Role1）和盔甲匠（Role6）用于防御，但初期不需过多；制图师（Role2）探索价值低，先最小化。分配原则：生产角色多分（20-25点），支持角色中等（15点），辅助角色少分（5-10点），总和精确为100。\n\n### 决定\n- Role1 (制箭师): 10点，用于基本箭矢生产。\n- Role2 (制图师): 5点，初步探索。\n- Role3 (农民): 25点，确保粮食稳定。\n- Role4 (渔夫): 20点，强化渔业，与我协同。\n- Role5 (屠夫): 15点，补充蛋白质。\n- Role6 (盔甲匠): 10点，基本防护。\n- Role7 (牧师): 15点，团队恢复。\n\n总计：10+5+25+20+15+10+15=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 5,\n    \"Role3\": 25,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "制图师",
+                "牧师",
+                "盔甲匠",
+                "农民",
+                "屠夫",
+                "制箭师",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据团队协作和游戏效率来分配100行动点数。渔夫职业（我自己）依赖资源采集和生存，因此优先支持与食物、工具和防御相关的角色：农民（Role4）和屠夫（Role5）负责食物生产，渔夫（Role7）直接辅助我，制箭师（Role6）和盔甲匠（Role3）提供战斗支持。制图师（Role1）有助于探索但非即时必需，牧师（Role2）提供辅助但优先级较低。分配原则：核心生存角色多分（15-20点），支持角色中分（10-15点），辅助角色少分（5-10点），确保总和为100。\n\n### 决定\n- Role1 (制图师): 5点，用于基本探索。\n- Role2 (牧师): 10点，用于团队恢复。\n- Role3 (盔甲匠): 15点，加强防御。\n- Role4 (农民): 20点，确保食物供应。\n- Role5 (屠夫): 15点，辅助食物加工。\n- Role6 (制箭师): 15点，提供远程支持。\n- Role7 (渔夫): 20点，直接协作采集。\n\n总计：5+10+15+20+15+15+20=100。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "制图师",
+                "牧师",
+                "盔甲匠",
+                "屠夫",
+                "农民",
+                "制箭师",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据游戏逻辑合理分配100行动点数。优先考虑团队的整体生存和发展：渔夫（Role7）是我的职业，负责食物供应，因此优先分配资源以确保捕鱼效率；农民（Role5）次之，支持农业食物生产；制图师（Role1）有助于探索和导航，分配适中；牧师（Role2）提供精神/治疗支持，少量分配；盔甲匠（Role3）和制箭师（Role6）增强防御和狩猎，分配中等；屠夫（Role4）辅助肉类处理，但依赖他人捕获，分配较少。总和严格为100，确保整数分配，避免浪费。\n\n### 决定\n- Role1 (制图师): 15点（探索支持）\n- Role2 (牧师): 10点（团队恢复）\n- Role3 (盔甲匠): 12点（防御装备）\n- Role4 (屠夫): 8点（食物加工）\n- Role5 (农民): 20点（农业稳定）\n- Role6 (制箭师): 12点（狩猎工具）\n- Role7 (渔夫): 23点（核心食物来源）\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 8,\n    \"Role5\": 20,\n    \"Role6\": 12,\n    \"Role7\": 23\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "制图师",
+                "农民",
+                "牧师",
+                "屠夫",
+                "渔夫",
+                "制箭师",
+                "盔甲匠"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据团队整体策略分配100行动点数。游戏中，资源分配应优先支持生存、生产和防御链条：农民（Role2）负责食物基础，渔夫（Role5，包括我自己）补充捕捞，屠夫（Role4）加工肉食，制图师（Role1）探索地图以发现资源，牧师（Role3）提供治疗和士气支持，制箭师（Role6）和盔甲匠（Role7）则强化远程和近战防御。由于总资源有限，我优先分配给食物链（农民、渔夫、屠夫）和探索（制图师），中等分配给支持角色（牧师），较低分配给武器匠（制箭师、盔甲匠），以平衡短期生存和长期发展。分配确保整数且总和为100，避免零分配以保持团队活跃。\n\n### 决定\n- Role1 (制图师): 15点，用于探索新资源点。\n- Role2 (农民): 20点，核心食物生产。\n- Role3 (牧师): 12点，维持团队健康。\n- Role4 (屠夫): 18点，加工食物链。\n- Role5 (渔夫): 15点，支持我的渔夫专长和捕捞。\n- Role6 (制箭师): 10点，基本箭矢生产。\n- Role7 (盔甲匠): 10点，基础防护装备。\n\n总和：15+20+12+18+15+10+10=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "盔甲匠",
+                "渔夫",
+                "制图师",
+                "屠夫",
+                "牧师",
+                "制箭师",
+                "农民"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据团队的整体生存和发展策略来分配100行动点数。游戏中，渔夫（我自己，Role2）专注于食物供应，因此我会优先支持与食物链相关的角色：Role4（屠夫，提供肉食）和Role7（农民，提供谷物），以确保团队的基本生存需求。Role5（牧师）次之，用于团队的士气和恢复支持。剩余角色如Role1（盔甲匠）和Role6（制箭师）偏向防御/狩猎，但当前阶段食物更紧迫，故分配较少；Role3（制图师）用于探索，但初期不急，分配最小。分配原则：整数，总和精确100，优先食物>支持>防御>探索。\n\n### 决定\n- Role1 (盔甲匠): 8点（少量用于基本装备维护）。\n- Role2 (渔夫): 20点（作为队长，我需要高行动力捕鱼，确保食物基础）。\n- Role3 (制图师): 5点（最小探索支持）。\n- Role4 (屠夫): 25点（高优先，补充蛋白质来源）。\n- Role5 (牧师): 15点（维持团队健康）。\n- Role6 (制箭师): 10点（辅助狩猎工具）。\n- Role7 (农民): 17点（农业生产补充食物）。\n\n总和：8+20+5+25+15+10+17=100。\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 20,\n    \"Role3\": 5,\n    \"Role4\": 25,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "制图师",
+                "渔夫",
+                "牧师",
+                "制箭师",
+                "农民",
+                "屠夫",
+                "盔甲匠"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据团队的整体生存和发展来分配100行动点数。游戏中，渔夫（我自己）专注于捕鱼提供食物基础，所以Role2（另一位渔夫）应获得较高资源以增强食物供应。农民（Role5）负责农业，也需优先支持以确保长期食物稳定。制图师（Role1）有助于探索和导航，适度分配。牧师（Role3）提供精神或治疗支持，屠夫（Role6）处理肉食，制箭师（Role4）和盔甲匠（Role7）则更偏向狩猎/防御，后期重要但初期可稍低。分配原则：优先食物链（渔夫、农民、屠夫），次之探索/支持（制图师、牧师），最后工艺（制箭师、盔甲匠），确保总和为100整数。\n\n### 决定\n- Role1 (制图师): 12点（探索支持）\n- Role2 (渔夫): 18点（强化食物生产，与我职业协同）\n- Role3 (牧师): 10点（团队恢复）\n- Role4 (制箭师): 8点（狩猎辅助）\n- Role5 (农民): 20点（农业核心）\n- Role6 (屠夫): 15点（肉食加工）\n- Role7 (盔甲匠): 17点（防御准备）\n\n总计：12+18+10+8+20+15+17=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 10,\n    \"Role4\": 8,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "盔甲匠",
+                "制箭师",
+                "农民",
+                "牧师",
+                "屠夫",
+                "渔夫",
+                "制图师"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据游戏逻辑合理分配100行动点数。优先考虑团队的整体生存和生产链：盔甲匠（Role1）和制箭师（Role2）负责装备和武器，适合多分配以提升防御和狩猎效率；农民（Role3）是食物基础，需中等分配；牧师（Role4）提供医疗和精神支持，分配适中；屠夫（Role5）处理肉食，与渔夫互补，分配较高；另一个渔夫（Role6）作为我的副手，分配最多以加强捕鱼产出；制图师（Role7）用于探索，分配较少以避免资源浪费。总和确保为100，整数分配，平衡生产（食物/装备）和支持（医疗/探索）。\n\n### 决定\n- Role1 (盔甲匠): 12点（强化装备）\n- Role2 (制箭师): 10点（支持狩猎）\n- Role3 (农民): 15点（确保粮食）\n- Role4 (牧师): 8点（医疗支持）\n- Role5 (屠夫): 18点（肉食加工，与渔夫协同）\n- Role6 (渔夫): 25点（核心捕鱼，优先）\n- Role7 (制图师): 12点（辅助探索）\n\n总计：12+10+15+8+18+25+12=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 8,\n    \"Role5\": 18,\n    \"Role6\": 25,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "制图师",
+                "制箭师",
+                "农民",
+                "盔甲匠",
+                "屠夫",
+                "渔夫",
+                "牧师"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据游戏中的角色职业特性来分配100行动点数，以最大化团队整体效率。渔夫职业（如我自己）擅长资源采集（如鱼类），因此优先支持能直接增强采集、生存和后勤的角色。制图师（Role1）有助于探索和路径优化，值得适度投资；制箭师（Role2）提供狩猎/防御工具，但不如基础资源重要；农民（Role3）和渔夫（Role6）是食物生产核心，应多分配以确保供给；盔甲匠（Role4）强化防护，但短期内优先级较低；屠夫（Role5）处理肉食，辅助采集；牧师（Role7）提供精神/治疗支持，但不是即时必需。\n\n分配原则：基础资源角色（农民、渔夫、屠夫）获较多点数（总计60点），探索/工具角色（制图师、制箭师、盔甲匠）获中等（总计30点），牧师获剩余（10点）。确保总和为100，全为整数，避免零分配以保持团队平衡。\n\n### 决定\n- Role1 (制图师): 10点，用于探索规划。\n- Role2 (制箭师): 10点，用于工具制作。\n- Role3 (农民): 25点，用于食物生产。\n- Role4 (盔甲匠): 10点，用于防护升级。\n- Role5 (屠夫): 15点，用于肉食处理。\n- Role6 (渔夫): 20点，支持本职采集。\n- Role7 (牧师): 10点，用于团队恢复。\n\n总计：10+10+25+10+15+20+10=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 25,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "屠夫",
+                "渔夫",
+                "牧师",
+                "制箭师",
+                "制图师",
+                "农民",
+                "盔甲匠"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据游戏逻辑合理分配100行动点数。资源分配应优先考虑团队的整体生存和发展：渔夫（Role2，我自己的职业）需要足够点数维持食物供应；屠夫（Role1）辅助肉类获取；农民（Role6）负责农业基础；牧师（Role3）提供精神支持，可能用于恢复或事件；制箭师（Role4）和盔甲匠（Role7）增强战斗准备；制图师（Role5）用于探索规划。由于总和必须为100，我会平衡分配，避免任何角色为0，以确保团队协作，避免弱点。优先级：食物/生存（渔夫、屠夫、农民）> 防御（制箭师、盔甲匠）> 支持（牧师、制图师）。\n\n### 决定\n- Role1 (屠夫): 15点（辅助食物链）。\n- Role2 (渔夫): 20点（核心食物来源，作为队长优先）。\n- Role3 (牧师): 10点（团队恢复）。\n- Role4 (制箭师): 12点（武器生产）。\n- Role5 (制图师): 8点（探索辅助）。\n- Role6 (农民): 18点（农业基础）。\n- Role7 (盔甲匠): 17点（防御装备）。\n\n总和：15+20+10+12+8+18+17=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 12,\n    \"Role5\": 8,\n    \"Role6\": 18,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "（career：制箭师）",
+            "role_obs": [
+                "制图师",
+                "制箭师",
+                "渔夫",
+                "盔甲匠",
+                "牧师",
+                "屠夫",
+                "农民"
+            ],
+            "response": "### 分析\n作为队长（制箭师），我需要根据团队的整体需求分配100行动点数。团队角色多样，包括资源生产（Role7农民、Role3渔夫、Role6屠夫）、制造（Role1制图师、Role2制箭师、Role4盔甲匠）和支持（Role5牧师）。优先考虑基础资源生产（如农业和捕鱼）以确保生存，其次是制造（如箭矢和盔甲）以支持防御，最后是支持和辅助角色。分配原则：农民和渔夫获得较高份额以维持食物供应，制箭师（我的职业）次之以强化战斗力，其他角色适中分配，确保总和为100且均为整数。\n\n### 决定\n- Role1 (制图师)：15点，用于探索和规划。\n- Role2 (制箭师)：20点，强化武器制造，作为核心战斗支持。\n- Role3 (渔夫)：15点，确保水产资源。\n- Role4 (盔甲匠)：15点，提升防御装备。\n- Role5 (牧师)：10点，提供治疗和精神支持。\n- Role6 (屠夫)：12点，处理肉类资源。\n- Role7 (农民)：13点，基础粮食生产。\n\n总计：15+20+15+15+10+12+13=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 12,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：制箭师）",
+            "role_obs": [
+                "牧师",
+                "农民",
+                "制箭师",
+                "渔夫",
+                "屠夫",
+                "制图师",
+                "盔甲匠"
+            ],
+            "response": "### 分析\n作为队长（制箭师），我需要根据游戏逻辑合理分配100行动点数。优先考虑资源生产链和团队平衡：农民（Role2）作为基础食物生产者，应获得较高分配以确保团队生存；渔夫（Role4）和屠夫（Role5）补充食物链；牧师（Role1）提供治疗支持，适中分配；制图师（Role6）用于探索，稍低；盔甲匠（Role7）用于防御装备，中等；同为制箭师的Role3，我会稍多分配以协同箭矢生产，但避免过度集中。总体目标：平衡生产、支持和探索，总和精确为100。\n\n### 决定\n- Role1 (牧师): 12点（支持治疗）。\n- Role2 (农民): 18点（核心食物生产）。\n- Role3 (制箭师): 15点（与我协同武器制造）。\n- Role4 (渔夫): 14点（补充食物）。\n- Role5 (屠夫): 14点（肉类生产）。\n- Role6 (制图师): 10点（探索辅助）。\n- Role7 (盔甲匠): 17点（防御装备）。\n\n总计：12+18+15+14+14+10+17=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 10,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "（career：制箭师）",
+            "role_obs": [
+                "制图师",
+                "渔夫",
+                "农民",
+                "屠夫",
+                "盔甲匠",
+                "制箭师",
+                "牧师"
+            ],
+            "response": "### 分析\n作为制箭师队长，我需要根据游戏逻辑合理分配100行动点数。资源分配应优先考虑团队平衡：基础生产角色（如渔夫、农民、屠夫）获得更多点数以确保食物和资源供应；支持角色（如制图师、盔甲匠、制箭师）获得中等点数以提升探索和防御；牧师作为辅助获得较少点数以维持士气。总和必须为100整数，避免零分配以保持团队活跃。最终分配：Role1 (10)、Role2 (18)、Role3 (20)、Role4 (15)、Role5 (12)、Role6 (15，我自己作为队长稍多以协调)、Role7 (10)，合计100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 18,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：制箭师）",
+            "role_obs": [
+                "农民",
+                "制箭师",
+                "屠夫",
+                "制图师",
+                "牧师",
+                "盔甲匠",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为游戏中的队长（制箭师），我的主要职责是确保团队资源分配支持整体生存、生产和探索。总行动点数为100，需要分配给7名队员（包括我自己作为Role2）。分配原则基于每个职业的核心贡献：\n- **农民 (Role1)**：基础食物生产，优先级最高，需要足够点数维持团队供给。\n- **制箭师 (Role2，我自己)**：武器制造，支持战斗和防御，我会给自己中等分配以保持平衡。\n- **屠夫 (Role3)**：肉类加工，辅助食物链，分配适中。\n- **制图师 (Role4)**：地图绘制，支持探索和战略，给予较高点数以扩展视野。\n- **牧师 (Role5)**：治疗和精神支持，关键于团队耐久，分配较高。\n- **盔甲匠 (Role6)**：装备制造，提升防御，与我的制箭师职业互补，给予中等偏高。\n- **渔夫 (Role7)**：水产食物来源，补充农民，分配较低但必要。\n\n总体策略：优先基础生存（农民、屠夫、渔夫，总约35点），其次生产与防御（制箭师、盔甲匠，总约25点），最后支持与探索（牧师、制图师，总约40点）。确保总和精确为100，避免零分配以保持团队活跃。\n\n### 决定\n分配如下：\n- Role1 (农民): 20点（确保食物稳定）。\n- Role2 (制箭师): 15点（自我维护武器生产）。\n- Role3 (屠夫): 10点（加工支持）。\n- Role4 (制图师): 18点（探索优先）。\n- Role5 (牧师): 17点（团队恢复）。\n- Role6 (盔甲匠): 10点（防御装备）。\n- Role7 (渔夫): 10点（补充食物）。\n\n总计：20+15+10+18+17+10+10=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 17,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：制箭师）",
+            "role_obs": [
+                "制箭师",
+                "牧师",
+                "农民",
+                "制图师",
+                "盔甲匠",
+                "渔夫",
+                "屠夫"
+            ],
+            "response": "### 分析\n作为队长（制箭师），我需要根据游戏逻辑分配100行动点数给队员。分配原则考虑每个职业的核心贡献：优先支持生产和资源角色（如农民、渔夫、屠夫），以确保团队生存和基础供应；其次是辅助角色（如牧师、制图师），提供恢复和探索支持；最后是装备角色（如制箭师、盔甲匠），因为我自己也是制箭师，可以部分自给。总和必须精确为100整数，避免浪费。分配偏向平衡，但略重资源获取以推动团队进步。\n\n- Role1 (制箭师)：作为我的同职业，分配较少，专注于辅助箭矢生产。\n- Role2 (牧师)：医疗支持重要，中等分配。\n- Role3 (农民)：食物基础，高分配。\n- Role4 (制图师)：探索潜力，中等分配。\n- Role5 (盔甲匠)：防御装备，中等分配。\n- Role6 (渔夫)：额外食物来源，高分配。\n- Role7 (屠夫)：肉类加工，高分配。\n\n最终分配：Role3=20, Role6=18, Role7=18（资源重心），Role2=15, Role4=15, Role5=10, Role1=4，总计100。\n\n```json\n{\n    \"Role1\": 4,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 18,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：制箭师）",
+            "role_obs": [
+                "制箭师",
+                "制图师",
+                "牧师",
+                "渔夫",
+                "屠夫",
+                "盔甲匠",
+                "农民"
+            ],
+            "response": "### 分析\n作为队长（制箭师），我需要根据游戏逻辑合理分配100行动点数给队员。分配原则考虑每个职业的核心贡献和优先级：制箭师（Role1和我同职业）优先用于生产箭矢等关键武器资源；农民（Role7）是食物基础，需较高分配以确保生存；渔夫（Role4）和屠夫（Role5）补充食物链；盔甲匠（Role6）提供防御；制图师（Role2）辅助探索；牧师（Role3）提供精神/治疗支持。总体上，生产型职业（如农民、渔夫、屠夫）获较高份额，探索/辅助型较低，确保平衡，总和为100。\n\n### 决定\n- Role1 (制箭师): 15点（优先武器生产，与队长协同）。\n- Role2 (制图师): 10点（地图探索辅助）。\n- Role3 (牧师): 12点（团队恢复）。\n- Role4 (渔夫): 18点（稳定食物来源）。\n- Role5 (屠夫): 16点（肉食补充）。\n- Role6 (盔甲匠): 14点（装备维护）。\n- Role7 (农民): 15点（基础粮食保障）。\n\n总计：15+10+12+18+16+14+15=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 16,\n    \"Role6\": 14,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：制箭师）",
+            "role_obs": [
+                "盔甲匠",
+                "制箭师",
+                "农民",
+                "牧师",
+                "屠夫",
+                "制图师",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为游戏中的队长（制箭师），我需要根据团队的整体平衡和效率来分配100行动点数。团队角色多样，包括生产型（盔甲匠、制箭师、农民、屠夫、渔夫）、支持型（牧师）和探索型（制图师）。我的职业是制箭师，因此我会优先分配给自己（Role2）以确保箭矢生产支持团队作战；其次，优先核心生产角色如农民（Role3，食物基础）和盔甲匠（Role1，防御支持）；牧师（Role4）分配适中以维持团队健康；屠夫（Role5）和渔夫（Role7）作为食物补充，分配较少；制图师（Role6）作为辅助，分配最低，以避免资源浪费。分配原则：整数，总和精确100，优先实用性而非平均。\n\n### 决定\n- Role1 (盔甲匠): 20点（强化防御装备）。\n- Role2 (制箭师): 25点（作为队长，优先自身生产箭矢）。\n- Role3 (农民): 20点（确保食物供应稳定）。\n- Role4 (牧师): 15点（提供治疗支持）。\n- Role5 (屠夫): 10点（辅助肉食生产）。\n- Role6 (制图师): 5点（基本地图绘制）。\n- Role7 (渔夫): 5点（补充鱼类资源）。\n\n总和：20+25+20+15+10+5+5=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 5,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：制箭师）",
+            "role_obs": [
+                "渔夫",
+                "制图师",
+                "牧师",
+                "盔甲匠",
+                "屠夫",
+                "农民",
+                "制箭师"
+            ],
+            "response": "### 分析\n作为队长（制箭师），我需要根据游戏逻辑合理分配100行动点数给队员。分配原则考虑每个职业的核心贡献：渔夫和屠夫负责食物供应（基础生存），农民支持长期农业，牧师提供精神/医疗支持，盔甲匠和制箭师（包括我自己）强化防御/进攻，而制图师有助于探索/规划。优先确保食物链稳定（渔夫、屠夫、农民），其次防御（盔甲匠、制箭师），再辅助（牧师、制图师）。Role7作为另一位制箭师，与我职业相同，可多分配以加强箭矢生产。总和严格为100整数，避免零分配以保持团队平衡。\n\n### 决定\n- Role1 (渔夫): 18点（食物基础）。\n- Role2 (制图师): 12点（探索支持）。\n- Role3 (牧师): 14点（团队恢复）。\n- Role4 (盔甲匠): 16点（防御优先）。\n- Role5 (屠夫): 17点（食物加工）。\n- Role6 (农民): 15点（农业可持续）。\n- Role7 (制箭师): 8点（辅助我职业）。\n\n总计：18+12+14+16+17+15+8=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 17,\n    \"Role6\": 15,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "（career：制箭师）",
+            "role_obs": [
+                "屠夫",
+                "盔甲匠",
+                "制箭师",
+                "制图师",
+                "渔夫",
+                "农民",
+                "牧师"
+            ],
+            "response": "### 分析\n作为制箭师队长，我需要根据团队整体需求分配100行动点数。考虑到游戏平衡：\n- 屠夫（Role1）和农民（Role6）负责基础食物生产，应获得较高点数以确保生存。\n- 盔甲匠（Role2）提供防御装备，需要适中支持。\n- 作为另一位制箭师（Role3），我优先分配以强化远程攻击能力。\n- 制图师（Role4）有助于探索，渔夫（Role5）补充食物，牧师（Role7）提供精神/治疗支持，各分配适量以维持团队多样性。\n总和严格为100，确保整数分配。\n\n### 决定\n- Role1 (屠夫): 18点（高食物产出）\n- Role2 (盔甲匠): 12点（防御支持）\n- Role3 (制箭师): 20点（核心远程强化）\n- Role4 (制图师): 10点（探索辅助）\n- Role5 (渔夫): 14点（食物补充）\n- Role6 (农民): 18点（基础食物）\n- Role7 (牧师): 8点（治疗后备）\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 14,\n    \"Role6\": 18,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "（career：制箭师）",
+            "role_obs": [
+                "屠夫",
+                "制箭师",
+                "制图师",
+                "渔夫",
+                "牧师",
+                "盔甲匠",
+                "农民"
+            ],
+            "response": "### 分析\n作为队长（制箭师），我需要根据游戏逻辑和角色职业的功能性来分配100行动点数。优先考虑团队平衡：资源生产（如农民、渔夫、屠夫用于食物和基础生存）、工艺支持（如制箭师和盔甲匠用于武器/防御）、辅助（如制图师用于探索）和精神（如牧师用于恢复）。我自己的角色（Role2，制箭师）稍多分配以确保箭矢供应，但避免过度集中。分配原则：基础生存角色多些（15-20点），工艺和辅助中等（10-15点），总和精确为100。\n\n- Role1 (屠夫)：食物生产关键，分配18点。\n- Role2 (制箭师)：我自己，武器支持，分配15点。\n- Role3 (制图师)：探索辅助，分配12点。\n- Role4 (渔夫)：食物补充，分配17点。\n- Role5 (牧师)：团队恢复，分配13点。\n- Role6 (盔甲匠)：防御重要，分配14点。\n- Role7 (农民)：基础资源，分配11点。\n\n总计：18+15+12+17+13+14+11=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 17,\n    \"Role5\": 13,\n    \"Role6\": 14,\n    \"Role7\": 11\n}\n```"
+        }
+    ]
+}

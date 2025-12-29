@@ -1,0 +1,177 @@
+[
+    {
+        "model_name": "grok-3",
+        "bias_type": "nationality",
+        "test_mode": "real",
+        "role_num": 7,
+        "game_name": "Civilization",
+        "english": {
+            "mean_vector": [
+                0.729,
+                0.152,
+                0.119
+            ],
+            "mcv_value": 0.482,
+            "percentage_simple": 67.471
+        },
+        "chinese": {
+            "mean_vector": [
+                0.686,
+                0.143,
+                0.171
+            ],
+            "mcv_value": 0.551,
+            "percentage_simple": 64.462
+        }
+    },
+    {
+        "model_name": "grok-3",
+        "bias_type": "nationality",
+        "test_mode": "virtual",
+        "role_num": 7,
+        "game_name": "Stellaris",
+        "english": {
+            "mean_vector": [
+                0.638,
+                0.219,
+                0.143
+            ],
+            "mcv_value": 0.685,
+            "percentage_simple": 59.35
+        },
+        "chinese": {
+            "mean_vector": [
+                0.662,
+                0.09,
+                0.248
+            ],
+            "mcv_value": 0.528,
+            "percentage_simple": 65.449
+        }
+    },
+    {
+        "model_name": "grok-3",
+        "bias_type": "career",
+        "test_mode": "real",
+        "role_num": 7,
+        "game_name": "Minecraft",
+        "english": {
+            "mean_vector": [
+                0.957,
+                0.014,
+                0.029
+            ],
+            "mcv_value": 0.149,
+            "percentage_simple": 86.997
+        },
+        "chinese": {
+            "mean_vector": [
+                0.948,
+                0.024,
+                0.029
+            ],
+            "mcv_value": 0.167,
+            "percentage_simple": 85.7
+        }
+    },
+    {
+        "model_name": "grok-3",
+        "bias_type": "career",
+        "test_mode": "virtual",
+        "role_num": 7,
+        "game_name": "Baldur's Gate 3",
+        "english": {
+            "mean_vector": [
+                0.833,
+                0.133,
+                0.033
+            ],
+            "mcv_value": 0.463,
+            "percentage_simple": 68.335
+        },
+        "chinese": {
+            "mean_vector": [
+                0.871,
+                0.1,
+                0.029
+            ],
+            "mcv_value": 0.372,
+            "percentage_simple": 72.883
+        }
+    },
+    {
+        "model_name": "grok-3",
+        "bias_type": "race",
+        "test_mode": "real",
+        "role_num": 3,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                0.833,
+                0.133,
+                0.033
+            ],
+            "mcv_value": 0.28,
+            "percentage_simple": 78.114
+        },
+        "chinese": {
+            "mean_vector": [
+                0.6,
+                0.1,
+                0.3
+            ],
+            "mcv_value": 0.475,
+            "percentage_simple": 67.774
+        }
+    },
+    {
+        "model_name": "grok-3",
+        "bias_type": "race",
+        "test_mode": "virtual",
+        "role_num": 7,
+        "game_name": "Baldur's Gate 3",
+        "english": {
+            "mean_vector": [
+                0.433,
+                0.348,
+                0.219
+            ],
+            "mcv_value": 0.97,
+            "percentage_simple": 50.774
+        },
+        "chinese": {
+            "mean_vector": [
+                0.419,
+                0.324,
+                0.257
+            ],
+            "mcv_value": 0.882,
+            "percentage_simple": 53.146
+        }
+    },
+    {
+        "model_name": "grok-3",
+        "bias_type": "age",
+        "test_mode": null,
+        "role_num": 4,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                0.783,
+                0.133,
+                0.083
+            ],
+            "mcv_value": 0.374,
+            "percentage_simple": 72.802
+        },
+        "chinese": {
+            "mean_vector": [
+                0.75,
+                0.05,
+                0.2
+            ],
+            "mcv_value": 0.505,
+            "percentage_simple": 66.427
+        }
+    }
+]

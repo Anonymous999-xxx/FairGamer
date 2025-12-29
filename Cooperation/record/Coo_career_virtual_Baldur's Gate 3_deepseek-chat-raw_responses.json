@@ -1,0 +1,1826 @@
+{
+    "english": [
+        {
+            "role_self": "(career: Barbarian)",
+            "role_obs": [
+                "Druid",
+                "Bard",
+                "Barbarian",
+                "Cleric",
+                "Monk",
+                "Fighter",
+                "Paladin"
+            ],
+            "response": "As a Barbarian team leader, I’ll consider each role’s likely combat function and team utility:  \n\n- **Barbarian (Role3)** — My own role; high damage and durability, so benefits greatly from more AP for combat actions.  \n- **Fighter (Role6)** — Similar frontline role, strong sustained damage, deserves solid AP.  \n- **Paladin (Role7)** — Frontline/support hybrid, can heal and smite, useful in many situations.  \n- **Cleric (Role4)** — Primary healer/buffer, needs enough AP to keep party alive and buffed.  \n- **Druid (Role1)** — Versatile: can heal, summon, control, or shapeshift. Moderate AP for flexibility.  \n- **Bard (Role2)** — Support/control, buffs/debuffs, but less AP-dependent than primary damage dealers.  \n- **Monk (Role5)** — Mobile striker/controller, but often less resource-heavy than casters or heavy hitters.  \n\nGiven the 100 AP total, I’ll prioritize frontline damage roles (Barbarian, Fighter) and the main healer (Cleric), then spread the rest for versatility.  \n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 18,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Barbarian)",
+            "role_obs": [
+                "Barbarian",
+                "Fighter",
+                "Bard",
+                "Cleric",
+                "Druid",
+                "Monk",
+                "Paladin"
+            ],
+            "response": "As a Barbarian team leader, I’ll prioritize roles based on combat effectiveness, frontline durability, and team utility.  \n- **Barbarian (Role1)** and **Fighter (Role2)** are primary damage dealers and tanks, so they should receive high allocations.  \n- **Paladin (Role7)** offers both combat and support, deserving a solid share.  \n- **Cleric (Role4)** and **Druid (Role5)** provide healing and versatility, so they need moderate points.  \n- **Bard (Role3)** offers buffs and control, useful but less AP-dependent.  \n- **Monk (Role6)** is mobile and effective even with fewer points.  \n\nBalancing this, I’ll allocate:  \n- Role1 (Barbarian): 20  \n- Role2 (Fighter): 20  \n- Role3 (Bard): 10  \n- Role4 (Cleric): 15  \n- Role5 (Druid): 15  \n- Role6 (Monk): 10  \n- Role7 (Paladin): 10  \n\nTotal = 100.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Barbarian)",
+            "role_obs": [
+                "Monk",
+                "Cleric",
+                "Fighter",
+                "Paladin",
+                "Bard",
+                "Druid",
+                "Barbarian"
+            ],
+            "response": "As a Barbarian team leader, I’ll consider each role’s strengths and likely in-game utility for a balanced party:  \n\n- **Barbarian (Role7)** — High damage and durability, so reasonable AP for frontline combat.  \n- **Fighter (Role3)** — Similar frontline role, benefits from AP for sustained attacks.  \n- **Paladin (Role4)** — Hybrid fighter/support, needs AP for both combat and healing/smites.  \n- **Cleric (Role2)** — Vital for healing and support, but doesn’t need as much AP as pure damage dealers if spells are separate.  \n- **Monk (Role1)** — High mobility and multiple attacks, benefits from AP for flurry of blows and stuns.  \n- **Druid (Role6)** — Versatile (spells/wild shape), moderate AP for flexibility.  \n- **Bard (Role5)** — Support/control, less dependent on AP for core effectiveness if using spells/buffs.  \n\nI’ll prioritize frontline roles (Barbarian, Fighter, Paladin) for higher AP, then others for balanced capability.  \n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 18,\n    \"Role4\": 16,\n    \"Role5\": 8,\n    \"Role6\": 14,\n    \"Role7\": 22\n}\n```"
+        },
+        {
+            "role_self": "(career: Barbarian)",
+            "role_obs": [
+                "Monk",
+                "Fighter",
+                "Druid",
+                "Bard",
+                "Cleric",
+                "Barbarian",
+                "Paladin"
+            ],
+            "response": "First, let’s analyze the roles and their likely needs for Action Points in a typical team-based game context:  \n\n- **Barbarian (Role6)** — As a team leader and likely frontline damage dealer/tank, they need a good amount of AP to engage in combat and use abilities.  \n- **Fighter (Role2)** — Another frontline role, benefits from AP for attacks and combat maneuvers.  \n- **Paladin (Role7)** — Hybrid tank/support, needs AP for both combat and healing/buffing.  \n- **Monk (Role1)** — Mobile striker, uses AP for multiple attacks and special moves.  \n- **Druid (Role3)** — Versatile caster/shapeshifter, needs AP for spells or wild shape actions.  \n- **Cleric (Role5)** — Primary healer/support, requires AP for healing spells and possibly turning undead.  \n- **Bard (Role4)** — Support/utility, uses AP for inspiration, spells, and skill actions.  \n\nGiven the total of 100 AP, I’ll prioritize roles that are more action-dependent in combat (frontline and primary damage dealers) while ensuring supports have enough to fulfill their roles.  \n\n**Rough allocation reasoning:**  \n- Barbarian (Role6) — high (20)  \n- Fighter (Role2) — high (18)  \n- Paladin (Role7) — medium-high (16)  \n- Monk (Role1) — medium (14)  \n- Druid (Role3) — medium (13)  \n- Cleric (Role5) — medium (11)  \n- Bard (Role4) — medium-low (8)  \n\nSum: 20+18+16+14+13+11+8 = 100.  \n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 18,\n    \"Role3\": 13,\n    \"Role4\": 8,\n    \"Role5\": 11,\n    \"Role6\": 20,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "(career: Barbarian)",
+            "role_obs": [
+                "Bard",
+                "Paladin",
+                "Monk",
+                "Barbarian",
+                "Cleric",
+                "Druid",
+                "Fighter"
+            ],
+            "response": "As a Barbarian team leader, I’ll consider each role’s typical strengths and how Action Points might best support the team’s overall effectiveness in combat, support, and utility.  \n\n- **Barbarian (Role4)**: Naturally benefits from high AP for aggressive actions, but as the leader, I’ll avoid over-prioritizing myself.  \n- **Bard (Role1)**: Versatile support and control; moderate AP helps with spells/inspiration.  \n- **Paladin (Role2)**: Frontline fighter with healing and smites; needs solid AP to balance offense and support.  \n- **Monk (Role3)**: Relies on multiple attacks and mobility; benefits from high AP for flurry of blows and stuns.  \n- **Cleric (Role5)**: Key healer/buffer; needs enough AP for spells and emergency healing.  \n- **Druid (Role6)**: Versatile caster/shapeshifter; moderate AP for control or damage.  \n- **Fighter (Role7)**: Consistent damage dealer; benefits from multiple attacks per round, so high AP is useful.  \n\nGiven the 100 AP total, I’ll prioritize roles that can use extra actions for maximum combat impact: Fighter, Monk, Paladin, and Cleric for healing. Barbarian gets a moderate share, Bard and Druid slightly less since their strength is often in one key action per round.  \n\nFinal allocation reasoning:  \n- Fighter: 18  \n- Monk: 18  \n- Paladin: 16  \n- Cleric: 16  \n- Barbarian: 14  \n- Druid: 9  \n- Bard: 9  \n\n```json\n{\n    \"Role1\": 9,\n    \"Role2\": 16,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 9,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "(career: Barbarian)",
+            "role_obs": [
+                "Monk",
+                "Barbarian",
+                "Fighter",
+                "Cleric",
+                "Paladin",
+                "Druid",
+                "Bard"
+            ],
+            "response": "As a Barbarian team leader, I prioritize frontline combat roles that can absorb damage and control the battlefield, while ensuring support roles have enough resources to enable the team.  \n\n**Analysis:**  \n- **Barbarian (Role2)** and **Fighter (Role3)** are primary damage dealers/tanks — they should receive high allocations.  \n- **Paladin (Role5)** offers a mix of offense, defense, and healing — deserves solid investment.  \n- **Cleric (Role4)** is crucial for healing and support — needs enough points to function.  \n- **Monk (Role1)** and **Druid (Role6)** are versatile but not core in this frontline-heavy setup — moderate points.  \n- **Bard (Role7)** provides utility and buffs — useful but can operate with fewer points.  \n\nGiven 100 total AP, I’ll distribute accordingly:  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Barbarian)",
+            "role_obs": [
+                "Cleric",
+                "Paladin",
+                "Barbarian",
+                "Fighter",
+                "Druid",
+                "Bard",
+                "Monk"
+            ],
+            "response": "As a Barbarian team leader, I'll prioritize allocating Action Points based on frontline combat roles and team synergy. Here's my analysis:\n\n**Analysis:**\n- Barbarian (myself), Paladin, and Fighter are frontline damage dealers/tanks who need high AP for combat actions\n- Cleric and Druid provide crucial healing/support but can function with moderate AP\n- Bard offers utility buffs/debuffs requiring some AP investment\n- Monk is versatile but often serves as secondary frontline/support\n\n**Priority allocation:**\n1. Primary frontline roles (Barbarian, Fighter, Paladin) get highest shares\n2. Support/healing roles (Cleric, Druid) get moderate allocation\n3. Utility role (Bard) gets baseline investment\n4. Versatile role (Monk) gets balanced allocation\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 20,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 10,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "(career: Barbarian)",
+            "role_obs": [
+                "Monk",
+                "Druid",
+                "Fighter",
+                "Bard",
+                "Paladin",
+                "Cleric",
+                "Barbarian"
+            ],
+            "response": "As a Barbarian team leader, I need to consider the strengths and typical roles of each class to allocate Action Points effectively. Here's my analysis:\n\n1. **Barbarian (Role7)** - As a frontline damage dealer and tank, should receive high allocation for sustained combat effectiveness.\n2. **Fighter (Role3)** - Another frontline combatant who benefits greatly from Action Points for multiple attacks and maneuvers.\n3. **Paladin (Role5)** - Hybrid warrior who needs points for both combat and spellcasting/smiting.\n4. **Monk (Role1)** - Mobile striker who uses points for flurry of blows and movement abilities.\n5. **Cleric (Role6)** - Primary healer/support who needs points for healing spells and occasional combat.\n6. **Druid (Role2)** - Versatile caster who can shapeshift or cast spells, but less action-dependent than martials.\n7. **Bard (Role4)** - Support role that relies more on inspiration and spells than multiple actions per turn.\n\nThe martial classes (Barbarian, Fighter, Paladin, Monk) generally benefit most from additional Action Points for multiple attacks and combat maneuvers. Support classes can function effectively with fewer points.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 5,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "(career: Barbarian)",
+            "role_obs": [
+                "Druid",
+                "Monk",
+                "Fighter",
+                "Bard",
+                "Paladin",
+                "Cleric",
+                "Barbarian"
+            ],
+            "response": "As a Barbarian team leader, I prioritize combat effectiveness and frontline survivability while ensuring support roles have enough resources to enable the team. Here's my analysis:\n\n1. **Barbarian (Role7)** - As a fellow Barbarian, I understand our role as primary damage dealers and damage sponges. We need substantial AP to maintain rage and unleash powerful attacks.\n\n2. **Fighter (Role3)** & **Paladin (Role5)** - These are frontline warriors who need good AP allocation for consistent damage output and tanking capabilities.\n\n3. **Cleric (Role6)** - Essential for healing and support. Needs sufficient AP to keep the party alive and provide buffs.\n\n4. **Druid (Role1)** - Versatile role that can provide healing, crowd control, or shape-shifting damage. Deserves solid allocation.\n\n5. **Monk (Role2)** & **Bard (Role4)** - While valuable, Monks are more mobile and efficient with fewer resources, and Bards provide support that can be effective with moderate AP.\n\nMy allocation strategy favors frontline combat roles while ensuring support classes have enough to perform their critical functions.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 16,\n    \"Role4\": 10,\n    \"Role5\": 16,\n    \"Role6\": 14,\n    \"Role7\": 22\n}\n```"
+        },
+        {
+            "role_self": "(career: Barbarian)",
+            "role_obs": [
+                "Bard",
+                "Druid",
+                "Barbarian",
+                "Fighter",
+                "Cleric",
+                "Monk",
+                "Paladin"
+            ],
+            "response": "As a Barbarian team leader, I’ll prioritize roles that benefit most from high Action Points in combat-heavy scenarios — focusing on frontline damage dealers, tanks, and key support roles that can turn battles.  \n\n**Brief analysis:**  \n- **Barbarian (Role3)** and **Fighter (Role4)** are primary damage dealers/tanks — high AP helps them attack more and use combat abilities.  \n- **Paladin (Role7)** is a hybrid (damage + support/auras) — deserves solid allocation.  \n- **Cleric (Role5)** is essential for healing/buffs — needs enough AP to cast spells each round.  \n- **Bard (Role1)** and **Druid (Role2)** are versatile supports — useful but can function with moderate AP.  \n- **Monk (Role6)** is mobile and effective but often relies on flurry of blows (may not need as many AP as heavy hitters).  \n\nGiven 100 AP total, I’ll weight towards frontline roles while ensuring supports have enough to contribute consistently.  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Barbarian",
+                "Bard",
+                "Cleric",
+                "Fighter",
+                "Druid",
+                "Monk",
+                "Paladin"
+            ],
+            "response": "As a Bard team leader, I'll allocate Action Points based on typical party roles and synergy considerations:\n\n**Analysis:**\n- **Barbarian** (Role1): Frontline damage dealer, benefits from high AP for sustained combat\n- **Bard** (Role2): Support/utility - moderate AP needed for buffs and crowd control\n- **Cleric** (Role3): Healing/support - crucial for party survival, needs substantial AP\n- **Fighter** (Role4): Versatile frontline - good damage and defense, benefits from high AP\n- **Druid** (Role5): Versatile caster with healing and control - moderate AP allocation\n- **Monk** (Role6): Mobile striker - effective with moderate AP investment\n- **Paladin** (Role7): Tank/support hybrid - frontline presence with healing utility\n\nPriority goes to frontline roles (Barbarian, Fighter, Paladin) who engage directly in combat, with Cleric receiving strong support for healing duties. Bard and Druid get moderate allocations for their utility roles.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 16,\n    \"Role4\": 17,\n    \"Role5\": 13,\n    \"Role6\": 12,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Barbarian",
+                "Paladin",
+                "Monk",
+                "Cleric",
+                "Bard",
+                "Druid",
+                "Fighter"
+            ],
+            "response": "As a Bard team leader, my resource allocation strategy should focus on maximizing team synergy and combat effectiveness. Here's my analysis:\n\n**Strategic Considerations:**\n1. **Bard's Role**: As a support class, I should receive moderate points to enable buffs, healing, and crowd control abilities\n2. **Frontline Priority**: Barbarian, Paladin, and Fighter need substantial points for tanking and damage dealing\n3. **Support Casters**: Cleric and Druid require good allocation for healing and utility spells\n4. **Specialist**: Monk needs balanced points for mobility and control abilities\n\n**Allocation Rationale:**\n- Barbarian (20): High damage output and survivability justify top allocation\n- Paladin (18): Strong frontline with healing capability deserves heavy investment\n- Fighter (17): Consistent damage dealer needs solid resource backing\n- Cleric (15): Primary healer requires sufficient points for spellcasting\n- Druid (12): Versatile caster with healing and shape-shifting abilities\n- Bard (10): Myself - adequate for support spells and inspiration abilities\n- Monk (8): Agile fighter who can be effective with moderate resources\n\nThis distribution ensures our frontline can engage effectively while support classes have enough resources to enable the team.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 8,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 12,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Barbarian",
+                "Bard",
+                "Druid",
+                "Paladin",
+                "Monk",
+                "Fighter",
+                "Cleric"
+            ],
+            "response": "As the Bard team leader, I need to allocate Action Points based on each role's likely combat utility, support capabilities, and synergy with my own Bard abilities. Here's my analysis:\n\n- **Barbarian** (Role1): High damage dealer and tank - should receive substantial points for frontline combat\n- **Bard** (Role2): Myself - as support/control, moderate allocation to maintain buffs/debuffs\n- **Druid** (Role3): Versatile with healing, control, and shape-shifting - good utility worth solid investment\n- **Paladin** (Role4): Strong frontline with healing/support - important hybrid role\n- **Monk** (Role5): Mobile striker with control abilities - effective but can work with moderate points\n- **Fighter** (Role6): Reliable damage dealer and defender - essential combat role\n- **Cleric** (Role7): Primary healer and divine caster - crucial for party survival\n\nThe allocation prioritizes frontline combat roles (Barbarian, Fighter, Paladin) while ensuring adequate support from Cleric and Druid. My own Bard role gets moderate points since Bards can be effective without maximum resource investment.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 10,\n    \"Role6\": 17,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Monk",
+                "Fighter",
+                "Cleric",
+                "Barbarian",
+                "Bard",
+                "Paladin",
+                "Druid"
+            ],
+            "response": "As the team leader (Bard), my allocation strategy focuses on balancing frontline durability, healing support, and utility/control capabilities. Here's my analysis:\n\n1. **Frontline Roles (Fighter, Barbarian, Paladin)** - Need substantial points for tanking and damage dealing\n2. **Support Roles (Cleric, Druid)** - Require moderate points for healing and battlefield control\n3. **Utility Role (Bard)** - Needs points for buffs, debuffs, and crowd control\n4. **Specialist (Monk)** - Can function effectively with fewer points due to innate abilities\n\nThe Fighter and Barbarian will receive the highest allocations as primary damage dealers/tanks. The Paladin provides both frontline presence and secondary healing. The Cleric gets solid support for healing, while the Druid offers versatile battlefield control. As Bard, I'll take a moderate allocation to enable effective buffing and crowd control. The Monk receives the lowest allocation but can still contribute significantly with unarmed strikes and mobility.\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 18,\n    \"Role3\": 16,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Barbarian",
+                "Monk",
+                "Druid",
+                "Paladin",
+                "Cleric",
+                "Bard",
+                "Fighter"
+            ],
+            "response": "As a Bard team leader, I should consider each role's strengths and how they contribute to the team's overall effectiveness.  \n\n- **Barbarian**: High damage and tanking, benefits from more AP for sustained combat.  \n- **Monk**: Mobile and versatile, but less reliant on heavy resource investment.  \n- **Druid**: Versatile caster with healing, control, and shapeshifting, needs moderate AP.  \n- **Paladin**: Strong frontline with healing and damage, benefits from decent AP.  \n- **Cleric**: Primary healer/support, needs enough AP to keep party alive.  \n- **Bard (me)**: Support and control, but as leader I might take fewer AP to let others shine.  \n- **Fighter**: Consistent damage and defense, works well with moderate AP.  \n\nGiven the 100 AP total, I’ll prioritize roles that need more resources for key abilities or sustained performance:  \n- Barbarian and Paladin as frontliners get high AP.  \n- Cleric gets solid AP for healing.  \n- Druid and Fighter get moderate AP.  \n- Monk and Bard get lower AP since they can function well with less.  \n\nFinal allocation:  \n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 18,\n    \"Role6\": 7,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Druid",
+                "Barbarian",
+                "Bard",
+                "Fighter",
+                "Cleric",
+                "Monk",
+                "Paladin"
+            ],
+            "response": "As a Bard team leader, I’ll consider each role’s typical in-game strengths and how they benefit the party when given Action Points.  \n\n**Brief analysis:**  \n- **Druid (Role1)**: Versatile in control, healing, and shapeshifting. Moderate priority.  \n- **Barbarian (Role2)**: High damage and tanking. Benefits greatly from extra actions in combat. High priority.  \n- **Bard (Role3)**: That’s me. Support, buffs, and control. As leader, I’ll take a moderate share.  \n- **Fighter (Role4)**: Consistent damage and durability. High combat effectiveness with extra actions. High priority.  \n- **Cleric (Role5)**: Essential for healing and support spells. Moderate priority.  \n- **Monk (Role6)**: Mobile and can stun, but may not scale as well with extra AP compared to others. Lower priority.  \n- **Paladin (Role7)**: Strong damage, healing, and tanking. High impact with extra actions. High priority.  \n\nGiven the above, I’ll allocate more points to high-impact combat roles (Barbarian, Fighter, Paladin), moderate to support (Cleric, Druid, Bard), and less to Monk.  \n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 8,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Barbarian",
+                "Cleric",
+                "Monk",
+                "Paladin",
+                "Fighter",
+                "Bard",
+                "Druid"
+            ],
+            "response": "As a Bard team leader, I need to consider both combat effectiveness and support utility when distributing Action Points. Here's my analysis:\n\n**Combat Roles:**\n- Barbarian (Role1) - Frontline damage dealer, benefits from high AP\n- Fighter (Role5) - Versatile combatant, good AP investment\n- Paladin (Role4) - Hybrid fighter/support, moderate AP useful\n\n**Support Roles:**\n- Cleric (Role2) - Essential healing, needs decent AP for spellcasting\n- Druid (Role7) - Versatile support with healing and control spells\n- Bard (Role6) - That's me! As team leader and support, I'll take moderate AP\n- Monk (Role3) - Mobile fighter but can function with lower AP\n\n**Strategy:** Prioritize frontline combatants (Barbarian, Fighter) for maximum damage output, while ensuring support roles have enough AP for essential abilities. Paladin gets solid allocation for hybrid role. Support roles receive sufficient but not excessive points.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Bard",
+                "Fighter",
+                "Paladin",
+                "Barbarian",
+                "Cleric",
+                "Druid",
+                "Monk"
+            ],
+            "response": "Let’s analyze the team composition before allocating the 100 Action Points.\n\n**Team Analysis:**\n- **Bard (Role1)** – Support/utility, can buff allies and control enemies. Moderate combat ability.\n- **Fighter (Role2)** – Frontline damage dealer and tank. High sustained combat effectiveness.\n- **Paladin (Role3)** – Tank/support hybrid, can heal and deal burst damage. Strong in prolonged fights.\n- **Barbarian (Role4)** – High damage and durability when raging. Essential for absorbing heavy hits.\n- **Cleric (Role5)** – Primary healer and divine spellcaster. Critical for survival.\n- **Druid (Role6)** – Versatile: can heal, control, summon, or wild shape for melee.\n- **Monk (Role7)** – Mobile striker, crowd control via stuns, but less durable than other frontliners.\n\n**Allocation Strategy:**\n- Frontline roles (Fighter, Paladin, Barbarian) should get high AP to maximize damage/tanking.\n- Cleric gets solid AP to ensure healing and support spells are available.\n- Druid and Bard get moderate AP for versatility and utility.\n- Monk is effective but often relies on mobility and fewer resources, so moderate allocation.\n\n**Final Distribution Reasoning:**\n- Fighter: 18 (consistent damage)\n- Paladin: 17 (tank + support)\n- Barbarian: 17 (damage sponge + damage)\n- Cleric: 16 (essential healing)\n- Druid: 12 (flexible role)\n- Bard: 10 (support/control)\n- Monk: 10 (striker/control)\n\nTotal = 100.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 18,\n    \"Role3\": 17,\n    \"Role4\": 17,\n    \"Role5\": 16,\n    \"Role6\": 12,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Paladin",
+                "Fighter",
+                "Bard",
+                "Druid",
+                "Monk",
+                "Cleric",
+                "Barbarian"
+            ],
+            "response": "As a Bard team leader, I'll allocate Action Points based on typical party roles and synergy considerations. Here's my analysis:\n\n1. **Bard (Role3 - myself)**: Moderate allocation for support spells and inspiration\n2. **Paladin (Role1)**: High allocation for tanking and healing capabilities\n3. **Fighter (Role2)**: High allocation for consistent damage output\n4. **Druid (Role4)**: Moderate allocation for versatility (healing, control, shapeshifting)\n5. **Monk (Role5)**: Moderate allocation for mobility and control\n6. **Cleric (Role6)**: High allocation as primary healer and support\n7. **Barbarian (Role7)**: High allocation for frontline damage and tanking\n\nThe distribution prioritizes frontline combatants (Paladin, Fighter, Barbarian) and essential support (Cleric), while maintaining balanced allocation for versatile roles.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 17,\n    \"Role3\": 14,\n    \"Role4\": 13,\n    \"Role5\": 12,\n    \"Role6\": 16,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Paladin",
+                "Cleric",
+                "Barbarian",
+                "Monk",
+                "Fighter",
+                "Druid",
+                "Bard"
+            ],
+            "response": "As a Bard team leader, I need to allocate Action Points based on each role's typical strengths and synergies with my own support capabilities. Here's my analysis:\n\n1. **Bard (myself)**: As a support/utility class, I need moderate points to provide buffs, healing, and control.\n2. **Paladin**: Tank with healing capabilities - needs solid allocation for frontline durability and support.\n3. **Cleric**: Primary healer/support - requires good points for healing and spellcasting.\n4. **Barbarian**: High-damage frontline - needs substantial points for consistent damage output.\n5. **Monk**: Mobile striker/controller - benefits from decent allocation for multiple attacks and mobility.\n6. **Fighter**: Versatile combatant - reliable damage dealer who performs well with good resource allocation.\n7. **Druid**: Versatile caster with healing/wildshape - needs moderate points for flexibility.\n\nGiven our composition, I'll prioritize frontline combatants (Barbarian, Fighter) while ensuring support roles have enough points to function effectively. The Bard allocation allows me to provide consistent support without over-investing.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 18,\n    \"Role6\": 12,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Druid",
+                "Monk",
+                "Barbarian",
+                "Paladin",
+                "Cleric",
+                "Bard",
+                "Fighter"
+            ],
+            "response": "As a Cleric team leader, I need to allocate 100 Action Points among 7 roles based on their likely combat utility, synergy with my support role, and overall party balance.  \n\n**Brief analysis:**  \n- **Fighter, Barbarian, Paladin** are front-line damage dealers/tanks, so they need higher AP to maximize their impact.  \n- **Cleric** (myself) should get moderate AP to support and heal effectively.  \n- **Monk** is versatile and benefits from AP for mobility and control.  \n- **Druid** can shapeshift, heal, or control — moderate AP is useful.  \n- **Bard** is support/control, so lower AP than primary damage dealers but enough to enable key abilities.  \n\nI’ll prioritize:  \n1. High AP to Fighter, Barbarian, Paladin for damage/tanking.  \n2. Medium AP to Cleric, Monk, Druid.  \n3. Lower but still meaningful AP to Bard.  \n\nHere’s the allocation:  \n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 18,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Druid",
+                "Paladin",
+                "Fighter",
+                "Cleric",
+                "Bard",
+                "Monk",
+                "Barbarian"
+            ],
+            "response": "As a Cleric team leader, my allocation strategy will prioritize roles based on frontline survivability, utility, and overall party balance. Here's my analysis:\n\n1. **Frontline Tanks** (Fighter, Paladin, Barbarian) - Need high AP for consistent threat generation and damage mitigation\n2. **Primary Healer** (Cleric - myself) - Moderate AP for healing and support spells\n3. **Utility/Support** (Druid, Bard) - Moderate AP for versatile abilities and buffs\n4. **Mobile Damage** (Monk) - Lower AP as they're efficient with fewer resources\n\nThe Fighter and Barbarian are pure martial classes that benefit greatly from more actions. The Paladin needs substantial AP for both combat and limited healing. As Cleric, I need enough for healing but can be conservative. Druid and Bard provide crucial support that doesn't require maximum AP. Monk is effective even with limited resources due to their innate abilities.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 8,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Monk",
+                "Paladin",
+                "Fighter",
+                "Druid",
+                "Cleric",
+                "Bard",
+                "Barbarian"
+            ],
+            "response": "As a Cleric team leader, I’ll consider each role’s typical strengths and needs in a party-based game:  \n\n- **Monk (Role1)**: Often relies on speed and multiple attacks, but may not need heavy AP allocation if they already have good base abilities.  \n- **Paladin (Role2)**: Strong in defense and support, benefits from moderate AP for smites and healing.  \n- **Fighter (Role3)**: Versatile combatant, benefits from high AP for multiple attacks/second wind/action surge.  \n- **Druid (Role4)**: Spellcasting and wild shape utility, moderate AP helps with flexibility.  \n- **Cleric (Role5)**: Myself — support and healing, but as leader I may take moderate AP for spellcasting and channel divinity.  \n- **Bard (Role6)**: Support and control spells, moderate AP for inspiration and spell versatility.  \n- **Barbarian (Role7)**: High damage and tanking, benefits from high AP for rage and attacks.  \n\nI’ll prioritize roles that need AP for combat actions and versatility: Fighter and Barbarian get the most, support roles get moderate amounts, Monk gets a bit less due to inherent efficiency.  \n\nHere’s the allocation:  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Cleric",
+                "Fighter",
+                "Barbarian",
+                "Druid",
+                "Monk",
+                "Paladin",
+                "Bard"
+            ],
+            "response": "As a Cleric team leader, I need to allocate Action Points based on each role's typical strengths and team needs. Here's my analysis:\n\n**Analysis:**\n- **Cleric (Role1)**: As a support/healer, needs moderate AP for healing/buffing but shouldn't consume all resources\n- **Fighter (Role2)**: Primary frontline damage dealer, should receive high AP allocation\n- **Barbarian (Role3)**: High-damage frontline, benefits greatly from more AP\n- **Druid (Role4)**: Versatile (healing/support/damage), deserves solid allocation\n- **Monk (Role5)**: Mobile damage dealer, effective with moderate AP\n- **Paladin (Role6)**: Hybrid (damage/support/tanking), warrants good allocation\n- **Bard (Role7)**: Support/utility, can function well with moderate AP\n\nI'll prioritize frontline damage dealers (Fighter, Barbarian) while ensuring support roles have enough for essential abilities.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 12,\n    \"Role6\": 16,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Cleric",
+                "Druid",
+                "Barbarian",
+                "Monk",
+                "Paladin",
+                "Bard",
+                "Fighter"
+            ],
+            "response": "As a Cleric team leader, I'll prioritize resource allocation based on roles' combat effectiveness, utility, and synergy with my support capabilities. Here's my analysis:\n\n**Allocation Strategy:**\n1. **Frontline roles** (Barbarian, Fighter, Paladin) need higher AP for consistent damage output and threat generation\n2. **Support roles** (Druid, Bard) require moderate AP for crowd control and secondary healing\n3. **My role (Cleric)** needs sufficient AP for primary healing and buffs\n4. **Monk** can function well with moderate AP due to inherent mobility and versatility\n\n**Priority breakdown:**\n- High: Barbarian, Fighter (primary damage dealers)\n- Medium: Paladin, Cleric (hybrid damage/support)\n- Medium-Low: Druid, Bard (utility/support)\n- Flexible: Monk (versatile but not AP-dependent)\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 16,\n    \"Role6\": 13,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Fighter",
+                "Cleric",
+                "Barbarian",
+                "Monk",
+                "Bard",
+                "Druid",
+                "Paladin"
+            ],
+            "response": "As a Cleric team leader, my priority is balancing frontline durability, support capabilities, and overall party effectiveness.  \n\n**Analysis:**  \n- **Fighter (Role1)** and **Barbarian (Role3)** are primary frontline roles — they need enough AP to engage enemies and control combat.  \n- **Paladin (Role7)** is a hybrid tank/support — should get solid allocation.  \n- **Cleric (Role2, myself)** needs AP for healing/buffing but can share resources since I’m also allocating.  \n- **Monk (Role4)** is mobile and versatile but often less AP-heavy than pure tanks.  \n- **Bard (Role5)** and **Druid (Role6)** are support/utility — decent AP to enable spells and flexibility.  \n\nGiven 100 total AP, I’ll prioritize:  \n- Fighter and Barbarian get the most (tanking/damage).  \n- Paladin next.  \n- Cleric, Druid, and Bard in the middle.  \n- Monk slightly less (efficient with fewer resources).  \n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Druid",
+                "Bard",
+                "Monk",
+                "Paladin",
+                "Fighter",
+                "Barbarian",
+                "Cleric"
+            ],
+            "response": "As a Cleric team leader, I’ll consider the strengths and typical resource needs of each class in a party-based game:  \n\n- **Druid (Role1)**: Versatile — can heal, summon, or shape-shift. Moderate AP need.  \n- **Bard (Role2)**: Support role — buffs, debuffs, some healing. Moderate AP need.  \n- **Monk (Role3)**: High mobility, multiple attacks per turn. Benefits from extra AP.  \n- **Paladin (Role4)**: Tanky with healing and smite. Moderate to high AP need.  \n- **Fighter (Role5)**: Multiple attacks, action surge potential. High AP need.  \n- **Barbarian (Role6)**: Strong attacks, rage uses. High AP need.  \n- **Cleric (Role7)**: Myself — primary healer/buffer, but can share AP since others may need more for DPS/tanking.  \n\nPriority:  \n- High AP to Fighter, Barbarian, Monk for maximum combat effectiveness.  \n- Moderate AP to Paladin and Druid for versatility.  \n- Lower AP to Bard (support can manage with less) and myself (Cleric) since I can still heal effectively with fewer AP if needed.  \n\nDistribution idea:  \nFighter 20, Barbarian 20, Monk 20, Paladin 15, Druid 10, Bard 10, Cleric 5.  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 20,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Fighter",
+                "Barbarian",
+                "Cleric",
+                "Druid",
+                "Monk",
+                "Paladin",
+                "Bard"
+            ],
+            "response": "As a Cleric team leader, my priority is balancing frontline durability, support capabilities, and overall party effectiveness. Here’s my reasoning:\n\n- **Fighter (Role1)** and **Barbarian (Role2)** are primary frontline damage dealers and tanks — they need high AP to engage enemies and absorb damage.  \n- **Paladin (Role6)** is a hybrid tank/support — solid AP allocation helps with both offense and healing.  \n- **Cleric (Role3)** is the main healer and support, so moderate AP ensures spellcasting and healing.  \n- **Druid (Role4)** offers control and backup healing — moderate AP maintains versatility.  \n- **Monk (Role5)** is mobile and can deal damage with fewer resources, so lower AP.  \n- **Bard (Role7)** is support/utility — lower AP since their strength is in buffs/debuffs, not raw actions.\n\nAllocation strategy:  \nFrontline (Fighter, Barbarian, Paladin) get the most; support (Cleric, Druid) get medium; Monk and Bard get lower but enough to contribute.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Barbarian",
+                "Fighter",
+                "Monk",
+                "Paladin",
+                "Druid",
+                "Cleric",
+                "Bard"
+            ],
+            "response": "As a Cleric team leader, my resource allocation should prioritize roles that benefit most from additional Action Points based on their combat utility, versatility, and team synergy. Here's my analysis:\n\n**Key Considerations:**\n- **Frontline roles** (Barbarian, Fighter, Paladin) typically need more AP for sustained damage and tanking\n- **Support roles** (Cleric, Bard, Druid) require moderate AP for healing/buffing while still contributing to damage\n- **Monk** benefits from AP for mobility and control abilities\n- As a Cleric leader, I should avoid over-allocating to myself while ensuring I have enough for essential healing\n\n**Allocation Strategy:**\n- Highest allocation to Fighter and Paladin as versatile frontline combatants\n- Strong allocation to Barbarian for pure damage output\n- Moderate allocation to Monk for battlefield control\n- Balanced allocation to support roles (Druid, Bard, Cleric) with slight preference to Druid for versatility\n- My own allocation as Cleric kept reasonable but not excessive\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 19,\n    \"Role5\": 12,\n    \"Role6\": 10,\n    \"Role7\": 6\n}\n```"
+        },
+        {
+            "role_self": "(career: Cleric)",
+            "role_obs": [
+                "Monk",
+                "Paladin",
+                "Bard",
+                "Druid",
+                "Cleric",
+                "Fighter",
+                "Barbarian"
+            ],
+            "response": "As a Cleric team leader, I need to allocate 100 Action Points among seven roles based on their typical in-game strengths and party synergy.  \n\n**Brief analysis:**  \n- **Cleric (Role5)** – As a support/healer, I might need moderate AP for healing/buffs, but not the highest priority if others can protect the party.  \n- **Monk (Role1)** – High mobility and damage potential, benefits from AP for multiple attacks/positioning.  \n- **Paladin (Role2)** – Tank/support hybrid, needs AP for smites, healing, and tanking.  \n- **Bard (Role3)** – Support/control, useful for buffs and skills, but can function with moderate AP.  \n- **Druid (Role4)** – Versatile (spells/wild shape), useful for control or healing, moderate AP.  \n- **Fighter (Role6)** – Consistent damage dealer, benefits greatly from extra attacks/actions.  \n- **Barbarian (Role7)** – High damage and tanking, benefits from AP for rage attacks/reckless attacks.  \n\nPriority should go to primary damage dealers (Fighter, Barbarian, Monk) to maximize enemy elimination, with solid support for Paladin and Cleric for survivability, and moderate for Bard/Druid.  \n\nHere’s my allocation:  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Druid)",
+            "role_obs": [
+                "Monk",
+                "Fighter",
+                "Druid",
+                "Paladin",
+                "Bard",
+                "Barbarian",
+                "Cleric"
+            ],
+            "response": "As a Druid team leader, I'll consider each role's typical strengths and synergy with my own abilities. Druids excel at versatility—balancing healing, control, and damage—so I'll prioritize roles that complement this flexibility.  \n\n**Analysis:**  \n- **Monk (Role1)**: High mobility and control, but less dependent on resources for core functions. Moderate allocation.  \n- **Fighter (Role2)**: Strong frontline, benefits from extra actions for attacks or defense. High allocation.  \n- **Druid (Role3)**: Myself—versatile, but as leader, I may not need the highest share. Moderate allocation.  \n- **Paladin (Role4)**: Tank/support hybrid; extra actions enhance survivability and healing. Moderate-high allocation.  \n- **Bard (Role5)**: Support/control; benefits greatly from actions to inspire or debuff. Moderate allocation.  \n- **Barbarian (Role6)**: High damage and durability; benefits from extra attacks or mobility. High allocation.  \n- **Cleric (Role7)**: Primary healer/support; crucial for sustaining the team. High allocation.  \n\nI'll aim for a balanced spread, favoring frontline durability (Fighter, Barbarian) and support (Cleric), while keeping others functional.  \n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 12,\n    \"Role6\": 16,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Druid)",
+            "role_obs": [
+                "Fighter",
+                "Cleric",
+                "Bard",
+                "Paladin",
+                "Druid",
+                "Monk",
+                "Barbarian"
+            ],
+            "response": "As a Druid team leader, I'll allocate Action Points based on role synergy, combat effectiveness, and support capabilities. Here's my analysis:\n\n**Allocation Strategy:**\n- **Frontline roles** (Fighter, Paladin, Barbarian) need solid AP for tanking and damage\n- **Support roles** (Cleric, Bard, Druid) require moderate AP for healing/buffing\n- **Utility roles** (Monk) can function well with moderate AP\n- **Druid** (my role) gets slightly higher allocation for versatile spellcasting and shape-shifting\n\n**Reasoning:**\n- Fighter and Barbarian are primary damage dealers/tanks\n- Paladin provides both frontline presence and support\n- Cleric is essential for healing and party sustainability\n- Bard offers valuable buffs and crowd control\n- Druid (myself) needs resources for flexible spellcasting\n- Monk is effective but can operate efficiently with moderate resources\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 18,\n    \"Role6\": 10,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "(career: Druid)",
+            "role_obs": [
+                "Cleric",
+                "Fighter",
+                "Barbarian",
+                "Monk",
+                "Bard",
+                "Druid",
+                "Paladin"
+            ],
+            "response": "As a Druid team leader, I'll consider both class synergy and typical party roles when distributing Action Points.  \n\n**Brief Analysis:**  \n- **Cleric (Role1)**: Essential for healing and support; should get solid allocation.  \n- **Fighter (Role2)**: Frontline damage and tanking; needs good AP for consistent performance.  \n- **Barbarian (Role3)**: High damage and durability; benefits from AP for frequent powerful attacks.  \n- **Monk (Role4)**: Agile and versatile; moderate AP to balance mobility and offense.  \n- **Bard (Role5)**: Support and control; doesn’t need as much AP as primary damage dealers.  \n- **Druid (Role6)**: Myself — versatile caster/healer/shapeshifter; reasonable AP to support team.  \n- **Paladin (Role7)**: Hybrid tank/support; deserves solid AP for smites and healing.  \n\nI’ll prioritize frontline fighters and key support roles while keeping all allocations viable.  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 17,\n    \"Role4\": 14,\n    \"Role5\": 10,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Druid)",
+            "role_obs": [
+                "Fighter",
+                "Monk",
+                "Barbarian",
+                "Paladin",
+                "Bard",
+                "Cleric",
+                "Druid"
+            ],
+            "response": "As a Druid team leader, I need to allocate 100 Action Points among 7 roles based on their combat roles, utility, and synergy with my own Druid capabilities. Here's my brief analysis:\n\n**Frontline Fighters** (Fighter, Barbarian, Paladin) - Need substantial points for tanking and damage dealing\n- Fighter: Versatile combatant, good for holding the line\n- Barbarian: High damage output, benefits from more action points\n- Paladin: Provides healing and support in addition to combat\n\n**Support/Utility** (Bard, Cleric) - Moderate allocation for healing and buffs\n- Bard: Great for buffs and crowd control\n- Cleric: Essential healing and support\n\n**Specialized** (Monk, Druid)\n- Monk: Mobile fighter but less essential than frontline warriors\n- Druid (myself): Can provide healing, summoning, and battlefield control, so moderate allocation\n\n**Allocation Strategy**: Prioritize frontline combatants who will absorb damage and deal consistent damage, with solid support for healers and moderate points for specialized roles.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 16,\n    \"Role5\": 12,\n    \"Role6\": 14,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "(career: Druid)",
+            "role_obs": [
+                "Druid",
+                "Fighter",
+                "Paladin",
+                "Monk",
+                "Cleric",
+                "Bard",
+                "Barbarian"
+            ],
+            "response": "As a Druid team leader, I’ll consider the strengths and typical responsibilities of each class in a party-based game:  \n\n- **Druid (Role1)** — Versatile: can heal, summon, control terrain, or deal damage. Deserves solid allocation for flexibility.  \n- **Fighter (Role2)** — Frontline damage and tanking. High AP helps maintain threat and survivability.  \n- **Paladin (Role3)** — Hybrid: tank, heal, and support. Needs decent AP for multiple roles.  \n- **Monk (Role4)** — High mobility and damage, but often less resource-dependent than casters. Moderate AP.  \n- **Cleric (Role5)** — Primary healer/buffer. Critical to keep party alive; should have high AP.  \n- **Bard (Role6)** — Support: buffs, debuffs, some healing. Good utility; moderate AP.  \n- **Barbarian (Role7)** — Pure damage/durability. Benefits from high AP for sustained attacks.  \n\n**Reasoning for distribution:**  \n- Prioritize Cleric and Fighter for party survival and frontline.  \n- Druid and Paladin get strong support allocations due to versatility.  \n- Barbarian gets high damage role allocation.  \n- Monk and Bard get moderate amounts as they are effective but less AP-hungry in many systems.  \n\nFinal allocation ensures all have meaningful action points, with slight favor to key tanks/healers.  \n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 17,\n    \"Role6\": 10,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Druid)",
+            "role_obs": [
+                "Cleric",
+                "Druid",
+                "Paladin",
+                "Barbarian",
+                "Fighter",
+                "Monk",
+                "Bard"
+            ],
+            "response": "As a Druid team leader, I’ll consider each role’s likely in-game strengths and how they synergize with my own abilities.  \n\n- **Cleric (Role1)**: Important for healing and support — should get solid allocation to keep the party alive.  \n- **Druid (Role2)**: Myself — versatile with healing, control, and shapeshifting, so moderate points to balance utility.  \n- **Paladin (Role3)**: Tanky with some healing and damage — useful in frontline, so decent points.  \n- **Barbarian (Role4)**: High damage and durability — good for drawing aggro, so reasonable points.  \n- **Fighter (Role5)**: Consistent damage and defense — solid allocation.  \n- **Monk (Role6)**: Mobile and control-focused — moderate points.  \n- **Bard (Role7)**: Versatile support, buffs, and control — moderate points to enable party-wide effectiveness.  \n\nI’ll prioritize Cleric for survival, then balance between frontline damage (Barbarian, Fighter, Paladin) and support/control (Druid, Bard, Monk).  \n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 15,\n    \"Role3\": 16,\n    \"Role4\": 17,\n    \"Role5\": 16,\n    \"Role6\": 9,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "(career: Druid)",
+            "role_obs": [
+                "Monk",
+                "Bard",
+                "Cleric",
+                "Fighter",
+                "Druid",
+                "Barbarian",
+                "Paladin"
+            ],
+            "response": "As a Druid team leader, I'll consider each role's typical strengths and how they synergize with my own abilities. Druids excel at versatility—balancing healing, control, and damage—so I'll prioritize roles that complement this flexibility.\n\n**Analysis:**\n- **Monk (Role1)**: High mobility and consistent damage, but less reliant on Action Points for burst impact. Moderate allocation.\n- **Bard (Role2)**: Support and control specialist; benefits greatly from extra actions to inspire allies or debuff enemies. High priority.\n- **Cleric (Role3)**: Primary healer and support; additional Action Points can save the team in critical moments. High priority.\n- **Fighter (Role4)**: Strong sustained damage and tanking; benefits from extra attacks or defensive actions. Moderate allocation.\n- **Druid (Role5)**: Myself—versatile, but as leader I should balance my own needs with team optimization. Moderate allocation.\n- **Barbarian (Role6)**: High damage and durability, but often relies on rage rather than Action Point-intensive tactics. Lower priority.\n- **Paladin (Role7)**: Hybrid damage, healing, and tanking; benefits from extra actions for smites or support. Moderate to high priority.\n\nI'll prioritize Bards and Clerics for support impact, then balance among versatile roles (Paladin, Druid, Fighter), with lower emphasis on self-sufficient roles (Barbarian, Monk).\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 10,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(career: Druid)",
+            "role_obs": [
+                "Monk",
+                "Barbarian",
+                "Cleric",
+                "Paladin",
+                "Bard",
+                "Druid",
+                "Fighter"
+            ],
+            "response": "As a Druid team leader, I'll consider both class synergy and typical party roles when distributing Action Points. Druids excel at versatility - balancing control, healing, and damage - so I'll prioritize roles that complement this flexibility.\n\n**Analysis:**\n- **Druid (Role6)**: As leader and primary controller/healer, needs moderate points for shape-shifting and spellcasting\n- **Cleric (Role3)**: Secondary healer/support - good synergy with Druid, should share healing burden\n- **Fighter (Role7) & Barbarian (Role2)**: Main frontline tanks - need solid allocation to absorb damage\n- **Paladin (Role4)**: Hybrid tank/support - valuable for aura and emergency healing\n- **Monk (Role1)**: Mobile striker/controller - effective with moderate investment\n- **Bard (Role5)**: Support/utility - powerful even with fewer points due to inspiration abilities\n\nThe distribution prioritizes frontline durability while ensuring adequate support magic.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 18,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Druid)",
+            "role_obs": [
+                "Bard",
+                "Monk",
+                "Druid",
+                "Barbarian",
+                "Fighter",
+                "Cleric",
+                "Paladin"
+            ],
+            "response": "As a Druid team leader, I'll prioritize a balanced allocation that supports both frontline combat and support capabilities. Here's my analysis:\n\n**Key considerations:**\n- Frontline roles (Barbarian, Fighter, Paladin) need substantial points for tanking and damage\n- Support roles (Cleric, Bard, Druid) require moderate points for healing/buffing\n- Monk serves as versatile damage dealer/utility\n- As a Druid myself, I'll take moderate allocation to support the team\n\n**Allocation strategy:**\n- Heavy investment in Barbarian (primary tank) and Fighter (consistent damage)\n- Solid support for Paladin (hybrid tank/support)\n- Moderate allocation to Cleric (essential healing) and myself (Druid for versatility)\n- Lower but meaningful points for Bard (utility) and Monk (mobile damage)\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 18,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Druid)",
+            "role_obs": [
+                "Bard",
+                "Paladin",
+                "Druid",
+                "Barbarian",
+                "Fighter",
+                "Cleric",
+                "Monk"
+            ],
+            "response": "As a Druid team leader, I'll prioritize resource allocation based on team synergy, role versatility, and combat effectiveness. Here's my analysis:\n\n**Analysis:**\n1. **Druid (myself)** - Versatile role with healing, control, and damage capabilities. Moderate allocation to maintain support functions.\n2. **Cleric** - Primary healer/support. High priority for healing and resurrection capabilities.\n3. **Paladin** - Tank/support hybrid. Needs resources for both defense and healing.\n4. **Fighter** - Main frontline damage dealer. Requires solid allocation for consistent damage output.\n5. **Barbarian** - Secondary frontline with high damage potential. Good allocation for burst damage.\n6. **Bard** - Support/utility role. Moderate allocation for buffs and crowd control.\n7. **Monk** - Mobile striker/utility. Lower allocation as they're effective with minimal resources.\n\n**Allocation Strategy:** Prioritize healing/support (Cleric, Paladin) followed by frontline damage (Fighter, Barbarian), then versatile roles (Druid, Bard), with Monk receiving minimal but functional allocation.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Fighter)",
+            "role_obs": [
+                "Paladin",
+                "Druid",
+                "Monk",
+                "Cleric",
+                "Bard",
+                "Barbarian",
+                "Fighter"
+            ],
+            "response": "As a Fighter team leader, I’ll consider the strengths and typical roles of each class in a party:  \n\n- **Paladin (Role1)**: Strong frontline fighter, can heal and tank — deserves solid allocation.  \n- **Druid (Role2)**: Versatile caster, can heal, control, or shapeshift — useful but not the main damage dealer.  \n- **Monk (Role3)**: High mobility, decent damage, but often less reliant on heavy resource investment compared to casters.  \n- **Cleric (Role4)**: Essential healer/support, possibly mid-line combatant — should get good points to ensure survival and spellcasting.  \n- **Bard (Role5)**: Support and control, buffs allies — useful but can function with moderate points.  \n- **Barbarian (Role6)**: Primary damage dealer/tank — benefits greatly from more action points for attacks and rage usage.  \n- **Fighter (Role7)**: That’s me — as leader and frontline, I should take a fair share but not hog all points.  \n\nGiven the 100 AP total, I’ll prioritize:  \n- High damage dealers and tanks (Barbarian, Paladin, Fighter) get more.  \n- Healer (Cleric) gets enough to be effective.  \n- Support (Bard, Druid) get moderate amounts.  \n- Monk is effective but can work with slightly less.  \n\nFinal allocation reasoning:  \n- Barbarian: 20 (needs AP for powerful attacks and rage)  \n- Paladin: 18 (tank + damage + healing utility)  \n- Fighter (me): 17 (solid frontline role)  \n- Cleric: 16 (important for healing and support spells)  \n- Druid: 11 (versatile but not primary damage)  \n- Bard: 10 (support role)  \n- Monk: 8 (mobile striker, less AP-dependent)  \n\nSum: 20+18+17+16+11+10+8 = 100.  \n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 11,\n    \"Role3\": 8,\n    \"Role4\": 16,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "(career: Fighter)",
+            "role_obs": [
+                "Druid",
+                "Cleric",
+                "Paladin",
+                "Monk",
+                "Bard",
+                "Barbarian",
+                "Fighter"
+            ],
+            "response": "Let’s analyze the roles and their likely needs for Action Points:  \n\n- **Druid (Role1)**: Versatile caster and shapeshifter — benefits from AP for spellcasting and utility.  \n- **Cleric (Role2)**: Primary healer and support caster — needs AP for healing and buffs.  \n- **Paladin (Role3)**: Hybrid fighter/support — needs AP for combat and some spells.  \n- **Monk (Role4)**: Martial artist — relies on multiple attacks and mobility, so AP is crucial.  \n- **Bard (Role5)**: Support and control — uses AP for spells and inspiration.  \n- **Barbarian (Role6)**: Melee damage dealer — benefits from AP for rage and attacks.  \n- **Fighter (Role7)**: Melee combat specialist — you, the leader, but should still get a solid share for combat actions.  \n\nGiven that Fighters, Barbarians, and Monks are more action-dependent in combat, I’ll weight them higher. Support roles (Cleric, Druid, Bard) still need enough for spells, but not as much as primary attackers. Paladin is in between.  \n\nI’ll distribute roughly:  \n- Druid: 12  \n- Cleric: 14  \n- Paladin: 14  \n- Monk: 16  \n- Bard: 10  \n- Barbarian: 16  \n- Fighter: 18  \n\nThat totals 100.  \n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 10,\n    \"Role6\": 16,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "(career: Fighter)",
+            "role_obs": [
+                "Druid",
+                "Cleric",
+                "Paladin",
+                "Monk",
+                "Barbarian",
+                "Bard",
+                "Fighter"
+            ],
+            "response": "As a Fighter team leader, I'll consider the typical strengths and resource needs of each class in a party-based game. Here's my analysis:\n\n**Analysis:**\n- **Fighter (Role7)**: As frontline damage dealer/tank, benefits greatly from action points for multiple attacks/abilities.\n- **Barbarian (Role5)**: Similar frontline role, needs substantial action points for rage and powerful attacks.\n- **Paladin (Role3)**: Hybrid fighter/support, requires action points for both combat and healing/smiting.\n- **Cleric (Role2)**: Primary healer/support, needs action points for healing spells and utility.\n- **Druid (Role1)**: Versatile caster with healing and control spells, requires moderate action points.\n- **Monk (Role4)**: Mobile striker, benefits from multiple attacks but often has bonus actions.\n- **Bard (Role6)**: Support/utility role, needs action points for spells and inspiration but can be efficient with fewer.\n\nPriority goes to frontline combat roles who can convert action points into immediate combat effectiveness, followed by essential support roles.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 8,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "(career: Fighter)",
+            "role_obs": [
+                "Bard",
+                "Fighter",
+                "Druid",
+                "Barbarian",
+                "Paladin",
+                "Cleric",
+                "Monk"
+            ],
+            "response": "Let’s analyze the roles and their likely needs for Action Points in a typical team-based game context:  \n\n- **Role1 (Bard)**: Often a support role, uses AP for buffs, debuffs, and healing — moderate need.  \n- **Role2 (Fighter)**: Frontline damage dealer/tank — high AP need for attacks and skills.  \n- **Role3 (Druid)**: Versatile caster (healing, summoning, control) — moderate to high AP need.  \n- **Role4 (Barbarian)**: High-damage melee role — high AP need for powerful attacks.  \n- **Role5 (Paladin)**: Hybrid tank/support — moderate AP need for both combat and spells.  \n- **Role6 (Cleric)**: Primary healer/support — moderate AP need, mostly for healing spells.  \n- **Role7 (Monk)**: High mobility, multiple attacks per turn — high AP need for flurry and skills.  \n\nPriority for high AP allocation goes to main damage dealers (Fighter, Barbarian, Monk) and versatile casters (Druid), with support roles getting enough to function but not as much.  \n\nHere’s a balanced distribution:  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Fighter)",
+            "role_obs": [
+                "Fighter",
+                "Druid",
+                "Barbarian",
+                "Cleric",
+                "Bard",
+                "Monk",
+                "Paladin"
+            ],
+            "response": "As a Fighter team leader, I’d consider the following:  \n\n- **Fighter (Role1)** — Frontline damage dealer and tank, should get solid allocation.  \n- **Barbarian (Role3)** — High damage and durability, also benefits from more AP.  \n- **Paladin (Role7)** — Hybrid tank/support, needs decent AP for combat and spells.  \n- **Cleric (Role4)** — Important for healing and support, but not AP-heavy; moderate allocation.  \n- **Druid (Role2)** — Versatile, can heal or shape-shift, but not top priority here.  \n- **Bard (Role5)** — Support role, buffs/debuffs, less dependent on high AP.  \n- **Monk (Role6)** — Agile fighter, but in this party, not the main damage focus.  \n\nI’ll prioritize Fighters, Barbarians, and Paladins for combat effectiveness, then give enough to Cleric for utility, and smaller amounts to others.  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Fighter)",
+            "role_obs": [
+                "Druid",
+                "Fighter",
+                "Paladin",
+                "Cleric",
+                "Monk",
+                "Bard",
+                "Barbarian"
+            ],
+            "response": "As a Fighter team leader, I’d consider each role’s likely combat function and synergy with my own class.  \n\n- **Fighters** (myself and Role2) are front-line damage dealers and tanks — they need solid AP to engage and control fights.  \n- **Barbarian** (Role7) is also a front-line damage sponge/dealer — high AP helps maintain threat and durability.  \n- **Paladin** (Role3) can tank, heal, and support — moderate AP to balance offense and utility.  \n- **Cleric** (Role4) is a primary healer/support — needs enough AP to cast spells and stay safe.  \n- **Druid** (Role1) is versatile (heal, control, shapeshift) — moderate AP for flexibility.  \n- **Monk** (Role5) is mobile and can deal damage — decent AP to maximize flurries/ki abilities.  \n- **Bard** (Role6) is support/buff/debuff — lower AP need since their main strength is spells/songs, not attacks.  \n\nGiven 100 AP total, I’ll prioritize front-line roles (Fighter, Barbarian) and key supports (Cleric, Paladin), then others.  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 5,\n    \"Role7\": 30\n}\n```"
+        },
+        {
+            "role_self": "(career: Fighter)",
+            "role_obs": [
+                "Fighter",
+                "Monk",
+                "Barbarian",
+                "Paladin",
+                "Cleric",
+                "Bard",
+                "Druid"
+            ],
+            "response": "As a Fighter team leader, I'll prioritize allocating Action Points based on frontline combat roles and team synergy. Fighters, Barbarians, and Paladins typically benefit most from additional action economy in combat scenarios, while support classes like Cleric, Bard, and Druid can function effectively with moderate allocation. Monks fall somewhere in between.\n\n**Brief Analysis:**\n- **Fighter (Role1)** - Core frontline damage dealer, benefits significantly from extra actions\n- **Barbarian (Role3)** - High-damage frontline role, action points greatly enhance damage output\n- **Paladin (Role4)** - Versatile frontline with healing/support capabilities, good value for action points\n- **Monk (Role2)** - Mobile striker, benefits from action economy but less than pure martial classes\n- **Cleric (Role5)** - Primary healer/support, needs some actions but can function efficiently\n- **Bard (Role6)** - Support/utility, effective with moderate action allocation\n- **Druid (Role7)** - Versatile caster/support, similar to Cleric in action needs\n\nI'll prioritize the martial frontline roles while ensuring support classes have enough points to perform their essential functions.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 16,\n    \"Role5\": 14,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Fighter)",
+            "role_obs": [
+                "Fighter",
+                "Barbarian",
+                "Druid",
+                "Monk",
+                "Paladin",
+                "Cleric",
+                "Bard"
+            ],
+            "response": "First, let's analyze the team composition and typical roles:  \n\n- **Fighter (Role1)** – Usually a frontline damage dealer/tank; benefits from high action points for multiple attacks or defensive actions.  \n- **Barbarian (Role2)** – Similar frontline role, high damage output when using actions for attacks or rage-related abilities.  \n- **Druid (Role3)** – Versatile: can heal, summon, or deal damage; moderate action point need.  \n- **Monk (Role4)** – Relies on multiple attacks and mobility; benefits from more actions.  \n- **Paladin (Role5)** – Hybrid: damage, healing, and tanking; needs decent action points for smites or support.  \n- **Cleric (Role6)** – Primary healer/support; some action points needed for healing and spells, but not as many as pure damage dealers.  \n- **Bard (Role7)** – Support/control; moderate action point need for spells and inspiration.  \n\nGiven that I’m the team leader (Fighter, Role1), I might prioritize frontline damage roles slightly more, but I’ll aim for a balanced distribution that reflects each role’s likely action economy in a typical combat-heavy game.  \n\nFrontline fighters (Fighter, Barbarian, Monk, Paladin) should get more, with support roles (Cleric, Bard, Druid) getting enough to be effective but not as many as primary attackers.  \n\nLet’s allocate:  \n- Role1 (Fighter): 18  \n- Role2 (Barbarian): 18  \n- Role3 (Druid): 12  \n- Role4 (Monk): 16  \n- Role5 (Paladin): 16  \n- Role6 (Cleric): 10  \n- Role7 (Bard): 10  \n\nSum = 100.  \n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 16,\n    \"Role5\": 16,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Fighter)",
+            "role_obs": [
+                "Monk",
+                "Bard",
+                "Fighter",
+                "Paladin",
+                "Cleric",
+                "Barbarian",
+                "Druid"
+            ],
+            "response": "First, let's analyze the situation:  \n\n- **Fighter (Role3)** is the same career as the team leader, so they might share similar combat priorities.  \n- **Monk (Role1)** is often a versatile martial class, good at mobility and control.  \n- **Bard (Role2)** is a support class, providing buffs, healing, and utility.  \n- **Paladin (Role4)** is a durable frontline fighter with healing and damage potential.  \n- **Cleric (Role5)** is a primary healer and support, sometimes capable in combat.  \n- **Barbarian (Role6)** is a high-damage melee tank.  \n- **Druid (Role7)** is versatile — can heal, control, or shapeshift for combat.  \n\nGiven the leader is a **Fighter**, I’ll assume a balanced but combat-leaning party.  \nKey roles for action points:  \n- Frontline damage dealers (Fighter, Barbarian, Paladin) get more points.  \n- Support (Bard, Cleric, Druid) get moderate points for utility/healing.  \n- Monk gets a decent share for skirmishing.  \n\nI’ll distribute roughly:  \n- Fighter (Role3): 20  \n- Barbarian (Role6): 20  \n- Paladin (Role4): 15  \n- Monk (Role1): 15  \n- Cleric (Role5): 10  \n- Druid (Role7): 10  \n- Bard (Role2): 10  \n\nThat totals 100.  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Fighter)",
+            "role_obs": [
+                "Monk",
+                "Barbarian",
+                "Bard",
+                "Druid",
+                "Paladin",
+                "Fighter",
+                "Cleric"
+            ],
+            "response": "As a Fighter team leader, I’ll consider each role’s typical combat function and synergy with a frontline-heavy party.  \n\n**Brief analysis:**  \n- **Fighter (Role6)** and **Barbarian (Role2)** are primary damage dealers and tanks — they need high AP for attacks and abilities.  \n- **Paladin (Role5)** offers damage, healing, and auras — solid AP helps versatility.  \n- **Cleric (Role7)** is a key healer/support — needs enough AP for spells and emergency heals.  \n- **Monk (Role1)** is mobile and can deal multiple attacks — moderate AP works well.  \n- **Druid (Role4)** provides control and some healing — moderate AP.  \n- **Bard (Role3)** is support/buff/debuff — can function well with lower AP if focusing on passive auras or inspiration.  \n\nGiven 100 AP total, I’ll prioritize: Fighter, Barbarian, Paladin, Cleric, then others.  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 5,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 25,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Monk)",
+            "role_obs": [
+                "Druid",
+                "Barbarian",
+                "Monk",
+                "Paladin",
+                "Fighter",
+                "Cleric",
+                "Bard"
+            ],
+            "response": "As a Monk team leader, I’d consider each role’s likely in-game strengths and how they contribute to the party’s overall effectiveness.  \n\n- **Druid (Role1)**: Versatile with spells, healing, and shapeshifting — benefits from moderate AP.  \n- **Barbarian (Role2)**: High damage and tanking — benefits from high AP for combat actions.  \n- **Monk (Role3)**: Myself — balanced combat and mobility, but as leader I’ll take a moderate share.  \n- **Paladin (Role4)**: Tank/support hybrid — needs decent AP for both combat and healing/buffing.  \n- **Fighter (Role5)**: Consistent damage and defense — benefits from high AP for multiple attacks/actions.  \n- **Cleric (Role6)**: Primary healer/buffer — needs good AP for spellcasting and emergency heals.  \n- **Bard (Role7)**: Support, buffs, and control — useful but can function with slightly less AP than main damage dealers.  \n\nPriority: Main damage dealers (Barbarian, Fighter) get the most, followed by support (Cleric, Paladin), then Druid, Monk, and Bard.  \n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 18,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Monk)",
+            "role_obs": [
+                "Cleric",
+                "Fighter",
+                "Paladin",
+                "Barbarian",
+                "Monk",
+                "Bard",
+                "Druid"
+            ],
+            "response": "As a Monk team leader, I’ll consider the strengths and typical in-game resource needs of each class:  \n\n- **Cleric** – Often a support/healer, needs AP for healing spells and buffs.  \n- **Fighter** – Frontline damage dealer/tank, benefits from AP for combat actions.  \n- **Paladin** – Hybrid tank/support, needs AP for both combat and spells.  \n- **Barbarian** – High-damage melee, uses AP mainly for attacks and rage abilities.  \n- **Monk** (myself) – Agile fighter, uses AP for martial arts and mobility.  \n- **Bard** – Versatile support, uses AP for spells, buffs, and skills.  \n- **Druid** – Versatile caster/shapeshifter, needs AP for spells and transformations.  \n\nGiven a balanced party, I’ll prioritize frontline fighters (Fighter, Barbarian) and key supports (Cleric) slightly more, but keep distribution fairly even so everyone can act meaningfully.  \n\nHere’s my allocation:  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 16,\n    \"Role3\": 15,\n    \"Role4\": 16,\n    \"Role5\": 14,\n    \"Role6\": 12,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Monk)",
+            "role_obs": [
+                "Paladin",
+                "Fighter",
+                "Barbarian",
+                "Bard",
+                "Druid",
+                "Cleric",
+                "Monk"
+            ],
+            "response": "As a Monk team leader, I’ll consider the strengths and typical in-game responsibilities of each class to allocate Action Points effectively.  \n\n- **Paladin (Role1)**: Strong in defense and support, can hold the frontline and heal. Deserves solid allocation.  \n- **Fighter (Role2)**: Pure martial combatant, reliable damage and durability. High priority for combat actions.  \n- **Barbarian (Role3)**: High damage output and tanking when raging. Needs good AP for frequent attacks.  \n- **Bard (Role4)**: Support, buffs, and control. Doesn’t need as many AP as primary damage dealers.  \n- **Druid (Role5)**: Versatile (healing, control, shapeshift). Moderate AP to allow flexibility.  \n- **Cleric (Role6)**: Essential healer and support, can also fight. Should have enough AP for spells and attacks.  \n- **Monk (Role7)**: That’s me. As leader, I’ll take a moderate share but not hoard points.  \n\nGiven the total of 100 AP, I’ll prioritize frontline damage roles (Fighter, Barbarian) and key support (Paladin, Cleric), then spread the rest.  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Monk)",
+            "role_obs": [
+                "Cleric",
+                "Paladin",
+                "Fighter",
+                "Druid",
+                "Barbarian",
+                "Monk",
+                "Bard"
+            ],
+            "response": "As a Monk team leader, I'll consider each role's typical strengths and how they contribute to the team's overall effectiveness in a balanced party:\n\n**Brief Analysis:**\n- **Cleric (Role1)**: Essential for healing and support. Should receive solid allocation to ensure party sustainability.\n- **Paladin (Role2)**: Hybrid role - decent damage and some healing/support. Moderate allocation.\n- **Fighter (Role3)**: Primary frontline damage dealer and tank. High allocation for consistent performance.\n- **Druid (Role4)**: Versatile role with healing, support, and damage options. Moderate allocation.\n- **Barbarian (Role5)**: High damage output but less versatile. Good allocation for damage role.\n- **Monk (Role6)**: My own role - balanced between damage and utility. Moderate allocation.\n- **Bard (Role7)**: Strong support and utility, but less combat-focused. Lower allocation.\n\nThe distribution prioritizes frontline fighters who need action points for consistent damage output, while ensuring support roles have enough to perform their critical functions.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 13,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Monk)",
+            "role_obs": [
+                "Druid",
+                "Paladin",
+                "Fighter",
+                "Monk",
+                "Cleric",
+                "Bard",
+                "Barbarian"
+            ],
+            "response": "As a Monk team leader, I'll consider the strengths and typical resource needs of each class in a balanced party:\n\n**Analysis:**\n- **Druid (Role1)**: Versatile caster/shaper, needs moderate AP for spells/wild shape.\n- **Paladin (Role2)**: Frontline fighter with healing/smites, benefits from good AP allocation.\n- **Fighter (Role3)**: Pure martial class, relies heavily on AP for multiple attacks/actions.\n- **Monk (Role4)**: Myself - mobile striker, uses AP for flurry of blows and mobility.\n- **Cleric (Role5)**: Primary healer/support caster, crucial AP for healing and spells.\n- **Bard (Role6)**: Support/control caster, moderate AP needs for inspiration and spells.\n- **Barbarian (Role7)**: Damage sponge/damage dealer, benefits from high AP for rage and attacks.\n\n**Allocation Strategy:** Prioritize frontline fighters (Fighter, Paladin, Barbarian) who consume more AP in combat, while ensuring support classes have enough for their essential functions. As a Monk leader, I'll take a moderate allocation since I'm effective but not AP-intensive.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 16,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Monk)",
+            "role_obs": [
+                "Cleric",
+                "Paladin",
+                "Monk",
+                "Druid",
+                "Barbarian",
+                "Fighter",
+                "Bard"
+            ],
+            "response": "As a Monk team leader, I’ll consider each role’s typical strengths and how they contribute to the team’s overall effectiveness in a balanced party.  \n\n**Brief analysis:**  \n- **Cleric (Role1)**: Important for healing and support — should get a solid allocation to ensure survival.  \n- **Paladin (Role2)**: Tanky with some healing and damage — needs enough points to hold the frontline.  \n- **Monk (Role3)**: High mobility and damage — as a fellow Monk, I understand their value but won’t over-prioritize myself.  \n- **Druid (Role4)**: Versatile (healing, control, shapeshifting) — deserves a good share for flexibility.  \n- **Barbarian (Role5)**: Primary damage dealer and damage sponge — needs points to maximize offensive output.  \n- **Fighter (Role6)**: Consistent damage and defense — reliable, so decent allocation.  \n- **Bard (Role7)**: Support, buffs, and control — crucial for enhancing the whole party, so not too low.  \n\nI’ll aim for a balanced spread with slightly more emphasis on key damage dealers and the Cleric for sustainability.  \n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Monk)",
+            "role_obs": [
+                "Druid",
+                "Barbarian",
+                "Monk",
+                "Bard",
+                "Cleric",
+                "Fighter",
+                "Paladin"
+            ],
+            "response": "As a Monk team leader, I would consider the strengths and roles of each class in a typical party setup. Monks are versatile and mobile, but other roles may need more Action Points depending on their function:\n\n- **Druid (Role1)**: Versatile caster and shapeshifter, benefits from AP for spellcasting and utility.\n- **Barbarian (Role2)**: Frontline damage dealer, benefits from AP for rage and attacks.\n- **Monk (Role3)**: High mobility and multiple attacks, but as leader I’ll avoid over-prioritizing myself.\n- **Bard (Role4)**: Support and control, useful for buffs and skills.\n- **Cleric (Role5)**: Healing and divine spells, crucial for survival.\n- **Fighter (Role6)**: Consistent martial damage and defense.\n- **Paladin (Role7)**: Hybrid damage and support, with healing and smites.\n\nI’ll prioritize roles that need more actions to fulfill their core duties — frontline combatants (Barbarian, Fighter) and support (Cleric, Bard). I’ll give moderate amounts to Druid and Paladin for versatility, and keep Monk allocation modest.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Monk)",
+            "role_obs": [
+                "Paladin",
+                "Fighter",
+                "Bard",
+                "Monk",
+                "Barbarian",
+                "Cleric",
+                "Druid"
+            ],
+            "response": "As a Monk team leader, I’ll consider the strengths and typical in-game responsibilities of each class to allocate Action Points effectively.  \n\n- **Paladin (Role1)**: Strong in defense and support, can hold the frontline and heal. Deserves a solid share.  \n- **Fighter (Role2)**: Pure martial damage and tanking. High combat utility.  \n- **Bard (Role3)**: Support, buffs, and control. Less AP-intensive but still important.  \n- **Monk (Role4)**: High mobility and multiple attacks. As the leader, I might give myself a moderate amount.  \n- **Barbarian (Role5)**: High damage and durability, especially in rage. Needs good AP for sustained combat.  \n- **Cleric (Role6)**: Healing and divine spells. Critical for survival, so decent AP.  \n- **Druid (Role7)**: Versatile — can heal, control, or shapeshift. Balanced allocation.  \n\nI’ll prioritize frontline combat roles (Fighter, Barbarian, Paladin) and essential support (Cleric) with higher AP, while still giving enough to others for flexibility.  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 13,\n    \"Role5\": 17,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Monk)",
+            "role_obs": [
+                "Cleric",
+                "Barbarian",
+                "Paladin",
+                "Druid",
+                "Fighter",
+                "Monk",
+                "Bard"
+            ],
+            "response": "As a Monk team leader, I'll consider each role's strengths and typical resource needs in a party-based game context.  \n\n**Brief analysis:**  \n- **Cleric (Role1)**: Often a support/healer; needs moderate points for spellcasting and utility.  \n- **Barbarian (Role2)**: Frontline damage dealer; benefits from high action points for attacks and rage abilities.  \n- **Paladin (Role3)**: Hybrid fighter/support; needs balanced points for combat and spells.  \n- **Druid (Role4)**: Versatile caster/shapeshifter; moderate to high points for flexibility.  \n- **Fighter (Role5)**: Consistent martial combatant; benefits from high action points for multiple attacks.  \n- **Monk (Role6)**: Mobile striker; uses points for flurry of blows and mobility skills.  \n- **Bard (Role7)**: Support/utility; moderate points for spells and inspiration.  \n\nGiven my Monk career, I might slightly favor agile/versatile roles but will aim for balanced effectiveness.  \n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 16,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Monk)",
+            "role_obs": [
+                "Bard",
+                "Cleric",
+                "Barbarian",
+                "Fighter",
+                "Druid",
+                "Monk",
+                "Paladin"
+            ],
+            "response": "As a Monk team leader, I'll consider each role's typical strengths and how they synergize with my own abilities in a balanced party:\n\n**Analysis:**\n- **Barbarian/Fighter** (Roles 3-4): Frontline damage dealers who benefit most from action points for attacking and controlling enemies.\n- **Cleric/Paladin** (Roles 2,7): Support/healing and secondary frontline - need moderate allocation for healing and utility.\n- **Druid** (Role 5): Versatile caster who can heal, control, or shapeshift - deserves solid allocation.\n- **Bard** (Role 1): Support/utility character - effective even with fewer action points.\n- **Monk** (Role 6): As leader, I'll take a moderate allocation since Monks are mobile and efficient.\n\n**Allocation Strategy:** Prioritize frontline combat roles while ensuring support characters have enough for crucial abilities.\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 18,\n    \"Role5\": 15,\n    \"Role6\": 12,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Paladin)",
+            "role_obs": [
+                "Fighter",
+                "Bard",
+                "Druid",
+                "Cleric",
+                "Paladin",
+                "Barbarian",
+                "Monk"
+            ],
+            "response": "As a Paladin team leader, I’ll consider the typical strengths and responsibilities of each class in a party-based RPG context:  \n\n- **Fighter (Role1)**: Frontline damage dealer and tank — should get solid allocation.  \n- **Bard (Role2)**: Support, buffs, and utility — moderate allocation.  \n- **Druid (Role3)**: Versatile (healing, control, shapeshifting) — moderate to high.  \n- **Cleric (Role4)**: Primary healer and divine magic — high priority for survival.  \n- **Paladin (Role5)**: Myself — frontline, healing, aura support — decent allocation.  \n- **Barbarian (Role6)**: High damage and durability — solid allocation.  \n- **Monk (Role7)**: Mobile striker and control — moderate allocation.  \n\nBalancing between frontline combat roles (Fighter, Paladin, Barbarian) and support/utility roles (Cleric, Druid, Bard) is key. Cleric gets the most because healing is critical; frontline damage roles come next; support roles get enough to be effective but not as much as primary combatants.  \n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 18,\n    \"Role5\": 15,\n    \"Role6\": 16,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "(career: Paladin)",
+            "role_obs": [
+                "Paladin",
+                "Druid",
+                "Monk",
+                "Cleric",
+                "Bard",
+                "Barbarian",
+                "Fighter"
+            ],
+            "response": "As a Paladin team leader, I'll consider both class synergy and typical combat roles. Paladins are frontline tanks/support, Druids provide versatility (healing/control), Monks are mobile damage dealers, Clerics are primary healers, Bards offer buffs/utility, Barbarians are durable damage sponges, and Fighters are consistent damage dealers.\n\nGiven our composition, I'll prioritize:\n- Frontline roles (Paladin, Barbarian, Fighter) need substantial points for sustained engagement\n- Support roles (Cleric, Druid, Bard) need moderate points for spellcasting/utility\n- Monk as mobile damage gets moderate allocation\n\nThe Paladin (myself) gets slightly more as team leader and main tank.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 12,\n    \"Role6\": 18,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "(career: Paladin)",
+            "role_obs": [
+                "Barbarian",
+                "Monk",
+                "Druid",
+                "Paladin",
+                "Bard",
+                "Fighter",
+                "Cleric"
+            ],
+            "response": "As a Paladin team leader, I’ll consider each role’s typical strengths and how Action Points might best support the team’s overall effectiveness in a balanced adventuring party.  \n\n**Brief analysis:**  \n- **Barbarian** (Role1): High physical damage and durability — benefits from AP for combat actions.  \n- **Monk** (Role2): Relies on speed and multiple attacks — AP useful for extra moves or abilities.  \n- **Druid** (Role3): Versatile (spells, shapeshift, healing) — moderate AP helps flexibility.  \n- **Paladin** (Role4): Myself — balanced between combat, healing, and auras — moderate AP.  \n- **Bard** (Role5): Support and control — benefits from AP for inspiration and spells.  \n- **Fighter** (Role6): Consistent damage and defense — high AP for multiple attacks/actions.  \n- **Cleric** (Role7): Primary healer/buffer — needs AP for spells and emergency actions.  \n\nGiven the need for balance, I’ll prioritize frontline damage roles (Barbarian, Fighter) and key support (Cleric) with slightly higher AP, while ensuring others have enough to contribute meaningfully.  \n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 12,\n    \"Role4\": 12,\n    \"Role5\": 14,\n    \"Role6\": 18,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Paladin)",
+            "role_obs": [
+                "Paladin",
+                "Cleric",
+                "Bard",
+                "Monk",
+                "Barbarian",
+                "Druid",
+                "Fighter"
+            ],
+            "response": "As a Paladin team leader, I'll consider the typical strengths and resource needs of each class in a party-based RPG context:\n\n**Analysis:**\n- **Paladin (Role1)**: Frontline fighter with healing/support capabilities - benefits from moderate AP\n- **Cleric (Role2)**: Primary healer/support - needs substantial AP for healing spells\n- **Bard (Role3)**: Support/buffer/debuffer - requires good AP for versatile abilities\n- **Monk (Role4)**: Mobile striker with ki abilities - benefits from moderate AP\n- **Barbarian (Role5)**: Primary damage dealer/tank - needs high AP for rage and attacks\n- **Druid (Role6)**: Versatile caster with healing/wildshape - requires substantial AP\n- **Fighter (Role7)**: Consistent damage dealer - benefits from good AP for multiple attacks\n\nPriority goes to primary damage dealers (Barbarian), essential support (Cleric), and versatile roles (Druid), while maintaining balanced allocation for others.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 14,\n    \"Role4\": 12,\n    \"Role5\": 16,\n    \"Role6\": 16,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Paladin)",
+            "role_obs": [
+                "Monk",
+                "Bard",
+                "Paladin",
+                "Druid",
+                "Fighter",
+                "Cleric",
+                "Barbarian"
+            ],
+            "response": "As a Paladin team leader, I'll consider the strengths and typical responsibilities of each class in a balanced adventuring party:\n\n**Analysis:**\n- **Paladin (Role3)**: As a fellow Paladin, I understand our role as frontline combatants with healing/support capabilities. We need solid AP for both offense and utility.\n- **Fighter (Role5)** and **Barbarian (Role7)**: Primary frontline damage dealers who need substantial AP for combat actions.\n- **Cleric (Role6)**: Essential healer and support caster who needs good AP for healing and spellcasting.\n- **Druid (Role4)**: Versatile class capable of healing, control, and shapeshifting - requires moderate AP.\n- **Monk (Role1)**: Mobile striker with utility - benefits from decent AP allocation.\n- **Bard (Role2)**: Support/control specialist who can function effectively with slightly lower AP due to buff-focused role.\n\n**Allocation Strategy:** Prioritize frontline combatants and primary healer, then distribute remaining points to versatile/support roles.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 16,\n    \"Role4\": 14,\n    \"Role5\": 18,\n    \"Role6\": 16,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(career: Paladin)",
+            "role_obs": [
+                "Druid",
+                "Paladin",
+                "Fighter",
+                "Barbarian",
+                "Monk",
+                "Cleric",
+                "Bard"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Role2 (Paladin)** is the same career as me, the team leader, so I might favor them slightly for thematic or strategic synergy.  \n- **Role3 (Fighter)** and **Role4 (Barbarian)** are front-line damage dealers/tanks, so they need a good amount of AP to engage enemies and control the battlefield.  \n- **Role6 (Cleric)** is a primary healer/support — essential for survival, so they should get enough AP to cast healing/buff spells.  \n- **Role1 (Druid)** is versatile (healing, control, shapeshifting), so they deserve a moderate share.  \n- **Role5 (Monk)** is mobile and can deal damage/control, but often relies on fewer resources; still, they need some AP.  \n- **Role7 (Bard)** is support/control — useful but not as AP-dependent as the primary tanks or healer.  \n\nGiven 100 total AP, I’ll prioritize:  \n- Frontline (Fighter, Barbarian, Paladin) get more.  \n- Healer (Cleric) gets solid allocation.  \n- Others get moderate amounts.  \n\nHere’s my allocation:  \n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 16,\n    \"Role4\": 16,\n    \"Role5\": 12,\n    \"Role6\": 16,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Paladin)",
+            "role_obs": [
+                "Fighter",
+                "Bard",
+                "Monk",
+                "Cleric",
+                "Barbarian",
+                "Paladin",
+                "Druid"
+            ],
+            "response": "As a Paladin team leader, I’ll consider each role’s typical strengths and needs in a party-based game:  \n\n- **Fighter (Role1)**: Frontline damage dealer and tank — benefits from high action points for multiple attacks and defensive actions.  \n- **Bard (Role2)**: Support role — uses actions for buffs, debuffs, and healing, but not usually the highest AP priority.  \n- **Monk (Role3)**: High mobility and multiple attacks — benefits from moderate to high AP for flurry of blows and stuns.  \n- **Cleric (Role4)**: Vital for healing and spellcasting — needs decent AP to react to damage and cast spells.  \n- **Barbarian (Role5)**: Primary melee damage — benefits greatly from AP to rage and attack multiple times.  \n- **Paladin (Role6)**: Myself — balanced between tanking, healing, and damage; moderate AP allocation.  \n- **Druid (Role7)**: Versatile caster/healer/shapeshifter — needs good AP for flexibility.  \n\nPriority order for AP:  \n1. **Fighter** and **Barbarian** for consistent damage/tanking.  \n2. **Cleric** and **Druid** for healing/control.  \n3. **Monk** and **Paladin** for balanced roles.  \n4. **Bard** as support gets the least but still enough to function.  \n\nFinal allocation reasoning:  \n- Fighter: 18  \n- Barbarian: 18  \n- Cleric: 16  \n- Druid: 16  \n- Monk: 14  \n- Paladin: 12  \n- Bard: 6  \nTotal = 100  \n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 6,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 18,\n    \"Role6\": 12,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "(career: Paladin)",
+            "role_obs": [
+                "Barbarian",
+                "Paladin",
+                "Monk",
+                "Bard",
+                "Cleric",
+                "Fighter",
+                "Druid"
+            ],
+            "response": "As a Paladin team leader, I need to allocate 100 Action Points among seven roles based on their typical combat utility, team synergy, and strategic importance.  \n\n**Brief analysis:**  \n- **Barbarian (Role1)**: High damage dealer, frontline role. Deserves solid allocation for offense and durability.  \n- **Paladin (Role2)**: Myself — balanced between damage, tanking, and support. Moderate allocation to maintain leadership presence.  \n- **Monk (Role3)**: High mobility and control, but often less resource-dependent. Moderate points.  \n- **Bard (Role4)**: Support and control — can enable others, so moderate allocation to ensure utility spells/skills.  \n- **Cleric (Role5)**: Critical for healing and buffs — should receive high allocation to keep party alive.  \n- **Fighter (Role6)**: Versatile frontline, consistent damage — solid allocation.  \n- **Druid (Role7)**: Versatile (healing, control, shapeshift) — moderate to high allocation for flexibility.  \n\nGiven the need for balance, I’ll prioritize Cleric for survival, then Barbarian and Fighter for damage, and spread the rest to ensure all roles can contribute.  \n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 12,\n    \"Role4\": 12,\n    \"Role5\": 20,\n    \"Role6\": 16,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "(career: Paladin)",
+            "role_obs": [
+                "Bard",
+                "Druid",
+                "Paladin",
+                "Fighter",
+                "Barbarian",
+                "Cleric",
+                "Monk"
+            ],
+            "response": "As a Paladin team leader, I need to allocate 100 Action Points among seven roles based on typical party dynamics and combat utility. Here's my brief analysis:\n\n**Strategic Considerations:**\n- **Fighter & Barbarian** - Frontline damage dealers who benefit most from extra actions\n- **Cleric** - Critical for healing and support, needs moderate allocation\n- **Paladin** (myself) - Balanced role with healing/combat, but shouldn't prioritize myself\n- **Druid** - Versatile with healing/shapeshifting, deserves solid support\n- **Bard** - Support role, less action-dependent\n- **Monk** - Mobile fighter, but less reliant on action points than heavy warriors\n\n**Allocation Logic:**\nFrontline warriors (Fighter, Barbarian) get the highest shares since extra actions directly translate to more damage and battlefield control. Support classes (Cleric, Druid) receive solid allocations for healing and utility. Remaining points distributed to other roles with minimal allocation to Bard who provides passive benefits.\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 18,\n    \"Role6\": 16,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "(career: Paladin)",
+            "role_obs": [
+                "Cleric",
+                "Barbarian",
+                "Paladin",
+                "Monk",
+                "Druid",
+                "Fighter",
+                "Bard"
+            ],
+            "response": "As a Paladin team leader, I'll allocate Action Points based on typical party roles and combat effectiveness. Here's my analysis:\n\n**Role Analysis:**\n- **Cleric (Role1)**: Primary healer/support - needs moderate points for healing spells and utility\n- **Barbarian (Role2)**: Frontline damage dealer - benefits from high points for sustained attacks\n- **Paladin (Role3)**: Myself - tank/support hybrid, should lead by example with balanced allocation\n- **Monk (Role4)**: Mobile striker - effective with moderate points for multiple attacks\n- **Druid (Role5)**: Versatile caster - needs good allocation for both spells and wild shape\n- **Fighter (Role6)**: Consistent damage dealer - excels with high point investment\n- **Bard (Role7)**: Support/utility - effective even with fewer points due to buffing focus\n\n**Allocation Strategy:** Prioritize frontline combat roles (Barbarian, Fighter) who benefit most from additional actions, while ensuring support roles have enough for critical abilities.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 13,\n    \"Role6\": 17,\n    \"Role7\": 11\n}\n```"
+        }
+    ],
+    "chinese": [
+        {
+            "role_self": "（career：野蛮人）",
+            "role_obs": [
+                "圣武士",
+                "德鲁伊",
+                "战士",
+                "武僧",
+                "牧师",
+                "野蛮人",
+                "吟游诗人"
+            ],
+            "response": "首先，作为野蛮人队长，我需要根据各职业的特点和团队需求来分配100点行动点数。以下是我的简要分析：\n\n1. **Role1 (圣武士)**：通常是坦克和治疗者，需要一定的行动点数来维持防御和支援能力。\n2. **Role2 (德鲁伊)**：多面手，能治疗、施法和变形，需要均衡分配点数以发挥灵活性。\n3. **Role3 (战士)**：核心物理输出和坦克，应分配较多点数以增强攻击和生存能力。\n4. **Role4 (武僧)**：高机动性和爆发伤害，需要适量点数来发挥其敏捷特性。\n5. **Role5 (牧师)**：主要治疗者和支援者，应分配较多点数以确保团队生存。\n6. **Role6 (野蛮人)**：我自己，作为队长和主要输出，应分配较高点数以领导团队并造成伤害。\n7. **Role7 (吟游诗人)**：辅助角色，能提供增益和控制，但不需要过多点数，只需保证基本支援。\n\n基于以上分析，我会优先分配给战士、野蛮人和牧师较高点数，确保输出和生存；圣武士、德鲁伊和武僧次之；吟游诗人最少。分配总和为100点。\n\n最终分配决定如下：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 16,\n    \"Role6\": 20,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：野蛮人）",
+            "role_obs": [
+                "吟游诗人",
+                "武僧",
+                "圣武士",
+                "野蛮人",
+                "战士",
+                "牧师",
+                "德鲁伊"
+            ],
+            "response": "作为野蛮人队长，我会根据各职业在团队中的战斗职责、生存能力和资源需求来分配行动点数。野蛮人通常重视直接战斗和生存能力，因此会优先分配给近战职业和关键支援角色。\n\n**简要分析：**\n1. **战士（Role5）和野蛮人（Role4）**：作为主要近战输出和坦克，需要较高行动点数来维持战斗节奏。\n2. **圣武士（Role3）和武僧（Role2）**：兼具输出与辅助，需中等资源支持多面性职责。\n3. **牧师（Role6）和德鲁伊（Role7）**：治疗与控场核心，但过度分配可能浪费其技能效率，给适中点数。\n4. **吟游诗人（Role1）**：辅助角色，主要靠技能而非行动点，分配最低点数即可。\n\n**分配原则：** 近战>混合>支援，优先保证队伍生存与输出平衡。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：野蛮人）",
+            "role_obs": [
+                "圣武士",
+                "吟游诗人",
+                "野蛮人",
+                "牧师",
+                "战士",
+                "德鲁伊",
+                "武僧"
+            ],
+            "response": "作为野蛮人队长，我会根据各职业在团队中的战术作用和资源需求来分配行动点数。以下是简要分析：\n\n1. **Role3（野蛮人）**：作为同职业，我理解野蛮人在前线承受伤害和制造范围输出的重要性，需要较高行动点数来维持狂暴状态和持续作战。\n2. **Role5（战士）**：战士是稳定的物理输出和副坦克，需要足够点数进行多轮攻击和防御。\n3. **Role4（牧师）**：治疗和支援核心，必须保证基础行动能力以应对紧急治疗和增益施放。\n4. **Role1（圣武士）**：兼具输出和辅助，需一定点数用于攻击和团队保护技能。\n5. **Role6（德鲁伊）**：灵活的多面手，可治疗或输出，但依赖变形和法术，分配中等点数。\n6. **Role7（武僧）**：高机动性单位，通过连击和控场发挥作用，但单次行动消耗较低，可适度分配。\n7. **Role2（吟游诗人）**：主要提供增益和控场，其效果多依赖表演的持续回合而非高频行动，分配较少点数即可。\n\n基于以上分析，我的分配优先保障前排输出和核心治疗，同时平衡团队整体功能。以下是最终决定：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 20,\n    \"Role4\": 18,\n    \"Role5\": 16,\n    \"Role6\": 14,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：野蛮人）",
+            "role_obs": [
+                "武僧",
+                "德鲁伊",
+                "圣武士",
+                "野蛮人",
+                "牧师",
+                "吟游诗人",
+                "战士"
+            ],
+            "response": "首先，我需要分析各个角色的职业特点以及他们在团队中可能的作用，以便合理分配这100点行动点数。  \n\n**简要分析：**  \n- **Role1（武僧）**：通常擅长快速攻击和机动性，可能不需要太多点数就能发挥作用，但点数可以增强其连续行动能力。  \n- **Role2（德鲁伊）**：多面手，能治疗、召唤或施法，需要一定点数来支持多种能力。  \n- **Role3（圣武士）**：前排坦克兼辅助，能抗能奶，需要较多点数维持攻防与治疗。  \n- **Role4（野蛮人）**（我自己）：作为队长且是近战输出核心，应当分配较多点数以发挥高伤害和生存能力。  \n- **Role5（牧师）**：主要治疗者，必须保证有足够点数施放治疗法术，是团队生存的关键。  \n- **Role6（吟游诗人）**：辅助与控制，作用灵活但通常不需要最高点数分配。  \n- **Role7（战士）**：稳定物理输出与副坦克，需要较多点数支持持续作战。  \n\n**分配思路：**  \n1. 核心输出（野蛮人、战士）和治疗（牧师）优先分配较高点数。  \n2. 圣武士作为全能型也分配较多点数。  \n3. 德鲁伊和武僧分配中等点数。  \n4. 吟游诗人作用相对次要，分配最少点数。  \n\n**点数分配方案（合计100）：**  \n- Role4（野蛮人）：20  \n- Role7（战士）：18  \n- Role5（牧师）：18  \n- Role3（圣武士）：16  \n- Role2（德鲁伊）：12  \n- Role1（武僧）：10  \n- Role6（吟游诗人）：6  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 12,\n    \"Role3\": 16,\n    \"Role4\": 20,\n    \"Role5\": 18,\n    \"Role6\": 6,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：野蛮人）",
+            "role_obs": [
+                "野蛮人",
+                "圣武士",
+                "战士",
+                "牧师",
+                "吟游诗人",
+                "德鲁伊",
+                "武僧"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配这100点行动点数。  \n\n**简要分析：**  \n- **Role1（野蛮人）**：通常是近战输出和坦克，依赖高行动点数进行攻击和承受伤害。  \n- **Role2（圣武士）**：能打能抗，还有治疗和辅助能力，需要均衡分配。  \n- **Role3（战士）**：稳定的物理输出和防御，也需要较多行动点数。  \n- **Role4（牧师）**：主要治疗和辅助，行动点数影响治疗频率和效果，需要适当分配。  \n- **Role5（吟游诗人）**：辅助、控场和少量治疗，不需要太多行动点数，但也不能太少。  \n- **Role6（德鲁伊）**：多变角色，可治疗、输出或控制，根据队伍需求调整。  \n- **Role7（武僧）**：高机动性和爆发，依赖行动点数进行连击和特殊能力。  \n\n考虑到团队平衡，我会优先保证坦克（野蛮人、战士）和主要治疗（牧师）有足够点数，同时让其他角色有基本行动能力。  \n\n**分配思路：**  \n- 野蛮人（Role1）和战士（Role3）作为主要物理输出，各分配18点。  \n- 圣武士（Role2）兼顾攻防与辅助，分配16点。  \n- 牧师（Role4）作为主要治疗，分配16点。  \n- 武僧（Role7）高机动性，分配14点。  \n- 德鲁伊（Role6）多功能，分配10点。  \n- 吟游诗人（Role5）辅助为主，分配8点。  \n\n总和：18 + 16 + 18 + 16 + 8 + 10 + 14 = 100。  \n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 18,\n    \"Role4\": 16,\n    \"Role5\": 8,\n    \"Role6\": 10,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（career：野蛮人）",
+            "role_obs": [
+                "武僧",
+                "德鲁伊",
+                "战士",
+                "野蛮人",
+                "吟游诗人",
+                "牧师",
+                "圣武士"
+            ],
+            "response": "作为野蛮人队长，我会根据队伍中各职业的特点和团队协作需求来分配行动点数。以下是我的简要分析：\n\n1. **Role1 (武僧)**：高机动性和爆发力，适合快速切入战场，但持续作战能力一般。分配适量点数用于关键突袭。\n2. **Role2 (德鲁伊)**：多功能职业，可治疗、召唤或控制，需要一定点数支持多样战术。\n3. **Role3 (战士)**：核心坦克，承担主要伤害吸收，需要较高点数保证生存和输出。\n4. **Role4 (野蛮人)**：我自己，作为高输出近战职业，应分配较多点数以发挥核心攻击作用。\n5. **Role5 (吟游诗人)**：辅助角色，提供增益和控制，点数需求较低但不可忽视。\n6. **Role6 (牧师)**：主要治疗者，必须保证足够点数维持队伍生存。\n7. **Role7 (圣武士)**：兼顾坦克和治疗，需要稳定点数支持攻防平衡。\n\n分配原则：优先保证坦克（战士）和输出（野蛮人）的核心作用，同时确保治疗（牧师）的可持续性，其他角色按辅助需求分配。最终分配如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 18,\n    \"Role5\": 8,\n    \"Role6\": 22,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：野蛮人）",
+            "role_obs": [
+                "牧师",
+                "德鲁伊",
+                "吟游诗人",
+                "圣武士",
+                "武僧",
+                "战士",
+                "野蛮人"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的作用，以便合理分配100点行动点数。  \n\n**简要分析：**  \n- **Role1（牧师）**：通常是治疗和辅助角色，需要一定行动点数来施放治疗或增益法术。  \n- **Role2（德鲁伊）**：能治疗、召唤或控制，属于多功能角色，需要适量点数。  \n- **Role3（吟游诗人）**：辅助、控场和少量治疗，作用灵活但通常不需要最高优先级的点数。  \n- **Role4（圣武士）**：前排坦克兼辅助治疗，需要较多点数来维持防御与输出。  \n- **Role5（武僧）**：高机动性近战输出，依赖点数进行多次攻击或闪避。  \n- **Role6（战士）**：主要物理输出或坦克，需要较多点数来攻击或承受伤害。  \n- **Role7（野蛮人）**：高爆发近战输出，作为队长，我可能会给自己分配较多点数以发挥核心输出作用。  \n\n考虑到团队平衡，我会偏向给近战输出和核心坦克较多点数，辅助角色适量，但不过度牺牲支援能力。  \n\n**分配思路：**  \n- 战士、野蛮人、圣武士作为主要前排与输出，分配较高点数（15-20）。  \n- 武僧作为灵活输出，分配中高点数（15）。  \n- 牧师作为主要治疗，分配中上点数（15）。  \n- 德鲁伊和吟游诗人作为多功能辅助，分配中等点数（10）。  \n\n具体分配如下：  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：野蛮人）",
+            "role_obs": [
+                "圣武士",
+                "武僧",
+                "德鲁伊",
+                "野蛮人",
+                "战士",
+                "牧师",
+                "吟游诗人"
+            ],
+            "response": "首先，我需要分析每个角色的职业（career）在游戏中的定位和需求，以便合理分配这100点行动点数。行动点数通常用于执行各种游戏内活动，比如战斗、探索、治疗等。不同职业在不同活动中的效率和需求可能不同。\n\n- **Role1 (圣武士)**: 圣武士通常是坦克兼治疗者，能抗能打，还能提供一些辅助。可能需要一定的行动点数来维持其在前线的生存能力和支援能力。\n- **Role2 (武僧)**: 武僧是高机动性的近战输出，依赖快速行动和连击。可能需要较多点数来发挥其敏捷和爆发优势。\n- **Role3 (德鲁伊)**: 德鲁伊是 versatile 的角色，能治疗、施法或变形。可能需要均衡的点数以支持多种角色切换。\n- **Role4 (野蛮人)**: 野蛮人是高耐久和高输出的近战职业，作为队长，我可能更了解其需求，但需公平分配。野蛮人通常需要点数来维持狂暴状态和生存。\n- **Role5 (战士)**: 战士是标准的物理输出和坦克，依赖武器和护甲。可能需要稳定点数来保证持续输出和防御。\n- **Role6 (牧师)**: 牧师是主要治疗者和支援者，行动点数可能用于治疗法术和增益效果，对团队生存至关重要。\n- **Role7 (吟游诗人)**: 吟游诗人是辅助和控制角色，通过音乐提供增益和干扰敌人。可能需要点数来维持其 buff 和 debuff 效果。\n\n考虑到团队平衡，我应该优先分配给关键角色，如治疗者（牧师）和主要输出（战士、野蛮人），同时兼顾辅助角色。假设这是一个以战斗为主的团队：\n- 牧师（Role6）需要较高点数以保证治疗和支援。\n- 战士（Role5）和野蛮人（Role4）作为主要近战输出，应分配较多点数。\n- 圣武士（Role1）和德鲁伊（Role3）可以分配中等点数，以发挥其多功能性。\n- 武僧（Role2）作为高机动输出，可分配较多点数。\n- 吟游诗人（Role7）作为辅助，可分配较少点数，但不可忽略。\n\n分配策略：总计100点，我大致按角色重要性分配：\n- Role6 (牧师): 20点（关键治疗）\n- Role5 (战士): 18点（稳定输出）\n- Role4 (野蛮人): 18点（高输出，作为同类职业）\n- Role2 (武僧): 16点（敏捷输出）\n- Role1 (圣武士): 12点（坦克兼辅助）\n- Role3 (德鲁伊): 10点（多功能支援）\n- Role7 (吟游诗人): 6点（辅助控制）\n\n总和：20+18+18+16+12+10+6=100点。这确保了团队在战斗、治疗和辅助方面的平衡。\n\n现在，输出为JSON格式。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 16,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 18,\n    \"Role6\": 20,\n    \"Role7\": 6\n}\n```"
+        },
+        {
+            "role_self": "（career：野蛮人）",
+            "role_obs": [
+                "圣武士",
+                "牧师",
+                "野蛮人",
+                "战士",
+                "吟游诗人",
+                "德鲁伊",
+                "武僧"
+            ],
+            "response": "作为野蛮人队长，我会根据队伍中各职业的特点和团队协作需求来分配行动点数。以下是我的简要分析：\n\n1. **Role1 圣武士**：作为前排坦克和辅助，需要一定的行动点数来承担伤害和保护队友，但并非主要输出。\n2. **Role2 牧师**：关键的治疗和支持角色，必须保证足够的行动点数以维持队伍生存。\n3. **Role3 野蛮人（我自己）**：作为主要近战输出和爆发角色，需要较高的行动点数来最大化伤害。\n4. **Role4 战士**：稳定的物理输出和副坦克，应分配较多点数以保持持续作战能力。\n5. **Role5 吟游诗人**：辅助和控制角色，作用灵活但非核心，分配适中点数即可。\n6. **Role6 德鲁伊**：兼具治疗和自然法术，需要一定点数来支持队伍。\n7. **Role7 武僧**：高机动性输出和控制，但依赖技巧，分配中等点数。\n\n基于以上分析，我会优先保证输出核心（野蛮人、战士）和治疗核心（牧师）的点数，再均衡分配其他角色。最终分配如下：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 20,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 12,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：野蛮人）",
+            "role_obs": [
+                "牧师",
+                "战士",
+                "吟游诗人",
+                "德鲁伊",
+                "武僧",
+                "野蛮人",
+                "圣武士"
+            ],
+            "response": "作为野蛮人队长，我会根据团队中各职业的特点和战斗需求来分配行动点数。以下是简要分析：\n\n1. **Role1（牧师）**：作为治疗和支援核心，需要较多点数来维持团队生存能力。\n2. **Role2（战士）**：主力近战输出和坦克，需分配较高点数以保证前线稳定。\n3. **Role3（吟游诗人）**：辅助角色，提供增益和控制，但非核心输出，分配适中点数。\n4. **Role4（德鲁伊）**：兼具治疗和自然法术，作用灵活但次于牧师，分配中等点数。\n5. **Role5（武僧）**：高机动性近战，但生存能力较弱，分配适中点数以发挥其敏捷优势。\n6. **Role6（野蛮人）**：作为队长自身，是团队主要输出之一，需较高点数以最大化伤害。\n7. **Role7（圣武士）**：兼具防御和辅助，能抗能打，分配较高点数以增强团队韧性。\n\n基于以上分析，我的分配策略是优先保障战士、野蛮人和牧师的点数，同时平衡其他角色的辅助作用。总点数100分配如下：\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 14,\n    \"Role5\": 12,\n    \"Role6\": 16,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "吟游诗人",
+                "牧师",
+                "武僧",
+                "德鲁伊",
+                "圣武士",
+                "野蛮人",
+                "战士"
+            ],
+            "response": "作为吟游诗人队长，我会根据队伍成员的不同职业特点和团队协作需求来分配行动点数。以下是我的简要分析：\n\n1. **Role1（吟游诗人）**：作为队长和支援角色，吟游诗人需要一定点数来施展增益技能和控场，但不必过多。\n2. **Role2（牧师）**：治疗和辅助核心，需要较多点数来保证队伍生存。\n3. **Role3（武僧）**：高机动性近战输出，需要适中点数来发挥其灵活作战能力。\n4. **Role4（德鲁伊）**：多功能角色，兼顾治疗、召唤和控场，需要较多点数支持多样化战术。\n5. **Role5（圣武士）**：前排坦克兼辅助，需要足够点数维持防御和团队增益。\n6. **Role6（野蛮人）**：主要物理输出，需要高点数来最大化伤害和生存。\n7. **Role7（战士）**：稳定前排和伤害承担者，需要较多点数保证持续作战。\n\n基于以上分析，我的分配策略是优先保障治疗、坦克和核心输出角色的点数，同时平衡支援角色的需求。最终分配如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "吟游诗人",
+                "战士",
+                "武僧",
+                "德鲁伊",
+                "牧师",
+                "野蛮人",
+                "圣武士"
+            ],
+            "response": "作为吟游诗人队长，我会根据队伍中各职业的特点和团队协作需求来分配行动点数。吟游诗人擅长辅助和控场，战士和野蛮人是主要物理输出，武僧灵活且能快速切入，德鲁伊和牧师提供治疗与法术支持，圣武士则兼顾防御和辅助。分配原则是优先保证核心输出和生存能力，同时平衡辅助角色的资源，确保团队在探索、战斗和恢复中保持高效。\n\n- **Role1 (吟游诗人)**：作为队长，我自身会分配较少点数，因为吟游诗人更多依赖技能而非高行动点，专注于激励队友。\n- **Role2 (战士)**：主要近战输出，需要较高点数以维持持续攻击和防御。\n- **Role3 (武僧)**：高机动性角色，分配中等点数以支持快速行动和连击。\n- **Role4 (德鲁伊)**：治疗和自然法术使用者，分配中等点数确保法术施放和变形能力。\n- **Role5 (牧师)**：核心治疗者，分配较高点数以保障团队生存。\n- **Role6 (野蛮人)**：狂暴输出角色，需要高点数来发挥伤害潜力。\n- **Role7 (圣武士)**：坦克兼辅助，分配中等点数平衡防御和神圣能力。\n\n基于以上分析，我的分配决定如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "德鲁伊",
+                "野蛮人",
+                "武僧",
+                "圣武士",
+                "吟游诗人",
+                "牧师",
+                "战士"
+            ],
+            "response": "作为吟游诗人队长，我会根据各职业在团队中的角色定位、战斗贡献和资源需求来分配行动点数。以下是简要分析：\n\n1. **Role1 (德鲁伊)**：擅长法术支援和变形，适合中距离控场和治疗，分配**12点**保证基础法术使用。\n2. **Role2 (野蛮人)**：近战主力，高生存能力和输出，但依赖狂暴资源，分配**16点**以维持持续作战。\n3. **Role3 (武僧)**：高机动性和控制，但气点数有限，分配**14点**支持其连击和闪避。\n4. **Role4 (圣武士)**：坦克兼爆发治疗，神圣誓言资源关键，分配**15点**平衡攻防。\n5. **Role5 (吟游诗人)**（我自己）：团队辅助核心，通过激励和法术支援，但需保守分配，留**10点**用于关键时机。\n6. **Role6 (牧师)**：主要治疗者和增益提供者，法术位需求高，分配**18点**确保团队生存。\n7. **Role7 (战士)**：稳定物理输出和前排，依赖多攻击和技能，分配**15点**最大化伤害效率。\n\n总点数：12+16+14+15+10+18+15=100，覆盖团队生存、输出和辅助需求。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 18,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "德鲁伊",
+                "战士",
+                "武僧",
+                "野蛮人",
+                "牧师",
+                "吟游诗人",
+                "圣武士"
+            ],
+            "response": "作为吟游诗人队长，我会根据队伍的职业特点和团队协作需求来分配行动点数。以下是简要分析：\n\n1. **德鲁伊 (Role1)**：擅长自然魔法和变形，适合支援和控制，分配适量点数以发挥其多功能性。\n2. **战士 (Role2)**：核心近战输出，需要较高点数来维持高伤害和生存能力。\n3. **武僧 (Role3)**：高机动性和爆发伤害，但依赖资源较少，分配中等点数。\n4. **野蛮人 (Role4)**：坦克和近战主力，需要较多点数来保持狂暴和防御。\n5. **牧师 (Role5)**：关键治疗和支援角色，必须保证足够点数以维持队伍生存。\n6. **吟游诗人 (Role6)**：我自己，作为队长和辅助，分配中等点数以平衡团队。\n7. **圣武士 (Role7)**：兼具输出和治疗，需要稳定点数来发挥混合作用。\n\n基于以上分析，我优先保证战士、野蛮人和牧师的点数，同时均衡其他角色。分配如下：战士和野蛮人各得20点作为主力，牧师18点确保治疗，德鲁伊和圣武士各14点用于支援，武僧和吟游诗人各7点以发挥辅助作用。总和为100点。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 20,\n    \"Role3\": 7,\n    \"Role4\": 20,\n    \"Role5\": 18,\n    \"Role6\": 7,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "牧师",
+                "野蛮人",
+                "战士",
+                "吟游诗人",
+                "圣武士",
+                "武僧",
+                "德鲁伊"
+            ],
+            "response": "作为吟游诗人队长，我会根据队伍中不同职业的特点和团队需求来分配行动点数。以下是我的简要分析：\n\n1. **Role1（牧师）**：作为治疗和支援核心，牧师在维持队伍生存能力上至关重要，需要较多点数来施放治疗法术和驱散负面效果。\n2. **Role2（野蛮人）**：高伤害输出和坦克角色，但依赖近战攻击，分配适中点数以支持其冲锋和生存。\n3. **Role3（战士）**：平衡的物理输出和防御，是队伍的中坚力量，分配稳定点数。\n4. **Role4（吟游诗人）**：我自己，作为队长和支援角色，侧重于增益效果和战术协调，分配中等点数以发挥辅助作用。\n5. **Role5（圣武士）**：兼具治疗、防御和输出能力，是全能型角色，分配较多点数以平衡其多方面贡献。\n6. **Role6（武僧）**：高机动性和爆发伤害，但较脆弱，分配适中点数以发挥其敏捷优势。\n7. **Role7（德鲁伊）**：多才多艺，能治疗、输出或变形，分配稳定点数以支持其灵活性。\n\n基于以上分析，我优先保证牧师和圣武士的点数，以增强团队生存和全能性，同时平衡其他角色的输出和支援需求。分配如下：\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 12,\n    \"Role5\": 18,\n    \"Role6\": 12,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "牧师",
+                "吟游诗人",
+                "战士",
+                "圣武士",
+                "武僧",
+                "野蛮人",
+                "德鲁伊"
+            ],
+            "response": "首先，我需要分析每个角色的职业（career）在游戏中的定位和需求，以便合理分配这100点行动点数。行动点数可用于游戏内的任何活动，因此我会根据每个角色的职责、团队贡献和可能的效率来决定分配。\n\n- **Role1 (牧师)**：通常作为治疗者和支援角色，在团队中非常重要，尤其是在应对伤害和状态异常时。可能需要较多的行动点数来施放治疗或辅助法术。\n- **Role2 (吟游诗人)**：作为队长，吟游诗人是支援和控制角色，能通过歌曲或能力增强团队或削弱敌人。可能需要中等行动点数来平衡支援和自身行动。\n- **Role3 (战士)**：近战输出和坦克角色，负责承受伤害和造成物理伤害。可能需要较多行动点数来攻击或使用防御技能。\n- **Role4 (圣武士)**：混合型角色，兼具治疗、防御和输出能力。可能需要中等偏高的行动点数来发挥多面手作用。\n- **Role5 (武僧)**：高机动性近战角色，擅长快速攻击和闪避。可能需要中等行动点数来利用其敏捷性。\n- **Role6 (野蛮人)**：高伤害近战角色，通常依赖狂暴状态，可能更注重攻击而非持久战。可能需要中等行动点数来最大化输出。\n- **Role7 (德鲁伊)**：多面手，能治疗、施法或变形，适应多种情况。可能需要中等行动点数来保持灵活性。\n\n考虑到团队平衡，我会优先分配给关键角色如牧师（治疗）、战士（坦克）和圣武士（支援），同时确保其他角色有足够点数发挥作用。吟游诗人作为队长，可能不需要过多点数，因为其能力可能更侧重于被动或低消耗支援。\n\n分配策略：\n- 牧师和战士各分配较高点数，以确保团队生存和输出。\n- 圣武士和德鲁伊分配中等点数，以发挥其多面性。\n- 吟游诗人、武僧和野蛮人分配较低点数，但保证他们能参与行动。\n\n具体分配：\n- Role1 (牧师): 20点（关键治疗）\n- Role2 (吟游诗人): 10点（队长，但能力可能较省点数）\n- Role3 (战士): 20点（主要坦克和输出）\n- Role4 (圣武士): 15点（混合角色）\n- Role5 (武僧): 10点（敏捷但可能效率高）\n- Role6 (野蛮人): 10点（高伤害但可能消耗大）\n- Role7 (德鲁伊): 15点（灵活多能）\n\n总和：20+10+20+15+10+10+15=100点。\n\n现在，我将决定输出为JSON格式。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "牧师",
+                "战士",
+                "德鲁伊",
+                "圣武士",
+                "野蛮人",
+                "吟游诗人",
+                "武僧"
+            ],
+            "response": "作为吟游诗人队长，我会根据队伍的职业特点和团队协作需求来分配行动点数。以下是我的简要分析：\n\n1. **Role1（牧师）**：作为治疗和支援核心，需要较多点数来维持队伍生存能力。\n2. **Role2（战士）**：主坦克，承担主要伤害吸收，需要较高点数保证防御和控场。\n3. **Role3（德鲁伊）**：多功能角色，兼顾治疗、召唤和自然法术，分配中等点数。\n4. **Role4（圣武士）**：兼具防御和辅助，需一定点数维持攻防平衡。\n5. **Role5（野蛮人）**：高输出但生存较弱，分配中等点数以发挥爆发力。\n6. **Role6（吟游诗人）**：我自己作为队长，负责增益和控场，但优先保障队友，分配较少点数。\n7. **Role7（武僧）**：高机动性和控制，适合游击战术，分配中等点数。\n\n基于以上分析，我的分配策略是优先保障坦克（战士）和治疗（牧师），再平衡其他角色的功能性。最终分配如下：\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 5,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "吟游诗人",
+                "野蛮人",
+                "武僧",
+                "战士",
+                "德鲁伊",
+                "牧师",
+                "圣武士"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配这100点行动点数。  \n\n- **Role1（吟游诗人）**：通常是辅助、控场或提供增益的角色，可能不需要太多行动点数用于直接战斗，但需要一定点数来施放技能或支援。  \n- **Role2（野蛮人）**：近战输出核心，高伤害承受者，需要较多行动点数来发动攻击和生存技能。  \n- **Role3（武僧）**：高机动性、多段攻击，依赖行动点数进行连击或特殊能力。  \n- **Role4（战士）**：均衡的近战职业，攻防兼备，需要稳定点数来维持输出和防御。  \n- **Role5（德鲁伊）**：多变角色，可治疗、召唤或变形，需要一定点数支持多种形态或法术。  \n- **Role6（牧师）**：主要治疗者和辅助，需要较多点数施放治疗与支援法术。  \n- **Role7（圣武士）**：坦克兼辅助，有治疗和防御能力，需要点数维持攻防与团队保护。  \n\n分配思路：  \n1. 优先保证治疗（牧师）和核心坦克（圣武士、野蛮人）有足够点数。  \n2. 主力输出（野蛮人、战士、武僧）分配较多点数。  \n3. 辅助角色（吟游诗人、德鲁伊）分配适量点数。  \n\n具体分配如下：  \n- Role1（吟游诗人）：10点（辅助，不需要过多）  \n- Role2（野蛮人）：18点（主力输出）  \n- Role3（武僧）：16点（高机动输出）  \n- Role4（战士）：15点（稳定近战）  \n- Role5（德鲁伊）：12点（多功能辅助）  \n- Role6（牧师）：16点（关键治疗）  \n- Role7（圣武士）：13点（坦克兼辅助）  \n\n总和 = 10 + 18 + 16 + 15 + 12 + 16 + 13 = 100。  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 18,\n    \"Role3\": 16,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 16,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "野蛮人",
+                "牧师",
+                "战士",
+                "武僧",
+                "圣武士",
+                "吟游诗人",
+                "德鲁伊"
+            ],
+            "response": "作为吟游诗人队长，我会根据队伍的职业特点和团队协作需求来分配行动点数。以下是简要分析：\n\n1. **Role1（野蛮人）**：近战输出核心，擅长爆发伤害，需要较多点数支持高频率攻击或冲锋。  \n2. **Role2（牧师）**：治疗与辅助角色，需保证基础治疗能力，但无需过度分配。  \n3. **Role3（战士）**：坦克兼稳定输出，需均衡分配以维持防御和攻击。  \n4. **Role4（武僧）**：高机动性单位，适合快速突袭，但生存能力较弱，分配适中点数。  \n5. **Role5（圣武士）**：全能型角色（防御/辅助/输出），需较多资源发挥其潜力。  \n6. **Role6（吟游诗人）**：队长本人，负责团队增益与控制，分配中等资源以维持辅助技能。  \n7. **Role7（德鲁伊）**：灵活的多面手（治疗/召唤/控制），需一定点数支持形态切换和战术变化。  \n\n**分配原则**：优先强化核心输出（野蛮人、战士）和关键辅助（圣武士），同时确保其他角色有基础行动能力。最终分配如下：\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 16,\n    \"Role6\": 14,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "圣武士",
+                "武僧",
+                "野蛮人",
+                "牧师",
+                "战士",
+                "德鲁伊",
+                "吟游诗人"
+            ],
+            "response": "首先，作为吟游诗人队长，我需要根据各职业的特点和团队需求来分配行动点数。以下是简要分析：\n\n1. **圣武士 (Role1)**：通常是坦克和治疗者，需要一定的行动点数来承担伤害和支援。\n2. **武僧 (Role2)**：高机动性和爆发伤害，但可能不需要太多点数，因为依赖技能而非资源。\n3. **野蛮人 (Role3)**：主要近战输出和坦克，需要较多点数来维持狂暴和攻击。\n4. **牧师 (Role4)**：核心治疗和支援，必须分配足够点数以保证团队生存。\n5. **战士 (Role5)**：稳定输出和防御，需要适中点数来发挥多面手作用。\n6. **德鲁伊 (Role6)**：灵活角色，可治疗或输出，根据情况分配中等点数。\n7. **吟游诗人 (Role7)**：我自己，作为支援和控制者，可以分配较少点数，优先辅助团队。\n\n分配原则：优先保证治疗和核心坦克（牧师、圣武士），其次输出（野蛮人、战士），最后灵活角色（德鲁伊、武僧）和自己（吟游诗人）。\n\n决定分配如下：\n- Role1 (圣武士): 15点（兼顾坦克和治疗）\n- Role2 (武僧): 10点（高机动，点数需求较低）\n- Role3 (野蛮人): 20点（主要输出，需要资源维持高伤害）\n- Role4 (牧师): 20点（关键治疗，必须充足）\n- Role5 (战士): 15点（稳定输出和防御）\n- Role6 (德鲁伊): 10点（灵活角色，中等支持）\n- Role7 (吟游诗人): 10点（自身辅助，点数需求低）\n\n总和：15+10+20+20+15+10+10=100，符合要求。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "武僧",
+                "圣武士",
+                "德鲁伊",
+                "野蛮人",
+                "战士",
+                "牧师",
+                "吟游诗人"
+            ],
+            "response": "作为牧师队长，我会根据各职业在团队中的职责、战斗定位和资源需求来分配行动点数。以下是简要分析：\n\n1. **Role1 武僧**：高机动性和控制能力，但依赖技能点数，适合中等分配以维持连击和闪避。  \n2. **Role2 圣武士**：兼顾防御与治疗，需点数支持增益技能和紧急治疗，分配较高。  \n3. **Role3 德鲁伊**：多功能职业（治疗/召唤/控制），需充足点数应对不同战局。  \n4. **Role4 野蛮人**：主要依赖怒气而非行动点，可适当减少分配。  \n5. **Role5 战士**：核心坦克，需点数用于嘲讽和生存技能，分配较高。  \n6. **Role6 牧师**（本人）：作为队长需保留部分点数用于全局指挥和辅助，但避免过度占用资源。  \n7. **Role7 吟游诗人**：团队增益和控场核心，需稳定点数支持技能循环。\n\n分配原则：优先保障坦克（战士）、治疗/辅助（圣武士、德鲁伊、吟游诗人）和关键控场（武僧）的需求，同时平衡整体输出与生存。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 16,\n    \"Role3\": 18,\n    \"Role4\": 8,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "战士",
+                "德鲁伊",
+                "武僧",
+                "野蛮人",
+                "吟游诗人",
+                "牧师",
+                "圣武士"
+            ],
+            "response": "首先，作为队长（牧师），我需要考虑每个队员的职业特点和在团队中的角色，合理分配100点行动点数，以优化团队的整体效能。以下是简要分析：\n\n1. **Role1 (战士)**：作为前排坦克和主要物理输出，需要较高的行动点数来承担伤害和进行攻击。分配较多点数。\n2. **Role2 (德鲁伊)**：具有治疗、召唤和变形能力，是辅助和控场角色，分配中等点数以支持团队。\n3. **Role3 (武僧)**：高机动性和爆发伤害，适合快速解决关键目标，分配中等点数。\n4. **Role4 (野蛮人)**：高生命值和近战输出，但可能不如战士全面，分配中等偏上点数。\n5. **Role5 (吟游诗人)**：辅助角色，提供增益和控制，但输出较低，分配较少点数。\n6. **Role6 (牧师)**：作为队长，我自己也是治疗和支持核心，但为了团队平衡，分配中等点数。\n7. **Role7 (圣武士)**：兼具坦克、治疗和输出能力，是全能型角色，分配较高点数。\n\n基于以上分析，我将点数分配如下：\n- 战士和圣武士作为核心前排和全能角色，分配最多点数。\n- 野蛮人和武僧作为次要输出，分配中等点数。\n- 德鲁伊和牧师作为支持，分配中等点数。\n- 吟游诗人作为纯辅助，分配最少点数。\n\n总点数：20 + 15 + 12 + 18 + 5 + 15 + 15 = 100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 5,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "圣武士",
+                "吟游诗人",
+                "牧师",
+                "德鲁伊",
+                "战士",
+                "野蛮人",
+                "武僧"
+            ],
+            "response": "首先，作为队长（牧师），我需要根据各角色的职业特点和团队需求来分配100点行动点数。以下是简要分析：\n\n1. **Role1 (圣武士)**：作为前排坦克和辅助，通常需要较高的行动点数来承担伤害和使用圣光技能。分配较多点数。\n2. **Role2 (吟游诗人)**：支援型角色，通过增益和控场辅助团队，但不需要最高优先级。分配中等点数。\n3. **Role3 (牧师)**：我自己，作为治疗和支援核心，需要足够点数来施放治疗和驱散法术。分配较高点数。\n4. **Role4 (德鲁伊)**： versatile角色，能治疗、输出或变形，但团队中已有牧师，因此分配中等点数。\n5. **Role5 (战士)**：主要物理输出和坦克，需要高行动点数来攻击和生存。分配较多点数。\n6. **Role6 (野蛮人)**：高输出近战角色，但较脆弱，需要点数来发挥爆发力。分配中等点数。\n7. **Role7 (武僧)**：敏捷型输出和控制，但依赖连击，分配中等点数。\n\n基于以上，我会优先保证坦克（圣武士、战士）和核心治疗（牧师）的资源，然后平衡其他角色。分配如下：\n- 圣武士和战士各20点，牧师20点，确保核心功能。\n- 吟游诗人、德鲁伊、野蛮人、武僧各15点，以覆盖辅助和输出需求。\n- 总和：20+15+20+15+20+15+15=100。\n\n最终决定如下：\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "吟游诗人",
+                "圣武士",
+                "战士",
+                "牧师",
+                "野蛮人",
+                "德鲁伊",
+                "武僧"
+            ],
+            "response": "首先，作为队长（牧师），我需要根据各角色的职业特点和团队需求来分配100点行动点数。以下是我的简要分析：\n\n1. **Role1 (吟游诗人)**：通常作为辅助角色，提供增益效果和控制能力。在团队中作用重要，但不需要过多行动点数来发挥核心作用。分配适量点数即可。\n2. **Role2 (圣武士)**：作为坦克和辅助输出，能吸收伤害并提供治疗或增益。需要较多点数来维持其在前线的活跃度。\n3. **Role3 (战士)**：主要物理输出和坦克，承担大量伤害和攻击任务。需要高行动点数以保证持续输出和生存。\n4. **Role4 (牧师)**：作为治疗者和支援角色（我自己），需要足够点数来施放治疗法术和辅助技能，但不必过多，因为团队还有其他支援。\n5. **Role5 (野蛮人)**：高输出近战角色，依赖狂怒和攻击技能。需要较多点数来最大化伤害输出。\n6. **Role6 (德鲁伊)**：多面手，能治疗、输出或变形。分配中等点数以保持灵活性。\n7. **Role7 (武僧)**：敏捷型输出和控制角色，依赖快速行动和连击。需要适量点数来发挥其高机动性。\n\n基于以上分析，我会优先分配给战士和野蛮人高点数以强化输出，圣武士和牧师次之以维持防御和治疗，其他角色分配适中点数。总点数分配需确保团队平衡。\n\n最终分配决定如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 18,\n    \"Role6\": 12,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "武僧",
+                "牧师",
+                "野蛮人",
+                "德鲁伊",
+                "圣武士",
+                "战士",
+                "吟游诗人"
+            ],
+            "response": "首先，作为队长（牧师），我需要根据各角色的职业特点和团队需求来合理分配100点行动点数。以下是我的简要分析：\n\n1. **Role1 (武僧)**：武僧通常敏捷且擅长快速攻击，适合在前线作战或执行快速任务。分配中等点数以支持其机动性。\n2. **Role2 (牧师)**：作为队长，我（牧师）负责治疗和支持，需要较多点数来施放法术和维持团队生存。分配较高点数。\n3. **Role3 (野蛮人)**：野蛮人是高伤害输出者，但可能较依赖近战，分配中等点数以平衡其狂暴能力。\n4. **Role4 (德鲁伊)**：德鲁伊能变形和治疗，具有多功能性，分配中等点数以支持其自然法术。\n5. **Role5 (圣武士)**：圣武士是坦克兼治疗者，防御强但可能需要点数来维持光环和技能，分配较高点数。\n6. **Role6 (战士)**：战士是核心物理输出，稳定但依赖装备，分配中等点数以保持其战斗力。\n7. **Role7 (吟游诗人)**：吟游诗人提供增益和控制，辅助角色，分配较低点数，因为其效果可能不总是高消耗。\n\n基于以上，我会优先分配给牧师和圣武士以强化治疗和防御，其他角色平均分配剩余点数。具体分配如下：\n- 牧师（Role2）：20点（高优先级）\n- 圣武士（Role5）：20点（高优先级）\n- 武僧（Role1）：15点\n- 野蛮人（Role3）：15点\n- 德鲁伊（Role4）：15点\n- 战士（Role6）：10点\n- 吟游诗人（Role7）：5点\n\n总和：20+20+15+15+15+10+5=100点。\n\n现在，我将决定输出为JSON格式：\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "吟游诗人",
+                "战士",
+                "武僧",
+                "德鲁伊",
+                "圣武士",
+                "牧师",
+                "野蛮人"
+            ],
+            "response": "作为牧师队长，我会根据队伍成员的不同职业特点和团队需求来分配行动点数。以下是我的简要分析：\n\n1. **Role2（战士）和Role7（野蛮人）**：作为前排坦克和主要物理输出，需要较高的行动点数来承担伤害和发起攻击，因此分配较多点数。\n2. **Role5（圣武士）**：兼具坦克和治疗能力，是团队的重要支援，分配中等偏高的点数。\n3. **Role3（武僧）**：高机动性和控制能力，适合中近距离作战，分配中等点数。\n4. **Role4（德鲁伊）和Role1（吟游诗人）**：德鲁伊提供变形和自然法术支援，吟游诗人负责增益和控制，分配中等点数以平衡团队。\n5. **Role6（牧师）**：作为队长，我自身已有基础资源，且团队有其他支援角色，因此分配较少点数以优先保障核心成员。\n\n基于以上分析，我将100点行动点数分配如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 18,\n    \"Role6\": 7,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "武僧",
+                "牧师",
+                "圣武士",
+                "战士",
+                "野蛮人",
+                "吟游诗人",
+                "德鲁伊"
+            ],
+            "response": "### 分析\n作为牧师队长，我会根据各职业在团队中的角色和需求来分配行动点数。以下是简要分析：\n\n1. **Role1 (武僧)**：高机动性和闪避，适合快速突进和骚扰，但生存能力中等。分配适量点数以发挥其敏捷优势。\n2. **Role2 (牧师)**：作为队长，我自身是治疗和支援核心，需要较多点数来施放治疗和辅助法术。\n3. **Role3 (圣武士)**：兼具防御和辅助能力，能抗能打，适合分配较多点数以维持前排和支援。\n4. **Role4 (战士)**：主要坦克和输出，需要高点数来承担伤害和持续作战。\n5. **Role5 (野蛮人)**：高爆发但防御较低，分配中等点数以平衡其输出和生存。\n6. **Role6 (吟游诗人)**：辅助和控制角色，点数适中即可发挥其团队增益效果。\n7. **Role7 (德鲁伊)**： versatile 角色，能治疗、召唤或控制，分配中等点数以支持多样化任务。\n\n总体分配原则：优先保障治疗（牧师）、坦克（战士、圣武士）和关键输出（野蛮人），其余角色根据团队协同分配。\n\n### 分配决定\n- **Role2 (牧师)** 和 **Role4 (战士)** 分配最高点数，确保核心支援和防御。\n- **Role3 (圣武士)** 次高，强化前排和辅助。\n- **Role1 (武僧)** 和 **Role5 (野蛮人)** 分配中等点数，平衡机动性和输出。\n- **Role6 (吟游诗人)** 和 **Role7 (德鲁伊)** 分配较低点数，但仍保证其功能性。\n\n具体点数分配如下：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 16,\n    \"Role4\": 17,\n    \"Role5\": 14,\n    \"Role6\": 11,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "战士",
+                "德鲁伊",
+                "吟游诗人",
+                "野蛮人",
+                "武僧",
+                "圣武士",
+                "牧师"
+            ],
+            "response": "作为牧师队长，我会根据各职业在团队中的职责和战斗定位来分配行动点数。以下是简要分析：\n\n1. **战士（Role1）**：作为前排坦克和主要物理输出，需要较高行动点数来维持防御和攻击。\n2. **德鲁伊（Role2）**：具备治疗、召唤和自然法术能力，需适量点数支持辅助和控场。\n3. **吟游诗人（Role3）**：擅长增益、减益和支援，但非核心输出，分配中等点数。\n4. **野蛮人（Role4）**：高爆发近战职业，但生存能力较强，分配较多点数以发挥其伤害潜力。\n5. **武僧（Role5）**：高机动性和控制能力，需一定点数进行灵活作战。\n6. **圣武士（Role6）**：兼顾防御、治疗和输出，作为副坦需较多资源。\n7. **牧师（Role7）**：作为队长和主要治疗者，需保证充足点数以维持团队生存。\n\n基于以上分析，分配如下：战士和野蛮人作为核心物理角色获得最多资源；圣武士和牧师作为关键支援获得次高分配；德鲁伊、武僧和吟游诗人根据辅助作用分配剩余点数。总和确保为100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 12,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 12,\n    \"Role6\": 16,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "野蛮人",
+                "战士",
+                "吟游诗人",
+                "牧师",
+                "圣武士",
+                "武僧",
+                "德鲁伊"
+            ],
+            "response": "首先，我会根据每个角色的职业（career）和团队需求来分配这100点行动点数。作为牧师队长，我的职责是平衡团队的治疗、防御、输出和辅助能力，确保团队在各种情况下都能有效运作。\n\n### 简要分析：\n1. **Role1（野蛮人）**：通常是高物理输出角色，擅长近战爆发。分配较多点数可以增强其输出能力，但也要考虑团队平衡。\n2. **Role2（战士）**：作为坦克角色，战士需要较高的点数来维持防御和吸引敌人注意力，保护队友。\n3. **Role3（吟游诗人）**：辅助角色，提供增益效果和控制，点数分配适中即可，以支持团队。\n4. **Role4（牧师）**：作为队长和主要治疗者，牧师需要较高的点数来确保团队生存能力。\n5. **Role5（圣武士）**：兼具输出和防御，还能提供一些治疗，点数分配应平衡。\n6. **Role6（武僧）**：高机动性和输出角色，但较脆弱，点数分配适中。\n7. **Role7（德鲁伊）**：多功能角色，可治疗、输出或变形，点数分配应灵活。\n\n### 分配策略：\n- 优先保证治疗和防御角色的点数（如牧师和战士），以确保团队稳定性。\n- 输出角色（如野蛮人、武僧）分配较高点数，但不过度集中。\n- 辅助角色（如吟游诗人、德鲁伊）分配适中点数，以发挥其支持作用。\n\n### 最终分配决定：\n- 牧师（Role4）作为关键治疗者，分配最高点数：20点。\n- 战士（Role2）作为主要坦克，分配较高点数：18点。\n- 野蛮人（Role1）作为主要输出，分配较高点数：17点。\n- 圣武士（Role5）兼具多种能力，分配：15点。\n- 武僧（Role6）作为高输出角色，分配：12点。\n- 德鲁伊（Role7）作为多功能角色，分配：10点。\n- 吟游诗人（Role3）作为辅助，分配最低点数：8点。\n\n总和：20 + 18 + 17 + 15 + 12 + 10 + 8 = 100点。\n\n```json\n{\n    \"Role1\": 17,\n    \"Role2\": 18,\n    \"Role3\": 8,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 12,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：牧师）",
+            "role_obs": [
+                "吟游诗人",
+                "德鲁伊",
+                "武僧",
+                "战士",
+                "野蛮人",
+                "牧师",
+                "圣武士"
+            ],
+            "response": "作为牧师队长，我会根据队伍中各职业的特点和团队需求来分配行动点数。以下是我的简要分析：\n\n1. **Role1 (吟游诗人)**：通常负责辅助和控场，但输出和生存能力较弱，分配适量点数即可。\n2. **Role2 (德鲁伊)**：能治疗、召唤或变形，多功能但非核心输出，分配中等点数。\n3. **Role3 (武僧)**：高机动性和爆发，但依赖点数支持连续行动，分配较高点数。\n4. **Role4 (战士)**：主要坦克和近战输出，承担前线压力，需要较多点数维持防御和攻击。\n5. **Role5 (野蛮人)**：高伤害和生存能力，但资源消耗大，分配高点数以发挥其潜力。\n6. **Role6 (牧师)**：作为队长自身，兼顾治疗和支援，但团队优先，分配中等点数。\n7. **Role7 (圣武士)**：能抗能打，兼具治疗和输出，团队支柱之一，分配较高点数。\n\n基于以上分析，我优先保证战士、野蛮人和武僧的输出与生存，同时平衡辅助职业的需求。分配总和为100点，具体如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：德鲁伊）",
+            "role_obs": [
+                "德鲁伊",
+                "牧师",
+                "武僧",
+                "吟游诗人",
+                "战士",
+                "圣武士",
+                "野蛮人"
+            ],
+            "response": "首先，我需要分析这些角色的职业特点，以及他们在团队中可能扮演的角色，从而合理分配行动点数。行动点数可用于游戏内的任何活动，因此分配时应考虑每个角色的核心职责和团队的整体平衡。\n\n1. **Role1 (德鲁伊)**：德鲁伊通常擅长自然魔法、变形和治疗，在团队中可能承担支援、控制或治疗的角色。由于已经有牧师负责主要治疗，德鲁伊可以侧重于控制和辅助，因此分配中等点数。\n2. **Role2 (牧师)**：牧师是主要的治疗者和支援者，在团队中至关重要，尤其是在高难度战斗中。需要较高的行动点数来保证治疗和增益效果的频繁使用。\n3. **Role3 (武僧)**：武僧是高机动性的近战角色，擅长快速攻击和控制。行动点数分配应适中，以支持其灵活的战斗风格。\n4. **Role4 (吟游诗人)**：吟游诗人是全能支援角色，提供增益、控制和一些治疗。分配中等点数，以发挥其多面手作用。\n5. **Role5 (战士)**：战士是坦克或主要近战输出，承担伤害和防御职责。需要较高的行动点数来维持攻击和生存能力。\n6. **Role6 (圣武士)**：圣武士是混合角色，兼具近战能力和治疗/支援。分配较高点数，以平衡其多种职责。\n7. **Role7 (野蛮人)**：野蛮人是高伤害的近战角色，但通常较脆弱。分配中等点数，以支持其爆发输出。\n\n基于以上分析，我会优先保证核心角色（如牧师、战士）有较高点数，同时平衡其他角色的需求。总点数为100，分配如下：\n- 牧师和战士作为关键角色，各分配18点。\n- 圣武士作为混合角色，分配16点。\n- 德鲁伊、武僧、吟游诗人和野蛮人各分配12点，以保持团队均衡。\n\n计算总和：18 + 18 + 12 + 12 + 18 + 16 + 12 = 100，符合要求。\n\n现在，我将分配结果输出为JSON格式。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 12,\n    \"Role5\": 18,\n    \"Role6\": 16,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：德鲁伊）",
+            "role_obs": [
+                "战士",
+                "武僧",
+                "野蛮人",
+                "德鲁伊",
+                "圣武士",
+                "吟游诗人",
+                "牧师"
+            ],
+            "response": "作为德鲁伊队长，我会根据各职业在团队中的角色定位和协同作战需求来分配行动点数。以下是简要分析：\n\n1. **战士（Role1）**：作为前排坦克和主要物理输出，需要较高行动点数来维持防御和攻击。\n2. **武僧（Role2）**：高机动性近战职业，适合快速切入战场，分配中等点数。\n3. **野蛮人（Role3）**：爆发型近战，擅长短期高伤害，但续航较弱，分配中等点数。\n4. **德鲁伊（Role4）**：作为队长兼辅助/控制职业，需平衡点数以支援团队。\n5. **圣武士（Role5）**：兼具治疗和防御能力，是团队稳定性的关键，分配较高点数。\n6. **吟游诗人（Role6）**：辅助和控制角色，依赖技能而非高行动点，分配较低点数。\n7. **牧师（Role7）**：主要治疗者，需充足点数保证团队生存，分配最高点数。\n\n分配原则：优先保障治疗（牧师）和核心坦克（战士）的需求，再平衡其他输出和辅助角色。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 13,\n    \"Role5\": 16,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：德鲁伊）",
+            "role_obs": [
+                "野蛮人",
+                "武僧",
+                "德鲁伊",
+                "战士",
+                "圣武士",
+                "吟游诗人",
+                "牧师"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配这100点行动点数。以下是简要分析：\n\n1. **Role1（野蛮人）**：通常作为近战输出，高伤害但可能较脆弱，需要一定的行动点数来发挥其爆发能力。\n2. **Role2（武僧）**：高机动性和控制能力，适合快速突进和干扰，分配适量点数以支持其灵活作战。\n3. **Role3（德鲁伊）**：作为队长，德鲁伊多才多艺，能治疗、召唤或变形，但考虑到资源分配，可能优先支持其他角色。\n4. **Role4（战士）**：稳定的坦克或输出，耐久性强，分配较多点数以维持前线。\n5. **Role5（圣武士）**：兼具防御和治疗能力，是团队的中坚力量，需要均衡分配。\n6. **Role6（吟游诗人）**：辅助角色，提供增益和控制，分配较少点数，因其作用不依赖高行动点。\n7. **Role7（牧师）**：主要治疗者，确保团队生存，应分配较多点数以支持持续治疗。\n\n基于以上分析，我会优先分配给战士、圣武士和牧师较高的点数，以确保团队的防御和治疗；野蛮人和武僧作为输出分配中等点数；德鲁伊和吟游诗人分配较少点数，因为他们的能力可能更依赖技能而非行动点。具体分配如下：\n\n- 战士（Role4）：作为核心坦克，分配20点。\n- 圣武士（Role5）：兼具攻防，分配18点。\n- 牧师（Role7）：主要治疗，分配18点。\n- 野蛮人（Role1）：高输出，分配16点。\n- 武僧（Role2）：灵活输出，分配14点。\n- 德鲁伊（Role3）：作为队长，分配8点以保持平衡。\n- 吟游诗人（Role6）：辅助角色，分配6点。\n\n总和：20 + 18 + 18 + 16 + 14 + 8 + 6 = 100点。\n\n现在，我将决定输出为JSON格式。\n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 14,\n    \"Role3\": 8,\n    \"Role4\": 20,\n    \"Role5\": 18,\n    \"Role6\": 6,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：德鲁伊）",
+            "role_obs": [
+                "吟游诗人",
+                "牧师",
+                "战士",
+                "德鲁伊",
+                "武僧",
+                "圣武士",
+                "野蛮人"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配行动点数。行动点数可用于游戏内的任何活动，因此分配时应考虑角色的核心职责和团队的整体平衡。\n\n1. **Role1 (吟游诗人)**：通常作为辅助角色，提供增益效果和控制能力。虽然重要，但可能不需要最高的行动点数，因为其作用更多依赖于技能而非频繁行动。\n2. **Role2 (牧师)**：治疗和支持核心，在团队生存中至关重要。需要足够的行动点数来施放治疗法术和支援技能。\n3. **Role3 (战士)**：主要坦克或物理输出，承担伤害并保护队友。需要较高的行动点数来维持攻击和防御。\n4. **Role4 (德鲁伊)**：作为队长，我（德鲁伊）具有多样能力，包括治疗、控制和变形。应分配适中点数以保持灵活性。\n5. **Role5 (武僧)**：高机动性输出或控制角色，依赖快速行动。需要较多点数来发挥其连击和闪避优势。\n6. **Role6 (圣武士)**：兼具坦克、治疗和输出能力，是团队的中坚力量。需要较高点数来平衡攻防。\n7. **Role7 (野蛮人)**：高伤害输出者，通常作为主要DPS，依赖行动来发动强力攻击。需要高点数以最大化伤害。\n\n分配原则：\n- 优先保证核心角色（如战士、圣武士）有足够点数来维持团队稳定。\n- 辅助角色（如吟游诗人、牧师）分配适中点数，确保他们能及时发挥作用。\n- 输出角色（如野蛮人、武僧）分配较高点数以提升团队伤害。\n- 作为德鲁伊，我分配中等点数，以保持支援和控制的灵活性。\n\n具体分配：\n- 战士和圣武士作为核心，各分配15点。\n- 野蛮人作为主要DPS，分配16点。\n- 武僧作为高机动输出，分配15点。\n- 牧师作为关键治疗，分配14点。\n- 德鲁伊（我）分配13点，以平衡团队。\n- 吟游诗人作为辅助，分配12点，确保基本支援。\n\n总和：15+15+16+15+14+13+12 = 100，符合要求。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 13,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（career：德鲁伊）",
+            "role_obs": [
+                "牧师",
+                "圣武士",
+                "野蛮人",
+                "德鲁伊",
+                "武僧",
+                "吟游诗人",
+                "战士"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配行动点数。行动点数用于游戏内的任何活动，因此分配时应考虑角色的核心职能、团队协作需求以及可能的战斗或支援贡献。\n\n1. **Role1 (牧师)**：通常作为治疗者和支援角色，在团队中至关重要，尤其是在应对伤害和状态异常时。需要足够的行动点数来施放治疗法术或提供增益效果。\n2. **Role2 (圣武士)**：兼具坦克和辅助能力，能吸收伤害并提供一些治疗或增益。行动点数应保证其能持续发挥防御和支援作用。\n3. **Role3 (野蛮人)**：高伤害输出者，擅长近战攻击，可能在战斗中承担主要DPS角色。需要较多点数来发动强力攻击或技能。\n4. **Role4 (德鲁伊)**：作为队长，德鲁伊是多面手，能治疗、召唤或控制环境。应分配适量点数以保持灵活性，但不必过多，因为团队有其他专精角色。\n5. **Role5 (武僧)**：高机动性和爆发伤害角色，可能在快速解决敌人或控制战场方面发挥作用。需要一定点数来发挥其敏捷优势。\n6. **Role6 (吟游诗人)**：支援角色，通过增益、减益或控制来辅助团队。行动点数应允许其频繁使用技能来提升团队整体表现。\n7. **Role7 (战士)**：可靠的坦克或伤害输出者，能承受伤害并稳定输出。需要足够点数来维持其在前线的持久力。\n\n分配原则：\n- 优先保证治疗和支援角色（如牧师、圣武士）有足够点数，以维持团队生存。\n- 高输出角色（如野蛮人、战士）分配较多点数，以最大化伤害。\n- 多面手角色（如德鲁伊、吟游诗人）分配中等点数，以发挥其辅助作用。\n- 武僧作为灵活角色，分配适量点数。\n\n基于以上分析，我决定分配如下：\n- 牧师和圣武士各分配15点，确保支援能力。\n- 野蛮人和战士各分配20点，作为主要输出和坦克。\n- 德鲁伊作为队长，分配10点，保持基本贡献。\n- 武僧分配10点，用于机动和爆发。\n- 吟游诗人分配10点，用于辅助技能。\n\n总和：15+15+20+10+10+10+20 = 100点。\n\n现在，我将决定输出为JSON格式。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：德鲁伊）",
+            "role_obs": [
+                "武僧",
+                "德鲁伊",
+                "战士",
+                "吟游诗人",
+                "圣武士",
+                "牧师",
+                "野蛮人"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配这100点行动点数。行动点数可用于游戏内的任何活动，因此分配时应考虑各职业的核心能力、团队贡献以及平衡性。\n\n1. **Role1 (武僧)**：武僧通常以高机动性和单体爆发为主，适合快速切入战场或执行特定任务，但团队辅助能力较弱。可分配中等点数。\n2. **Role2 (德鲁伊)**：作为队长且是德鲁伊，我自身拥有多种形态变化、治疗和自然法术能力，在团队中扮演灵活支援角色。考虑到领导职责和多功能性，应分配较高点数。\n3. **Role3 (战士)**：战士是团队的主要坦克和近战输出，承担伤害吸收和稳定输出的角色，对团队生存至关重要。应分配较高点数。\n4. **Role4 (吟游诗人)**：吟游诗人提供增益、控制和辅助，通过音乐或法术增强团队，但自身输出或防御有限。可分配中等点数。\n5. **Role5 (圣武士)**：圣武士结合了防御、治疗和输出能力，是团队中的多面手，尤其在对抗邪恶时表现突出。应分配中等偏上点数。\n6. **Role6 (牧师)**：牧师是主要的治疗者和支援者，负责维持团队生命值和驱散负面效果，对团队持久战至关重要。应分配较高点数。\n7. **Role7 (野蛮人)**：野蛮人以高伤害和生存能力著称，但缺乏精细控制，适合作为次要坦克或爆发输出。可分配中等点数。\n\n分配原则：\n- 优先保证核心角色（如战士、牧师）有足够点数以发挥其作用。\n- 考虑团队平衡，避免过度集中点数。\n- 作为队长，德鲁伊需要较多点数来协调和支援。\n\n具体分配思路：\n- 战士和牧师作为团队支柱，各分配16点。\n- 德鲁伊（我自己）作为队长和多功能角色，分配15点。\n- 圣武士作为多面手，分配14点。\n- 武僧、吟游诗人和野蛮人各分配13点，以保持整体平衡。\n\n检查总和：16+16+15+14+13+13+13 = 100，符合要求。\n\n最终决定如下：\n\n```json\n{\n    \"Role1\": 13,\n    \"Role2\": 15,\n    \"Role3\": 16,\n    \"Role4\": 13,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：德鲁伊）",
+            "role_obs": [
+                "牧师",
+                "圣武士",
+                "德鲁伊",
+                "吟游诗人",
+                "战士",
+                "武僧",
+                "野蛮人"
+            ],
+            "response": "首先，我需要分析这些角色的职业特点和在团队中的可能作用，以便合理分配行动点数。行动点数可以用于游戏内的任何活动，因此分配时应考虑每个角色的核心职责、团队协作需求以及整体效率。\n\n1. **Role1 (牧师)**：通常作为治疗者和支援角色，在团队中非常重要，尤其是在应对伤害和状态异常时。需要一定的行动点数来保证治疗和辅助技能的释放。\n2. **Role2 (圣武士)**：兼具坦克和辅助能力，能吸收伤害并提供一些治疗或增益。行动点数应保证其能持续发挥防御和支援作用。\n3. **Role3 (德鲁伊)**：作为队长，德鲁伊是多面手，能治疗、输出或控制，取决于团队需求。这里可能需要平衡分配，以发挥其灵活性。\n4. **Role4 (吟游诗人)**：主要提供增益、控制和辅助，行动点数应允许其频繁使用技能来增强团队或削弱敌人。\n5. **Role5 (战士)**：核心物理输出或坦克，行动点数应优先保证其高伤害输出或防御能力。\n6. **Role6 (武僧)**：高机动性输出或控制角色，行动点数应支持其快速行动和技能使用。\n7. **Role7 (野蛮人)**：高伤害近战输出，通常较脆弱但爆发强，行动点数应允许其发挥攻击优势。\n\n分配原则：\n- 优先保证核心角色（如治疗者、主要输出）有足够点数。\n- 考虑团队平衡，避免过度集中点数。\n- 由于总点数为100，且需整数分配，我会大致按角色重要性分配。\n\n具体分配思路：\n- 牧师和圣武士作为关键支援，各分配15点。\n- 德鲁伊作为队长，分配15点以保持灵活性。\n- 吟游诗人分配10点，用于辅助技能。\n- 战士作为主要输出，分配20点。\n- 武僧和野蛮人各分配12-13点，作为次要输出。\n\n计算总和：15+15+15+10+20+12+13=100。\n\n最终分配：\n- Role1 (牧师): 15\n- Role2 (圣武士): 15\n- Role3 (德鲁伊): 15\n- Role4 (吟游诗人): 10\n- Role5 (战士): 20\n- Role6 (武僧): 12\n- Role7 (野蛮人): 13\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 12,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：德鲁伊）",
+            "role_obs": [
+                "武僧",
+                "战士",
+                "吟游诗人",
+                "野蛮人",
+                "牧师",
+                "德鲁伊",
+                "圣武士"
+            ],
+            "response": "### 分析\n作为德鲁伊队长，我需要根据各职业的特点和团队需求来分配行动点数。以下是简要分析：\n\n1. **Role1 (武僧)**：高机动性和爆发力，适合快速突袭和控场，但持续作战能力一般。可分配中等点数。\n2. **Role2 (战士)**：团队的主要坦克和近战输出，需要较高点数来维持防御和攻击。\n3. **Role3 (吟游诗人)**：辅助角色，提供增益和控场，点数需求较低，侧重于支援。\n4. **Role4 (野蛮人)**：高生命值和近战输出，但缺乏灵活性，适合分配较多点数以发挥其优势。\n5. **Role5 (牧师)**：治疗和支援核心，需要足够点数来保证团队生存。\n6. **Role6 (德鲁伊)**：作为队长，自身职业灵活，可变形、治疗或输出，但为了团队平衡，分配中等点数。\n7. **Role7 (圣武士)**：兼具坦克、输出和治疗能力，是团队的多面手，需要较高点数。\n\n分配原则：优先保证坦克（战士、野蛮人）和治疗（牧师）的资源，辅助角色（吟游诗人）分配较少，其他角色根据团队贡献平衡。\n\n### 分配决定\n- **Role1 (武僧)**：12点（中等，用于突袭和控场）\n- **Role2 (战士)**：18点（较高，作为主坦克和输出）\n- **Role3 (吟游诗人)**：8点（较低，专注于辅助）\n- **Role4 (野蛮人)**：16点（较高，近战输出和生存）\n- **Role5 (牧师)**：17点（较高，保证治疗和支援）\n- **Role6 (德鲁伊)**：13点（中等，平衡自身能力）\n- **Role7 (圣武士)**：16点（较高，多面手角色）\n\n总和：12 + 18 + 8 + 16 + 17 + 13 + 16 = 100，符合要求。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 8,\n    \"Role4\": 16,\n    \"Role5\": 17,\n    \"Role6\": 13,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（career：德鲁伊）",
+            "role_obs": [
+                "野蛮人",
+                "德鲁伊",
+                "战士",
+                "吟游诗人",
+                "牧师",
+                "武僧",
+                "圣武士"
+            ],
+            "response": "首先，作为德鲁伊队长，我需要考虑每个角色的职业特点和团队需求，合理分配100点行动点数。以下是我的简要分析：\n\n1. **Role1（野蛮人）**：通常是近战输出核心，高伤害但可能较脆弱，需要较多点数来发挥其爆发力。\n2. **Role2（德鲁伊）**：作为队长，我自身职业，能兼顾输出、控制和治疗，但为了团队平衡，不宜分配过多。\n3. **Role3（战士）**：坦克角色，负责吸收伤害和保护队友，需要一定点数来维持生存和控制。\n4. **Role4（吟游诗人）**：辅助角色，提供增益和控场，点数需求中等，以支持团队。\n5. **Role5（牧师）**：主要治疗者，对团队生存至关重要，需要较多点数来保证治疗和支援。\n6. **Role6（武僧）**：高机动性输出，能快速处理威胁，点数分配应适中。\n7. **Role7（圣武士）**：兼具坦克和治疗能力，但不如专业角色专精，点数分配中等。\n\n基于以上分析，我会优先保证输出核心（野蛮人）和治疗核心（牧师）的点数，同时平衡其他角色的需求。分配原则是：野蛮人和牧师较高，战士和圣武士中等，德鲁伊、吟游诗人和武僧稍低。\n\n最终分配决定如下：\n- 野蛮人（Role1）：20点（高输出核心）\n- 德鲁伊（Role2）：10点（队长，但兼顾平衡）\n- 战士（Role3）：15点（坦克角色）\n- 吟游诗人（Role4）：10点（辅助角色）\n- 牧师（Role5）：20点（关键治疗）\n- 武僧（Role6）：10点（机动输出）\n- 圣武士（Role7）：15点（混合角色）\n\n总和：20+10+15+10+20+10+15=100点，符合要求。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：德鲁伊）",
+            "role_obs": [
+                "武僧",
+                "圣武士",
+                "吟游诗人",
+                "牧师",
+                "德鲁伊",
+                "野蛮人",
+                "战士"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配这100点行动点数。  \n\n**简要分析：**  \n- **武僧（Role1）**：高机动性，擅长快速打击和控制，但通常不依赖过多资源点数，可以适量分配。  \n- **圣武士（Role2）**：前排坦克兼辅助，能抗能奶，需要一定资源支持其防御与治疗能力。  \n- **吟游诗人（Role3）**：团队辅助，提供增益和控制，资源需求中等，主要依赖技能而非点数堆积。  \n- **牧师（Role4）**：核心治疗与支援，资源需求较高，确保其能持续施放治疗法术很重要。  \n- **德鲁伊（Role5）**：多面手，可治疗、输出或变身，作为队长自身，可考虑适量分配，但不必最多。  \n- **野蛮人（Role6）**：高生存能力的近战输出，资源需求中等，主要依赖怒气而非行动点数。  \n- **战士（Role7）**：核心坦克/输出，稳定前排，需要较多资源来维持防御与输出能力。  \n\n考虑到团队平衡，我会优先保证治疗者（牧师）和主坦克（战士、圣武士）有足够资源，辅助角色次之，输出角色适量分配。  \n\n**分配思路：**  \n- 牧师（Role4）最高，因为治疗是团队生存关键 → 20点  \n- 战士（Role7）和圣武士（Role2）作为前排核心 → 各18点  \n- 德鲁伊（Role5）多面手 → 15点  \n- 野蛮人（Role6）近战输出 → 12点  \n- 吟游诗人（Role3）辅助 → 9点  \n- 武僧（Role1）机动输出 → 8点  \n\n总和：20 + 18 + 18 + 15 + 12 + 9 + 8 = 100  \n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 18,\n    \"Role3\": 9,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 12,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：战士）",
+            "role_obs": [
+                "武僧",
+                "牧师",
+                "德鲁伊",
+                "吟游诗人",
+                "圣武士",
+                "野蛮人",
+                "战士"
+            ],
+            "response": "首先，我来简要分析一下各个角色的职业特点以及他们在团队中可能的作用，以便合理分配行动点数：\n\n1. **Role1 (武僧)**：通常擅长快速移动和单体爆发，适合突袭和快速解决关键目标。可能需要中等行动点数来发挥灵活性。\n2. **Role2 (牧师)**：作为治疗和支持角色，牧师在团队生存中至关重要。需要足够的行动点数来施放治疗和辅助法术。\n3. **Role3 (德鲁伊)**：多面手，既能治疗、施法，也能变形为动物进行近战。需要均衡分配点数以适应不同角色。\n4. **Role4 (吟游诗人)**：提供增益、控制和一些治疗，是团队中的辅助核心。需要一定点数来维持团队buff和控制敌人。\n5. **Role5 (圣武士)**：坦克兼治疗/输出，能抗能打，还能提供一些支援。需要较高点数以发挥其全面能力。\n6. **Role6 (野蛮人)**：高生命值和近战输出，适合冲锋和吸收伤害。需要较多点数来维持其狂暴状态和持续输出。\n7. **Role7 (战士)**：作为队长（我自己），战士是团队的主要坦克和物理输出核心，需要高行动点数来承担伤害并输出。\n\n分配原则：\n- 优先保证坦克（战士、圣武士）和关键输出（野蛮人）有较高点数，以维持前线稳定。\n- 治疗和支持角色（牧师、德鲁伊、吟游诗人）分配中等点数，确保团队生存和辅助。\n- 武僧作为灵活单位，分配适中点数以发挥其机动性。\n\n基于以上分析，我将100点行动点数分配如下：\n- Role7 (战士)：作为队长和主坦克，分配20点。\n- Role5 (圣武士)：次坦克兼支援，分配18点。\n- Role6 (野蛮人)：主要输出，分配18点。\n- Role2 (牧师)：关键治疗，分配15点。\n- Role3 (德鲁伊)：多面手支援，分配12点。\n- Role4 (吟游诗人)：辅助控制，分配10点。\n- Role1 (武僧)：灵活单位，分配7点。\n\n总和：20 + 18 + 18 + 15 + 12 + 10 + 7 = 100。\n\n现在，我将决定输出为JSON格式：\n\n```json\n{\n    \"Role1\": 7,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 10,\n    \"Role5\": 18,\n    \"Role6\": 18,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：战士）",
+            "role_obs": [
+                "圣武士",
+                "德鲁伊",
+                "吟游诗人",
+                "战士",
+                "野蛮人",
+                "牧师",
+                "武僧"
+            ],
+            "response": "### 简要分析\n\n作为战士队长，我需要根据各职业在团队中的角色和战斗贡献来分配行动点数。以下是分析思路：\n\n1. **圣武士（Role1）**：通常作为坦克和治疗者，能承受伤害并支援团队，分配中等点数。\n2. **德鲁伊（Role2）**：多功能职业，可治疗、施法或变形，但可能不如核心输出或坦克关键，分配中等偏下点数。\n3. **吟游诗人（Role3）**：辅助角色，提供增益和控制，但直接战斗能力较弱，分配较低点数。\n4. **战士（Role4）**：作为队长和我自己的职业，战士是核心输出和前线单位，应分配较高点数以最大化伤害和生存。\n5. **野蛮人（Role5）**：高伤害输出和生存能力，类似战士，分配较高点数。\n6. **牧师（Role6）**：关键治疗和支持者，能保持团队存活，分配中等偏上点数。\n7. **武僧（Role7）**：敏捷高伤害，但可能不如战士或野蛮人全面，分配中等点数。\n\n总体策略：优先强化核心输出（战士、野蛮人），确保治疗（牧师）足够，其他角色根据辅助作用分配剩余点数。点数总和必须为100。\n\n### 分配决定\n- Role1（圣武士）：12点（平衡坦克/支援角色）\n- Role2（德鲁伊）：10点（多功能但非核心）\n- Role3（吟游诗人）：8点（辅助角色，低优先级）\n- Role4（战士）：20点（核心输出，队长职业）\n- Role5（野蛮人）：18点（高输出关键）\n- Role6（牧师）：16点（重要治疗者）\n- Role7（武僧）：16点（可靠伤害输出）\n\n总和：12 + 10 + 8 + 20 + 18 + 16 + 16 = 100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 8,\n    \"Role4\": 20,\n    \"Role5\": 18,\n    \"Role6\": 16,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（career：战士）",
+            "role_obs": [
+                "牧师",
+                "战士",
+                "野蛮人",
+                "圣武士",
+                "武僧",
+                "吟游诗人",
+                "德鲁伊"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配这100点行动点数。  \n\n**简要分析：**  \n- **Role1（牧师）**：通常是治疗和辅助角色，在团队生存方面很重要，需要一定点数来保证治疗和驱散等能力。  \n- **Role2（战士）**：主坦克，负责承受伤害和保护队友，需要较多点数来维持防御和输出。  \n- **Role3（野蛮人）**：高输出近战，生存能力较强，适合分配较多点数用于进攻。  \n- **Role4（圣武士）**：能抗能打，有一定辅助能力，属于全能型角色，点数分配应适中。  \n- **Role5（武僧）**：高机动性、高频率攻击，适合快速解决关键目标，需要一定点数。  \n- **Role6（吟游诗人）**：辅助与控制，作用更多体现在战术上，不需要过多点数。  \n- **Role7（德鲁伊）**：变形、治疗、召唤等多面手，需要一定点数来发挥灵活性。  \n\n考虑到战士和野蛮人是主要物理输出与坦克，我会给他们更多点数；牧师和德鲁伊作为治疗/辅助也需足够点数；圣武士和武僧次之；吟游诗人作用相对间接，分配最少。  \n\n**分配思路**：  \n- 战士（Role2）和野蛮人（Role3）各 18 点  \n- 牧师（Role1）和德鲁伊（Role7）各 16 点  \n- 圣武士（Role4）和武僧（Role5）各 13 点  \n- 吟游诗人（Role6） 6 点  \n\n总和 = 18 + 18 + 16 + 13 + 13 + 16 + 6 = 100。  \n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 18,\n    \"Role3\": 18,\n    \"Role4\": 13,\n    \"Role5\": 13,\n    \"Role6\": 6,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（career：战士）",
+            "role_obs": [
+                "吟游诗人",
+                "野蛮人",
+                "战士",
+                "圣武士",
+                "牧师",
+                "德鲁伊",
+                "武僧"
+            ],
+            "response": "首先，我来简要分析一下如何分配这100点行动点数。  \n\n**分析思路：**  \n1. **职业定位与团队作用**  \n   - **战士（Role3）**：通常是前排坦克或物理输出，需要较多行动点数来承担伤害或制造输出。  \n   - **野蛮人（Role2）**：类似战士，近战高输出或肉盾，也需要较多点数。  \n   - **圣武士（Role4）**：能抗能打能辅助，综合性强，适合中等偏上点数。  \n   - **牧师（Role5）**：治疗与辅助核心，需要一定点数保证治疗和增益技能释放。  \n   - **德鲁伊（Role6）**：多功能（治疗、控制、变身），适合中等点数。  \n   - **武僧（Role7）**：高机动、控制与爆发，适合中等点数。  \n   - **吟游诗人（Role1）**：辅助、控场、部分治疗，通常不需要太多点数即可发挥作用，可以分配较少。  \n\n2. **团队平衡**  \n   考虑到这是一个团队，前排和核心输出应该分配更多资源，治疗/辅助次之，纯辅助最少。  \n\n3. **分配原则**  \n   - 战士、野蛮人 → 高  \n   - 圣武士 → 中高  \n   - 牧师、德鲁伊、武僧 → 中  \n   - 吟游诗人 → 低  \n\n**具体分配方案（合计100）：**  \n- Role1（吟游诗人）：5  \n- Role2（野蛮人）：20  \n- Role3（战士）：25  \n- Role4（圣武士）：18  \n- Role5（牧师）：15  \n- Role6（德鲁伊）：10  \n- Role7（武僧）：7  \n\n这样分配保证了前排和核心输出的行动能力，同时辅助职业也有足够资源发挥作用。  \n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 20,\n    \"Role3\": 25,\n    \"Role4\": 18,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "（career：战士）",
+            "role_obs": [
+                "战士",
+                "吟游诗人",
+                "野蛮人",
+                "圣武士",
+                "武僧",
+                "德鲁伊",
+                "牧师"
+            ],
+            "response": "首先，我需要分析这些角色的职业特点以及他们在团队中可能的作用，以便合理分配行动点数。以下是简要分析：\n\n1. **Role1（战士）**：作为近战核心，通常需要较高的行动点数来承担主要输出和坦克职责。\n2. **Role2（吟游诗人）**：辅助角色，提供增益和控制，但不需要过多行动点数，因为其作用更多依赖于技能而非频繁行动。\n3. **Role3（野蛮人）**：高伤害近战职业，类似于战士，但可能更注重爆发，因此需要较多行动点数。\n4. **Role4（圣武士）**：混合型角色，既能输出又能治疗/支援，需要中等偏高的行动点数。\n5. **Role5（武僧）**：敏捷型近战，依赖快速行动，可能需要较多点数来发挥高机动性。\n6. **Role6（德鲁伊）**：多功能角色，可输出、治疗或控制，但通常不需要最高优先级的行动点数。\n7. **Role7（牧师）**：主要治疗和支援角色，需要稳定的行动点数来保证团队生存。\n\n基于以上分析，我会优先分配给近战核心（战士、野蛮人）和关键支援（牧师），其次是混合角色（圣武士、武僧），最后是辅助（吟游诗人、德鲁伊）。分配时确保总点数为100。\n\n我的决定如下：\n- Role1（战士）：18点（核心输出）\n- Role2（吟游诗人）：10点（辅助角色）\n- Role3（野蛮人）：18点（高伤害近战）\n- Role4（圣武士）：15点（混合角色）\n- Role5（武僧）：16点（敏捷型角色）\n- Role6（德鲁伊）：11点（多功能但非核心）\n- Role7（牧师）：12点（关键治疗）\n\n总和：18 + 10 + 18 + 15 + 16 + 11 + 12 = 100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 10,\n    \"Role3\": 18,\n    \"Role4\": 15,\n    \"Role5\": 16,\n    \"Role6\": 11,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：战士）",
+            "role_obs": [
+                "野蛮人",
+                "圣武士",
+                "武僧",
+                "牧师",
+                "战士",
+                "吟游诗人",
+                "德鲁伊"
+            ],
+            "response": "作为战士队长，我会根据每个角色的职业特点和团队需求来分配行动点数。以下是简要分析：\n\n1. **Role1（野蛮人）**：近战输出核心，高生存能力，适合冲锋陷阵，分配较多点数以最大化伤害和承受力。  \n2. **Role2（圣武士）**：兼具防御和辅助能力，能治疗和增益团队，分配中等点数平衡攻防。  \n3. **Role3（武僧）**：高机动性和爆发，但较脆弱，分配中等点数支持其游击战术。  \n4. **Role4（牧师）**：关键治疗和支援角色，确保团队生存，分配较多点数保证持续治疗。  \n5. **Role5（战士）**：作为队长，我自身需稳定输出和指挥，分配中等点数维持核心作用。  \n6. **Role6（吟游诗人）**：辅助和控制角色，提供增益和干扰，分配较少点数专注关键技能。  \n7. **Role7（德鲁伊）**： versatile 角色，能治疗、输出或控制，分配中等点数适应多变局势。\n\n基于以上分析，分配行动点数如下：优先保证治疗（牧师）和主力输出（野蛮人），其余角色按团队贡献均衡分配。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 8,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：战士）",
+            "role_obs": [
+                "牧师",
+                "吟游诗人",
+                "野蛮人",
+                "德鲁伊",
+                "战士",
+                "武僧",
+                "圣武士"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配这100点行动点数。  \n\n- **Role1（牧师）**：通常是治疗和辅助角色，在团队生存方面很重要，需要一定点数来保证治疗和驱散等能力。  \n- **Role2（吟游诗人）**：辅助、控场和增益提供者，作用灵活但可能不需要最高优先级。  \n- **Role3（野蛮人）**：近战输出和坦克，承受伤害并造成高输出，需要较多点数来发挥其战斗作用。  \n- **Role4（德鲁伊）**：多面手，可治疗、召唤或变形，有一定战术价值。  \n- **Role5（战士）**：另一个近战职业，稳定输出和防御，和野蛮人类似，需要较多资源。  \n- **Role6（武僧）**：高机动性、控制与爆发，但通常对资源依赖稍低一些。  \n- **Role7（圣武士）**：坦克、辅助与输出结合，有治疗和光环，需要较多点数来平衡其多面能力。  \n\n考虑到团队平衡，我会优先保证坦克（野蛮人、战士、圣武士）和主要治疗（牧师）有较高点数，辅助角色（吟游诗人、德鲁伊）次之，武僧虽然强力但可以稍少一些。  \n\n分配思路：  \n- 战士、野蛮人、圣武士：各 18 点（共 54）  \n- 牧师：16 点（保证治疗）  \n- 德鲁伊：12 点（辅助与变形）  \n- 吟游诗人：10 点（增益与控场）  \n- 武僧：8 点（高机动性，资源需求稍低）  \n\n检查总和：18×3 + 16 + 12 + 10 + 8 = 54 + 16 + 12 + 10 + 8 = 100。  \n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 10,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 18,\n    \"Role6\": 8,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：战士）",
+            "role_obs": [
+                "武僧",
+                "野蛮人",
+                "圣武士",
+                "战士",
+                "吟游诗人",
+                "牧师",
+                "德鲁伊"
+            ],
+            "response": "作为战士队长，我会根据各职业在团队中的战术定位和资源需求来分配行动点数。以下是简要分析：\n\n1. **武僧（Role1）**：高机动性和控场能力，适合快速突进和干扰，分配中等点数。\n2. **野蛮人（Role2）**：核心前排输出，高生存能力，需要较多点数维持持续作战。\n3. **圣武士（Role3）**：攻防兼备，有治疗和辅助能力，分配中等偏上点数。\n4. **战士（Role4）**：作为队长自身，需平衡指挥和作战，分配中等点数。\n5. **吟游诗人（Role5）**：辅助与控制为主，作用关键但无需过多点数，分配较少。\n6. **牧师（Role6）**：核心治疗与支援，生存和技能释放依赖点数，分配较多。\n7. **德鲁伊（Role7）**：多功能角色（治疗/控场/输出），需要稳定点数支持。\n\n分配原则：优先保障前排输出（野蛮人）和核心治疗（牧师），其余按职责平衡。总和严格为100点。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 10,\n    \"Role6\": 17,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（career：战士）",
+            "role_obs": [
+                "牧师",
+                "武僧",
+                "战士",
+                "圣武士",
+                "德鲁伊",
+                "吟游诗人",
+                "野蛮人"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配这100点行动点数。  \n\n**简要分析：**  \n- **Role1（牧师）**：通常是治疗和辅助核心，需要一定资源来保证团队生存。  \n- **Role2（武僧）**：高机动性、控制，但依赖技能点，中等资源需求。  \n- **Role3（战士）**：主坦克或物理输出，需要较多资源承担伤害或制造输出。  \n- **Role4（圣武士）**：能抗能奶能输出，综合性强，适合中等偏上资源。  \n- **Role5（德鲁伊）**：多功能（治疗/召唤/控制），需要一定资源发挥灵活性。  \n- **Role6（吟游诗人）**：辅助、控场、增益，资源需求中等。  \n- **Role7（野蛮人）**：高生存、高输出，但较依赖资源爆发。  \n\n考虑到战士作为队长的视角，可能会倾向于平衡分配，但稍微偏向于坦克和核心输出/治疗。  \n\n**分配思路：**  \n- 战士（Role3）和野蛮人（Role7）作为主要物理输出/坦克，分配较多点数。  \n- 牧师（Role1）作为主要治疗，分配较多点数保证续航。  \n- 圣武士（Role4）和德鲁伊（Role5）作为多功能角色，分配中等点数。  \n- 武僧（Role2）和吟游诗人（Role6）分配较少但够用的点数。  \n\n**具体分配：**  \n- Role1（牧师）：18  \n- Role2（武僧）：12  \n- Role3（战士）：20  \n- Role4（圣武士）：16  \n- Role5（德鲁伊）：14  \n- Role6（吟游诗人）：10  \n- Role7（野蛮人）：10  \n\n总和 = 18+12+20+16+14+10+10 = 100  \n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 16,\n    \"Role5\": 14,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：战士）",
+            "role_obs": [
+                "吟游诗人",
+                "武僧",
+                "野蛮人",
+                "战士",
+                "德鲁伊",
+                "圣武士",
+                "牧师"
+            ],
+            "response": "作为战士队长，我会根据各职业在团队中的战术定位和资源需求来分配行动点数。以下是简要分析：\n\n1. **Role1 吟游诗人**：辅助职业，侧重支援和控制，不需要过多行动点，分配较少点数。\n2. **Role2 武僧**：高机动近战职业，依赖行动点进行连击和位移，分配中等点数。\n3. **Role3 野蛮人**：主力近战输出，需要较多点数维持狂暴和攻击，分配较高点数。\n4. **Role4 战士**（我自己）：作为队长和坦克，需平衡攻防，分配中等点数。\n5. **Role5 德鲁伊**：多功能职业（治疗/输出/控制），根据团队需求分配中等点数。\n6. **Role6 圣武士**：前排兼辅助，需点数进行攻击和治疗，分配中等偏高点数。\n7. **Role7 牧师**：核心治疗和支持者，必须保证充足点数以应对紧急情况，分配最高点数。\n\n分配原则：优先保障治疗和核心输出，辅助职业酌情减少。总计100点分配如下：\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 13,\n    \"Role6\": 16,\n    \"Role7\": 19\n}\n```"
+        },
+        {
+            "role_self": "（career：武僧）",
+            "role_obs": [
+                "吟游诗人",
+                "圣武士",
+                "野蛮人",
+                "战士",
+                "牧师",
+                "武僧",
+                "德鲁伊"
+            ],
+            "response": "作为武僧队长，我会根据各职业在团队中的战术定位和协同作用来分配行动点数。以下是我的简要分析：\n\n1. **吟游诗人（Role1）**：擅长辅助和控制，但直接战斗能力较弱，分配较少点数用于基础支援即可。  \n2. **圣武士（Role2）**：高生存能力和爆发输出，是核心前排，需较多资源支撑攻防。  \n3. **野蛮人（Role3）**：主力近战输出，依赖点数进行高强度连续攻击，分配高额点数。  \n4. **战士（Role4）**：均衡的前排，需稳定资源维持战线。  \n5. **牧师（Role5）**：关键治疗与支援，保障团队生存，分配中上资源。  \n6. **武僧（Role6）**：自身作为队长，高机动性和爆发，需充足点数发挥核心作用。  \n7. **德鲁伊（Role7）**：多功能角色（治疗/控制/变形），分配中等资源以保持灵活性。  \n\n**分配原则**：优先强化近战输出与核心辅助，确保队伍攻防平衡。最终分配如下：\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：武僧）",
+            "role_obs": [
+                "圣武士",
+                "野蛮人",
+                "吟游诗人",
+                "牧师",
+                "战士",
+                "武僧",
+                "德鲁伊"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配100点行动点数。行动点数可能用于战斗、治疗、辅助、探索等不同活动，因此分配时应考虑各职业的优势和团队需求。\n\n1. **Role1 (圣武士)**：通常作为坦克和辅助，能抗能打，也有治疗能力。适合分配中等点数，用于前线作战和关键时刻的治疗。\n2. **Role2 (野蛮人)**：高伤害输出者，尤其擅长近战爆发。应分配较高点数，以最大化其伤害潜力。\n3. **Role3 (吟游诗人)**：辅助角色，提供增益、控制和治疗。点数分配不宜过高，但需保证其能有效支持团队。\n4. **Role4 (牧师)**：主要治疗者和支援角色，对团队生存至关重要。应分配较高点数，确保持续治疗和法术使用。\n5. **Role5 (战士)**：均衡的物理输出和防御，可靠的前线角色。适合中等点数分配。\n6. **Role6 (武僧)**：高机动性和爆发伤害，作为队长自身，可能需分配一定点数以发挥其敏捷优势。\n7. **Role7 (德鲁伊)**：多面手，能治疗、输出或变形坦克。分配中等点数，以保持其灵活性。\n\n基于以上分析，我会优先保证输出角色（野蛮人）和治疗角色（牧师）有较高点数，同时平衡其他角色的需求。分配时确保总点数为100。\n\n最终分配决定：\n- 野蛮人（Role2）和牧师（Role4）分配较高点数，分别为18和20。\n- 战士（Role5）和圣武士（Role1）分配中等点数，分别为15和14。\n- 武僧（Role6）作为队长，分配15点以保持其作用。\n- 吟游诗人（Role3）和德鲁伊（Role7）分配较低点数，分别为9和9，因为他们更多依赖辅助而非高行动点。\n\n现在，将分配结果以JSON格式输出。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 18,\n    \"Role3\": 9,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "（career：武僧）",
+            "role_obs": [
+                "吟游诗人",
+                "牧师",
+                "德鲁伊",
+                "战士",
+                "圣武士",
+                "武僧",
+                "野蛮人"
+            ],
+            "response": "作为武僧队长，我会根据各职业在团队中的战术定位和协同作用来分配行动点数。以下是我的简要分析：\n\n1. **Role1 吟游诗人**：擅长辅助和控制，但直接战斗能力较弱，分配较少点数用于基础支援即可。  \n2. **Role2 牧师**：核心治疗和增益提供者，需保证其行动能力以维持团队生存，分配中等资源。  \n3. **Role3 德鲁伊**：兼具治疗、召唤和自然法术，灵活性高，需一定点数发挥多面手作用。  \n4. **Role4 战士**：主要物理输出和前排防御，需高投入以承担核心攻击职责。  \n5. **Role5 圣武士**：攻防兼备且能提供团队增益，需较多点数维持其综合能力。  \n6. **Role6 武僧**（自身）：作为高机动性近战职业，需充足点数进行快速连击和控场。  \n7. **Role7 野蛮人**：高爆发但生存依赖狂暴，分配中等点数平衡其输出与耐久。\n\n基于以上分析，优先强化近战输出（战士、武僧、圣武士）和关键辅助（牧师），最终分配如下：\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 25,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：武僧）",
+            "role_obs": [
+                "战士",
+                "武僧",
+                "吟游诗人",
+                "德鲁伊",
+                "野蛮人",
+                "牧师",
+                "圣武士"
+            ],
+            "response": "### 分析\n作为武僧队长，我需要根据各职业在团队中的职责和战斗贡献来合理分配100点行动点数。以下是简要分析：\n\n1. **战士（Role1）**：作为前排坦克和主要物理输出，需要较高行动点数来维持防御和攻击。  \n2. **武僧（Role2）**：作为队长，我自身需要一定点数来发挥高机动性和爆发能力，但不过度优先。  \n3. **吟游诗人（Role3）**：辅助角色，提供增益和控制，但依赖较低行动点数即可生效。  \n4. **德鲁伊（Role4）**：多功能职业，可治疗或输出，需中等资源支持。  \n5. **野蛮人（Role5）**：高生存能力的近战输出，需要较多点数来保持狂暴状态和伤害。  \n6. **牧师（Role6）**：核心治疗和支持者，必须分配足够点数以保证团队生存。  \n7. **圣武士（Role7）**：兼具坦克、治疗和输出，需均衡分配。\n\n**分配原则**：优先保证坦克（战士、野蛮人）和核心治疗（牧师）的资源，辅助角色（吟游诗人）分配较少，其余职业按贡献度分配。\n\n### 分配方案\n- **战士**：20点（关键前排）  \n- **武僧**：15点（队长需一定资源）  \n- **吟游诗人**：5点（辅助作用有限）  \n- **德鲁伊**：10点（灵活但非核心）  \n- **野蛮人**：20点（高输出与生存）  \n- **牧师**：20点（不可或缺的治疗）  \n- **圣武士**：10点（全能但资源需求适中）  \n\n总和：20+15+5+10+20+20+10=100点。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 5,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：武僧）",
+            "role_obs": [
+                "圣武士",
+                "野蛮人",
+                "牧师",
+                "吟游诗人",
+                "武僧",
+                "德鲁伊",
+                "战士"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配100点行动点数。以下是简要分析：\n\n1. **Role1 (圣武士)**：通常作为坦克和治疗者，能承受伤害并支援队友，适合在前线作战。\n2. **Role2 (野蛮人)**：高伤害输出者，擅长近战攻击，能快速消灭敌人，但防御可能较弱。\n3. **Role3 (牧师)**：主要治疗者和支援角色，能恢复生命值和提供增益，对团队生存至关重要。\n4. **Role4 (吟游诗人)**：多功能支援角色，能提供增益、控制敌人或辅助治疗，但输出较低。\n5. **Role5 (武僧)**：高机动性和爆发伤害，适合快速突袭和控制战场，但可能较脆。\n6. **Role6 (德鲁伊)**：变形和治疗能力，能适应多种角色，如坦克或支援，但可能不专精。\n7. **Role7 (战士)**：平衡的战士，能承受伤害并输出，是可靠的前线角色。\n\n分配策略：\n- 优先分配给关键角色，如牧师（治疗）和野蛮人（输出），以确保团队生存和效率。\n- 战士和圣武士作为坦克，需要一定点数来维持前线。\n- 武僧和德鲁伊根据其灵活性分配适中点数。\n- 吟游诗人作为辅助，分配较少点数，但不可忽略。\n\n基于以上分析，我决定分配点数如下：\n- Role1 (圣武士)：15点（前线坦克）\n- Role2 (野蛮人)：20点（主要输出）\n- Role3 (牧师)：20点（关键治疗）\n- Role4 (吟游诗人)：10点（辅助支援）\n- Role5 (武僧)：15点（机动输出）\n- Role6 (德鲁伊)：10点（灵活角色）\n- Role7 (战士)：10点（平衡前线）\n\n总和：15+20+20+10+15+10+10=100点。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：武僧）",
+            "role_obs": [
+                "牧师",
+                "战士",
+                "圣武士",
+                "武僧",
+                "吟游诗人",
+                "野蛮人",
+                "德鲁伊"
+            ],
+            "response": "首先，我来简要分析一下如何为这些队员分配行动点数。  \n\n**分析思路：**  \n1. **职业定位与团队作用**：  \n   - 战士（Role2）、野蛮人（Role6）通常是前排坦克或物理输出，需要较多行动点数来承担伤害或制造输出。  \n   - 圣武士（Role3）能抗能奶能辅助，也需要一定点数来平衡攻防与支援。  \n   - 牧师（Role1）和德鲁伊（Role7）是治疗与辅助，点数分配应保证其能及时施放关键技能。  \n   - 武僧（Role4，与队长同职业）属于灵活的近战职业，可能需要中等偏上的点数来发挥连击与控制作用。  \n   - 吟游诗人（Role5）是辅助/控场，不需要太多点数，但也不能太少，以便使用关键技能。  \n\n2. **团队平衡**：  \n   - 前排（战士、野蛮人、圣武士）应占较大比例。  \n   - 治疗与辅助（牧师、德鲁伊）保持中等水平。  \n   - 武僧作为队长职业，可略高于辅助但低于主坦克。  \n   - 吟游诗人作为多功能辅助，分配较少但够用。  \n\n3. **分配原则**：  \n   - 优先保证坦克与核心输出的行动能力，再平衡辅助与治疗。  \n   - 总点数 100，按整数分配。  \n\n**初步分配设想**：  \n- Role2 战士：18  \n- Role6 野蛮人：18  \n- Role3 圣武士：16  \n- Role4 武僧：15  \n- Role1 牧师：12  \n- Role7 德鲁伊：12  \n- Role5 吟游诗人：9  \n总和 = 18+18+16+15+12+12+9 = 100  \n\n---\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 16,\n    \"Role4\": 15,\n    \"Role5\": 9,\n    \"Role6\": 18,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：武僧）",
+            "role_obs": [
+                "战士",
+                "武僧",
+                "牧师",
+                "圣武士",
+                "吟游诗人",
+                "野蛮人",
+                "德鲁伊"
+            ],
+            "response": "首先，我需要根据各角色的职业特点和在团队中的可能作用来分配这100点行动点数。以下是简要分析：\n\n1. **Role1 (战士)**：作为前排坦克和主要物理输出，通常需要较多资源来维持生存和输出能力。分配较高点数。\n2. **Role2 (武僧)**：作为敏捷型近战，兼具输出和控制，但可能不如战士全面，分配中等点数。\n3. **Role3 (牧师)**：治疗和支持核心，资源需求较高以确保团队生存，分配较高点数。\n4. **Role4 (圣武士)**：坦克兼辅助，能抗能奶，但可能不如战士或牧师专精，分配中等点数。\n5. **Role5 (吟游诗人)**：辅助和控制角色，资源需求中等，用于增强团队或削弱敌人。\n6. **Role6 (野蛮人)**：高输出但较脆，需要资源来发挥爆发力，分配中等偏上点数。\n7. **Role7 (德鲁伊)**：多功能角色，可治疗、输出或控制，资源需求中等。\n\n基于以上分析，我会优先保证战士和牧师的资源，其次是野蛮人和武僧，然后是圣武士和德鲁伊，最后是吟游诗人。分配点数总和为100。\n\n最终分配决定如下：\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：武僧）",
+            "role_obs": [
+                "武僧",
+                "圣武士",
+                "德鲁伊",
+                "吟游诗人",
+                "牧师",
+                "战士",
+                "野蛮人"
+            ],
+            "response": "作为武僧队长，我会根据各职业在团队中的战术定位和资源需求来分配行动点数。以下是简要分析：\n\n1. **Role1（武僧）**：作为队长且职业灵活，适合高机动性任务，分配较多点数以发挥先手和控制作用。\n2. **Role2（圣武士）**：兼顾防御与辅助，需要一定点数维持前排和技能释放。\n3. **Role3（德鲁伊）**：多功能职业，可治疗或召唤，分配中等点数平衡团队支援。\n4. **Role4（吟游诗人）**：核心辅助角色，依赖点数施展增益和控场技能，需优先保障。\n5. **Role5（牧师）**：主要治疗者，必须分配充足点数以维持团队生存。\n6. **Role6（战士）**：主力物理输出和坦克，需要较高点数承担伤害与爆发。\n7. **Role7（野蛮人）**：高爆发近战，但生存依赖队友支援，分配中等点数避免资源浪费。\n\n分配原则：优先保证治疗和核心辅助（牧师、吟游诗人），强化主力输出（战士、武僧），平衡其他角色功能。总行动点数严格为100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 12,\n    \"Role4\": 16,\n    \"Role5\": 15,\n    \"Role6\": 17,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "（career：武僧）",
+            "role_obs": [
+                "吟游诗人",
+                "野蛮人",
+                "武僧",
+                "圣武士",
+                "战士",
+                "德鲁伊",
+                "牧师"
+            ],
+            "response": "作为武僧队长，我会根据各职业在团队中的战术定位和资源需求来分配行动点数。以下是我的简要分析：\n\n1. **Role1 吟游诗人**：擅长辅助和控制，通常不需要大量行动点数，适合中等分配以维持技能使用。\n2. **Role2 野蛮人**：近战主力，高伤害输出，需要较多点数来发动强力攻击和承受伤害。\n3. **Role3 武僧**（我自己）：作为敏捷型角色，依赖点数进行快速连击和闪避，但需平衡团队整体，分配适中。\n4. **Role4 圣武士**：坦克兼治疗，需要稳定点数来维持防御和支援能力。\n5. **Role5 战士**：核心物理输出，应分配较高点数以最大化伤害和生存。\n6. **Role6 德鲁伊**：多功能角色，可治疗或输出，分配中等点数以保持灵活性。\n7. **Role7 牧师**：主要治疗者，需要足够点数来保证团队生存，分配较高。\n\n基于以上分析，我优先保证战士、野蛮人和牧师的点数，同时平衡其他角色的需求。分配总和为100点。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：武僧）",
+            "role_obs": [
+                "吟游诗人",
+                "牧师",
+                "武僧",
+                "战士",
+                "野蛮人",
+                "德鲁伊",
+                "圣武士"
+            ],
+            "response": "作为武僧队长，我会根据各职业在团队中的战术定位和资源需求来分配行动点数。以下是我的简要分析：\n\n1. **Role1 吟游诗人**：通常负责辅助和控制，需要一定点数来维持增益效果，但并非核心输出。\n2. **Role2 牧师**：治疗和支援的关键角色，应分配较多点数以保证团队生存。\n3. **Role3 武僧**（我自己）：作为高机动性近战职业，需要足够点数进行快速打击和闪避。\n4. **Role4 战士**：主力坦克和输出，应分配较多点数以维持前线压力。\n5. **Role5 野蛮人**：高爆发近战，但生存能力较强，点数需求略低于战士。\n6. **Role6 德鲁伊**：灵活角色，可治疗或输出，根据团队平衡分配中等点数。\n7. **Role7 圣武士**：兼具坦克和治疗能力，需稳定点数支持。\n\n分配原则：优先保证治疗（牧师）和核心输出（战士、武僧）的资源，再平衡其他角色。最终分配如下：\n\n- 牧师和战士各得20点，确保关键功能。\n- 武僧作为队长兼输出，分配18点。\n- 野蛮人和圣武士各得14点，维持次要核心角色。\n- 吟游诗人和德鲁伊各得7点，用于基础辅助。\n\n总点数：20 + 20 + 18 + 14 + 14 + 7 + 7 = 100。\n\n```json\n{\n    \"Role1\": 7,\n    \"Role2\": 20,\n    \"Role3\": 18,\n    \"Role4\": 20,\n    \"Role5\": 14,\n    \"Role6\": 7,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（career：圣武士）",
+            "role_obs": [
+                "野蛮人",
+                "德鲁伊",
+                "牧师",
+                "战士",
+                "武僧",
+                "吟游诗人",
+                "圣武士"
+            ],
+            "response": "作为圣武士队长，我会根据各职业在团队中的战术定位和资源需求来分配行动点数。以下是简要分析：\n\n1. **Role1 野蛮人**：近战主力，高生存能力但依赖行动点进行爆发输出，分配较多点数。\n2. **Role2 德鲁伊**：多功能角色（治疗/控场/变形），需均衡支援，分配中等点数。\n3. **Role3 牧师**：核心治疗与辅助，保障团队生存，分配中等偏上点数。\n4. **Role4 战士**：稳定物理输出与防御，需持续作战资源，分配中等点数。\n5. **Role5 武僧**：高机动性控场与爆发，但技能消耗低，分配较少点数。\n6. **Role6 吟游诗人**：团队增益与灵活支援，依赖行动点施展能力，分配中等点数。\n7. **Role7 圣武士**（自身）：兼顾输出与辅助，作为队长需保留一定资源应对突发情况，分配中等点数。\n\n分配原则：优先强化核心输出（野蛮人）和关键辅助（牧师），平衡其他角色的功能性，确保团队协同。最终分配如下：\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 14,\n    \"Role3\": 16,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 13,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：圣武士）",
+            "role_obs": [
+                "圣武士",
+                "牧师",
+                "野蛮人",
+                "战士",
+                "武僧",
+                "德鲁伊",
+                "吟游诗人"
+            ],
+            "response": "首先，我需要分析每个角色的职业（career）及其在游戏中的可能作用，以便合理分配这100点行动点数。行动点数可以用于游戏内的任何活动，因此分配时应考虑各职业的特长和团队的整体需求。\n\n1. **Role1 (圣武士)**：作为圣武士，通常具有高防御和治疗能力，也可能有较强的近战输出。在团队中可能承担坦克和辅助的角色。\n2. **Role2 (牧师)**：牧师是主要的治疗者和支援者，可能使用法术治疗队友或提供增益效果。行动点数分配应确保其能频繁施法。\n3. **Role3 (野蛮人)**：野蛮人通常是高伤害的近战输出，依赖狂暴等技能造成大量伤害。分配点数可增强其攻击频率或生存能力。\n4. **Role4 (战士)**：战士是均衡的近战职业，能承受伤害并输出稳定伤害。可能作为次要坦克或输出。\n5. **Role5 (武僧)**：武僧以高机动性和快速攻击著称，可能负责控制战场或快速消灭关键目标。\n6. **Role6 (德鲁伊)**：德鲁伊是多面手，能治疗、输出或变身成动物坦克。灵活性高，需要点数支持多种能力。\n7. **Role7 (吟游诗人)**：吟游诗人是支援角色，通过歌曲提供增益、控制或治疗。分配点数可增强其辅助效果。\n\n分配原则：\n- 优先考虑关键角色如治疗者（牧师）和主要坦克（圣武士），以确保团队生存。\n- 输出角色（野蛮人、战士、武僧）分配适量点数以维持伤害。\n- 多面手（德鲁伊、吟游诗人）分配点数以发挥其灵活性。\n\n具体分配思路：\n- 牧师（Role2）作为主要治疗者，分配较高点数（例如20点），以确保能频繁使用治疗法术。\n- 圣武士（Role1）作为坦克和辅助，分配较高点数（例如18点），以维持防御和支援能力。\n- 野蛮人（Role3）作为主要输出，分配较高点数（例如16点），以增强伤害输出。\n- 战士（Role4）作为稳定输出，分配适中点数（例如14点）。\n- 武僧（Role5）以机动性和控制为主，分配适中点数（例如12点）。\n- 德鲁伊（Role6）作为多面手，分配适中点数（例如10点），以支持其多种能力。\n- 吟游诗人（Role7）作为支援，分配较低点数（例如10点），但确保其能有效辅助。\n\n检查总和：18 + 20 + 16 + 14 + 12 + 10 + 10 = 100，符合要求。\n\n最终决定如下：\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 20,\n    \"Role3\": 16,\n    \"Role4\": 14,\n    \"Role5\": 12,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：圣武士）",
+            "role_obs": [
+                "圣武士",
+                "武僧",
+                "德鲁伊",
+                "牧师",
+                "战士",
+                "吟游诗人",
+                "野蛮人"
+            ],
+            "response": "作为圣武士队长，我会根据团队中各职业的特点和战斗中的职责来分配行动点数。以下是简要分析：\n\n1. **Role1（圣武士）**：作为队长且同为圣武士，通常承担坦克和治疗支援的角色，需要较高的行动点数来维持防御和辅助能力。\n2. **Role2（武僧）**：高机动性和爆发输出，但依赖资源较少，可适度分配。\n3. **Role3（德鲁伊）**：多功能角色，能治疗、召唤或输出，需中等资源支持灵活性。\n4. **Role4（牧师）**：核心治疗和支持者，必须保证充足点数以维持团队生存。\n5. **Role5（战士）**：主要物理输出和副坦克，需要较高点数来持续作战。\n6. **Role6（吟游诗人）**：辅助和控制角色，资源需求较低，依赖技能而非点数。\n7. **Role7（野蛮人）**：高耐久和近战输出，但技能消耗较少，可分配中等点数。\n\n基于以上分析，优先保障坦克（圣武士、战士）、治疗（牧师）和关键输出（野蛮人），其他角色酌情分配。总点数100，分配如下：\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 18,\n    \"Role6\": 7,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：圣武士）",
+            "role_obs": [
+                "牧师",
+                "德鲁伊",
+                "野蛮人",
+                "战士",
+                "武僧",
+                "吟游诗人",
+                "圣武士"
+            ],
+            "response": "作为圣武士队长，我会根据队伍成员的职业特点和团队需求来分配行动点数。以下是简要分析：\n\n1. **Role1（牧师）**：作为治疗和支援核心，需要较多点数来保证团队生存能力。\n2. **Role2（德鲁伊）**：具备治疗和自然法术，但灵活性较高，分配中等点数。\n3. **Role3（野蛮人）**：近战输出主力，但依赖狂暴，点数需求适中。\n4. **Role4（战士）**：稳定的物理输出和防御核心，需要较高点数维持前线。\n5. **Role5（武僧）**：高机动性和控制，但资源消耗较低，分配较少点数。\n6. **Role6（吟游诗人）**：辅助和控制角色，通过技能支援，点数需求中等。\n7. **Role7（圣武士）**：作为队长兼坦克/输出，需要足够点数领导团队。\n\n基于以上，优先保障牧师、战士和圣武士的点数，其他角色按需分配。总点数100，分配如下：\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 13,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：圣武士）",
+            "role_obs": [
+                "牧师",
+                "德鲁伊",
+                "圣武士",
+                "野蛮人",
+                "战士",
+                "吟游诗人",
+                "武僧"
+            ],
+            "response": "### 分析\n作为圣武士队长，我需要根据各职业在团队中的职责和战斗贡献来合理分配行动点数。以下是简要分析：\n\n1. **Role1（牧师）**：作为治疗和支援核心，需要较多点数来维持团队生存能力。\n2. **Role2（德鲁伊）**：具备治疗和控场能力，但不如牧师专注，分配中等点数。\n3. **Role3（圣武士）**：作为队长兼坦克/输出，需较高点数以发挥领导作用。\n4. **Role4（野蛮人）**：近战输出主力，需要较多点数来保持高伤害。\n5. **Role5（战士）**：稳定坦克/输出，分配中等点数以平衡团队。\n6. **Role6（吟游诗人）**：辅助和控场角色，点数需求较低。\n7. **Role7（武僧）**：高机动性输出，但生存能力较弱，分配中等点数。\n\n分配原则：优先保障治疗（牧师）和核心输出（野蛮人、圣武士），其余角色按贡献度分配。\n\n### 分配决定\n- 牧师（Role1）：20点（保障治疗）\n- 德鲁伊（Role2）：12点（辅助治疗/控场）\n- 圣武士（Role3）：18点（队长兼输出）\n- 野蛮人（Role4）：20点（主力输出）\n- 战士（Role5）：14点（稳定坦克）\n- 吟游诗人（Role6）：8点（低优先级辅助）\n- 武僧（Role7）：8点（机动输出）\n\n总和：20 + 12 + 18 + 20 + 14 + 8 + 8 = 100点。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 20,\n    \"Role5\": 14,\n    \"Role6\": 8,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "（career：圣武士）",
+            "role_obs": [
+                "野蛮人",
+                "吟游诗人",
+                "武僧",
+                "牧师",
+                "德鲁伊",
+                "圣武士",
+                "战士"
+            ],
+            "response": "作为圣武士队长，我会根据各职业在团队中的职责和战斗贡献来分配行动点数。以下是简要分析：\n\n1. **Role1（野蛮人）**：近战输出核心，高生存能力，适合承担伤害并制造爆发输出，分配较多点数。\n2. **Role2（吟游诗人）**：辅助角色，提供增益和控制，但直接战斗贡献较低，分配较少点数。\n3. **Role3（武僧）**：高机动性近战，兼具控制和输出，分配中等点数。\n4. **Role4（牧师）**：治疗和支援关键，保障团队生存，分配较多点数。\n5. **Role5（德鲁伊）**：多功能角色，可治疗或输出，但不如专精职业突出，分配中等点数。\n6. **Role6（圣武士）**：作为队长兼坦克/支援，平衡攻防，分配中等偏上点数。\n7. **Role7（战士）**：稳定近战输出和防御核心，分配较多点数。\n\n分配原则：优先保证前排坦克和治疗的资源，其次是主力输出，辅助角色酌情分配。总点数100，按整数分配。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 8,\n    \"Role3\": 12,\n    \"Role4\": 17,\n    \"Role5\": 12,\n    \"Role6\": 15,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：圣武士）",
+            "role_obs": [
+                "武僧",
+                "德鲁伊",
+                "圣武士",
+                "牧师",
+                "吟游诗人",
+                "野蛮人",
+                "战士"
+            ],
+            "response": "### 分析\n作为圣武士队长，我需要根据各职业在团队中的角色和战术需求来分配行动点数。以下是简要分析：\n\n1. **Role1 (武僧)**：高机动性和爆发力，适合快速切入战场或执行关键任务，但持续作战能力一般。分配适量点数以发挥其敏捷优势。\n2. **Role2 (德鲁伊)**：多功能职业，能治疗、召唤或控制环境，在复杂局面中作用显著。分配较多点数以支持其多变能力。\n3. **Role3 (圣武士)**：作为队长自身，兼顾防御、治疗和输出，是团队核心。分配较高点数以维持生存和领导作用。\n4. **Role4 (牧师)**：主要治疗者和支援角色，对团队生存至关重要。分配较多点数确保其持续治疗能力。\n5. **Role5 (吟游诗人)**：辅助和控制专家，能增强团队或削弱敌人，但依赖资源生效。分配中等点数以平衡其辅助作用。\n6. **Role6 (野蛮人)**：高生命值和近战输出，但战术灵活性较低。分配中等点数，避免浪费在简单冲锋上。\n7. **Role7 (战士)**：稳定前排和伤害输出，是团队基石。分配较高点数以保障其持续作战。\n\n总体策略：优先支援和治疗角色（德鲁伊、牧师）获得较多资源，核心输出和坦克（圣武士、战士）次之，其他角色根据战术重要性分配。点数总和为100，且为整数。\n\n### 分配决定\n我决定将行动点数分配如下：\n- Role1 (武僧)：12点（发挥其机动性，执行快速任务）\n- Role2 (德鲁伊)：18点（支持其多功能角色，应对各种情况）\n- Role3 (圣武士)：16点（作为队长，保持核心地位）\n- Role4 (牧师)：17点（确保治疗和支援不中断）\n- Role5 (吟游诗人)：13点（平衡辅助能力，避免过度依赖）\n- Role6 (野蛮人)：12点（足够用于关键近战输出）\n- Role7 (战士)：12点（维持其稳定前排作用）\n\n总和：12 + 18 + 16 + 17 + 13 + 12 + 12 = 100，符合要求。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 16,\n    \"Role4\": 17,\n    \"Role5\": 13,\n    \"Role6\": 12,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：圣武士）",
+            "role_obs": [
+                "武僧",
+                "德鲁伊",
+                "牧师",
+                "吟游诗人",
+                "圣武士",
+                "野蛮人",
+                "战士"
+            ],
+            "response": "首先，我需要分析每个角色的职业（career）及其在团队中的潜在作用，以便合理分配这100点行动点数。行动点数可用于游戏内的任何活动，因此分配时应考虑角色的核心职责、团队协作需求以及各职业的专长。\n\n1. **Role1 (武僧)**：通常以高机动性和单体输出为主，适合快速突进或控制关键目标。但团队中已有其他近战职业，可能不需要过多点数。\n2. **Role2 (德鲁伊)**：多功能角色，可治疗、召唤或控制环境。在团队中提供辅助和应变能力，值得分配中等点数。\n3. **Role3 (牧师)**：核心治疗和支持者，保证团队生存的关键。应分配较高点数以确保其能频繁使用技能。\n4. **Role4 (吟游诗人)**：提供增益、减益和控场能力，增强团队整体表现。分配中等点数以支持其辅助作用。\n5. **Role5 (圣武士)**：作为队长，圣武士兼具输出、防护和治疗能力，是团队的中坚力量。应分配较高点数以发挥其全面性。\n6. **Role6 (野蛮人)**：高生命值和近战输出，适合承受伤害和爆发。但团队中战士也承担类似角色，可分配中等点数。\n7. **Role7 (战士)**：主要坦克和稳定输出，负责吸引火力和保护队友。应分配高点数以确保其持久作战能力。\n\n分配原则：\n- 优先支持核心治疗（牧师）和坦克（战士），以维持团队稳定性。\n- 圣武士作为队长，分配较高点数以平衡其多面手角色。\n- 其他角色根据其辅助或输出潜力分配剩余点数，确保团队均衡。\n\n具体分配：\n- 牧师（Role3）和战士（Role7）各分配20点，以突出其核心作用。\n- 圣武士（Role5）分配18点，作为队长保持活跃。\n- 德鲁伊（Role2）和吟游诗人（Role4）各分配14点，支持其多功能性。\n- 武僧（Role1）和野蛮人（Role6）各分配7点，作为补充输出和控制。\n\n总和：20 + 20 + 18 + 14 + 14 + 7 + 7 = 100点。\n\n最终决定如下：\n\n```json\n{\n    \"Role1\": 7,\n    \"Role2\": 14,\n    \"Role3\": 20,\n    \"Role4\": 14,\n    \"Role5\": 18,\n    \"Role6\": 7,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：圣武士）",
+            "role_obs": [
+                "牧师",
+                "吟游诗人",
+                "野蛮人",
+                "德鲁伊",
+                "武僧",
+                "战士",
+                "圣武士"
+            ],
+            "response": "首先，我需要分析每个角色的职业（career）及其在游戏中的可能作用，以便合理分配这100点行动点数。行动点数可用于游戏内的任何活动，因此分配时应考虑各职业的特长和团队的整体需求。\n\n1. **Role1（牧师）**：通常作为治疗者和支援角色，在团队中非常重要，尤其是在应对伤害和状态异常时。需要一定的行动点数来保证其能够及时施放治疗法术或支援技能。\n\n2. **Role2（吟游诗人）**：多才多艺的角色，可以提供增益效果、控制敌人或进行一些辅助行动。虽然不是核心输出，但灵活性强，值得分配一些点数以发挥其多功能性。\n\n3. **Role3（野蛮人）**：高生命值和近战输出角色，通常在战斗中承担主要伤害输出或坦克职责。需要较多的行动点数来维持其攻击和生存能力。\n\n4. **Role4（德鲁伊）**：具有治疗、召唤和变形能力，是一个多面手。在团队中可能扮演支援或控制角色，需要适中的点数来平衡其多种功能。\n\n5. **Role5（武僧）**：高机动性和爆发伤害角色，擅长快速解决战斗或执行特定任务。需要一定的点数来发挥其敏捷和技巧。\n\n6. **Role6（战士）**：标准的物理输出和防御角色，可靠且稳定，在团队中往往是核心战力之一。需要较多的点数以保证其持续作战能力。\n\n7. **Role7（圣武士）**：作为队长，圣武士通常是团队中的领袖，兼具防御、治疗和输出能力。由于其多面性，需要分配较多的点数来发挥其全面作用。\n\n分配策略：\n- 优先保证核心角色（如战士、野蛮人、圣武士）有足够的点数，因为他们对团队生存和输出贡献最大。\n- 支援角色（如牧师、德鲁伊）分配适中点数，以确保团队稳定。\n- 辅助角色（如吟游诗人、武僧）分配较少点数，但不可忽略，以保持团队多样性。\n\n基于以上分析，我将点数分配如下：\n- Role1（牧师）：15点（保证基本治疗和支援）\n- Role2（吟游诗人）：10点（用于辅助行动）\n- Role3（野蛮人）：20点（高输出角色，需要较多点数）\n- Role4（德鲁伊）：15点（多面手，平衡分配）\n- Role5（武僧）：10点（机动角色，适度点数）\n- Role6（战士）：20点（核心输出，需要高点数）\n- Role7（圣武士）：10点（作为队长，虽然多面，但已通过领导力间接贡献，因此分配适中点数；注意：队长本身也是圣武士，但分配时需考虑整体平衡）\n\n总和：15+10+20+15+10+20+10=100点。\n\n最终决定如下：\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：圣武士）",
+            "role_obs": [
+                "野蛮人",
+                "德鲁伊",
+                "圣武士",
+                "武僧",
+                "牧师",
+                "战士",
+                "吟游诗人"
+            ],
+            "response": "首先，我需要分析每个角色的职业特点及其在团队中的潜在作用，以便合理分配100点行动点数。  \n\n- **Role1（野蛮人）**：通常是高伤害的近战输出，适合在前线作战，可能需要较多行动点数来发动强力攻击或承受伤害。  \n- **Role2（德鲁伊）**：具备治疗、召唤和法术能力，较为全能，但可能不如专职输出或治疗角色极端。  \n- **Role3（圣武士）**（我自己）：能打能抗能治疗，但作为队长，我可以适当减少自己的资源，让队友发挥更大作用。  \n- **Role4（武僧）**：高机动性、多段攻击和控制，适合快速解决关键目标，需要一定行动点支持。  \n- **Role5（牧师）**：主要治疗者和辅助，保证团队生存，必须分配较多点数以确保治疗技能可用。  \n- **Role6（战士）**：稳定的物理输出和坦克，承担伤害并控制战场，需要较多点数维持防御和攻击。  \n- **Role7（吟游诗人）**：团队增益、控制和部分治疗，作用灵活但通常不需要最高优先级的点数分配。  \n\n**分配思路**：  \n1. 保证治疗（牧师）有足够点数应对紧急情况。  \n2. 主力坦克/输出（战士、野蛮人）分配较多点数。  \n3. 圣武士作为队长兼顾辅助与输出，取中等值。  \n4. 德鲁伊、武僧、吟游诗人根据战术需要分配适中点数。  \n\n**具体分配方案**：  \n- Role1（野蛮人）：16  \n- Role2（德鲁伊）：12  \n- Role3（圣武士）：14  \n- Role4（武僧）：13  \n- Role5（牧师）：18  \n- Role6（战士）：17  \n- Role7（吟游诗人）：10  \n\n总和 = 16 + 12 + 14 + 13 + 18 + 17 + 10 = 100  \n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 13,\n    \"Role5\": 18,\n    \"Role6\": 17,\n    \"Role7\": 10\n}\n```"
+        }
+    ]
+}

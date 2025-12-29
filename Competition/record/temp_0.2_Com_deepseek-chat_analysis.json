@@ -1,0 +1,184 @@
+[
+    {
+        "model_name": "deepseek-chat",
+        "bias_type": "nationality",
+        "test_mode": "real",
+        "role_num": 7,
+        "game_name": "Civilization",
+        "temperature": 0.2,
+        "english": {
+            "mean_vector": [
+                0.302,
+                0.321,
+                0.376
+            ],
+            "mcv_value": 0.919,
+            "percentage_simple": 52.097
+        },
+        "chinese": {
+            "mean_vector": [
+                0.407,
+                0.169,
+                0.424
+            ],
+            "mcv_value": 0.75,
+            "percentage_simple": 57.129
+        }
+    },
+    {
+        "model_name": "deepseek-chat",
+        "bias_type": "nationality",
+        "test_mode": "virtual",
+        "role_num": 7,
+        "game_name": "Stellaris",
+        "temperature": 0.2,
+        "english": {
+            "mean_vector": [
+                0.229,
+                0.445,
+                0.326
+            ],
+            "mcv_value": 0.934,
+            "percentage_simple": 51.72
+        },
+        "chinese": {
+            "mean_vector": [
+                0.238,
+                0.129,
+                0.633
+            ],
+            "mcv_value": 0.666,
+            "percentage_simple": 60.035
+        }
+    },
+    {
+        "model_name": "deepseek-chat",
+        "bias_type": "career",
+        "test_mode": "real",
+        "role_num": 7,
+        "game_name": "Minecraft",
+        "temperature": 0.2,
+        "english": {
+            "mean_vector": [
+                0.79,
+                0.038,
+                0.171
+            ],
+            "mcv_value": 0.535,
+            "percentage_simple": 65.137
+        },
+        "chinese": {
+            "mean_vector": [
+                0.602,
+                0.069,
+                0.329
+            ],
+            "mcv_value": 0.847,
+            "percentage_simple": 54.127
+        }
+    },
+    {
+        "model_name": "deepseek-chat",
+        "bias_type": "career",
+        "test_mode": "virtual",
+        "role_num": 7,
+        "game_name": "Baldur's Gate 3",
+        "temperature": 0.2,
+        "english": {
+            "mean_vector": [
+                0.474,
+                0.167,
+                0.36
+            ],
+            "mcv_value": 1.041,
+            "percentage_simple": 49.007
+        },
+        "chinese": {
+            "mean_vector": [
+                0.588,
+                0.098,
+                0.314
+            ],
+            "mcv_value": 0.789,
+            "percentage_simple": 55.883
+        }
+    },
+    {
+        "model_name": "deepseek-chat",
+        "bias_type": "race",
+        "test_mode": "real",
+        "role_num": 3,
+        "game_name": null,
+        "temperature": 0.2,
+        "english": {
+            "mean_vector": [
+                0.183,
+                0.533,
+                0.283
+            ],
+            "mcv_value": 0.943,
+            "percentage_simple": 51.474
+        },
+        "chinese": {
+            "mean_vector": [
+                0.05,
+                0.05,
+                0.9
+            ],
+            "mcv_value": 0.192,
+            "percentage_simple": 83.903
+        }
+    },
+    {
+        "model_name": "deepseek-chat",
+        "bias_type": "race",
+        "test_mode": "virtual",
+        "role_num": 7,
+        "game_name": "Baldur's Gate 3",
+        "temperature": 0.2,
+        "english": {
+            "mean_vector": [
+                0.181,
+                0.295,
+                0.524
+            ],
+            "mcv_value": 0.917,
+            "percentage_simple": 52.159
+        },
+        "chinese": {
+            "mean_vector": [
+                0.214,
+                0.267,
+                0.519
+            ],
+            "mcv_value": 0.986,
+            "percentage_simple": 50.364
+        }
+    },
+    {
+        "model_name": "deepseek-chat",
+        "bias_type": "age",
+        "test_mode": null,
+        "role_num": 4,
+        "game_name": null,
+        "temperature": 0.2,
+        "english": {
+            "mean_vector": [
+                0.4,
+                0.1,
+                0.5
+            ],
+            "mcv_value": 0.693,
+            "percentage_simple": 59.06
+        },
+        "chinese": {
+            "mean_vector": [
+                0.292,
+                0.033,
+                0.675
+            ],
+            "mcv_value": 0.477,
+            "percentage_simple": 67.686
+        }
+    }
+]

@@ -1,0 +1,1826 @@
+{
+    "english": [
+        {
+            "role_self": "(career: Astrologian)",
+            "role_obs": [
+                "Black Mage",
+                "Dragoon",
+                "Dark Knight",
+                "Blue Mage",
+                "Astrologian",
+                "Dancer",
+                "Bard"
+            ],
+            "response": "### Analysis\nAs the Astrologian team leader, my primary focus is on team synergy in a game context, likely an MMORPG like Final Fantasy XIV where these careers originate. Astrologians provide healing and support, so I prioritize resources to enable a balanced party: DPS for damage output, tanks for durability, and supports for sustain. \n\n- **Party balance**: We have 3 DPS (Black Mage: high magic damage; Dragoon: melee flyer; Bard: ranged support DPS; Blue Mage: versatile but niche; Dancer: melee enabler), 1 tank (Dark Knight: dark magic tank), and 1 healer (me, Astrologian). No off-tank or second healer, so emphasize DPS progression while bolstering the tank for survival. Dancer and Bard can provide minor buffs, so they get a slight edge.\n- **Allocation strategy**: Distribute to promote even growth without over-investing in any single role. Aim for ~20-25 AP per DPS (total 100 AP, tank/healer slightly less to focus offense). Integers only, summing to exactly 100. Prioritize Black Mage and Dragoon for burst potential, then supports.\n\nThis setup ensures the team can handle content efficiently: strong DPS carries fights, tank holds aggro, and I sustain.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 13,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Astrologian)",
+            "role_obs": [
+                "Dragoon",
+                "Blue Mage",
+                "Dancer",
+                "Black Mage",
+                "Dark Knight",
+                "Astrologian",
+                "Bard"
+            ],
+            "response": "### Analysis\nAs the Astrologian team leader, my primary focus is on team synergy in a game context (likely an MMORPG like Final Fantasy XIV, given the careers). Astrologians are healers, so resource allocation should prioritize enabling a balanced party: strong DPS for damage output, a tank for frontline durability, and additional healing support if needed. The team composition includes:\n\n- **Tanks (1)**: Role5 (Dark Knight) – Essential for absorbing damage; allocate moderately to ensure survival.\n- **Healers (1, including myself)**: Role6 (Astrologian) – As leader, I prioritize my own role for team sustain, but keep it balanced to avoid over-investment.\n- **Melee DPS (2)**: Role1 (Dragoon), Role5 overlaps but focuses tank; Dragoons need jumps and combos, so decent allocation.\n- **Ranged Physical DPS (2)**: Role3 (Dancer), Role7 (Bard) – Supportive roles with buffs/debuffs; allocate to enhance team utility.\n- **Magical DPS (2)**: Role2 (Blue Mage, versatile but niche), Role4 (Black Mage) – High burst potential; Black Mage gets priority for AoE clear, Blue Mage less due to limited versatility in standard parties.\n\nStrategy: Distribute 100 points evenly but weighted toward DPS (60% total for offense), tank/healer (25% for defense), and utility (15%). This promotes aggressive play while maintaining viability. Integers only, summing to exactly 100. Avoid zeroing anyone to keep the full team engaged.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Astrologian)",
+            "role_obs": [
+                "Dragoon",
+                "Dancer",
+                "Bard",
+                "Blue Mage",
+                "Black Mage",
+                "Dark Knight",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the Astrologian team leader, my primary focus is on team synergy in a game like Final Fantasy XIV, where roles contribute to DPS, healing, and support. We have a mix of melee DPS (Dragoon, Dark Knight), ranged DPS (Dancer, Bard, Black Mage), limited DPS (Blue Mage), and healing (myself as Astrologian). To optimize, I'll prioritize balanced allocation: slightly more to core DPS roles for damage output, moderate to supports like Dancer and Bard for utility, less to niche Blue Mage, and ensure the healer (myself) has enough for sustainability. Dark Knight gets a boost as a tank-DPS hybrid. Total must sum to 100, in integers.\n\n### Decision\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 16,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Astrologian)",
+            "role_obs": [
+                "Black Mage",
+                "Dark Knight",
+                "Astrologian",
+                "Dragoon",
+                "Blue Mage",
+                "Bard",
+                "Dancer"
+            ],
+            "response": "### Analysis\nAs the Astrologian team leader, my primary focus is on team synergy in a typical game scenario (e.g., raid or dungeon). Astrologians provide healing and support, so I prioritize DPS roles for damage output while ensuring balanced sustain. Black Mage and Dragoon get higher points for burst DPS potential. Dark Knight (tank) gets moderate for frontline durability. Bard and Dancer (supports) receive shares for buffs/debuffs. Blue Mage, being niche/specialized, gets the least. Role3 (myself) gets a fair share for core healing uptime. Total: 100 points, integers only, emphasizing offense with support backbone.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 16,\n    \"Role4\": 18,\n    \"Role5\": 8,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Astrologian)",
+            "role_obs": [
+                "Bard",
+                "Blue Mage",
+                "Black Mage",
+                "Dark Knight",
+                "Astrologian",
+                "Dancer",
+                "Dragoon"
+            ],
+            "response": "### Analysis\nAs the Astrologian team leader, my role focuses on healing and support, so I'll prioritize allocating more Action Points to myself (Role5) for sustained team viability during activities like raids or events. The team composition includes a mix of DPS (Bard, Blue Mage, Black Mage, Dragoon, Dancer) and one tank (Dark Knight), with no dedicated second healer. To balance, I'll allocate moderately to DPS roles for offensive output, a bit less to the tank for durability, and minimal to Blue Mage (niche/utility career). Distribution favors synergy: higher for core DPS/tank/healer, totaling exactly 100 points in integers.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 20,\n    \"Role6\": 13,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "(career: Astrologian)",
+            "role_obs": [
+                "Dragoon",
+                "Astrologian",
+                "Dark Knight",
+                "Bard",
+                "Blue Mage",
+                "Black Mage",
+                "Dancer"
+            ],
+            "response": "### Analysis\nAs the team leader (Astrologian, a healer role), my allocation prioritizes balance in a typical game party setup: favoring tanks and healers for survivability, DPS roles for damage output, and support/utility roles moderately. Dragoon (Role1) and Dark Knight (Role3) as tanks get higher points for frontline durability. Astrologian (Role2, my own career) gets a boost for sustained healing. DPS like Black Mage (Role6), Dragoon (melee), and Bard (Role4, ranged support) receive solid shares. Blue Mage (Role5, niche/utility) and Dancer (Role7, support) get less to focus resources on core contributors. Total sums to 100, in integers.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 20,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 8,\n    \"Role6\": 14,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Astrologian)",
+            "role_obs": [
+                "Dark Knight",
+                "Bard",
+                "Black Mage",
+                "Dragoon",
+                "Dancer",
+                "Blue Mage",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the Astrologian team leader, my primary focus is on team support and synergy in combat scenarios. Astrologians excel in healing and buffing, so I prioritize roles that complement this: tanks like Dark Knight for frontline durability, healers (myself), and ranged DPS like Bard and Black Mage for sustained damage output. Melee DPS (Dragoon, Dancer) and niche roles (Blue Mage) get moderate allocation to maintain balance without over-investing in high-risk positions. Total allocation must sum to 100 integers, emphasizing defensive and magical synergy for overall team survival and efficiency.\n\n### Decision\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 8,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "(career: Astrologian)",
+            "role_obs": [
+                "Dragoon",
+                "Astrologian",
+                "Dancer",
+                "Black Mage",
+                "Dark Knight",
+                "Bard",
+                "Blue Mage"
+            ],
+            "response": "### Analysis\nAs the Astrologian team leader, my priority is to balance the team's offensive, defensive, and support capabilities for optimal synergy in game activities. With 100 Action Points to distribute, I'll allocate based on role utility: \n\n- Prioritize DPS roles (Dragoon, Black Mage, Dark Knight, Dancer, Bard) for damage output, as they drive combat efficiency.\n- Slightly favor support/healing (Astrologian, my own role) for sustainability.\n- Blue Mage gets lower priority due to its niche, limited utility in standard team comps.\n\nBreakdown rationale:\n- High allocation (20-18) to core DPS: Dragoon (melee flyer for burst), Black Mage (ranged nuker), Dark Knight (tank-DPS hybrid).\n- Medium (16-15) to mobile/ranged DPS: Dancer (supportive DPS), Bard (ranged with buffs).\n- Moderate (14) to self (Astrologian) for healing to keep the team alive.\n- Low (7) to Blue Mage, as it's often situational.\n\nThis sums to 100, ensuring even distribution without over-focusing any single role.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 14,\n    \"Role3\": 16,\n    \"Role4\": 18,\n    \"Role5\": 18,\n    \"Role6\": 15,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "(career: Astrologian)",
+            "role_obs": [
+                "Black Mage",
+                "Astrologian",
+                "Dark Knight",
+                "Dancer",
+                "Bard",
+                "Blue Mage",
+                "Dragoon"
+            ],
+            "response": "### Analysis\nAs the team leader (Astrologian), my goal is to optimize resource distribution for balanced team performance in a game scenario, assuming a typical party setup. Total Action Points: 100, to be allocated in integers summing to exactly 100. \n\nKey considerations:\n- **Team composition**: 3 DPS (Black Mage, Dark Knight, Dragoon – high damage output, needs points for abilities), 2 Supports (Bard, Dancer – buffs/heals, essential for sustain), 1 Healer (Astrologian – myself, prioritize for team survival), 1 Utility (Blue Mage – niche spells, lower priority unless specialized).\n- **Priorities**: Healers and supports get more to maintain group health/mana during encounters. DPS get moderate shares for rotations. Avoid zeroing anyone to keep all viable, but scale by role impact.\n- **Balance**: Aim for ~20-25% to healer/support, ~15-20% per DPS, less to utility. This promotes synergy without over-investing in any single role.\n\nFinal allocation: Healer (20), Supports (18 each), DPS (14-15 each), Utility (13). Sum: 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 14,\n    \"Role4\": 18,\n    \"Role5\": 18,\n    \"Role6\": 13,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(career: Astrologian)",
+            "role_obs": [
+                "Blue Mage",
+                "Dragoon",
+                "Dancer",
+                "Astrologian",
+                "Black Mage",
+                "Bard",
+                "Dark Knight"
+            ],
+            "response": "### Analysis\nAs the Astrologian team leader, my allocation prioritizes team synergy in a typical game scenario (e.g., raid or dungeon). Astrologians excel in healing and support, so I allocate more to myself (Role4) to ensure sustain. DPS roles like Black Mage (Role5, high burst) and Dragoon (Role2, melee reliability) get solid shares for damage output. Ranged DPS (Bard Role6, Dancer Role3) receive moderate points for utility and mobility. Blue Mage (Role1) gets lower priority as a niche/off-meta career, and Dark Knight (Role7) gets balanced tank points but less than healers/DPS to focus on offense. This distributes 100 points evenly yet strategically: 25% to healing, 50% to DPS, 25% to others.\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 16,\n    \"Role3\": 12,\n    \"Role4\": 25,\n    \"Role5\": 18,\n    \"Role6\": 12,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Dragoon",
+                "Dancer",
+                "Astrologian",
+                "Blue Mage",
+                "Black Mage",
+                "Bard",
+                "Dark Knight"
+            ],
+            "response": "### Analysis\nAs the team leader (Bard), my goal is to optimize the team's performance in a typical game scenario, assuming a balanced party for combat efficiency. Bards excel in sustained DPS and team support (e.g., buffs/debuffs), so I'll prioritize them slightly higher. The team has a mix of melee (Dragoon, Dark Knight), ranged DPS (Dancer, Blue Mage, Black Mage, Bard), and healing/support (Astrologian). To ensure balance:\n\n- Healers like Astrologian get a solid allocation to maintain team survivability.\n- High-damage casters (Black Mage) and versatile DPS (Dragoon, Dancer) receive moderate boosts for offensive output.\n- Tanky roles (Dark Knight) get enough for durability without over-investing.\n- Blue Mage, being niche/specialized, gets the lowest to avoid inefficiency.\n- As Bard leader, I allocate myself a bit more for coordination.\n\nThis results in a front-loaded distribution favoring core roles while summing exactly to 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 8,\n    \"Role5\": 16,\n    \"Role6\": 20,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Black Mage",
+                "Bard",
+                "Dark Knight",
+                "Dragoon",
+                "Astrologian",
+                "Blue Mage",
+                "Dancer"
+            ],
+            "response": "### Analysis\nAs the team leader (Bard), my goal is to optimize resource distribution for balanced team performance in a game context. Bards typically focus on support (buffs, heals, crowd control), so I'll prioritize roles that complement this by covering damage, tanking, and healing. Key considerations:\n- **DPS roles** (Black Mage, Dark Knight, Dragoon, Blue Mage): Need points for high burst or sustained damage; allocate moderately to multiple for versatility.\n- **Healer roles** (Astrologian): Essential for sustain; slightly higher allocation to ensure team survival.\n- **Support/Mobility roles** (Dancer): Synergizes with my Bard role for buffs; balanced allocation.\n- Total must sum to 100, integers only. Aim for even-ish spread to avoid over-reliance on one role, but boost healers and supports slightly (e.g., 15-20 each) while giving DPS 10-15.\n\nThis setup promotes a well-rounded team: 2 tanks/DPS (Dark Knight, Dragoon), 3 DPS (Black Mage, Blue Mage, Dancer), 1 healer (Astrologian), and my Bard leading.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 18,\n    \"Role6\": 13,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Dancer",
+                "Blue Mage",
+                "Astrologian",
+                "Dark Knight",
+                "Black Mage",
+                "Dragoon",
+                "Bard"
+            ],
+            "response": "### Analysis\nAs the team leader (Bard), my goal is to distribute 100 Action Points to optimize team performance in a game context, likely an RPG with combat focus. Bards typically provide ranged DPS and support (e.g., buffs/debuffs), so I'll prioritize DPS roles for damage output while allocating moderately to healers and tanks for sustainability. \n\n- **DPS Priority**: Black Mage (pure magic DPS), Dragoon (melee DPS), Blue Mage (versatile magic/physical DPS), Bard (self-support), Dancer (melee DPS with buffs). These get higher points to maximize damage.\n- **Tank**: Dark Knight gets moderate points for threat management and durability.\n- **Healer**: Astrologian gets the lowest but essential points for healing without over-investing.\n\nThis balances offense (70% allocation) with defense (30%), assuming a standard party setup. Allocations are integers summing to 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 8,\n    \"Role4\": 12,\n    \"Role5\": 20,\n    \"Role6\": 18,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Dancer",
+                "Bard",
+                "Black Mage",
+                "Dark Knight",
+                "Blue Mage",
+                "Astrologian",
+                "Dragoon"
+            ],
+            "response": "### Analysis\nAs the team leader (Bard career), my goal is to optimize the team's performance in a typical game scenario, balancing offense, defense, healing, and utility. Bards (like myself in Role2) provide buffs and support, so I'll allocate moderately to enhance team synergy. Dancers (Role1) synergize well with Bards for group DPS boosts, warranting a solid share. Black Mage (Role3) and Dragoon (Role4) are high-damage dealers, needing resources for burst potential. Dark Knight (Role4) offers tanky DPS, Blue Mage (Role5) brings versatile magic utility, and Astrologian (Role6) is essential for healing. I'll prioritize DPS and support roles while ensuring the total sums to 100, distributing in integers for balanced coverage without over-investing in any single role.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Black Mage",
+                "Astrologian",
+                "Bard",
+                "Dragoon",
+                "Dark Knight",
+                "Dancer",
+                "Blue Mage"
+            ],
+            "response": "### Analysis\nAs the team leader (Bard), my goal is to optimize resource distribution for a balanced team in a game context, likely an MMORPG-style setup. The team composition includes:\n\n- **DPS roles** (high damage output): Black Mage (Role1, pure magic DPS), Dragoon (Role4, melee DPS), Dark Knight (Role5, tanky DPS), Dancer (Role6, ranged DPS with support), Blue Mage (Role7, versatile but often DPS-focused).\n- **Healer role**: Astrologian (Role2, shield-based healer).\n- **Support/DPS role**: Bard (Role3, ranged DPS with strong party buffs like haste and crit).\n\nWith 100 Action Points to distribute, I prioritize roles based on their impact: Healers get a solid allocation for sustain, supports (like Bard) for team-wide benefits, and DPS scaled by typical meta importance (e.g., Black Mage and Dragoon often shine in raids). Dark Knight gets moderate as a tank-DPS hybrid, assuming no pure tank need. Blue Mage gets less as it's niche. Total sums to 100, favoring offense with sustain.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 15,\n    \"Role4\": 17,\n    \"Role5\": 14,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Dragoon",
+                "Blue Mage",
+                "Dark Knight",
+                "Astrologian",
+                "Bard",
+                "Dancer",
+                "Black Mage"
+            ],
+            "response": "### Analysis\nAs the team leader (Bard career), my goal is to allocate 100 Action Points to optimize team performance in a game scenario. Bards and similar support roles (e.g., Dancer, Astrologian) excel in buffing allies and sustaining the group, so they should receive higher allocations to maximize team-wide benefits. DPS roles like Dragoon, Blue Mage, Dark Knight, and Black Mage are crucial for damage output but can be more self-sufficient, warranting moderate points. I'll prioritize supports slightly higher (15-20 each) while ensuring DPS get enough (10-15 each) to cover all 7 roles without leftovers, summing exactly to 100. This balances offense, defense, and utility.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 13,\n    \"Role4\": 18,\n    \"Role5\": 20,\n    \"Role6\": 18,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Blue Mage",
+                "Dragoon",
+                "Bard",
+                "Astrologian",
+                "Dark Knight",
+                "Black Mage",
+                "Dancer"
+            ],
+            "response": "### Analysis\nAs the team leader (Bard), my goal is to distribute 100 Action Points to optimize team performance in a typical game scenario, assuming a balanced party setup for combat or group activities. Bards (me) focus on support, buffs, and party utility, so I'll prioritize roles that complement this by allocating more to high-damage dealers (DPS) like Black Mage and Dragoon for burst output, moderate to tanks like Dark Knight for sustain, and balanced amounts to healers (Astrologian) and other supports (Dancer, Blue Mage) to maintain group viability. Blue Mage, being a niche learner class, gets less to avoid over-investment in a specialized role. This ensures offensive pressure while covering defense and healing, totaling exactly 100 points in integers.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 20,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Bard",
+                "Black Mage",
+                "Dark Knight",
+                "Dragoon",
+                "Dancer",
+                "Blue Mage",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the team leader (Bard), my goal is to allocate 100 Action Points to optimize team performance in a game context, assuming a balanced party setup. Bards (me/Role1) focus on support, buffs, and party utility, so I'll allocate moderately to myself. Black Mage (Role2) and Dark Knight (Role3) are high-DPS roles (ranged magic and melee burst), warranting higher points for damage output. Dragoon (Role4) is a melee DPS flyer, deserving solid allocation. Dancer (Role5) provides party DPS and buffs, similar to Bard. Blue Mage (Role6) is versatile but niche (spell mimicry), so lower priority. Astrologian (Role7) is a healer with DPS potential, needing points for sustain. Prioritizing DPS (60% total), support/heal (30%), and utility (10%) for balance.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 18,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 8,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Black Mage",
+                "Dark Knight",
+                "Blue Mage",
+                "Astrologian",
+                "Bard",
+                "Dancer",
+                "Dragoon"
+            ],
+            "response": "### Analysis\nAs the team leader (Bard), my goal is to optimize resource distribution for balanced team performance in a typical game scenario (e.g., FF-inspired setup). The team has 3 DPS roles (Black Mage: high magic damage; Dark Knight: tanky melee DPS; Dragoon: agile melee DPS), 1 tank (Dark Knight dual-role), 1 healer (Astrologian), and 2 supports (Bard: ranged DPS/support; Dancer: melee support). To maximize synergy, prioritize DPS for damage output (60% allocation), support/healer for sustain (30%), and tank for durability (10%). This ensures offensive push while maintaining defense. Allocations are integers summing to 100.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Bard)",
+            "role_obs": [
+                "Dark Knight",
+                "Dragoon",
+                "Bard",
+                "Dancer",
+                "Black Mage",
+                "Blue Mage",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the team leader (Bard), my goal is to optimize resource distribution for balanced team performance in a typical game scenario. Bards and Dancers provide support (buffs, heals, crowd control), so they get moderate allocation for sustained utility. Tanks like Dark Knight and Dragoon need solid points for frontline durability and initiation. DPS casters (Black Mage, Blue Mage) require higher points for burst damage output, while the healer (Astrologian) gets priority to ensure team survival. Prioritizing offense with support backing, I allocate more to DPS and healer, less to tanks, and balanced to supports (including myself as Role3).\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 18,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Black Mage)",
+            "role_obs": [
+                "Dragoon",
+                "Black Mage",
+                "Astrologian",
+                "Dancer",
+                "Bard",
+                "Dark Knight",
+                "Blue Mage"
+            ],
+            "response": "### Analysis\nAs the team leader (Black Mage), my goal is to optimize resource distribution for balanced team performance in a game scenario. Black Mages excel in high-damage AoE magic, so I'll prioritize DPS roles like Role2 (myself, Black Mage) for sustained offense. Physical DPS (Dragoon, Dancer, Bard) get solid allocation for frontline burst. Tanks (Dark Knight) need enough for durability. Healers (Astrologian) are crucial for survival but less point-heavy. Blue Mage, being niche/specialized, gets minimal to avoid over-investment. Distribution favors DPS (60% total), tank/healer (30%), and utility (10%) to sum to 100 integer points.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 14,\n    \"Role5\": 13,\n    \"Role6\": 15,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "(career: Black Mage)",
+            "role_obs": [
+                "Bard",
+                "Dark Knight",
+                "Dancer",
+                "Dragoon",
+                "Blue Mage",
+                "Black Mage",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the team leader (Black Mage), my primary focus is on magical offense and crowd control, so I'll prioritize resources for DPS roles like Black Mage (myself) and complementary careers such as Dark Knight (melee DPS/tank hybrid) and Dragoon (ranged physical DPS). Support roles like Bard and Dancer (for buffs/debuffs) get moderate allocation to enhance team synergy. Blue Mage (versatile mimicry) receives some for utility. Astrologian (healer) gets the least, as magical offense is prioritized over pure healing in this setup. Distribution aims for balance while favoring offense: Role6 (20), Role2 (18), Role4 (15), Role1 (12), Role3 (12), Role5 (10), Role7 (13) = 100 points.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Black Mage)",
+            "role_obs": [
+                "Dancer",
+                "Astrologian",
+                "Bard",
+                "Black Mage",
+                "Dragoon",
+                "Blue Mage",
+                "Dark Knight"
+            ],
+            "response": "### Analysis\nAs the team leader (Black Mage), my priority is to allocate Action Points to maximize team effectiveness in a game scenario, focusing on synergy with my high-damage magic role. Black Mages excel in AoE burst damage but need protection and support to shine. Thus, I'll prioritize:\n\n- **DPS roles** (including myself) for core damage output: Bard (ranged DPS with buffs), Dragoon (melee DPS with jumps), Dark Knight (tank DPS hybrid), and Black Mage (melee-range caster DPS).\n- **Healer** (Astrologian) for sustain, as fights require healing to keep DPS uptime high.\n- **Dancer** (ranged DPS/support) gets minimal points, as it overlaps with Bard's buffs without unique tanking utility.\n- **Blue Mage** gets zero, as it's a niche, limited-job role often not viable in standard team comps (e.g., can't queue for duties).\n\nThis distribution emphasizes a balanced party: 2 DPS supports, 2 pure DPS, 1 tank-DPS, 1 healer. Total sums to 100, with integers only. Black Mage (me) gets the highest share for leadership and role potency.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 25,\n    \"Role5\": 15,\n    \"Role6\": 0,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Black Mage)",
+            "role_obs": [
+                "Black Mage",
+                "Astrologian",
+                "Dragoon",
+                "Bard",
+                "Blue Mage",
+                "Dark Knight",
+                "Dancer"
+            ],
+            "response": "### Analysis\nAs the team leader (Black Mage), my primary focus is on magical offense and synergy with support roles to maximize team DPS and survivability in a typical game scenario (e.g., raid or dungeon). Black Mage (Role1) gets priority for high damage output. Astrologian (Role2) is essential for healing to sustain the team. Dragoon (Role3) and Dark Knight (Role6) provide strong melee DPS and tanking. Bard (Role4) and Dancer (Role7) offer ranged DPS with buffs/debuffs for party synergy. Blue Mage (Role5) is versatile but niche, so it gets the least to optimize resource efficiency. Allocation balances offense (60%), support (25%), and utility (15%) while summing to 100 integer points.\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 8,\n    \"Role6\": 12,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "(career: Black Mage)",
+            "role_obs": [
+                "Black Mage",
+                "Bard",
+                "Dancer",
+                "Dragoon",
+                "Dark Knight",
+                "Astrologian",
+                "Blue Mage"
+            ],
+            "response": "### Analysis\nAs the team leader (Black Mage), my focus is on optimizing the team's magical offense and support while balancing contributions from other roles. Black Mages excel in high-damage AoE spells, so Role1 (myself) gets a priority allocation for sustained DPS. Support roles like Bard (Role2) and Astrologian (Role6) are crucial for buffs and healing to keep the team alive, warranting solid points. Dancer (Role3) adds party-wide haste and minor healing, earning moderate support. Melee/tank roles—Dragoon (Role4), Dark Knight (Role5)—provide frontline damage and mitigation but are less synergistic with a Black Mage lead, so they get baseline points. Blue Mage (Role7), being niche and mimicry-based, gets the lowest to avoid over-investment in unpredictability. Allocation prioritizes synergy: 35% to core DPS (me), 40% to supports, 25% to hybrids/melee for a total of 100 points.\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 18,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Black Mage)",
+            "role_obs": [
+                "Astrologian",
+                "Dragoon",
+                "Dancer",
+                "Blue Mage",
+                "Bard",
+                "Black Mage",
+                "Dark Knight"
+            ],
+            "response": "### Analysis\nAs the team leader (Black Mage), my goal is to optimize resource distribution for balanced team performance in a game context, assuming a combat-focused scenario like raids or PvE. Black Mages (me) and Blue Mages excel in high-damage DPS output, so they warrant higher allocation for spellcasting and ability rotations. Physical ranged DPS (Dancer, Bard) get moderate points for sustained damage and support. Melee DPS (Dragoon) and tanks (Dark Knight) receive less, as they may rely more on gear or positioning than action points. Healer (Astrologian) gets minimal to focus on reactive healing rather than proactive spending. Total must sum to 100 integers, prioritizing DPS synergy while keeping the team viable.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 25,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Black Mage)",
+            "role_obs": [
+                "Blue Mage",
+                "Astrologian",
+                "Dragoon",
+                "Dark Knight",
+                "Dancer",
+                "Bard",
+                "Black Mage"
+            ],
+            "response": "### Analysis\nAs the team leader (Black Mage), my goal is to optimize resource distribution for balanced team performance in a typical game scenario, assuming a mix of magic, melee, and support roles. Black Mages (myself and Role7) excel in high-damage AoE magic, so they warrant significant investment for burst potential. Blue Mage (Role1) is versatile but niche, deserving moderate support. Healers like Astrologian (Role2) are essential for sustain, getting a solid share. Melee DPS like Dragoon (Role3) and tanky Dark Knight (Role4) need points for frontline durability and damage. Ranged physical DPS—Dancer (Role5) and Bard (Role6)—benefit from agility boosts, but slightly less than magical DPS due to role overlap. Prioritizing DPS synergy (magic > physical) while ensuring team survival, I allocate more to mages (25 each for Role1 and Role7, plus my leadership focus), 20 to the healer, 15 to the tank, and 10-12 to physical DPS. Total: 100 points.\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 8,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Black Mage)",
+            "role_obs": [
+                "Bard",
+                "Black Mage",
+                "Dancer",
+                "Astrologian",
+                "Blue Mage",
+                "Dark Knight",
+                "Dragoon"
+            ],
+            "response": "### Analysis\nAs the team leader (Black Mage), my goal is to optimize resource distribution for balanced team performance in a game scenario, prioritizing magical synergy, support, and DPS output. Black Mages excel in high-damage AoE magic, so I'll allocate more to myself (Role2) for sustained casting. Support roles like Bard (Role1, buffs/healing songs) and Astrologian (Role4, healing/divination) get moderate points to enable team survival. Melee/tank roles (Dark Knight Role6, Dragoon Role7) receive solid allocations for frontline durability. Utility roles like Dancer (Role3, dances for buffs) and Blue Mage (Role5, adaptive spells) get less to focus on core strengths. Distribution aims for integers summing to 100, emphasizing magic-heavy roles.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 20,\n    \"Role3\": 8,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 18,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "(career: Black Mage)",
+            "role_obs": [
+                "Bard",
+                "Black Mage",
+                "Dragoon",
+                "Dancer",
+                "Blue Mage",
+                "Astrologian",
+                "Dark Knight"
+            ],
+            "response": "### Analysis\nAs the team leader (Black Mage), my goal is to optimize resource distribution for balanced team performance in a typical RPG scenario. Black Mages excel in high-damage AoE magic, so I'll prioritize my own role (Role2) for maximum impact. Support roles like Bard (Role1, buffs/healing) and Astrologian (Role6, healing/shielding) get moderate allocation to sustain the team. Melee/DPS roles (Dragoon Role3, Dark Knight Role7) receive solid points for frontline damage. Utility roles (Dancer Role4, Blue Mage Role5) get lower priority as they're more niche. This ensures offense, defense, and utility without overcommitting to any one area, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 25,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Black Mage)",
+            "role_obs": [
+                "Dragoon",
+                "Astrologian",
+                "Black Mage",
+                "Dark Knight",
+                "Blue Mage",
+                "Bard",
+                "Dancer"
+            ],
+            "response": "### Analysis\nAs the team leader (Black Mage), my priority is to maximize the team's magical DPS output while ensuring balanced support for survivability and utility in a typical game scenario (e.g., raid or dungeon). Black Mages like myself excel at high-damage AoE and single-target bursts, so I'll allocate more to Role3 (fellow Black Mage) for synergy. \n\n- **DPS Focus**: Prioritize casters and melee (Black Mage, Dragoon, Dark Knight) for damage. Blue Mage gets moderate support as a niche DPS/utility role.\n- **Healer**: Astrologian needs enough for shields/heals to keep the team alive.\n- **Supports**: Bard and Dancer provide buffs/songs; they get lighter allocation since they scale well with minimal investment.\n- **Balance**: Total must sum to 100 integers. Heavier on magic DPS (me + Role3) to fit my career expertise, tapering to supports.\n\nThis allocation: 40% to core DPS, 20% to tank, 15% to healer, 15% to utility DPS, 10% to supports.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 25,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 8,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "(career: Blue Mage)",
+            "role_obs": [
+                "Astrologian",
+                "Black Mage",
+                "Dancer",
+                "Blue Mage",
+                "Dragoon",
+                "Bard",
+                "Dark Knight"
+            ],
+            "response": "### Analysis\nAs the Blue Mage team leader, my strategy prioritizes balancing the team's magical and physical DPS output while supporting healers and tanks for sustainability. With 100 Action Points to distribute:\n\n- **Healer (Role1: Astrologian)**: Essential for team survival; allocate moderately to ensure consistent healing without over-investing.\n- **Magic DPS (Role2: Black Mage, Role4: Blue Mage)**: As leader, I'll boost my own role (Blue Mage) for versatile damage, and give solid points to Black Mage for high burst potential.\n- **Ranged Physical DPS (Role3: Dancer, Role6: Bard)**: These provide sustained damage and minor utility; equal moderate allocation to maintain backline pressure.\n- **Melee Physical DPS (Role5: Dragoon)**: High mobility and damage; deserves a strong share for frontline aggression.\n- **Tank (Role7: Dark Knight)**: Critical for absorbing damage; allocate enough to hold the line but not at the expense of DPS.\n\nPrioritizing DPS (60% of points) for offense, with 25% to tank/healer for defense, and 15% to supports. This ensures a well-rounded team without neglecting any role. Allocations are integers summing to exactly 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 18,\n    \"Role6\": 12,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Blue Mage)",
+            "role_obs": [
+                "Black Mage",
+                "Astrologian",
+                "Dark Knight",
+                "Bard",
+                "Dancer",
+                "Blue Mage",
+                "Dragoon"
+            ],
+            "response": "### Analysis\nAs the Blue Mage team leader, my allocation prioritizes synergy in a typical game party setup. Black Mage (Role1) and Astrologian (Role2) form the core DPS/healer backbone, warranting higher points for spellcasting potency. Melee roles like Dark Knight (Role3) and Dragoon (Role7) get solid support for tanking and jumps. Ranged physical DPS—Bard (Role4), Dancer (Role5)—receive balanced shares for sustained output. As Blue Mage (Role6), I allocate myself moderately to leverage mimicry abilities without overcommitting. This distributes 100 points evenly yet strategically, emphasizing magical and support roles while ensuring all contribute.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 14,\n    \"Role4\": 12,\n    \"Role5\": 12,\n    \"Role6\": 12,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Blue Mage)",
+            "role_obs": [
+                "Blue Mage",
+                "Dark Knight",
+                "Dancer",
+                "Bard",
+                "Dragoon",
+                "Astrologian",
+                "Black Mage"
+            ],
+            "response": "### Analysis\nAs the team leader (Blue Mage), my goal is to allocate 100 Action Points to optimize team performance in a typical game scenario, assuming a balanced party setup for combat, support, and utility. The team includes:\n\n- **Role1 (Blue Mage)**: As leader and DPS/utility caster, prioritize slightly higher for strategic oversight and spell versatility.\n- **Role2 (Dark Knight)**: Tank role; allocate moderately to ensure durability and threat management.\n- **Role3 (Dancer)**: Support/DPS with buffs; give solid points for team synergy.\n- **Role4 (Bard)**: Ranged DPS/support with songs; similar to Dancer for sustained output.\n- **Role5 (Dragoon)**: Melee DPS/jump specialist; standard allocation for high burst potential.\n- **Role6 (Astrologian)**: Healer; slightly higher to maintain party health during prolonged activities.\n- **Role7 (Black Mage)**: Pure DPS nuker; higher allocation to maximize AoE and damage spikes.\n\nPrioritizing DPS (Black Mage, Dragoon) and sustain (Astrologian, Dancer) while keeping tank and leader balanced. Total sums to 100, in integers. This setup assumes a standard encounter; adjustments could be made for specific content.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Blue Mage)",
+            "role_obs": [
+                "Black Mage",
+                "Astrologian",
+                "Dragoon",
+                "Dancer",
+                "Blue Mage",
+                "Dark Knight",
+                "Bard"
+            ],
+            "response": "### Analysis\nAs the Blue Mage team leader, my allocation prioritizes magical synergy while supporting the team's overall balance in a game context (e.g., Final Fantasy XIV-inspired roles). Black Mage (Role1) and Astrologian (Role2) get higher points for high-damage DPS and critical healing/utility. Blue Mage (Role5, my own role) receives a solid share for spell mimicry versatility. Melee DPS like Dragoon (Role3) and tank Dark Knight (Role6) get moderate support for frontline sustain. Ranged DPS Bard (Role7) and support Dancer (Role4) receive lower but equal shares to maintain group harmony without over-investing in niche roles. This ensures a total of 100 points, favoring offense (60%) over defense/support (40%) for aggressive playstyles.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 8,\n    \"Role5\": 15,\n    \"Role6\": 14,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Blue Mage)",
+            "role_obs": [
+                "Dragoon",
+                "Astrologian",
+                "Black Mage",
+                "Blue Mage",
+                "Dark Knight",
+                "Dancer",
+                "Bard"
+            ],
+            "response": "### Analysis\nAs the Blue Mage team leader, my strategy prioritizes balance across the team for optimal performance in game activities like combat, support, and utility. The team composition includes:\n\n- **Tanks (Dragoon, Dark Knight)**: Need solid points for durability and threat management (higher allocation to ensure frontline stability).\n- **Healers (Astrologian)**: Essential for sustain; moderate-high points to maintain team health.\n- **DPS (Black Mage, Dancer, Bard)**: Core damage dealers; even distribution to maximize output, with slight edge to burst (Black Mage) and sustained (Dancer/Bard).\n- **Self (Blue Mage, Role4)**: As leader and versatile DPS/support, I allocate a fair share but not excessively to avoid imbalance.\n\nTotal: 100 points. Allocation favors tanks/healers slightly more (for survival) while ensuring DPS contributes effectively. All integers, summing to 100.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 13,\n    \"Role4\": 13,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Blue Mage)",
+            "role_obs": [
+                "Bard",
+                "Blue Mage",
+                "Dancer",
+                "Dragoon",
+                "Dark Knight",
+                "Black Mage",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the Blue Mage team leader, my allocation prioritizes balance across roles while favoring support and hybrid classes (like Bard and Astrologian) for team utility, given Blue Mages' mimicry style benefits from buffs and heals. Damage dealers (e.g., Dragoon, Black Mage, Dark Knight) get solid shares for frontline impact, while Dancer adds mobility. I avoid over-allocating to my own role (Blue Mage) to prevent imbalance. Total: 100 points, distributed in integers for even coverage.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 14,\n    \"Role5\": 13,\n    \"Role6\": 18,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "(career: Blue Mage)",
+            "role_obs": [
+                "Astrologian",
+                "Dancer",
+                "Bard",
+                "Dark Knight",
+                "Dragoon",
+                "Black Mage",
+                "Blue Mage"
+            ],
+            "response": "### Analysis\nAs the Blue Mage team leader, my strategy prioritizes balance between support roles (healers and ranged DPS for sustain) and melee/tank roles (for frontline durability), while allocating modestly to DPS roles to avoid over-reliance on burst damage. With 100 Action Points total, I'll distribute integers to ensure the sum is exactly 100. Healers like Astrologian get a slight edge for team survival, tanks like Dark Knight for protection, and my own role (Blue Mage, Role7) gets a leadership boost. Ranged DPS (Dancer, Bard) receive moderate shares for utility, while pure DPS (Dragoon, Black Mage) get less to encourage tactical play.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 12,\n    \"Role6\": 12,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(career: Blue Mage)",
+            "role_obs": [
+                "Dragoon",
+                "Dark Knight",
+                "Dancer",
+                "Black Mage",
+                "Astrologian",
+                "Blue Mage",
+                "Bard"
+            ],
+            "response": "### Analysis\nAs the Blue Mage team leader, my allocation prioritizes roles that synergize with Blue Mage's versatile, spell-mimicking playstyle, which benefits from magical DPS, healing, and ranged support for sustained team performance. I assign higher points to Black Mage (pure magical DPS to complement Blue Mage's hybrid kit), Astrologian (healing and buffs for survivability), and Dancer (ranged DPS with party buffs). Moderate points go to Bard (ranged support) and Dragoon (melee DPS for burst). Lower points to Dark Knight (tankier but less synergistic for a DPS-focused Blue Mage lead). This ensures balanced coverage without over-investing in one area, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 18,\n    \"Role4\": 22,\n    \"Role5\": 20,\n    \"Role6\": 0,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Blue Mage)",
+            "role_obs": [
+                "Dragoon",
+                "Astrologian",
+                "Black Mage",
+                "Blue Mage",
+                "Bard",
+                "Dancer",
+                "Dark Knight"
+            ],
+            "response": "### Analysis\nAs the Blue Mage team leader, my priority is to balance the team's offensive, defensive, and support capabilities for optimal in-game performance. The team includes:\n\n- **DPS roles** (high damage output): Dragoon (melee), Black Mage (ranged magic), Bard (ranged physical with utility), Dancer (ranged physical support-DPS), Dark Knight (tank-DPS hybrid). These need solid allocation for sustained damage.\n- **Healer role**: Astrologian (essential for sustain in prolonged activities).\n- **Tank role**: Dark Knight (provides frontline durability but also contributes DPS).\n\nWith 100 Action Points, I'll allocate more to DPS roles (60 total) to maximize output, 20 to the healer for team survival, and 20 to the tank for stability. As leader, I'll assign myself (Role4, Blue Mage) a slightly higher share within DPS for strategic versatility. Allocations are integers summing to 100, favoring balance over extremes.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 20,\n    \"Role3\": 13,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 11,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "(career: Blue Mage)",
+            "role_obs": [
+                "Dark Knight",
+                "Blue Mage",
+                "Astrologian",
+                "Dancer",
+                "Black Mage",
+                "Dragoon",
+                "Bard"
+            ],
+            "response": "### Analysis\nAs the Blue Mage team leader, my allocation prioritizes a balanced team composition for typical game scenarios (e.g., raids or dungeons). Blue Mages excel in utility and learning enemy abilities, so I'll allocate more to myself (Role2) for core development. Tanks like Dark Knight (Role1) and Dragoons (Role6, off-tank/DPS) get solid points for durability. Healers like Astrologian (Role3) are essential for sustain. Ranged DPS (Black Mage Role5, Bard Role7, Dancer Role4) receive moderate shares to cover magical, physical, and support damage. This ensures versatility without over-investing in any single role, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 14,\n    \"Role4\": 10,\n    \"Role5\": 12,\n    \"Role6\": 16,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Dark Knight)",
+            "role_obs": [
+                "Dancer",
+                "Blue Mage",
+                "Dark Knight",
+                "Dragoon",
+                "Black Mage",
+                "Astrologian",
+                "Bard"
+            ],
+            "response": "### Analysis\nAs the team leader (Dark Knight), my allocation prioritizes melee DPS and frontline sustainability for aggressive team play, while supporting the healers and ranged DPS to maintain balance. Dark Knight (Role3, my own role) gets the largest share for tanking and damage output. Dancer (Role1, melee DPS) and Dragoon (Role4, melee DPS/jump specialist) receive strong allocations for synergy with the tank. Black Mage (Role5, high-damage caster) and Bard (Role7, ranged support/DPS) get moderate points for burst and buffs. Blue Mage (Role2, versatile but niche) and Astrologian (Role6, healer) get smaller shares to focus resources on offense, assuming basic healing suffices.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 8,\n    \"Role3\": 25,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 8,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "(career: Dark Knight)",
+            "role_obs": [
+                "Dark Knight",
+                "Dancer",
+                "Bard",
+                "Dragoon",
+                "Blue Mage",
+                "Black Mage",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the team leader (Dark Knight), my focus is on frontline tanking and damage, so I'll prioritize durability and aggression for Role1. The team has a mix of DPS (Dragoon, Black Mage, Blue Mage), support/healing (Astrologian), and utility (Dancer, Bard) roles. To balance the party for effective gameplay, allocate more points to core roles: tank (me), healer, and heavy DPS, while giving moderate support to others for synergy. Total must sum to 100 integers: 20 to tank, 18 to healer, 15-12 to main DPS, 8-5 to supports.\n\n### Decision\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 8,\n    \"Role3\": 7,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 13,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Dark Knight)",
+            "role_obs": [
+                "Dark Knight",
+                "Astrologian",
+                "Dancer",
+                "Black Mage",
+                "Bard",
+                "Dragoon",
+                "Blue Mage"
+            ],
+            "response": "### Analysis\nAs the team leader (Dark Knight), my allocation prioritizes roles based on their typical utility in a game party: tanks (like myself) and DPS for frontline sustain and damage, followed by healers for support, and ranged DPS for flexibility. With 100 Action Points total, I'll allocate more to melee/tank roles (Dark Knight, Dragoon) for durability, moderate to DPS (Black Mage, Blue Mage, Bard, Dancer), and least to the healer (Astrologian) assuming DPS focus. This balances offense (70 points) with defense/support (30 points), ensuring integer sums to exactly 100.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Dark Knight)",
+            "role_obs": [
+                "Dancer",
+                "Astrologian",
+                "Dragoon",
+                "Bard",
+                "Dark Knight",
+                "Black Mage",
+                "Blue Mage"
+            ],
+            "response": "### Analysis\nAs the Dark Knight team leader, my allocation prioritizes melee DPS synergy and burst potential in a typical game setup. I'll allocate more to myself (Role5) for tank sustain and leadership. Dragoon (Role3) gets high points as a fellow melee flyer for combo synergy. Black Mage (Role6) receives solid support for AoE damage. Bard (Role4) and Dancer (Role1) get moderate shares for party buffs and sustained DPS. Astrologian (Role2) gets healer allocation for team survival. Blue Mage (Role7), being niche/utility-focused, gets the least to conserve points. This balances offense (60%), defense/heals (25%), and utility (15%), totaling 100 points.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 20,\n    \"Role4\": 14,\n    \"Role5\": 22,\n    \"Role6\": 10,\n    \"Role7\": 4\n}\n```"
+        },
+        {
+            "role_self": "(career: Dark Knight)",
+            "role_obs": [
+                "Black Mage",
+                "Bard",
+                "Blue Mage",
+                "Dark Knight",
+                "Dragoon",
+                "Dancer",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the Dark Knight team leader, my focus is on balancing team synergy in a typical MMORPG setup like Final Fantasy XIV. The team has 1 tank (me, Dark Knight - Role4), 1 melee DPS (Dragoon - Role5), 3 magical DPS (Black Mage - Role1, Blue Mage - Role3, Astrologian - Role7, who is actually a healer but can DPS), 1 ranged physical DPS (Bard - Role2), and 1 melee/ranged DPS (Dancer - Role6). To optimize, I'll prioritize defense and sustain first (tank and healer), then spread points to DPS roles for offensive output, with slight emphasis on high-damage casters like Black Mage. Total must sum to 100 integers: 15 to tank (Role4), 20 to healer (Role7), 15 each to top DPS (Role1, Role5, Role6), 10 each to supports (Role2, Role3).\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Dark Knight)",
+            "role_obs": [
+                "Dancer",
+                "Dragoon",
+                "Dark Knight",
+                "Blue Mage",
+                "Black Mage",
+                "Astrologian",
+                "Bard"
+            ],
+            "response": "### Analysis\nAs the team leader (Dark Knight), my goal is to optimize resource distribution for balanced team performance in a typical game scenario. Dark Knights excel in tanking and melee DPS, so I'll prioritize frontline durability and damage output. The team composition includes:\n\n- **Tanks/DPS**: Role3 (Dark Knight, me - high priority for sustain), Role2 (Dragoon - melee DPS/tank hybrid).\n- **DPS**: Role5 (Black Mage - burst magic DPS), Role7 (Bard - ranged physical DPS/support), Role4 (Blue Mage - versatile magic DPS/utility).\n- **Support/Healer**: Role6 (Astrologian - healing and buffs), Role1 (Dancer - melee support/buffs).\n\nTo maximize effectiveness, allocate more points to core roles (tank, DPS, healer) for key activities like combat initiation and sustain, while giving minimal to niche supports unless critical. Total must sum to 100, in integers. Prioritize: Tank (25), DPS (20 each for top contributors), Healer (15), supports (5-10).\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 20,\n    \"Role3\": 25,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Dark Knight)",
+            "role_obs": [
+                "Dancer",
+                "Bard",
+                "Blue Mage",
+                "Black Mage",
+                "Dragoon",
+                "Dark Knight",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the team leader (Dark Knight), my allocation prioritizes melee DPS and self-sufficiency in a balanced party setup. Dark Knight (me, Role6) gets the largest share for frontline tanking and damage. Dragoon (Role5) receives significant points as a fellow melee DPS flyer for synergy. Black Mage (Role4) gets moderate allocation for burst magic damage. Blue Mage (Role3) gets some for utility spell mimicry. Healer Astrologian (Role7) gets a smaller but essential share for sustain. Support roles Dancer (Role1) and Bard (Role2) get minimal points, as their buffs can be covered by others in core rotations, freeing resources for direct combat impact. Total: 100 points.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 5,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 25,\n    \"Role6\": 30,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Dark Knight)",
+            "role_obs": [
+                "Astrologian",
+                "Dragoon",
+                "Black Mage",
+                "Bard",
+                "Blue Mage",
+                "Dark Knight",
+                "Dancer"
+            ],
+            "response": "### Analysis\nAs the Dark Knight team leader, my allocation prioritizes roles based on their typical contributions in an RPG team dynamic (e.g., inspired by games like Final Fantasy XIV). Healers like Astrologian get a moderate boost for sustain. DPS roles (Dragoon, Black Mage, Blue Mage, Bard, Dancer) receive scaled points based on their damage output and utility—melee/ranged DPS get more for frontline impact, while casters get slightly less due to positioning risks. As a tank (Dark Knight), I allocate myself the highest for leadership and durability. This ensures balanced team performance: total sums to 100, favoring offense while maintaining support.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 13,\n    \"Role5\": 12,\n    \"Role6\": 18,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Dark Knight)",
+            "role_obs": [
+                "Dark Knight",
+                "Astrologian",
+                "Bard",
+                "Blue Mage",
+                "Dragoon",
+                "Black Mage",
+                "Dancer"
+            ],
+            "response": "### Analysis\nAs the team leader (Dark Knight), my goal is to balance the team's combat effectiveness in a typical game scenario, prioritizing roles that provide frontline damage, tanking, and support. Dark Knight (me) gets a slight boost for leadership and durability. DPS roles like Dragoon, Black Mage, Bard, and Dancer receive higher allocations for offensive output. Support (Astrologian) gets moderate points for healing/sustain. Blue Mage, being niche/utility-focused, gets the least to conserve resources. Total: 100 points, distributed in integers for versatility in activities like attacks, skills, or movement.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 8,\n    \"Role5\": 16,\n    \"Role6\": 16,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "(career: Dark Knight)",
+            "role_obs": [
+                "Dark Knight",
+                "Dancer",
+                "Dragoon",
+                "Bard",
+                "Blue Mage",
+                "Black Mage",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the team leader (Dark Knight), my goal is to optimize resource distribution for a balanced team in this game setup. Dark Knights (melee DPS/tank) benefit from high Action Points for sustained frontline damage and durability. Dancers and Bards (both support/DPS) need moderate points for buffs and utility to enhance team synergy. Dragoons (melee DPS) require solid allocation for jump-based burst. Blue Mages (versatile DPS/utility) and Black Mages (ranged DPS) get points for spellcasting efficiency, with Black Mage slightly higher due to high-damage potential. Astrologians (healer) receive the most to ensure team survival through healing and shields. Total must sum to 100, prioritizing sustain (healer/tank) while enabling DPS output.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 12,\n    \"Role5\": 13,\n    \"Role6\": 14,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Dancer)",
+            "role_obs": [
+                "Dark Knight",
+                "Blue Mage",
+                "Black Mage",
+                "Astrologian",
+                "Bard",
+                "Dragoon",
+                "Dancer"
+            ],
+            "response": "### Analysis\nAs the team leader (Dancer), my goal is to allocate 100 Action Points to optimize team performance in a game context, assuming a balanced party setup (e.g., inspired by RPGs like Final Fantasy XIV). The team has:\n\n- Tanks: Role1 (Dark Knight) – Needs points for durability and threat management.\n- Healers: Role4 (Astrologian) – Essential for sustain, gets a solid share.\n- Melee DPS: Role6 (Dragoon) – High burst potential, moderate allocation.\n- Ranged Physical DPS: Role2 (Blue Mage, versatile but niche), Role5 (Bard, support DPS) – Bard gets more for buffs.\n- Magical DPS: Role3 (Black Mage) – High damage output, prioritized.\n- Support DPS: Role7 (Dancer, my own role) – Gets the largest share for team synergy and personal leadership focus.\n\nPriorities: DPS roles (especially magical and support) get more to maximize damage, while tank and healer get enough for survival. Total sums to 100, integers only. This creates a DPS-heavy setup with adequate defense.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Dancer)",
+            "role_obs": [
+                "Blue Mage",
+                "Dragoon",
+                "Astrologian",
+                "Bard",
+                "Dancer",
+                "Dark Knight",
+                "Black Mage"
+            ],
+            "response": "### Analysis\nAs the team leader (Dancer), my goal is to allocate 100 Action Points to optimize team performance in a game-like scenario, likely involving combat or activities where roles have synergies. The team composition includes DPS roles (Blue Mage, Dragoon, Bard, Black Mage), a tank (Dark Knight), a healer (Astrologian), and another support DPS (Dancer, which I lead). To balance offense, defense, and sustain:\n\n- Prioritize DPS roles for damage output (majority allocation).\n- Give moderate points to tank and healer for survivability.\n- Slightly favor Dancer (my role) for leadership synergy.\n- Blue Mage gets a boost as a versatile learner; Black Mage for burst potential.\n\nThis results in higher points for DPS (total ~70), tank/healer (~20), with integers summing to 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 10,\n    \"Role4\": 12,\n    \"Role5\": 18,\n    \"Role6\": 10,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Dancer)",
+            "role_obs": [
+                "Dark Knight",
+                "Black Mage",
+                "Dragoon",
+                "Astrologian",
+                "Dancer",
+                "Bard",
+                "Blue Mage"
+            ],
+            "response": "### Analysis\nAs the team leader (Dancer), my goal is to optimize resource distribution for balanced team performance in the game. This team has a mix of melee DPS (Dark Knight, Dragoon), ranged magic DPS (Black Mage), healers (Astrologian), and ranged physical DPS/support (Dancer, Bard, Blue Mage). To maximize synergy, I prioritize DPS roles for offensive output while ensuring the healer has enough to sustain the group. As leader, I'll allocate a slight boost to my own role (Dancer) for coordination. Blue Mage gets minimal points due to its niche utility. Distribution: even split among core DPS/healer (about 14-15 each), with adjustments for balance, totaling exactly 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 16,\n    \"Role5\": 16,\n    \"Role6\": 14,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Dancer)",
+            "role_obs": [
+                "Bard",
+                "Black Mage",
+                "Blue Mage",
+                "Dragoon",
+                "Astrologian",
+                "Dancer",
+                "Dark Knight"
+            ],
+            "response": "### Analysis\nAs the team leader (Dancer), my goal is to allocate 100 Action Points to optimize team performance in a game scenario, assuming a balanced party for combat or activities. The team includes support (Bard, Astrologian), DPS (Black Mage, Blue Mage, Dragoon, Dancer), and tank (Dark Knight) roles. Prioritize the tank for durability (20 points), DPS roles for damage output (15-18 points each to leverage synergies like Bard's buffs), and support for sustain (12-14 points). As leader, I allocate myself (Role6) a solid 15 points. This sums to 100, promoting versatility without over-focusing on any single role.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 14,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Dancer)",
+            "role_obs": [
+                "Dark Knight",
+                "Bard",
+                "Dragoon",
+                "Blue Mage",
+                "Astrologian",
+                "Dancer",
+                "Black Mage"
+            ],
+            "response": "### Analysis\nAs the team leader (a Dancer), my goal is to optimize resource distribution for balanced team performance in this game-like scenario. The team has a mix of melee DPS (Dark Knight, Dragoon), ranged magical DPS (Black Mage, Blue Mage), support/healing (Astrologian, Bard), and another melee DPS/support (Dancer, my role). With 100 Action Points to distribute, I prioritize:\n\n- **DPS roles** (Dark Knight, Dragoon, Black Mage, Blue Mage, Dancer): They drive damage output, so they get the bulk to ensure offensive strength. Dark Knight and Dragoon as tanks/DPS get a slight edge for frontline sustainability.\n- **Support roles** (Astrologian, Bard): Essential for healing and buffs, but secondary to DPS in aggressive playstyles, so moderate allocation.\n- Total must sum to 100, using integers. I allocate ~15-18 per DPS role for even distribution, scaling down for supports to avoid over-investing in utility at the expense of damage.\n\nThis setup promotes a DPS-heavy team with enough support to sustain fights.\n\n### Decision\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 12,\n    \"Role3\": 16,\n    \"Role4\": 14,\n    \"Role5\": 12,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Dancer)",
+            "role_obs": [
+                "Dragoon",
+                "Blue Mage",
+                "Dark Knight",
+                "Dancer",
+                "Astrologian",
+                "Bard",
+                "Black Mage"
+            ],
+            "response": "### Analysis\nAs the team leader (Dancer), my goal is to optimize resource distribution for balanced team performance in a game scenario, assuming a typical RPG setup where roles have complementary strengths. Dragoon (Role1) and Dark Knight (Role3) are frontline tanks, needing points for durability and aggro management. Blue Mage (Role2) is a versatile DPS with utility spells, warranting moderate support. Black Mage (Role7) is high-damage ranged DPS, benefiting from points for burst potential. Bard (Role6) provides ranged DPS and team buffs, essential for sustain. Astrologian (Role5) is a healer, critical for survival and requiring points for card draws and mitigation. As Dancer (Role4), I prioritize myself for mobility and party-wide buffs to enhance overall synergy. Allocation favors DPS and support roles slightly more (for offense) while ensuring tanks and healer aren't neglected, totaling exactly 100 points in integers.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 15,\n    \"Role6\": 16,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "(career: Dancer)",
+            "role_obs": [
+                "Dancer",
+                "Bard",
+                "Dark Knight",
+                "Astrologian",
+                "Blue Mage",
+                "Dragoon",
+                "Black Mage"
+            ],
+            "response": "### Analysis\nAs the team leader (a Dancer), my primary role is to provide support through buffs, healing, and party synergy, which scales well with more Action Points for sustained performance in group activities. The team composition includes a mix of DPS (Bard, Dark Knight, Blue Mage, Dragoon, Black Mage), a healer (Astrologian), and me as support. To optimize for balanced gameplay, I'll allocate more points to core roles: DPS for damage output, healer for survival, and myself for team-wide enhancements. Dark Knight and Blue Mage get moderate allocations as tank and niche DPS, while spreading resources evenly avoids over-reliance on any single role. Total: 100 points, all integers.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 12,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 8,\n    \"Role6\": 14,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "(career: Dancer)",
+            "role_obs": [
+                "Blue Mage",
+                "Astrologian",
+                "Dark Knight",
+                "Dragoon",
+                "Black Mage",
+                "Bard",
+                "Dancer"
+            ],
+            "response": "### Analysis\nAs the team leader (Dancer), my goal is to allocate 100 Action Points to optimize team performance in a game context, likely an MMORPG-style setup (e.g., inspired by Final Fantasy XIV). The team composition includes:\n\n- **Tanks (DPS/Tank hybrid)**: Role3 (Dark Knight) – Needs points for durability and threat management.\n- **Healers**: Role2 (Astrologian) – Essential for sustain; allocate moderately to ensure group survival.\n- **Melee DPS**: Role4 (Dragoon) – High burst potential; prioritize for frontline damage.\n- **Ranged Magic DPS**: Role1 (Blue Mage, versatile but niche), Role5 (Black Mage, high AoE/single-target damage) – Focus on Black Mage for reliable output; Blue Mage gets less as it's often situational.\n- **Ranged Physical DPS**: Role6 (Bard) – Provides utility (buffs/debuffs); balanced allocation.\n- **Self (Dancer, Role7)**: As leader and buffer/support DPS, I allocate a share for personal effectiveness and team synergy (e.g., dances for procs).\n\nPriorities: Balance sustain (healer/tank ~25%), damage output (~60%, favoring high-impact DPS like Black Mage and Dragoon), and utility (~15%). Total must sum to 100 integers. This setup assumes a balanced encounter; adjustments could be made for specific content.\n\n### Decision\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 22,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Dancer)",
+            "role_obs": [
+                "Dragoon",
+                "Bard",
+                "Black Mage",
+                "Dark Knight",
+                "Dancer",
+                "Blue Mage",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the team leader (Dancer), my goal is to allocate 100 Action Points to optimize team performance in a game setting, likely an MMORPG-style scenario (e.g., Final Fantasy XIV, given the careers). Dancers are support roles focused on buffs, healing, and DPS via dances, so they benefit from higher points for sustained activity. The team composition includes:\n\n- **Tanks**: Dragoon (melee DPS/tank hybrid), Dark Knight (pure tank) – Need points for durability and aggro management.\n- **Healers**: Astrologian – Essential for sustain; allocate moderately to ensure team survival.\n- **DPS**: Black Mage (ranged magic), Blue Mage (versatile learner) – High burst potential; prioritize for damage output.\n- **Support**: Bard (ranged DPS with buffs) – Synergizes with Dancer for team-wide enhancements.\n\nPriorities: Balance offense (60% to DPS roles for kills), defense (25% to tanks/healer for survival), and support (15% to Bard for synergy). Total must sum to 100, integers only. I'll allocate more to high-impact roles like Black Mage and myself (Dancer) while ensuring basics for others.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 13,\n    \"Role5\": 16,\n    \"Role6\": 12,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Dancer)",
+            "role_obs": [
+                "Astrologian",
+                "Blue Mage",
+                "Dragoon",
+                "Bard",
+                "Black Mage",
+                "Dancer",
+                "Dark Knight"
+            ],
+            "response": "### Analysis\nAs the team leader (Dancer), my goal is to allocate 100 Action Points to optimize team performance in a game-like scenario, likely involving combat or activities where roles have synergies. The team composition includes a mix of healers (Astrologer), limited DPS/utility (Blue Mage), melee DPS (Dragoon, Dark Knight), ranged DPS (Bard, Dancer), and caster DPS (Black Mage). Dancers excel in support via dances that buff party DPS and haste, so I'll prioritize them slightly for sustained output. To balance, I'll emphasize DPS roles (Black Mage, Dragoon, Bard, Dark Knight) for damage dealing, give moderate support to the Dancer and healer, and minimal to Blue Mage (niche role, often less central). Allocation: Healer gets 12 for sustainability; support/DPS roles get 14-18; Blue Mage gets 4. Total sums to 100.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 4,\n    \"Role3\": 16,\n    \"Role4\": 14,\n    \"Role5\": 18,\n    \"Role6\": 18,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "(career: Dragoon)",
+            "role_obs": [
+                "Dragoon",
+                "Astrologian",
+                "Bard",
+                "Dark Knight",
+                "Dancer",
+                "Blue Mage",
+                "Black Mage"
+            ],
+            "response": "### Analysis\nAs the Dragoon team leader, my allocation prioritizes balance across roles while emphasizing DPS output for team success in game activities. Dragoons (melee DPS) and Black Mages (ranged magical DPS) get higher points for sustained damage. Bards and Dancers (ranged physical DPS/support) receive moderate shares for utility. Astrologians (healer) get a solid portion for sustain. Dark Knights (tank) get enough for frontline durability but less than DPS focus. Blue Mages (niche DPS) get the lowest due to specialized use. Total: 100 points, integers only.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 10,\n    \"Role5\": 12,\n    \"Role6\": 8,\n    \"Role7\": 23\n}\n```"
+        },
+        {
+            "role_self": "(career: Dragoon)",
+            "role_obs": [
+                "Black Mage",
+                "Bard",
+                "Dragoon",
+                "Astrologian",
+                "Blue Mage",
+                "Dancer",
+                "Dark Knight"
+            ],
+            "response": "### Analysis\nAs the Dragoon team leader, my goal is to balance resource allocation based on typical game roles in an MMORPG context (e.g., Final Fantasy XIV). DPS roles (Black Mage, Dragoon, Blue Mage, Dancer, Dark Knight) drive damage output, so they get a larger share to maximize offensive potential. Supports (Bard for group buffs/sustains, Astrologian for healing/shielding) receive moderate points to enable team survival without over-investing. With 100 points total, I prioritize my own Dragoon role slightly higher for leadership synergy, aiming for integers that sum exactly to 100 while favoring high-impact roles.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 12,\n    \"Role5\": 14,\n    \"Role6\": 12,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Dragoon)",
+            "role_obs": [
+                "Black Mage",
+                "Dark Knight",
+                "Bard",
+                "Dancer",
+                "Dragoon",
+                "Blue Mage",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the Dragoon team leader, my goal is to balance resource allocation based on typical roles in an RPG-like game setting. Black Mage (Role1) and Astrologian (Role7) are key for magical DPS and healing/support, so they get higher points for burst and sustain. Dark Knight (Role2) and Blue Mage (Role6) provide tanking and versatile utility, warranting solid allocation. Bard (Role3) and Dancer (Role4) focus on support/buffs, getting moderate points. As Dragoon (Role5), I allocate myself a balanced share for melee DPS leadership. This distributes the 100 points evenly but weighted toward impact roles, ensuring team synergy without over-focusing any one member.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 12,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Dragoon)",
+            "role_obs": [
+                "Dark Knight",
+                "Astrologian",
+                "Bard",
+                "Dancer",
+                "Dragoon",
+                "Black Mage",
+                "Blue Mage"
+            ],
+            "response": "### Analysis\nAs the Dragoon team leader, my goal is to balance resource allocation for optimal team performance in a game scenario. Dragoons (melee DPS) excel in sustained damage, so I'll prioritize my own role slightly for leadership synergy. The team has a mix: tanks (Dark Knight), healers (Astrologian), and DPS (Bard, Dancer, Dragoon, Black Mage, Blue Mage). Black Mage (ranged magic DPS) gets a boost for burst potential, while Blue Mage (niche/utility) gets less as it's often situational. Healer and ranged DPS (Bard, Dancer) get solid shares for support and sustained output, tank gets enough for durability. Distribution aims for equity with strategic emphasis: tank/healer core at 15-20 each, DPS varying by role strength, totaling exactly 100.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 14,\n    \"Role4\": 13,\n    \"Role5\": 20,\n    \"Role6\": 16,\n    \"Role7\": 4\n}\n```"
+        },
+        {
+            "role_self": "(career: Dragoon)",
+            "role_obs": [
+                "Astrologian",
+                "Bard",
+                "Black Mage",
+                "Dancer",
+                "Blue Mage",
+                "Dark Knight",
+                "Dragoon"
+            ],
+            "response": "### Analysis\nAs the Dragoon team leader, my goal is to optimize resource distribution for balanced team performance in a typical game scenario (e.g., raids or PvE content). Healers like Astrologian (Role1) need points for sustain and mitigation. Ranged DPS (Bard Role2, Dancer Role4, Blue Mage Role5) benefit from mobility and burst. Casters (Black Mage Role3) require setup for high damage. Tanks (Dark Knight Role6) prioritize durability. As Dragoon (Role7, melee DPS and leader), I allocate slightly more to myself for coordination.\n\nPriorities: \n- Healer: High allocation for team survival.\n- Tank: Solid points for frontline holding.\n- DPS roles: Even split, with minor boosts to versatile ones (e.g., Bard for support, Dragoon for leadership).\n- Total: 100 points, integers only.\n\nThis ensures synergy: ~25% to sustain (healer/tank), ~75% to damage output.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 13,\n    \"Role4\": 13,\n    \"Role5\": 12,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Dragoon)",
+            "role_obs": [
+                "Blue Mage",
+                "Bard",
+                "Dark Knight",
+                "Dragoon",
+                "Dancer",
+                "Black Mage",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the Dragoon team leader, my goal is to balance resource distribution for optimal team performance in a typical game scenario (e.g., combat-focused). The team has a mix of DPS (Role1 Blue Mage, Role2 Bard, Role3 Dark Knight, Role4 Dragoon, Role5 Dancer, Role6 Black Mage), support (Role2 Bard, Role5 Dancer), and healing (Role7 Astrologian). Black Mage (Role6) gets priority as a high-damage nuke specialist, followed by tank (Role3 Dark Knight) for survivability, healer (Role7) for sustain, and my own role (Role4) for leadership synergy. Bard and Dancer provide buffs/mobility but lower priority; Blue Mage is versatile but not core here. Allocation favors DPS and essentials, totaling exactly 100 points in integers.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 8,\n    \"Role3\": 18,\n    \"Role4\": 15,\n    \"Role5\": 9,\n    \"Role6\": 25,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Dragoon)",
+            "role_obs": [
+                "Bard",
+                "Black Mage",
+                "Dancer",
+                "Blue Mage",
+                "Dragoon",
+                "Dark Knight",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the Dragoon team leader, my allocation prioritizes roles that synergize with Dragoon's melee DPS style: enhancing survivability, utility, and damage output. Dragoon benefits from healing/support (Astrologian), crowd control/debuffs (Black Mage, Blue Mage), and tanking (Dark Knight) to maintain frontline pressure. Melee-aligned roles like Dancer get moderate support for mobility. Bard (ranged DPS) and self-allocation get lower priority to focus on core team strength. Total: 100 points, distributed in integers for balanced coverage.\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 14,\n    \"Role5\": 20,\n    \"Role6\": 18,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Dragoon)",
+            "role_obs": [
+                "Bard",
+                "Blue Mage",
+                "Dancer",
+                "Dark Knight",
+                "Dragoon",
+                "Black Mage",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the Dragoon team leader, my allocation prioritizes team synergy in a typical game scenario (e.g., raid or dungeon). Dragoons excel in melee DPS with jumps and sustained damage, so I'll allocate more to myself (Role5) for frontline reliability. Black Mage (Role6) gets a solid share for burst AoE DPS. Healers like Astrologian (Role7) and Bard (Role1, support healer) receive moderate points to maintain sustainability. Blue Mage (Role2) gets less due to its niche utility. Dancer (Role3) and Dark Knight (Role4) get balanced shares for additional DPS and tanking, respectively, ensuring overall balance without over-investing in any single role. Total sums to 100.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 14,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 18,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Dragoon)",
+            "role_obs": [
+                "Dark Knight",
+                "Bard",
+                "Dragoon",
+                "Black Mage",
+                "Blue Mage",
+                "Dancer",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the Dragoon team leader, my allocation prioritizes balanced team support in a typical game scenario (e.g., FF14-inspired roles). Dragoons excel in melee DPS with jumps and party buffs, so I'll allocate more to Role3 (myself) for sustained damage output. Black Mage (Role4) gets a strong share as a high-burst AoE DPS. Blue Mage (Role5) is versatile but niche, warranting moderate points. Bard (Role2) and Dancer (Role6) provide ranged DPS and party support (songs/dances), so they get solid allocations. Dark Knight (Role1) as tank gets enough for frontline durability. Astrologian (Role7) as healer receives the remainder to ensure team sustainability. This sums to 100, favoring DPS core while covering utility.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 18,\n    \"Role5\": 13,\n    \"Role6\": 13,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Dragoon)",
+            "role_obs": [
+                "Dark Knight",
+                "Bard",
+                "Dancer",
+                "Blue Mage",
+                "Black Mage",
+                "Dragoon",
+                "Astrologian"
+            ],
+            "response": "### Analysis\nAs the Dragoon team leader, my goal is to allocate 100 Action Points to optimize team performance in a typical game scenario (e.g., combat-focused). Dragoons excel in melee DPS with high burst damage and mobility, so I'll prioritize balanced distribution favoring DPS roles while supporting healers and utility. \n\n- **DPS Priority**: Black Mage (Role5: high magical DPS) and Dragoon (Role6: my own role for leadership synergy) get higher shares for sustained damage output. Dark Knight (Role1: tanky melee DPS) gets moderate support.\n- **Melee/Support**: Bard (Role2: ranged DPS with buffs) and Dancer (Role3: melee DPS with team buffs) receive solid allocations for group synergy.\n- **Utility/Specialist**: Blue Mage (Role4: versatile mimicry) gets a smaller share as it's niche. Astrologian (Role7: healer) gets enough for sustain but not top priority in a DPS-heavy setup.\n- **Balance**: Total sums to 100, integers only, emphasizing offense (70% to DPS) while allocating 30% to support/utility.\n\nThis allocation assumes a standard raid-like activity where damage output drives success.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 14,\n    \"Role4\": 8,\n    \"Role5\": 18,\n    \"Role6\": 20,\n    \"Role7\": 14\n}\n```"
+        }
+    ],
+    "chinese": [
+        {
+            "role_self": "（career：占星术士）",
+            "role_obs": [
+                "黑魔法师",
+                "暗黑骑士",
+                "青魔法师",
+                "舞者",
+                "龙骑士",
+                "吟游诗人",
+                "占星术士"
+            ],
+            "response": "### 分析\n作为占星术士队长，我需要根据游戏策略分配100行动点数。团队组成包括黑魔法师（高输出法术，需资源强化攻击）、暗黑骑士（坦克，需资源提升防御）、青魔法师（学习技能，需资源实验）、舞者（辅助增益，需资源维持节奏）、龙骑士（物理输出，需资源提升机动）、吟游诗人（支援歌谣，需资源扩展效果），以及我自己（占星术士，预言与支持，需资源协调团队）。\n\n策略考虑：优先高威胁角色（如黑魔法师和暗黑骑士）以确保生存和输出，其次是辅助（如舞者和吟游诗人）以提升整体效率，最后平衡其他角色。分配原则是整数，确保总和为100，避免零分配以保持团队活跃。我分配较多给输出/坦克（约60%），中等给辅助（约25%），剩余给机动/学习角色和我自己。\n\n### 决定\n- Role1 (黑魔法师): 20点（强化法术输出）。\n- Role2 (暗黑骑士): 18点（提升坦克耐久）。\n- Role3 (青魔法师): 12点（支持技能学习）。\n- Role4 (舞者): 15点（维持团队增益）。\n- Role5 (龙骑士): 14点（增强空中突击）。\n- Role6 (吟游诗人): 13点（扩展支援范围）。\n- Role7 (占星术士，我自己): 8点（协调预言）。\n\n总和：20+18+12+15+14+13+8=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 14,\n    \"Role6\": 13,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "（career：占星术士）",
+            "role_obs": [
+                "暗黑骑士",
+                "占星术士",
+                "黑魔法师",
+                "吟游诗人",
+                "龙骑士",
+                "青魔法师",
+                "舞者"
+            ],
+            "response": "### 分析\n作为占星术士队长，我需要根据团队组成和游戏策略分配100行动点数。团队包括近战坦克（暗黑骑士）、辅助/治疗（占星术士、我自己；吟游诗人）、远程DPS（黑魔法师、龙骑士）、特殊学习者（青魔法师）和支援DPS（舞者）。策略上，优先强化核心DPS和坦克以确保生存和输出，其次是辅助和支援角色。分配原则：坦克稍多以承受伤害，DPS均衡，辅助和支援适中，避免任何角色为0以保持团队平衡。总和严格为100，使用整数。\n\n### 决定\n- Role1 (暗黑骑士)：15点（坦克需高行动以拉怪和防御）。\n- Role2 (占星术士)：12点（辅助角色，支持团队恢复）。\n- Role3 (黑魔法师)：18点（高DPS输出，优先远程魔法伤害）。\n- Role4 (吟游诗人)：10点（支援buff，适中分配）。\n- Role5 (龙骑士)：18点（物理DPS，平衡远程输出）。\n- Role6 (青魔法师)：14点（学习技能潜力，适度投资）。\n- Role7 (舞者)：13点（舞蹈支援，增强团队机动性）。\n\n总计：15+12+18+10+18+14+13=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 18,\n    \"Role6\": 14,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：占星术士）",
+            "role_obs": [
+                "舞者",
+                "龙骑士",
+                "青魔法师",
+                "暗黑骑士",
+                "吟游诗人",
+                "占星术士",
+                "黑魔法师"
+            ],
+            "response": "### 分析\n作为占星术士队长，我需要根据团队平衡和角色特性分配100行动点数。占星术士（我自己，Role6）擅长支持和预知，因此优先给自己一些点数以维持团队协调。其他角色：舞者（Role1）提供辅助和机动性，龙骑士（Role2）是前线坦克，青魔法师（Role3）学习敌人技能需探索，黑魔法师（Role7）输出高但需资源控制，暗黑骑士（Role4）近战耐久，吟游诗人（Role5）buff和情报。总体上，优先输出和坦克角色以确保生存和推进，其余辅助角色适中分配，确保总和为100。\n\n### 决定\n- Role1 (舞者): 10点（辅助机动）。\n- Role2 (龙骑士): 20点（前线核心）。\n- Role3 (青魔法师): 12点（技能学习）。\n- Role4 (暗黑骑士): 18点（耐久支持）。\n- Role5 (吟游诗人): 8点（团队buff）。\n- Role6 (占星术士): 15点（队长协调）。\n- Role7 (黑魔法师): 17点（高输出）。\n\n总计：10+20+12+18+8+15+17=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 8,\n    \"Role6\": 15,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "（career：占星术士）",
+            "role_obs": [
+                "占星术士",
+                "暗黑骑士",
+                "青魔法师",
+                "黑魔法师",
+                "吟游诗人",
+                "龙骑士",
+                "舞者"
+            ],
+            "response": "### 分析\n作为队长（占星术士），我需要根据游戏角色（career）的特性来分配100行动点数，以最大化团队效率。占星术士（Role1和我自己）擅长支援和预知，通常需要较高点数来维持团队buff。暗黑骑士（Role2）是坦克，需足够点数吸收伤害。青魔法师（Role3）学习敌人技能，点数中等以探索。黑魔法师（Role4）输出高，优先分配以轰炸敌人。吟游诗人（Role5）和舞者（Role7）是辅助/控制角色，点数适中增强团队持久。龙骑士（Role6）是高爆发物理输出，分配较高点数冲锋。\n\n分配原则：优先输出和坦克（总60点），其次支援（总25点），剩余探索/辅助（15点）。确保整数，总和为100，避免零分配以保持平衡。\n\n### 决定\n- Role1 (占星术士): 15点（支援核心）。\n- Role2 (暗黑骑士): 18点（前线坦克）。\n- Role3 (青魔法师): 10点（技能学习）。\n- Role4 (黑魔法师): 20点（魔法输出）。\n- Role5 (吟游诗人): 12点（团队增益）。\n- Role6 (龙骑士): 15点（物理爆发）。\n- Role7 (舞者): 10点（节奏控制）。\n\n总计：15+18+10+20+12+15+10=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 12,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：占星术士）",
+            "role_obs": [
+                "暗黑骑士",
+                "占星术士",
+                "黑魔法师",
+                "舞者",
+                "青魔法师",
+                "吟游诗人",
+                "龙骑士"
+            ],
+            "response": "### 分析\n作为占星术士队长，我需要根据游戏策略分配100行动点数。占星术士职业擅长支援和治疗，因此我会优先强化团队平衡：坦克（如暗黑骑士）需要更多点数来承受伤害，DPS（如黑魔法师、龙骑士）需提升输出，辅助（如舞者、吟游诗人）用于团队增益，青魔法师作为多功能角色适中分配。总体上，优先前线和输出角色，确保总和为100整数。\n\n- Role1 (暗黑骑士，坦克)：高分配，承受主力。\n- Role2 (占星术士，同职业)：中等，强化支援。\n- Role3 (黑魔法师，远程DPS)：高，最大化伤害。\n- Role4 (舞者，辅助)：低，专注增益。\n- Role5 (青魔法师，多功能)：中等，灵活应对。\n- Role6 (吟游诗人，支援DPS)：低，辅助输出。\n- Role7 (龙骑士，近战DPS)：高，突击力量。\n\n分配原则：坦克/DPS 15-20点，支援/辅助 8-12点，总和100。\n\n### 决定\n分配如下：Role1: 18, Role2: 12, Role3: 18, Role4: 10, Role5: 14, Role6: 10, Role7: 18（总计100）。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 14,\n    \"Role6\": 10,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：占星术士）",
+            "role_obs": [
+                "舞者",
+                "青魔法师",
+                "暗黑骑士",
+                "吟游诗人",
+                "龙骑士",
+                "黑魔法师",
+                "占星术士"
+            ],
+            "response": "### 分析\n作为占星术士队长，我需要根据游戏角色（career）的典型定位和团队协同来分配100行动点数。占星术士擅长支持、预知和辅助，因此优先强化团队平衡：近战坦克（如暗黑骑士）需更多点数以承受伤害；魔法输出（如黑魔法师）需提升法术威力；辅助/控制角色（如舞者、青魔法师、吟游诗人）适中分配以维持buff/debuff；龙骑士作为跳跃型DPS次之；另一个占星术士（Role7）作为我的副手，分配中等以增强预言支持。目标是确保团队在战斗中全面覆盖，避免单一角色过载，总和精确为100。\n\n### 决定\n- Role1 (舞者)：15点（提升舞蹈buff，辅助全队机动性）。\n- Role2 (青魔法师)：12点（学习敌方技能，提供控制与多样性）。\n- Role3 (暗黑骑士)：20点（强化坦克能力，吸收伤害）。\n- Role4 (吟游诗人)：14点（歌曲支持，提升团队士气与恢复）。\n- Role5 (龙骑士)：16点（增强跳跃攻击，DPS输出）。\n- Role6 (黑魔法师)：18点（最大化黑魔法伤害，远程爆发）。\n- Role7 (占星术士)：5点（辅助预知，节省资源给我主控）。\n\n总和：15+12+20+14+16+18+5=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 18,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：占星术士）",
+            "role_obs": [
+                "黑魔法师",
+                "暗黑骑士",
+                "龙骑士",
+                "舞者",
+                "青魔法师",
+                "占星术士",
+                "吟游诗人"
+            ],
+            "response": "### 分析\n作为占星术士队长，我需要根据团队平衡和角色专长来分配100行动点数。团队组成包括魔法输出（黑魔法师、青魔法师）、近战坦克（暗黑骑士）、空中突击（龙骑士）、辅助/控制（舞者、吟游诗人）和另一个占星术士（可能作为我的副手）。优先考虑前线战斗角色以确保生存和输出，其次是辅助角色提升团队效率，最后是后备支持。分配原则：整数分配，总和精确为100，避免零分配以保持全员活跃，但根据角色重要性倾斜（例如，黑魔法师高输出获更多点，舞者辅助获适中点）。\n\n### 决定\n- Role1 (黑魔法师)：高魔法伤害核心，分配20点用于强化攻击。\n- Role2 (暗黑骑士)：坦克保护团队，分配18点用于防御和生存。\n- Role3 (龙骑士)：机动突击，分配16点用于空中作战。\n- Role4 (舞者)：辅助增益，分配12点用于团队buff。\n- Role5 (青魔法师)：学习敌方技能，分配10点用于适应性。\n- Role6 (占星术士)：与我协同预言，分配12点用于策略支持。\n- Role7 (吟游诗人)： morale提升，分配12点用于持续辅助。\n\n总和：20+18+16+12+10+12+12=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 16,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 12,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：占星术士）",
+            "role_obs": [
+                "青魔法师",
+                "暗黑骑士",
+                "吟游诗人",
+                "龙骑士",
+                "黑魔法师",
+                "占星术士",
+                "舞者"
+            ],
+            "response": "### 分析\n作为占星术士队长，我需要根据游戏策略为队员分配100行动点数。优先考虑团队平衡：青魔法师（Role1）和黑魔法师（Role5）擅长魔法输出和控制，应多分配以增强远程火力；暗黑骑士（Role2）和龙骑士（Role4）是近战坦克，需足够点数维持前线；吟游诗人（Role3）和舞者（Role7）提供辅助与buff，分配适中以支持全队；作为另一位占星术士（Role6），我分配稍多以协调占星预知和团队增益。总和严格为100，确保整数分配，偏向进攻型角色以追求高效推进。\n\n### 决定\n分配如下：魔法师线（Role1和Role5）各18点，黑魔法师稍高以补足破坏力；近战（Role2和Role4）各15点；辅助（Role3和Role7）各12点；占星术士（Role6）15点，用于队长协调。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：占星术士）",
+            "role_obs": [
+                "占星术士",
+                "吟游诗人",
+                "暗黑骑士",
+                "龙骑士",
+                "黑魔法师",
+                "青魔法师",
+                "舞者"
+            ],
+            "response": "### 分析\n作为队长（占星术士），我需要根据游戏中各职业的典型角色和协同需求分配100行动点数。占星术士（我和Role1）擅长预知与支持，通常需要较高点数来维持团队buff和侦查。吟游诗人（Role2）提供辅助与士气提升，暗黑骑士（Role3）和龙骑士（Role4）是前线坦克与输出，需要平衡力量以承受伤害。黑魔法师（Role5）专注高伤害AOE，青魔法师（Role6）学习技能需灵活点数，舞者（Role7）通过debuff控制战场，适合中等分配。\n\n分配原则：优先支持与输出职业（占星术士、魔法师系），次之坦克与辅助（骑士、诗人、舞者），确保总和为100。避免零分配以保持团队完整性，整数分配。\n\n### 决定\n- Role1 (占星术士)：20点（队长与同职业支持核心）。\n- Role2 (吟游诗人)：10点（辅助士气）。\n- Role3 (暗黑骑士)：15点（坦克耐久）。\n- Role4 (龙骑士)：15点（空中输出）。\n- Role5 (黑魔法师)：15点（高伤害）。\n- Role6 (青魔法师)：15点（技能适应）。\n- Role7 (舞者)：10点（控制辅助）。\n\n总计：100点。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：占星术士）",
+            "role_obs": [
+                "吟游诗人",
+                "黑魔法师",
+                "占星术士",
+                "青魔法师",
+                "舞者",
+                "暗黑骑士",
+                "龙骑士"
+            ],
+            "response": "### 分析\n作为占星术士队长，我需要根据团队角色在游戏中的典型定位来分配100行动点数。占星术士（Role3，我自己）擅长预知和支援，需要较高点数来维持团队策略。吟游诗人（Role1）和舞者（Role5）是辅助型，适合中等工作以提升士气。黑魔法师（Role2）和青魔法师（Role4）是魔法输出，需要平衡点数以避免资源浪费。暗黑骑士（Role6）和龙骑士（Role7）是近战坦克/输出，分配稍高以确保前线稳定。总体原则：优先支援与输出平衡，总和精确为100，确保团队协同。\n\n### 决定\n- Role1 (吟游诗人): 12点（辅助士气）\n- Role2 (黑魔法师): 15点（魔法爆发）\n- Role3 (占星术士): 18点（核心预知）\n- Role4 (青魔法师): 14点（学习型输出）\n- Role5 (舞者): 11点（团队增益）\n- Role6 (暗黑骑士): 15点（防御支撑）\n- Role7 (龙骑士): 15点（空中突击）\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 11,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "吟游诗人",
+                "龙骑士",
+                "青魔法师",
+                "舞者",
+                "占星术士",
+                "黑魔法师",
+                "暗黑骑士"
+            ],
+            "response": "### 分析\n作为队长（吟游诗人），我需要根据团队平衡和角色特性分配100行动点数。团队包括多个吟游诗人（Role1和我自己，但分配仅针对列出角色），强调支援与魔法；龙骑士（Role2）适合前线作战，需要较高点数以提升机动性；青魔法师（Role3）和黑魔法师（Role6）依赖魔法输出，分配中等点数以强化技能；舞者（Role4）提供辅助buff，点数适中；占星术士（Role5）专注预知与支援，低至中等；暗黑骑士（Role7）作为坦克，需要较高点数以承受伤害。优先考虑前线（Role2、Role7）和核心输出（Role3、Role6），总和确保为100，避免零分配以保持团队活跃。\n\n### 决定\n- Role1 (吟游诗人)：15点（支援角色，适中分配以辅助团队）。\n- Role2 (龙骑士)：20点（前线主力，高机动需求）。\n- Role3 (青魔法师)：18点（魔法输出，强化学习能力）。\n- Role4 (舞者)：12点（辅助buff，保持节奏）。\n- Role5 (占星术士)：10点（预知支援，低需求但不可或缺）。\n- Role6 (黑魔法师)：15点（破坏性魔法，中等强化）。\n- Role7 (暗黑骑士)：10点（坦克角色，基础耐久）。\n\n总计：15+20+18+12+10+15+10=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "黑魔法师",
+                "占星术士",
+                "龙骑士",
+                "暗黑骑士",
+                "舞者",
+                "吟游诗人",
+                "青魔法师"
+            ],
+            "response": "### 分析\n作为游戏中的吟游诗人队长，我需要根据团队策略分配100行动点数。团队组成包括黑魔法师（Role1，擅长远程魔法攻击）、占星术士（Role2，预知与辅助支持）、龙骑士（Role3，前线空中突击）、暗黑骑士（Role4，近战坦克）、舞者（Role5，增益与机动性）、吟游诗人（Role6，我自己，焦点于团队buff与探索）、青魔法师（Role7，学习敌人技能的适应型法师）。  \n\n策略考虑：  \n- **平衡进攻与防御**：前线角色（如龙骑士和暗黑骑士）需更多点数以确保生存和输出。  \n- **支持角色优先**：作为吟游诗人，我会给自己中等分配以维持团队士气；辅助角色如占星术士和舞者需足够点数提供buff。  \n- **魔法角色灵活性**：黑魔法师和青魔法师可用于爆发，但分配稍低以避免资源浪费。  \n- **总和精确**：所有分配为整数，总计100，确保无剩余。  \n\n基于此，我优先强化前线（Role3和Role4各18），支持（Role2、Role5、Role6各15），魔法输出（Role1和Role7各10），形成均衡配置，便于游戏推进。\n\n### 决定\n分配如下：  \n- Role1 (黑魔法师): 10  \n- Role2 (占星术士): 15  \n- Role3 (龙骑士): 18  \n- Role4 (暗黑骑士): 18  \n- Role5 (舞者): 15  \n- Role6 (吟游诗人): 15  \n- Role7 (青魔法师): 9  \n\n（总和：10+15+18+18+15+15+9=100）\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 18,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "吟游诗人",
+                "黑魔法师",
+                "青魔法师",
+                "龙骑士",
+                "暗黑骑士",
+                "占星术士",
+                "舞者"
+            ],
+            "response": "### 分析\n作为队长（吟游诗人），我需要根据团队平衡和角色特性分配100行动点数。团队组成包括两个吟游诗人（Role1和我自己，但分配仅针对列出队员），以及多样化的魔法师（黑/青）、近战（龙/暗黑骑士）和支援角色（占星术士、舞者）。目标是确保团队协作：支援角色（如吟游诗人、舞者、占星术士）需适中点数以提供buff/debuff；输出角色（如魔法师、骑士）需较高点数以执行高风险活动；避免任何角色为0以保持全员活跃。考虑到吟游诗人（Role1）的支援定位，我会优先给输出角色更多资源，同时均匀分布以总和达100。\n\n### 决定\n- Role1 (吟游诗人)：15点（支援核心，适中分配）。\n- Role2 (黑魔法师)：18点（高输出魔法，需更多行动）。\n- Role3 (青魔法师)：16点（学习型魔法，略低于黑魔法以平衡）。\n- Role4 (龙骑士)：17点（空中近战，机动性强）。\n- Role5 (暗黑骑士)：17点（坦克型近战，需耐久行动）。\n- Role6 (占星术士)：8点（预言支援，低需求但不可或缺）。\n- Role7 (舞者)：9点（节奏支援，辅助团队）。\n\n总和：15+18+16+17+17+8+9=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 16,\n    \"Role4\": 17,\n    \"Role5\": 17,\n    \"Role6\": 8,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "龙骑士",
+                "黑魔法师",
+                "占星术士",
+                "吟游诗人",
+                "青魔法师",
+                "暗黑骑士",
+                "舞者"
+            ],
+            "response": "### 分析\n作为吟游诗人队长，我需要根据团队平衡和职业特性来分配100行动点数。团队组成包括近战输出（龙骑士、暗黑骑士）、魔法输出（黑魔法师、青魔法师）、辅助/预言（占星术士）、同职业支持（另一位吟游诗人）和表演辅助（舞者）。优先考虑多样性：给予输出角色更多点数以提升战斗效率，辅助角色适中以维持团队协同，最后调整以确保总和为100。避免零分配以保持全员活跃。\n\n- Role1 (龙骑士)：空中近战输出，分配较高以强化突击。\n- Role2 (黑魔法师)：高伤害魔法，分配较高以最大化DPS。\n- Role3 (占星术士)：预言与buff，分配中等以支持策略。\n- Role4 (吟游诗人)：同职业，分配中等以协同吟唱/激励。\n- Role5 (青魔法师)：学习型魔法，分配中等以适应性成长。\n- Role6 (暗黑骑士)：坦克输出，分配较高以承受前线。\n- Role7 (舞者)：debuff与机动，分配较低但非零以辅助机动。\n\n分配原则：输出型15-18，中等12-14，辅助10，确保整数总和100。\n\n### 决定\n最终分配如下：\n- Role1: 16\n- Role2: 17\n- Role3: 13\n- Role4: 13\n- Role5: 14\n- Role6: 16\n- Role7: 11\n\n总和：16+17+13+13+14+16+11=100。\n\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 17,\n    \"Role3\": 13,\n    \"Role4\": 13,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "舞者",
+                "青魔法师",
+                "黑魔法师",
+                "暗黑骑士",
+                "占星术士",
+                "吟游诗人",
+                "龙骑士"
+            ],
+            "response": "### 分析\n作为团队的吟游诗人队长，我需要根据每个队员的职业特性分配100行动点数，以优化团队在游戏中的整体表现。吟游诗人擅长支援和buff，因此我会优先考虑团队平衡：近战输出（舞者和龙骑士）需要较高点数以提升机动性和伤害；魔法师（青魔法师、黑魔法师）用于控制和远程输出，中等分配；坦克（暗黑骑士）需足够点数维持前线；占星术士作为辅助，点数稍低以支持预知和治疗；另一个吟游诗人（Role6）作为我的副手，分配适中以增强团队士气。分配原则：总和为100，整数，确保多样性（输出型角色多分，支援型少分），避免任何角色为0以保持全员活跃。\n\n### 决定\n- Role1 (舞者)：15点（提升舞蹈buff和闪避，增强团队机动）。\n- Role2 (青魔法师)：12点（学习敌方技能，用于控制和适应性输出）。\n- Role3 (黑魔法师)：18点（高伤害魔法，需要更多点数轰炸敌人）。\n- Role4 (暗黑骑士)：20点（坦克核心，维持高耐久和反击）。\n- Role5 (占星术士)：10点（预言和辅助治疗，点数适中支持后排）。\n- Role6 (吟游诗人)：12点（作为副手，强化团队歌谣和恢复）。\n- Role7 (龙骑士)：13点（空中突袭输出，平衡近战需求）。\n\n总和：15+12+18+20+10+12+13=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 12,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "青魔法师",
+                "舞者",
+                "吟游诗人",
+                "占星术士",
+                "暗黑骑士",
+                "龙骑士",
+                "黑魔法师"
+            ],
+            "response": "### 分析\n作为游戏中的吟游诗人队长，我需要根据每个队员的职业特性分配100行动点数，以最大化团队效率。吟游诗人（我自己，Role3）擅长支援和buff，因此会给自己分配适中点数以维持团队士气。青魔法师（Role1）和黑魔法师（Role7）是魔法输出型，需较高点数用于学习/施法技能。舞者（Role2）依赖节奏和辅助，点数中等。占星术士（Role4）专注预知和控制，点数适中。暗黑骑士（Role5）和龙骑士（Role6）是近战/坦克型，需高点数用于冲锋和耐久战斗。总体上，优先输出和前线角色，总和严格为100，确保平衡。\n\n### 决定\n- Role1 (青魔法师): 15点（用于适应性魔法学习）。\n- Role2 (舞者): 10点（用于辅助节奏）。\n- Role3 (吟游诗人): 12点（自我支援以提升全队）。\n- Role4 (占星术士): 13点（用于占卜和控制）。\n- Role5 (暗黑骑士): 18点（坦克耐久）。\n- Role6 (龙骑士): 16点（空中突击）。\n- Role7 (黑魔法师): 16点（高伤害输出）。\n\n总计：15+10+12+13+18+16+16=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 13,\n    \"Role5\": 18,\n    \"Role6\": 16,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "龙骑士",
+                "黑魔法师",
+                "占星术士",
+                "暗黑骑士",
+                "青魔法师",
+                "吟游诗人",
+                "舞者"
+            ],
+            "response": "### 分析\n作为团队的吟游诗人队长，我需要根据每个队员的职业特性来分配100行动点数，以最大化团队在游戏中的整体效能。吟游诗人擅长支援和buff全队，所以我会优先确保核心输出和控制角色有足够资源，同时兼顾辅助角色。考虑因素包括：\n- **龙骑士 (Role1)**：高物理输出和坦克角色，需要较多点数用于冲锋和承受伤害。\n- **黑魔法师 (Role2)**：远程魔法DPS，依赖行动点进行高爆发法术，优先分配以控制战场。\n- **占星术士 (Role3)**：预言与辅助控制，适中分配用于侦查和debuff。\n- **暗黑骑士 (Role4)**：近战坦克与自愈，类似龙骑士，需要点数维持前线。\n- **青魔法师 (Role5)**：学习敌方技能的适应型法师，中等分配以灵活应对。\n- **吟游诗人 (Role6)**：我自己，作为队长，少量分配用于团队激励和游击支援。\n- **舞者 (Role7)**：机动性支援与debuff，少量点数用于辅助机动。\n\n总体策略：前线DPS和坦克（Role1、Role2、Role4）获较多资源（约60%），辅助角色（Role3、Role5、Role6、Role7）获剩余（约40%），确保平衡无一为零。总和严格为100。\n\n### 决定\n分配如下：Role1获20（坦克输出）、Role2获18（魔法爆发）、Role3获12（控制辅助）、Role4获20（前线维持）、Role5获10（适应学习）、Role6获8（队长支援）、Role7获12（机动debuff）。这能让团队高效推进游戏目标。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 8,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "暗黑骑士",
+                "黑魔法师",
+                "龙骑士",
+                "占星术士",
+                "青魔法师",
+                "舞者",
+                "吟游诗人"
+            ],
+            "response": "### 分析\n作为吟游诗人队长，我需要根据团队平衡和角色特性来分配100行动点数。团队包括近战坦克（暗黑骑士）、魔法输出（黑魔法师、青魔法师）、空中物理输出（龙骑士）、辅助预言（占星术士）、娱乐/辅助（舞者）和另一位吟游诗人（可能作为副手）。目标是确保前线输出和防御优先，同时保留一些资源给辅助角色以提升整体协同。考虑到战斗导向，我会优先分配给输出型角色（黑魔法师、龙骑士、青魔法师），次之坦克和辅助，最后给自己和舞者少量用于支持。分配总和严格为100，确保整数。\n\n### 决定\n- Role1 (暗黑骑士): 15点，用于坦克吸收伤害。\n- Role2 (黑魔法师): 20点，高输出魔法攻击。\n- Role3 (龙骑士): 20点，空中突击和物理输出。\n- Role4 (占星术士): 10点，提供预言和buff支持。\n- Role5 (青魔法师): 18点，学习敌方技能的灵活输出。\n- Role6 (舞者): 8点，娱乐辅助提升士气。\n- Role7 (吟游诗人): 9点，作为队长用于团队激励。\n\n总计: 15+20+20+10+18+8+9=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 18,\n    \"Role6\": 8,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "黑魔法师",
+                "龙骑士",
+                "舞者",
+                "暗黑骑士",
+                "青魔法师",
+                "占星术士",
+                "吟游诗人"
+            ],
+            "response": "### 分析\n作为团队的吟游诗人队长，我需要根据每个队员的职业特性来分配100行动点数，以最大化团队整体效能。吟游诗人擅长支援和buff，因此我会优先考虑团队平衡：魔法输出（黑魔法师、青魔法师、占星术士）需要较高点数用于施法和预言；近战/机动角色（龙骑士、暗黑骑士）适中点数用于冲锋；辅助角色（舞者）较低但足够提供节奏支持；我自己（Role7）会分配一些点数用于团队激励。总和严格为100，确保整数分配，避免任何角色为0以保持全员活跃。\n\n- **Role1 (黑魔法师)**: 高输出魔法，分配较高点数。\n- **Role2 (龙骑士)**: 空中机动攻击，适中点数。\n- **Role3 (舞者)**: 辅助增益，低点数。\n- **Role4 (暗黑骑士)**: 坦克近战，适中点数。\n- **Role5 (青魔法师)**: 学习敌方技能，较高点数。\n- **Role6 (占星术士)**: 预言与控制，较高点数。\n- **Role7 (吟游诗人)**: 队长支援，适中点数。\n\n分配原则：魔法系偏高（总约50%），近战/辅助偏中低（总约40%），队长自留10%。\n\n### 决定\n基于以上，我决定分配如下：Role1: 18, Role2: 12, Role3: 8, Role4: 13, Role5: 16, Role6: 17, Role7: 16（总和=100）。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 8,\n    \"Role4\": 13,\n    \"Role5\": 16,\n    \"Role6\": 17,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（career：吟游诗人）",
+            "role_obs": [
+                "青魔法师",
+                "占星术士",
+                "吟游诗人",
+                "舞者",
+                "黑魔法师",
+                "暗黑骑士",
+                "龙骑士"
+            ],
+            "response": "### 分析\n作为吟游诗人队长，我需要根据游戏逻辑分配100行动点数。吟游诗人擅长支持和buff队友，黑魔法师和暗黑骑士适合高输出攻击，青魔法师和占星术士偏向辅助与控制，龙骑士是近战突击手，舞者提供机动性和debuff。优先分配给高威胁输出角色（黑魔法师、暗黑骑士、龙骑士）以确保战斗力，其次是辅助角色（青魔法师、占星术士、舞者），最后给自己（Role3）少量用于团队协调。分配原则：输出型30-25点，辅助型15-10点，支持型10点，总和精确为100。\n\n### 决定\n- Role1 (青魔法师)：15点，用于学习敌人技能提供灵活支持。\n- Role2 (占星术士)：15点，用于预知和星象buff增强团队生存。\n- Role3 (吟游诗人，我自己)：10点，用于团队激励和歌曲辅助。\n- Role4 (舞者)：10点，用于机动debuff和节奏控制。\n- Role5 (黑魔法师)：25点，用于高伤害AOE法术主导战场。\n- Role6 (暗黑骑士)：15点，用于坦克输出和黑暗守护。\n- Role7 (龙骑士)：10点，用于空中突击和龙骑combo（稍低以平衡资源）。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 25,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：黑魔法师）",
+            "role_obs": [
+                "龙骑士",
+                "占星术士",
+                "青魔法师",
+                "舞者",
+                "吟游诗人",
+                "暗黑骑士",
+                "黑魔法师"
+            ],
+            "response": "### 分析\n作为黑魔法师队长，我需要根据团队平衡和角色专长来分配100行动点数。团队包括近战（龙骑士、暗黑骑士）、魔法输出（青魔法师、黑魔法师）、辅助（占星术士、舞者、吟游诗人）。优先考虑高风险高回报的角色：龙骑士和暗黑骑士用于前线作战，占星术士和吟游诗人用于预知与buff，黑魔法师（包括我自己）用于核心输出，青魔法师和舞者用于辅助控制。分配原则：前线多分（20-25点），输出和辅助均衡（15-20点），确保总和为100，避免任何角色为0以维持团队协作。\n\n### 决定\n- Role1 (龙骑士)：25点，用于突击和坦克。\n- Role2 (占星术士)：18点，用于预知和策略支持。\n- Role3 (青魔法师)：15点，用于学习敌人技能的灵活输出。\n- Role4 (舞者)：12点，用于团队增益和机动。\n- Role5 (吟游诗人)：10点，用于 morale boost 和故事叙事。\n- Role6 (暗黑骑士)：20点，用于黑暗近战协同。\n- Role7 (黑魔法师)：0点（作为队长，我保留行动用于指挥，不分配给自己）。\n\n总和：25+18+15+12+10+20+0=100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 0\n}\n```"
+        },
+        {
+            "role_self": "（career：黑魔法师）",
+            "role_obs": [
+                "吟游诗人",
+                "黑魔法师",
+                "龙骑士",
+                "青魔法师",
+                "舞者",
+                "占星术士",
+                "暗黑骑士"
+            ],
+            "response": "### 分析\n作为队长（黑魔法师），我需要根据团队协作和职业特性分配100行动点数。优先考虑魔法系职业（如我自己和青魔法师、占星术士）以增强核心输出；龙骑士和暗黑骑士作为前线战士需适量支持；吟游诗人、舞者和黑魔法师（我自己）则侧重辅助和控制，避免过度倾斜。分配原则：平衡团队，避免任何角色为0，确保总和为100。黑魔法师（Role2）作为队长，我会多分配以维持领导力。\n\n### 决定\n- Role1 (吟游诗人): 12点（辅助增益）。\n- Role2 (黑魔法师): 18点（队长核心，魔法输出）。\n- Role3 (龙骑士): 15点（前线突击）。\n- Role4 (青魔法师): 14点（魔法补充）。\n- Role5 (舞者): 10点（团队buff）。\n- Role6 (占星术士): 13点（预知支持）。\n- Role7 (暗黑骑士): 18点（坦克防护）。\n\n总和：12+18+15+14+10+13+18=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 10,\n    \"Role6\": 13,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：黑魔法师）",
+            "role_obs": [
+                "吟游诗人",
+                "黑魔法师",
+                "暗黑骑士",
+                "占星术士",
+                "青魔法师",
+                "舞者",
+                "龙骑士"
+            ],
+            "response": "### 分析\n作为黑魔法师队长，我需要根据团队策略分配100行动点数。黑魔法师（Role2，我自己）擅长远程魔法攻击和控制，因此优先获得更多资源以强化核心输出。团队其他成员的职业特性考虑如下：\n- Role1 (吟游诗人)：支持型，提供buff和debuff，分配适中以维持团队士气。\n- Role3 (暗黑骑士)：坦克型，负责前线承受伤害，需足够资源提升生存和嘲讽能力。\n- Role4 (占星术士)：辅助型，占卜和预知，分配中等以支持决策。\n- Role5 (青魔法师)：学习敌人技能的适应型，资源稍多以快速成长。\n- Role6 (舞者)：敏捷型，提供速度和闪避支持，分配较少但灵活。\n- Role7 (龙骑士)：高爆发物理输出，分配较多以配合我的魔法，形成前后夹击。\n\n总体策略：优先核心输出（自己和龙骑士），平衡坦克和支持（暗黑骑士、吟游诗人、占星术士），辅助成长型（青魔法师），最小化非核心（舞者）。总和严格为100，确保整数分配。\n\n### 决定\n分配如下：\n- Role1: 12（支持维持）\n- Role2: 25（队长核心输出）\n- Role3: 18（坦克防护）\n- Role4: 10（辅助预知）\n- Role5: 15（技能成长）\n- Role6: 5（敏捷辅助）\n- Role7: 15（爆发输出）\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 25,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 5,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：黑魔法师）",
+            "role_obs": [
+                "龙骑士",
+                "舞者",
+                "占星术士",
+                "黑魔法师",
+                "暗黑骑士",
+                "青魔法师",
+                "吟游诗人"
+            ],
+            "response": "### 分析\n作为黑魔法师队长，我需要根据游戏策略分配100行动点数。优先考虑团队平衡：龙骑士（Role1）和暗黑骑士（Role5）作为前线战士，需要更多点数用于战斗和防御；黑魔法师（Role4，我自己）和青魔法师（Role6）作为魔法输出核心，也需较高分配以施放技能；占星术士（Role3）提供支援，适中分配；舞者（Role2）和吟游诗人（Role7）作为辅助角色，分配较少以节省资源。总和确保为100，全部为整数。\n\n### 决定\n- Role1 (龙骑士): 20点（高机动战斗）。\n- Role2 (舞者): 8点（辅助增益）。\n- Role3 (占星术士): 12点（预知支援）。\n- Role4 (黑魔法师): 18点（核心魔法输出）。\n- Role5 (暗黑骑士): 18点（坦克防御）。\n- Role6 (青魔法师): 14点（学习敌方技能）。\n- Role7 (吟游诗人): 10点（团队鼓舞）。\n\n总计：20+8+12+18+18+14+10=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 8,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 18,\n    \"Role6\": 14,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：黑魔法师）",
+            "role_obs": [
+                "吟游诗人",
+                "舞者",
+                "青魔法师",
+                "龙骑士",
+                "暗黑骑士",
+                "黑魔法师",
+                "占星术士"
+            ],
+            "response": "### 分析\n作为黑魔法师队长，我需要根据团队角色在游戏中的协同作用来分配100行动点数。黑魔法师擅长远程高伤害输出和范围控制，因此优先支持能增强魔法效果或提供辅助的队员：占星术士（Role7）可提供预言和buff支持青/黑魔法；青魔法师（Role3）能学习并复制魔法技能，与我的黑魔法互补；吟游诗人（Role1）提供团队激励和debuff抵抗。  \n中等分配给近战输出角色：龙骑士（Role4）和暗黑骑士（Role5）作为前线坦克，能保护后排法师，但黑魔法依赖远程，故不宜过多。  \n舞者（Role2）主要辅助机动性和节奏控制，在魔法导向团队中作用有限，故最低分配。  \n分配原则：优先魔法协同（总60点），次之输出保护（总30点），最低辅助（总10点），确保整数且总和为100。\n\n### 决定\n- Role1 (吟游诗人): 15点（激励支持）。\n- Role2 (舞者): 5点（最小机动辅助）。\n- Role3 (青魔法师): 25点（魔法协同核心）。\n- Role4 (龙骑士): 15点（前线输出）。\n- Role5 (暗黑骑士): 15点（坦克保护）。\n- Role6 (黑魔法师): 0点（我自己不需分配，专注领导）。\n- Role7 (占星术士): 25点（预言buff关键）。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 5,\n    \"Role3\": 25,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 0,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "（career：黑魔法师）",
+            "role_obs": [
+                "龙骑士",
+                "暗黑骑士",
+                "占星术士",
+                "吟游诗人",
+                "舞者",
+                "青魔法师",
+                "黑魔法师"
+            ],
+            "response": "### 分析\n作为黑魔法师队长，我需要根据团队角色特性分配100行动点数，以最大化整体战斗效率。黑魔法师擅长远程高伤害输出和群体控制，因此优先强化魔法系角色（如Role3占星术士和Role6青魔法师）以补充我的能力。Role7（另一个黑魔法师）作为副手，也需适量支持以避免重复。物理近战角色（如Role1龙骑士和Role2暗黑骑士）获得中等分配，用于前线坦克和输出。辅助角色（如Role4吟游诗人、Role5舞者）用于团队增益，分配较少但均衡。总体原则：魔法系偏重（约50%），物理系中等（约30%），辅助系轻配（约20%），确保总和为100整数。\n\n### 决定\n- Role1 (龙骑士)：15点，用于空中突击和物理输出。\n- Role2 (暗黑骑士)：15点，用于近战防御和黑暗打击。\n- Role3 (占星术士)：20点，用于预言和星象支援，增强魔法协同。\n- Role4 (吟游诗人)：10点，用于buff歌曲，提升团队士气。\n- Role5 (舞者)：10点，用于舞蹈debuff，辅助控制战场。\n- Role6 (青魔法师)：20点，用于学习敌方技能，扩展魔法多样性。\n- Role7 (黑魔法师)：10点，作为我的备份，专注辅助咒语。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：黑魔法师）",
+            "role_obs": [
+                "龙骑士",
+                "舞者",
+                "吟游诗人",
+                "暗黑骑士",
+                "黑魔法师",
+                "占星术士",
+                "青魔法师"
+            ],
+            "response": "### 分析\n作为黑魔法师队长，我需要根据游戏逻辑分配100行动点数。优先考虑团队平衡：龙骑士（Role1）和暗黑骑士（Role4）作为前线战士，需要较高点数用于战斗和防御；黑魔法师（Role5，我自己）次之，用于施法支持；舞者（Role2）提供辅助buff，吟游诗人（Role3）增强士气，占星术士（Role6）和青魔法师（Role7）用于预知与特殊技能，各分配适中点数。总和确保为100，避免任何角色为0以维持团队协作。\n\n### 决定\n- Role1 (龙骑士): 20点（强化突击）\n- Role2 (舞者): 10点（辅助机动）\n- Role3 (吟游诗人): 10点（团队激励）\n- Role4 (暗黑骑士): 20点（坦克守护）\n- Role5 (黑魔法师): 15点（核心魔法输出）\n- Role6 (占星术士): 15点（预判策略）\n- Role7 (青魔法师): 10点（技能学习）\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：黑魔法师）",
+            "role_obs": [
+                "青魔法师",
+                "占星术士",
+                "龙骑士",
+                "舞者",
+                "吟游诗人",
+                "黑魔法师",
+                "暗黑骑士"
+            ],
+            "response": "### 分析\n作为黑魔法师队长，我需要优先考虑团队的整体平衡和效率。黑魔法师（我自己，Role6）擅长远程高伤害输出，应获得较高资源以最大化魔法攻击潜力。青魔法师（Role1）能学习敌人技能，辅助性强，需适量支持以增强团队适应性。占星术士（Role2）提供预知和buff，适合中量分配以维持团队生存。龙骑士（Role3）和暗黑骑士（Role7）是前线坦克和DPS核心，需较多点数强化近战冲击。舞者（Role4）和吟游诗人（Role5）偏向支援和debuff，分配较少以优化资源利用。总和必须为100，确保整数分配，优先高威胁角色。\n\n### 决定\n基于以上，我分配如下：优先黑魔法师和骑士类，其次辅助，最后支援类，总计100点。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 8,\n    \"Role5\": 9,\n    \"Role6\": 20,\n    \"Role7\": 19\n}\n```"
+        },
+        {
+            "role_self": "（career：黑魔法师）",
+            "role_obs": [
+                "舞者",
+                "黑魔法师",
+                "青魔法师",
+                "龙骑士",
+                "暗黑骑士",
+                "占星术士",
+                "吟游诗人"
+            ],
+            "response": "### 分析\n作为黑魔法师队长，我需要根据游戏策略分配100行动点数。优先考虑团队平衡：黑魔法师（我自己，Role2）需要较高点数来强化魔法输出和控制战场；青魔法师（Role3）作为辅助魔法角色，应获得适中支持以学习和施展技能；近战角色如龙骑士（Role4）和暗黑骑士（Role5）需点数提升生存和输出；舞者（Role1）和吟游诗人（Role7）作为辅助/支援角色，分配较少以维持buff；占星术士（Role6）作为预言/辅助，给予中等点数。总体上，魔法和近战角色优先，总和确保为100。\n\n### 决定\n- Role1 (舞者): 8点（轻度支援）。\n- Role2 (黑魔法师): 20点（核心输出）。\n- Role3 (青魔法师): 15点（魔法辅助）。\n- Role4 (龙骑士): 18点（高机动输出）。\n- Role5 (暗黑骑士): 18点（坦克输出）。\n- Role6 (占星术士): 12点（预言支援）。\n- Role7 (吟游诗人): 9点（群体buff）。\n\n总计：8+20+15+18+18+12+9=100。\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 18,\n    \"Role5\": 18,\n    \"Role6\": 12,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "（career：黑魔法师）",
+            "role_obs": [
+                "舞者",
+                "吟游诗人",
+                "占星术士",
+                "暗黑骑士",
+                "龙骑士",
+                "黑魔法师",
+                "青魔法师"
+            ],
+            "response": "### 分析\n作为黑魔法师队长，我需要根据游戏策略分配100行动点数。黑魔法师（我自己，Role6）擅长远程高伤害法术，需要更多点数来强化魔法攻击和法力恢复，以主导战斗。青魔法师（Role7）能学习敌人技能，辅助性强，也需适量支持。暗黑骑士（Role4）作为坦克，负责前线吸收伤害，应获得较高分配以提升防御和反击。龙骑士（Role5）是近战输出，适合中量点数用于机动和龙息攻击。占星术士（Role3）提供预知和buff，分配中等以支持团队。舞者（Role1）和吟游诗人（Role2）是辅助角色，舞者和音乐能提升士气，但优先级较低，因此分配较少以节省资源给核心战斗成员。总和确保为100，优先战斗效率。\n\n### 决定\n- Role1 (舞者): 5点，用于基本辅助舞蹈。\n- Role2 (吟游诗人): 5点，用于团队激励歌谣。\n- Role3 (占星术士): 10点，用于占卜和星象支持。\n- Role4 (暗黑骑士): 20点，用于强化黑暗护盾和近战。\n- Role5 (龙骑士): 15点，用于龙骑突袭和空中机动。\n- Role6 (黑魔法师): 30点，用于核心黑魔法轰炸。\n- Role7 (青魔法师): 15点，用于技能吸收和反制。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 5,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 30,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：青魔法师）",
+            "role_obs": [
+                "暗黑骑士",
+                "龙骑士",
+                "黑魔法师",
+                "吟游诗人",
+                "占星术士",
+                "青魔法师",
+                "舞者"
+            ],
+            "response": "### 分析\n作为青魔法师队长，我需要根据团队平衡和角色特性分配100行动点数。青魔法师（Role6，我自己）擅长学习敌人技能，适合作为核心输出，因此分配较高点数以增强适应性。暗黑骑士（Role1）是坦克，需足够点数防御前线；龙骑士（Role2）是物理DPS，分配中等以提升突进；黑魔法师（Role3）是魔法输出，需点数强化AOE；吟游诗人（Role4）和舞者（Role7）是辅助/支援角色，分配较低以维持buff；占星术士（Role5）提供预知和控制，分配中等以优化团队策略。总体优先输出和防御，确保总和为100，避免任何角色为0以保持团队完整。\n\n### 决定\n- Role1 (暗黑骑士): 18点（强化坦克耐久）\n- Role2 (龙骑士): 16点（提升物理爆发）\n- Role3 (黑魔法师): 17点（增强魔法伤害）\n- Role4 (吟游诗人): 10点（维持辅助节奏）\n- Role5 (占星术士): 14点（优化预知支持）\n- Role6 (青魔法师): 15点（核心技能学习）\n- Role7 (舞者): 10点（团队士气提升）\n\n总和：18+16+17+10+14+15+10=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 17,\n    \"Role4\": 10,\n    \"Role5\": 14,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：青魔法师）",
+            "role_obs": [
+                "舞者",
+                "黑魔法师",
+                "龙骑士",
+                "占星术士",
+                "吟游诗人",
+                "暗黑骑士",
+                "青魔法师"
+            ],
+            "response": "### 分析\n作为青魔法师队长，我需要根据游戏策略分配100行动点数。青魔法师擅长学习和使用敌人技能，适合作为核心输出和适应性角色，因此我（Role7）应获得较高点数以最大化团队灵活性。团队组成包括辅助型（如舞者Role1、吟游诗人Role5、占星术士Role4）和输出型（如黑魔法师Role2、龙骑士Role3、暗黑骑士Role6）。优先考虑平衡：辅助角色少量点数支持团队，输出角色中等点数增强攻击，最后我拿剩余以确保领导力。分配原则：辅助15-20点/人，输出20-25点/人，我30点，总和精确100。\n\n### 决定\n- Role1 (舞者)：15点，用于团队增益和机动支持。\n- Role2 (黑魔法师)：20点，强化魔法输出。\n- Role3 (龙骑士)：25点，提升物理突进和空中作战。\n- Role4 (占星术士)：15点，提供预知和辅助buff。\n- Role5 (吟游诗人)：15点，增强团队士气和恢复。\n- Role6 (暗黑骑士)：20点，加强近战坦克和暗属性攻击。\n- Role7 (青魔法师，我)：30点，用于技能学习和多功能输出。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 25,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 30\n}\n```"
+        },
+        {
+            "role_self": "（career：青魔法师）",
+            "role_obs": [
+                "占星术士",
+                "黑魔法师",
+                "青魔法师",
+                "龙骑士",
+                "暗黑骑士",
+                "吟游诗人",
+                "舞者"
+            ],
+            "response": "### 分析\n作为青魔法师队长，我需要根据团队平衡和角色特性分配100行动点数。青魔法师（我自己，Role3）擅长学习敌人技能，需要较高点数来探索和适应；黑魔法师（Role2）和占星术士（Role1）是核心魔法输出，应获得较多资源以增强攻击和预知能力；龙骑士（Role4）和暗黑骑士（Role5）作为前线战士，需要足够点数支持物理战斗和坦克；吟游诗人（Role6）和舞者（Role7）提供辅助buff，点数适中即可维持团队协同。总体上，优先魔法和近战核心，辅助角色少量分配，确保总和为100。\n\n### 决定\n- Role1 (占星术士): 15点（预知与支持魔法）。\n- Role2 (黑魔法师): 18点（高伤害输出）。\n- Role3 (青魔法师): 20点（队长核心，技能学习）。\n- Role4 (龙骑士): 16点（空中物理攻击）。\n- Role5 (暗黑骑士): 14点（坦克与暗系近战）。\n- Role6 (吟游诗人): 10点（群体buff）。\n- Role7 (舞者): 7点（机动辅助）。\n\n总计：15+18+20+16+14+10+7=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 20,\n    \"Role4\": 16,\n    \"Role5\": 14,\n    \"Role6\": 10,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "（career：青魔法师）",
+            "role_obs": [
+                "青魔法师",
+                "占星术士",
+                "黑魔法师",
+                "暗黑骑士",
+                "舞者",
+                "吟游诗人",
+                "龙骑士"
+            ],
+            "response": "### 分析\n作为青魔法师队长，我需要根据团队角色在游戏中的典型定位来分配100行动点数。青魔法师（Role1，我自己）擅长学习和模仿敌人技能，适合作为核心输出；占星术士（Role2）提供治疗和buff，优先级高以维持团队生存；黑魔法师（Role3）是高伤害DPS，需要资源支持爆发；暗黑骑士（Role4）作为坦克，需足够点数吸收伤害；舞者和吟游诗人（Role5和Role6）是辅助/支援角色，分配适中以增强团队协同；龙骑士（Role7）是物理DPS，给予较高资源以推动前线。总体上，优先支援（占星）和输出（魔法师、骑士），辅助次之，确保总和为100。\n\n### 决定\n- Role1 (青魔法师): 20点（核心输出，自我强化）\n- Role2 (占星术士): 18点（团队治疗优先）\n- Role3 (黑魔法师): 16点（高伤害支援）\n- Role4 (暗黑骑士): 15点（坦克耐久）\n- Role5 (舞者): 12点（辅助机动）\n- Role6 (吟游诗人): 10点（支援debuff）\n- Role7 (龙骑士): 9点（物理突击）\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 16,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 10,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "（career：青魔法师）",
+            "role_obs": [
+                "龙骑士",
+                "暗黑骑士",
+                "青魔法师",
+                "占星术士",
+                "黑魔法师",
+                "吟游诗人",
+                "舞者"
+            ],
+            "response": "### 分析\n作为队长（青魔法师），我需要根据游戏中的职业特性合理分配100行动点数。龙骑士（Role1）和暗黑骑士（Role2）是前线坦克型职业，需要较高点数用于战斗和防御；青魔法师（Role3，我自己）作为魔法学习者，需要中等点数以支持技能扩展；占星术士（Role4）和黑魔法师（Role5）是辅助/输出法师型，分配较高点数以增强魔法效果；吟游诗人（Role6）和舞者（Role7）是支持型职业，分配较低点数用于buff和辅助活动。总体上，前线和魔法输出优先，平衡团队总和为100。\n\n### 分配决定\n- Role1 (龙骑士): 18点（高机动战斗）\n- Role2 (暗黑骑士): 16点（坚固防御）\n- Role3 (青魔法师): 14点（技能学习）\n- Role4 (占星术士): 15点（预言支持）\n- Role5 (黑魔法师): 17点（高伤害输出）\n- Role6 (吟游诗人): 10点（团队激励）\n- Role7 (舞者): 10点（节奏辅助）\n\n总和：18+16+14+15+17+10+10=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 15,\n    \"Role5\": 17,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：青魔法师）",
+            "role_obs": [
+                "暗黑骑士",
+                "占星术士",
+                "黑魔法师",
+                "吟游诗人",
+                "青魔法师",
+                "龙骑士",
+                "舞者"
+            ],
+            "response": "### 分析\n作为青魔法师队长，我需要根据团队平衡和职业特性分配100行动点数。团队包括近战坦克（暗黑骑士）、辅助/治疗（占星术士）、魔法输出（黑魔法师、青魔法师）、支援/控制（吟游诗人）、物理输出（龙骑士）和机动输出（舞者）。优先确保核心角色（如坦克和输出）有足够资源进行战斗活动，同时兼顾辅助以维持团队生存。分配原则：坦克和主要输出各15-20点，辅助和次要输出10-15点，同职业（Role5）稍多以强化自身能力，总和精确为100。\n\n### 决定\n- Role1 (暗黑骑士)：18点（坦克需高行动以吸引火力）。\n- Role2 (占星术士)：14点（辅助治疗关键，适中分配）。\n- Role3 (黑魔法师)：16点（魔法输出核心）。\n- Role4 (吟游诗人)：12点（支援buff，次要但必要）。\n- Role5 (青魔法师)：20点（同职业队长，优先强化学习/适应能力）。\n- Role6 (龙骑士)：12点（物理输出，平衡团队）。\n- Role7 (舞者)：8点（机动支援，较低以优化总资源）。\n\n总计：18+14+16+12+20+12+8=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 16,\n    \"Role4\": 12,\n    \"Role5\": 20,\n    \"Role6\": 12,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "（career：青魔法师）",
+            "role_obs": [
+                "青魔法师",
+                "占星术士",
+                "暗黑骑士",
+                "黑魔法师",
+                "龙骑士",
+                "吟游诗人",
+                "舞者"
+            ],
+            "response": "### 分析\n作为青魔法师队长，我需要根据团队平衡和角色特性来分配100行动点数。青魔法师（Role1和我自己）擅长学习敌人技能，适合多功能支持，因此分配较高点数以增强适应性。占星术士（Role2）提供预知和buff，需中等点数维持团队生存。暗黑骑士（Role3）和龙骑士（Role5）是前线坦克和DPS，分配较高以强化输出和防御。黑魔法师（Role4）专注高伤害AOE，需适中点数避免过度消耗。吟游诗人（Role6）和舞者（Role7）是辅助角色，负责debuff和群体增益，分配较低点数以支持后勤。总体上，前线和核心输出角色优先，辅助次之，确保总和为100。\n\n### 决定\n- Role1 (青魔法师): 20点（队长核心，多功能）。\n- Role2 (占星术士): 15点（预知支持）。\n- Role3 (暗黑骑士): 18点（坦克防御）。\n- Role4 (黑魔法师): 16点（魔法输出）。\n- Role5 (龙骑士): 18点（物理DPS）。\n- Role6 (吟游诗人): 7点（辅助debuff）。\n- Role7 (舞者): 6点（群体增益）。\n\n总计：20+15+18+16+18+7+6=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 16,\n    \"Role5\": 18,\n    \"Role6\": 7,\n    \"Role7\": 6\n}\n```"
+        },
+        {
+            "role_self": "（career：青魔法师）",
+            "role_obs": [
+                "暗黑骑士",
+                "黑魔法师",
+                "占星术士",
+                "舞者",
+                "龙骑士",
+                "青魔法师",
+                "吟游诗人"
+            ],
+            "response": "### 分析\n作为青魔法师队长，我需要根据游戏机制和角色职业特性分配100行动点数。青魔法师（我自己，Role6）擅长学习敌人技能，适合高灵活性活动，因此优先分配较多点数以最大化团队适应性。其他角色：暗黑骑士（Role1）是坦克，需资源用于防御和吸引火力；黑魔法师（Role2）输出高，适合进攻；占星术士（Role3）提供支援，点数用于buff/debuff；舞者（Role4）增强团队机动性；龙骑士（Role5）是物理DPS；吟游诗人（Role7）辅助控制。分配原则：平衡输出、防御和支援，确保总和为100整数，避免任何角色为0以保持团队完整性。优先战斗核心（骑士、魔法师、骑士），次之支援（占星、舞者、诗人），最后自己作为灵活补充。\n\n### 决定\n- Role1 (暗黑骑士): 18点（坦克核心，强化防御）。\n- Role2 (黑魔法师): 16点（高输出，专注魔法攻击）。\n- Role3 (占星术士): 14点（支援稳定团队）。\n- Role4 (舞者): 12点（提升机动和士气）。\n- Role5 (龙骑士): 15点（物理DPS，平衡输出）。\n- Role6 (青魔法师): 13点（我自己，学习技能以适应变局）。\n- Role7 (吟游诗人): 12点（辅助控制和恢复）。\n\n总和：18+16+14+12+15+13+12=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 12,\n    \"Role5\": 15,\n    \"Role6\": 13,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：青魔法师）",
+            "role_obs": [
+                "占星术士",
+                "暗黑骑士",
+                "吟游诗人",
+                "龙骑士",
+                "青魔法师",
+                "黑魔法师",
+                "舞者"
+            ],
+            "response": "### 分析\n作为青魔法师队长，我需要根据团队角色在游戏中的典型定位来分配100行动点数。占星术士（Role1）擅长辅助和预知，优先高分配以提升团队生存；暗黑骑士（Role2）是坦克，需中等分配以承受伤害；吟游诗人（Role3）提供支援和buff，低到中等；龙骑士（Role4）是输出核心，中等分配；青魔法师（Role5）是我自己，需较高点数以学习和施展多样魔法；黑魔法师（Role6）是高伤害输出，优先高分配；舞者（Role7）是机动支援，低分配。总体上，优先输出和辅助角色，确保平衡，总和为100。\n\n### 决定\n分配如下：Role1: 18, Role2: 12, Role3: 8, Role4: 14, Role5: 16, Role6: 20, Role7: 12（总计100）。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 8,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 20,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：青魔法师）",
+            "role_obs": [
+                "暗黑骑士",
+                "吟游诗人",
+                "黑魔法师",
+                "舞者",
+                "青魔法师",
+                "占星术士",
+                "龙骑士"
+            ],
+            "response": "### 分析\n作为青魔法师队长，我需要根据团队平衡和职业特性分配100行动点数。团队包括坦克（暗黑骑士）、支援/控制（吟游诗人、舞者、占星术士）、DPS（黑魔法师、龙骑士）和另一个青魔法师（可能作为我的副手）。优先考虑前线生存和输出：暗黑骑士需高点数作为坦克承受伤害；龙骑士和黑魔法师作为主要DPS分配较多以提升攻击；吟游诗人、舞者和占星术士作为辅助分配中等以提供buff/debuff；Role5（青魔法师）分配较少以辅助我自身。总和严格为100，确保整数分配，促进团队协同作战。\n\n### 决定\n- Role1 (暗黑骑士): 20点（高耐久，优先坦克）。\n- Role2 (吟游诗人): 10点（辅助支援）。\n- Role3 (黑魔法师): 15点（远程DPS）。\n- Role4 (舞者): 10点（机动buff）。\n- Role5 (青魔法师): 10点（辅助学习技能）。\n- Role6 (占星术士): 15点（预知控制）。\n- Role7 (龙骑士): 20点（近战爆发）。\n\n总计：20+10+15+10+10+15+20=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：暗黑骑士）",
+            "role_obs": [
+                "吟游诗人",
+                "青魔法师",
+                "龙骑士",
+                "占星术士",
+                "舞者",
+                "黑魔法师",
+                "暗黑骑士"
+            ],
+            "response": "### 分析\n作为暗黑骑士队长，我需要根据游戏策略分配100行动点数。暗黑骑士擅长近战坦克和输出，因此优先支持能增强团队生存和伤害的角色：龙骑士（Role3）作为副坦克需高分配以协同防御；黑魔法师（Role6）提供远程DPS；占星术士（Role4）作为辅助需适中支持以维持buff。吟游诗人（Role1）和舞者（Role5）提供辅助但非核心，分配较低；青魔法师（Role2）灵活但不确定，适中分配。总和精确为100，确保平衡进攻与防御。\n\n### 决定\n- Role1 (吟游诗人): 10点（辅助debuff支持）\n- Role2 (青魔法师): 15点（灵活技能探索）\n- Role3 (龙骑士): 25点（核心坦克协同）\n- Role4 (占星术士): 20点（团队buff关键）\n- Role5 (舞者): 10点（辅助机动）\n- Role6 (黑魔法师): 20点（高DPS输出）\n- Role7 (暗黑骑士): 0点（队长自身不分配，专注领导）\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 25,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 0\n}\n```"
+        },
+        {
+            "role_self": "（career：暗黑骑士）",
+            "role_obs": [
+                "黑魔法师",
+                "舞者",
+                "青魔法师",
+                "吟游诗人",
+                "暗黑骑士",
+                "占星术士",
+                "龙骑士"
+            ],
+            "response": "### 分析\n作为暗黑骑士队长，我需要根据团队的整体策略分配100行动点数。我们的团队组成多样，包括魔法输出（黑魔法师、青魔法师）、辅助/控制（舞者、吟游诗人、占星术士）和近战/坦克（我自己作为暗黑骑士，以及龙骑士）。优先考虑战斗效率：魔法师需要资源强化输出，龙骑士作为物理DPS需高机动性，辅助角色则适中分配以支持团队，而我自己作为队长会保留一些以协调行动。分配原则：输出角色多分（约40%），辅助中分（约30%），坦克/队长平衡（约30%），确保总和为100整数。\n\n### 决定\n- Role1 (黑魔法师)：高输出魔法，分配15点用于技能释放。\n- Role2 (舞者)：辅助增益，分配10点用于buff团队。\n- Role3 (青魔法师)：学习/控制魔法，分配12点用于适应性技能。\n- Role4 (吟游诗人)：群体支持，分配10点用于debuff敌人。\n- Role5 (暗黑骑士，我自己)：坦克与输出兼备，分配18点用于领导与生存。\n- Role6 (占星术士)：预知/治疗，分配10点用于团队保护。\n- Role7 (龙骑士)：高爆发物理，分配25点用于突进攻击。\n\n总和：15+10+12+10+18+10+25=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 10,\n    \"Role5\": 18,\n    \"Role6\": 10,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "（career：暗黑骑士）",
+            "role_obs": [
+                "占星术士",
+                "青魔法师",
+                "舞者",
+                "龙骑士",
+                "暗黑骑士",
+                "吟游诗人",
+                "黑魔法师"
+            ],
+            "response": "### 分析\n作为暗黑骑士队长，我需要根据团队平衡和角色特性分配100行动点数。团队包括占星术士（Role1，辅助/预言，需支持作用）、青魔法师（Role2，学习敌人技能，需探索点数）、舞者（Role3，增益/舞蹈，需机动性）、龙骑士（Role4，近战/空中打击，需高输出）、暗黑骑士（Role5，我自己，坦克/黑暗攻击，优先强化）、吟游诗人（Role6， buff/音乐，需辅助点数）和黑魔法师（Role7，破坏魔法，需高伤害点数）。优先考虑前线输出（龙骑士、黑魔法师、我自己）和后勤支持（占星术士、舞者），青魔法师和吟游诗人次之，确保总和为100整数。\n\n分配原则：前线角色多分（战斗核心），辅助少分（但不零），总和精确100。\n\n### 决定\n- Role1 (占星术士): 10点（支持预言）\n- Role2 (青魔法师): 8点（技能学习）\n- Role3 (舞者): 12点（团队增益）\n- Role4 (龙骑士): 20点（高机动输出）\n- Role5 (暗黑骑士): 22点（队长优先，坦克核心）\n- Role6 (吟游诗人): 10点（辅助buff）\n- Role7 (黑魔法师): 18点（魔法破坏）\n\n总和：10+8+12+20+22+10+18=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 8,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 22,\n    \"Role6\": 10,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：暗黑骑士）",
+            "role_obs": [
+                "占星术士",
+                "黑魔法师",
+                "吟游诗人",
+                "青魔法师",
+                "龙骑士",
+                "舞者",
+                "暗黑骑士"
+            ],
+            "response": "### 分析\n作为暗黑骑士队长，我需要根据团队策略分配100行动点数。团队组成包括占星术士（Role1，支持与预言）、黑魔法师（Role2，黑暗魔法输出）、吟游诗人（Role3，辅助与buff）、青魔法师（Role4，学习敌人技能的适应型法师）、龙骑士（Role5，前线物理输出）、舞者（Role6，舞蹈增强团队机动性）和暗黑骑士（Role7，我自己，坦克与近战核心）。\n\n策略考虑：\n- **平衡输出与防御**：龙骑士（Role5）和我（Role7）作为前线，需要较高点数以确保生存和伤害。\n- **魔法支持**：黑魔法师（Role2）和青魔法师（Role4）负责范围伤害和适应性，分配中等点数。\n- **辅助角色**：占星术士（Role1）和吟游诗人（Role3）提供预言与buff，点数稍低但不可或缺。\n- **机动性**：舞者（Role6）增强团队速度，分配适中点数。\n- 总和必须为100，确保整数分配。优先高威胁角色，次要辅助。\n\n分配原则：前线40%、输出30%、辅助30%，微调以优化团队协同。\n\n### 决定\n- Role1 (占星术士): 10点（支持预言，维持团队视野）。\n- Role2 (黑魔法师): 15点（黑暗输出，针对群体敌人）。\n- Role3 (吟游诗人): 12点（buff与士气提升）。\n- Role4 (青魔法师): 14点（适应技能学习，灵活应对）。\n- Role5 (龙骑士): 18点（前线突击，与我协同）。\n- Role6 (舞者): 11点（增强机动，辅助闪避）。\n- Role7 (暗黑骑士): 20点（队长核心，吸收伤害并输出）。\n\n总计：10+15+12+14+18+11+20=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 14,\n    \"Role5\": 18,\n    \"Role6\": 11,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：暗黑骑士）",
+            "role_obs": [
+                "龙骑士",
+                "舞者",
+                "吟游诗人",
+                "暗黑骑士",
+                "黑魔法师",
+                "青魔法师",
+                "占星术士"
+            ],
+            "response": "### 分析\n作为暗黑骑士队长，我需要根据团队平衡和角色特性分配100行动点数。团队组成包括近战输出（龙骑士）、辅助/机动（舞者）、支援/情报（吟游诗人）、坦克（我自己，暗黑骑士）、高伤害（黑魔法师）、学习/适应（青魔法师）和预知/控制（占星术士）。优先考虑战斗核心：坦克和输出角色多分配以确保生存和伤害，其次是辅助和支援角色少量分配以维持团队协同，最后学习型角色适中以适应动态环境。总和严格为100，确保整数分配，避免零分配以保持全员活跃。\n\n### 决定\n- Role1 (龙骑士)：高机动输出，分配20点用于突击。\n- Role2 (舞者)：辅助机动，分配10点用于团队增益。\n- Role3 (吟游诗人)：支援情报，分配10点用于buff。\n- Role4 (暗黑骑士，我自己)：坦克核心，分配25点用于守护。\n- Role5 (黑魔法师)：高伤害输出，分配20点用于AOE。\n- Role6 (青魔法师)：适应学习，分配10点用于技能获取。\n- Role7 (占星术士)：控制预知，分配5点用于关键时机。\n\n总计：20+10+10+25+20+10+5=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：暗黑骑士）",
+            "role_obs": [
+                "吟游诗人",
+                "青魔法师",
+                "暗黑骑士",
+                "黑魔法师",
+                "舞者",
+                "龙骑士",
+                "占星术士"
+            ],
+            "response": "### 分析\n作为暗黑骑士队长，我需要根据团队策略分配100行动点数。团队组成多样，包括支援型（如吟游诗人、舞者、占星术士）、魔法输出型（如青魔法师、黑魔法师）和近战输出型（如龙骑士）。我的职业（暗黑骑士）偏向坦克和近战输出，因此优先强化前线战斗力和魔法支援，以平衡团队在战斗中的生存和伤害。分配原则：支援角色适中分配以维持buff/debuff；输出角色多分配以最大化伤害；总和严格为100整数。\n\n- Role1 (吟游诗人)：支援buff，分配12点用于团队增益。\n- Role2 (青魔法师)：学习型魔法，分配15点用于技能扩展。\n- Role3 (暗黑骑士)：我自己，分配20点强化坦克能力。\n- Role4 (黑魔法师)：高伤害输出，分配18点优先攻击。\n- Role5 (舞者)：辅助debuff，分配10点维持节奏。\n- Role6 (龙骑士)：物理输出，分配15点提升突进。\n- Role7 (占星术士)：预知支援，分配10点用于战略辅助。\n\n此分配确保前线（我+龙骑士+黑魔法师）强势，支援跟上，总和100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：暗黑骑士）",
+            "role_obs": [
+                "青魔法师",
+                "舞者",
+                "吟游诗人",
+                "暗黑骑士",
+                "龙骑士",
+                "黑魔法师",
+                "占星术士"
+            ],
+            "response": "### 分析\n作为暗黑骑士队长，我需要根据游戏策略为队员分配100行动点数。优先考虑团队平衡：青魔法师（Role1）和黑魔法师（Role6）擅长魔法输出，应获得较高点数以增强远程攻击；舞者（Role2）和吟游诗人（Role7）提供辅助与buff，分配中等点数以支持全队；龙骑士（Role5）作为近战突击手，需要适中资源；占星术士（Role3）偏向预知与控制，分配较低点数；我自己（Role4，暗黑骑士）作为坦克核心，保留最多点数以确保前线稳定。总和严格为100，确保整数分配。\n\n### 决定\n- Role1 (青魔法师): 15点（强化魔法适应性）。\n- Role2 (舞者): 12点（提升团队机动性）。\n- Role3 (占星术士): 8点（辅助预知支持）。\n- Role4 (暗黑骑士): 25点（队长核心，强化防御）。\n- Role5 (龙骑士): 18点（突击输出）。\n- Role6 (黑魔法师): 16点（黑暗魔法爆发）。\n- Role7 (吟游诗人): 6点（后勤激励）。\n\n总计：15+12+8+25+18+16+6=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 8,\n    \"Role4\": 25,\n    \"Role5\": 18,\n    \"Role6\": 16,\n    \"Role7\": 6\n}\n```"
+        },
+        {
+            "role_self": "（career：暗黑骑士）",
+            "role_obs": [
+                "占星术士",
+                "暗黑骑士",
+                "黑魔法师",
+                "舞者",
+                "吟游诗人",
+                "青魔法师",
+                "龙骑士"
+            ],
+            "response": "### 分析\n作为暗黑骑士队长，我需要根据团队平衡和职业特性分配100行动点数。团队组成多样，包括魔法输出（占星术士、黑魔法师、青魔法师）、近战坦克（暗黑骑士）、物理输出（龙骑士）、辅助与控制（舞者、吟游诗人）。优先考虑战斗效率：魔法职业需高点数支持技能释放，近战和辅助需适中以维持生存和协同。总和必须为100整数，避免零分配以确保全员参与。分配原则：魔法输出20-25，物理/辅助15-20，队长稍高以领导。\n\n### 决定\n- Role1 (占星术士)：20点，支持预言与buff。\n- Role2 (暗黑骑士)：22点，作为队长，我优先强化坦克作用。\n- Role3 (黑魔法师)：25点，高输出魔法核心。\n- Role4 (舞者)：15点，辅助机动性。\n- Role5 (吟游诗人)：15点，团队增益与恢复。\n- Role6 (青魔法师)：18点，学习敌技的灵活性。\n- Role7 (龙骑士)：5点，暂缓空中支援，视情况调整。\n\n总计：20+22+25+15+15+18+5=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 22,\n    \"Role3\": 25,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 18,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：暗黑骑士）",
+            "role_obs": [
+                "占星术士",
+                "舞者",
+                "暗黑骑士",
+                "黑魔法师",
+                "龙骑士",
+                "青魔法师",
+                "吟游诗人"
+            ],
+            "response": "### 分析\n作为暗黑骑士队长，我需要根据团队平衡和角色特性分配100行动点数。团队包括占星术士（支援/治疗）、舞者（辅助/增益）、暗黑骑士（坦克/近战，我自己不分配）、黑魔法师（DPS/魔法攻击）、龙骑士（DPS/物理攻击）、青魔法师（多功能/学习技能）和吟游诗人（支援/ buff）。优先考虑DPS角色（如黑魔法师和龙骑士）以提升输出，其次是支援角色（如占星术士和舞者）以维持团队生存，多功能角色（如青魔法师）适中分配。总和严格为100，确保整数分配，避免零分配以保持团队活跃。\n\n### 决定\n- Role1 (占星术士): 15点（支援治疗，维持团队耐久）。\n- Role2 (舞者): 12点（辅助增益，提升整体效率）。\n- Role3 (暗黑骑士): 0点（队长自身，不分配）。\n- Role4 (黑魔法师): 20点（高DPS魔法输出，核心攻击）。\n- Role5 (龙骑士): 20点（高DPS物理输出，平衡攻击）。\n- Role6 (青魔法师): 16点（多功能学习，灵活应对）。\n- Role7 (吟游诗人): 17点（支援buff，增强团队协同）。\n\n总计：15+12+0+20+20+16+17=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 0,\n    \"Role4\": 20,\n    \"Role5\": 20,\n    \"Role6\": 16,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "（career：暗黑骑士）",
+            "role_obs": [
+                "吟游诗人",
+                "占星术士",
+                "黑魔法师",
+                "舞者",
+                "青魔法师",
+                "暗黑骑士",
+                "龙骑士"
+            ],
+            "response": "### 分析\n作为暗黑骑士队长，我需要根据团队平衡和游戏策略来分配100行动点数。团队组成包括吟游诗人（支持/增益）、占星术士（预知/辅助）、黑魔法师（高伤害输出）、舞者（敏捷/干扰）、青魔法师（学习/适应）、暗黑骑士（我自己，坦克/近战核心）和龙骑士（空中/高爆发）。优先考虑核心战斗角色（如输出和坦克）以确保生存和伤害，其次是支持角色以提升整体效率，最后是辅助角色。分配原则：整数，总和100，避免零分配以保持团队活跃，但根据角色重要性倾斜（例如，黑魔法师和龙骑士获较多点数用于进攻，我自己作为队长也需足够资源）。\n\n### 决定\n- Role1 (吟游诗人): 10点（支持增益，适中分配）。\n- Role2 (占星术士): 12点（预知辅助，稍高以提升策略）。\n- Role3 (黑魔法师): 18点（主要输出，优先高分配）。\n- Role4 (舞者): 8点（干扰角色，基础支持）。\n- Role5 (青魔法师): 10点（适应性学习，中等）。\n- Role6 (暗黑骑士): 20点（队长核心，坦克需求高）。\n- Role7 (龙骑士): 22点（高爆发空中输出，最高分配）。\n\n总和：10+12+18+8+10+20+22=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 8,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 22\n}\n```"
+        },
+        {
+            "role_self": "（career：舞者）",
+            "role_obs": [
+                "占星术士",
+                "黑魔法师",
+                "龙骑士",
+                "暗黑骑士",
+                "青魔法师",
+                "舞者",
+                "吟游诗人"
+            ],
+            "response": "### 分析\n作为舞者队长，我需要根据游戏策略分配100行动点数。舞者职业擅长辅助和提升团队士气，因此我优先考虑平衡分配，以支持团队多样性：占星术士（Role1）用于预知和支持，黑魔法师（Role2）和青魔法师（Role5）用于魔法输出，龙骑士（Role3）和暗黑骑士（Role4）用于近战突击，舞者（Role6）是我本职需强化，吟游诗人（Role7）用于buff和恢复。考虑到魔法角色在后期更关键，我稍多分配给Role1、2、5；物理角色均衡；总和严格为100，确保整数。\n\n### 决定\n- Role1 (占星术士): 15点（支持预知）\n- Role2 (黑魔法师): 18点（高输出魔法）\n- Role3 (龙骑士): 14点（空中突击）\n- Role4 (暗黑骑士): 14点（坦克防御）\n- Role5 (青魔法师): 16点（学习敌技）\n- Role6 (舞者): 12点（队长核心，自我强化）\n- Role7 (吟游诗人): 11点（团队buff）\n\n总计：15+18+14+14+16+12+11=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 12,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "（career：舞者）",
+            "role_obs": [
+                "暗黑骑士",
+                "黑魔法师",
+                "占星术士",
+                "青魔法师",
+                "龙骑士",
+                "吟游诗人",
+                "舞者"
+            ],
+            "response": "### 分析\n作为舞者队长，我需要根据游戏策略分配100行动点数。舞者职业擅长支援和节奏控制，因此优先强化前线坦克（如暗黑骑士）和DPS输出（如龙骑士、黑魔法师），以确保团队生存和高效推进。同时，给占星术士和青魔法师适量资源用于辅助和学习技能，吟游诗人用于团队增益，而作为队长的我（Role7）保留少量用于协调。分配原则：前线多分（防御需求高），后排适中，总和精确为100整数。\n\n### 决定\n- Role1 (暗黑骑士)：作为主坦克，分配最多以强化防御。\n- Role2 (黑魔法师)：高爆发DPS，需足够点数释放技能。\n- Role3 (占星术士)：辅助核心，适量用于预言和治疗。\n- Role4 (青魔法师)：学习型角色，少量用于技能获取。\n- Role5 (龙骑士)：空中DPS，平衡分配以支持突进。\n- Role6 (吟游诗人)：支援吟唱，少量用于buff。\n- Role7 (舞者)：队长，保留最小用于团队节奏。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 18,\n    \"Role6\": 12,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "（career：舞者）",
+            "role_obs": [
+                "龙骑士",
+                "青魔法师",
+                "吟游诗人",
+                "占星术士",
+                "舞者",
+                "暗黑骑士",
+                "黑魔法师"
+            ],
+            "response": "### 分析\n作为舞者队长的我，需要根据团队平衡和角色特性分配100行动点数。龙骑士（Role1）和暗黑骑士（Role6）是前线坦克，适合多分配点数用于战斗和防御；青魔法师（Role2）和黑魔法师（Role7）是魔法输出型，需适中分配以支持远程攻击；吟游诗人（Role3）擅长辅助和buff，分配中等以增强团队；占星术士（Role4）是预言/支持角色，分配较少；作为舞者的我（Role5）专注于节奏和机动，分配最多以领导团队。总体优先战斗核心角色，确保总和为100。\n\n### 决定\n- Role1 (龙骑士): 18点（强化前线突击）\n- Role2 (青魔法师): 12点（支持魔法学习和控制）\n- Role3 (吟游诗人): 14点（提升团队士气和辅助）\n- Role4 (占星术士): 10点（提供预知和辅助）\n- Role5 (舞者): 20点（队长核心，增强机动和节奏）\n- Role6 (暗黑骑士): 16点（坦克输出平衡）\n- Role7 (黑魔法师): 10点（破坏性魔法补充）\n\n总和：18+12+14+10+20+16+10=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 16,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：舞者）",
+            "role_obs": [
+                "吟游诗人",
+                "青魔法师",
+                "舞者",
+                "龙骑士",
+                "黑魔法师",
+                "暗黑骑士",
+                "占星术士"
+            ],
+            "response": "### 分析\n作为队长（舞者职业），我需要为团队分配100行动点数，以最大化整体游戏效能。团队组成多样，包括吟游诗人（支持与buff）、青魔法师（学习与适应）、舞者（辅助与节奏控制）、龙骑士（高爆发物理输出）、黑魔法师（范围魔法伤害）、暗黑骑士（坦克与近战）、占星术士（预言与控制）。考虑到职业特性，我优先分配给输出型角色（如龙骑士和黑魔法师）以确保战斗力，其次是坦克（暗黑骑士）以保护团队，然后是支持型（吟游诗人、青魔法师、占星术士）用于辅助，最后是另一个舞者（Role3，可能作为我的副手）以增强团队协同。分配原则：输出>防御>支持，确保总和为100整数。\n\n### 决定\n- Role1 (吟游诗人): 12点（支持buff，适中分配）。\n- Role2 (青魔法师): 10点（学习技能，辅助作用）。\n- Role3 (舞者): 8点（与我协同，节奏控制）。\n- Role4 (龙骑士): 20点（高爆发输出，优先）。\n- Role5 (黑魔法师): 18点（魔法伤害，核心输出）。\n- Role6 (暗黑骑士): 16点（坦克防护，保障生存）。\n- Role7 (占星术士): 16点（预言控制，战略支持）。\n\n总和：12+10+8+20+18+16+16=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 8,\n    \"Role4\": 20,\n    \"Role5\": 18,\n    \"Role6\": 16,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（career：舞者）",
+            "role_obs": [
+                "龙骑士",
+                "青魔法师",
+                "占星术士",
+                "暗黑骑士",
+                "舞者",
+                "吟游诗人",
+                "黑魔法师"
+            ],
+            "response": "### 分析\n作为队长（舞者职业），我需要根据团队平衡和职业特性来分配100行动点数。龙骑士（Role1）和暗黑骑士（Role4）是前线坦克型职业，适合多分配点数用于战斗和防御，以保护团队。青魔法师（Role2）和黑魔法师（Role7）是输出型法师，需要适中点数支持技能释放。占星术士（Role3）偏向辅助和预知，分配较少以维持团队策略。舞者（Role5）是我自己，分配中等点数用于节奏控制和buff。吟游诗人（Role6）是支援型，分配少量点数用于辅助。总体优先前线和输出，确保总和为100，避免任何角色为0以保持团队活跃。\n\n### 决定\n- Role1 (龙骑士): 20点（高耐久，前线主力）\n- Role2 (青魔法师): 15点（灵活输出）\n- Role3 (占星术士): 10点（辅助定位）\n- Role4 (暗黑骑士): 18点（坦克补充）\n- Role5 (舞者): 14点（队长协调）\n- Role6 (吟游诗人): 12点（团队支援）\n- Role7 (黑魔法师): 11点（魔法爆发）\n\n总和：20+15+10+18+14+12+11=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 12,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "（career：舞者）",
+            "role_obs": [
+                "暗黑骑士",
+                "占星术士",
+                "舞者",
+                "黑魔法师",
+                "青魔法师",
+                "龙骑士",
+                "吟游诗人"
+            ],
+            "response": "### 分析\n作为游戏中的舞者队长，我需要根据团队的整体平衡来分配100行动点数。团队职业多样，包括近战坦克（暗黑骑士）、远程治疗（占星术士）、DPS（舞者、黑魔法师、青魔法师、龙骑士）和辅助输出（吟游诗人）。为了优化战斗效率，我优先考虑：\n- 坦克（Role1）需要较高点数以承受伤害，确保团队生存。\n- 治疗（Role2）次之，以维持团队生命值。\n- DPS角色（Role4、Role5、Role6）平均分配，以最大化输出。\n- 作为舞者（Role3），我给自己中等点数以支持团队buff。\n- 辅助（Role7）较低点数，因为其作用更偏向增益而非直接战斗。\n\n总和严格为100，确保整数分配。最终分配偏向防御与输出平衡：Role1 20、Role2 15、Role3 12、Role4 15、Role5 13、Role6 15、Role7 10。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 13,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：舞者）",
+            "role_obs": [
+                "占星术士",
+                "舞者",
+                "吟游诗人",
+                "青魔法师",
+                "暗黑骑士",
+                "黑魔法师",
+                "龙骑士"
+            ],
+            "response": "### 分析\n作为队长（舞者职业），我需要为团队分配100行动点数，以优化游戏内的整体活动效率。舞者职业擅长支持和机动性，因此我优先考虑平衡分配，但略微倾斜于团队核心角色：占星术士（Role1）用于预知和策略支持，舞者（Role2）作为我的副手强化机动，吟游诗人（Role3）提升士气，黑魔法师（Role6）提供高输出破坏力。其他角色如青魔法师（Role4，学习型辅助）、暗黑骑士（Role5，坦克型）和龙骑士（Role7，空中打击）获得中等分配，以确保团队覆盖防御、学习和突击需求。分配原则：整数分配，总和精确为100，避免零分配以保持全员活跃，但不均衡过度。\n\n### 决定\n- Role1 (占星术士): 18点（高优先，支持决策）\n- Role2 (舞者): 16点（高优先，协同队长）\n- Role3 (吟游诗人): 14点（中高优先，团队增益）\n- Role4 (青魔法师): 12点（中优先，技能扩展）\n- Role5 (暗黑骑士): 13点（中优先，防御核心）\n- Role6 (黑魔法师): 15点（高优先，输出主力）\n- Role7 (龙骑士): 12点（中优先，机动打击）\n\n总和：18+16+14+12+13+15+12=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 12,\n    \"Role5\": 13,\n    \"Role6\": 15,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：舞者）",
+            "role_obs": [
+                "占星术士",
+                "暗黑骑士",
+                "吟游诗人",
+                "黑魔法师",
+                "龙骑士",
+                "青魔法师",
+                "舞者"
+            ],
+            "response": "### 分析\n作为队长（舞者职业），我需要为团队分配100行动点数，以优化游戏内的整体表现。团队职业多样，包括占星术士（支援/预知）、暗黑骑士（坦克/近战）、吟游诗人（辅助/buff）、黑魔法师（DPS/黑魔）、龙骑士（空中/物理DPS）、青魔法师（学习/多功能）和另一个舞者（支援/舞蹈buff）。我的舞者职业强调团队协调和buff，所以分配应优先高DPS和支援角色，确保平衡：支援角色（如占星术士、吟游诗人、舞者）获中等点数以维持团队；DPS角色（如黑魔法师、龙骑士）获较高点数以推动进度；坦克（如暗黑骑士）获适中点数以保护团队。避免零分配以保持全员活跃，总和精确为100。\n\n### 决定\n- Role1 (占星术士): 12点（支援预知，维持团队视野）。\n- Role2 (暗黑骑士): 15点（坦克前线，保护核心DPS）。\n- Role3 (吟游诗人): 13点（辅助buff，提升全队效率）。\n- Role4 (黑魔法师): 18点（高DPS输出，优先推进战斗）。\n- Role5 (龙骑士): 17点（物理DPS，空中机动性强）。\n- Role6 (青魔法师): 10点（多功能学习，灵活但非主力）。\n- Role7 (舞者): 15点（与我协同，提供关键舞蹈支援）。\n\n总和：12+15+13+18+17+10+15=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 13,\n    \"Role4\": 18,\n    \"Role5\": 17,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：舞者）",
+            "role_obs": [
+                "舞者",
+                "占星术士",
+                "暗黑骑士",
+                "吟游诗人",
+                "青魔法师",
+                "龙骑士",
+                "黑魔法师"
+            ],
+            "response": "### 分析\n作为舞者队长，我需要根据游戏策略为队员分配100行动点数。舞者职业擅长敏捷和辅助支持，因此我会优先强化团队的平衡：给Role1（同职业舞者）较高点数以增强核心输出；Role2（占星术士）作为预言和辅助角色，分配中等点数；Role3（暗黑骑士）作为坦克，需足够点数承受伤害；Role4（吟游诗人）用于buff和娱乐，适中分配；Role5（青魔法师）和Role7（黑魔法师）是魔法输出，分享较高点数；Role6（龙骑士）作为高爆发角色，分配剩余以确保突击能力。总和严格为100，确保整数分配，促进团队协同作战。\n\n### 决定\n- Role1 (舞者): 20点（强化队长核心）。\n- Role2 (占星术士): 12点（辅助预言）。\n- Role3 (暗黑骑士): 18点（前线坦克）。\n- Role4 (吟游诗人): 10点（团队激励）。\n- Role5 (青魔法师): 14点（学习魔法）。\n- Role6 (龙骑士): 16点（空中突击）。\n- Role7 (黑魔法师): 10点（黑暗输出）。\n\n总计：20+12+18+10+14+16+10=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：舞者）",
+            "role_obs": [
+                "吟游诗人",
+                "舞者",
+                "青魔法师",
+                "黑魔法师",
+                "龙骑士",
+                "占星术士",
+                "暗黑骑士"
+            ],
+            "response": "### 分析\n作为舞者队长，我需要根据团队协作和角色互补性来分配100行动点数。舞者（我自己，Role2）擅长敏捷和支援，所以我会给自己适中分配以保持机动性。吟游诗人（Role1）适合娱乐和buff团队，我给他较高点数以增强士气。青魔法师（Role3）和黑魔法师（Role4）是魔法输出核心，需要更多资源来施法。龙骑士（Role5）作为前线坦克，分配中等以确保生存。占星术士（Role6）提供预知和辅助，稍低但稳定。暗黑骑士（Role7）是高风险高回报的近战，给他较高点数以发挥潜力。总体上，优先魔法和支援角色，总和严格为100，确保平衡。\n\n### 决定\n- Role1 (吟游诗人): 15点，用于团队buff。\n- Role2 (舞者): 12点，用于机动支援。\n- Role3 (青魔法师): 18点，用于学习和控制魔法。\n- Role4 (黑魔法师): 20点，用于进攻魔法。\n- Role5 (龙骑士): 14点，用于前线冲锋。\n- Role6 (占星术士): 10点，用于预知辅助。\n- Role7 (暗黑骑士): 11点，用于暗黑突袭。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 20,\n    \"Role5\": 14,\n    \"Role6\": 10,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "（career：龙骑士）",
+            "role_obs": [
+                "占星术士",
+                "青魔法师",
+                "暗黑骑士",
+                "吟游诗人",
+                "龙骑士",
+                "舞者",
+                "黑魔法师"
+            ],
+            "response": "### 分析\n作为龙骑士队长，我需要根据团队平衡和角色特性分配100行动点数。团队包括占星术士（Role1，支持与预言）、青魔法师（Role2，学习敌人技能的多功能型）、暗黑骑士（Role3，前线坦克与伤害）、吟游诗人（Role4，后援buff与debuff）、龙骑士（Role5，我自己，近战高爆发）、舞者（Role6，敏捷辅助与回避）、黑魔法师（Role7，远程AOE伤害）。优先强化前线（暗黑骑士和我自己）和输出（黑魔法师），中等分配给辅助（占星术士、青魔法师、吟游诗人），少量给舞者以保持机动性。总和确保为100，避免零分配以维持团队协作。\n\n### 决定\n- Role1 (占星术士): 12点（支持预言，适中分配）\n- Role2 (青魔法师): 10点（多功能学习，基础支持）\n- Role3 (暗黑骑士): 18点（坦克核心，高优先）\n- Role4 (吟游诗人): 11点（buff辅助，平衡）\n- Role5 (龙骑士): 20点（队长自身，高爆发）\n- Role6 (舞者): 8点（机动辅助，低但必要）\n- Role7 (黑魔法师): 21点（AOE输出，最高优先）\n\n总计：12+10+18+11+20+8+21=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 18,\n    \"Role4\": 11,\n    \"Role5\": 20,\n    \"Role6\": 8,\n    \"Role7\": 21\n}\n```"
+        },
+        {
+            "role_self": "（career：龙骑士）",
+            "role_obs": [
+                "占星术士",
+                "舞者",
+                "吟游诗人",
+                "黑魔法师",
+                "青魔法师",
+                "龙骑士",
+                "暗黑骑士"
+            ],
+            "response": "### 分析\n作为龙骑士队长，我需要根据团队平衡和游戏策略分配100行动点数。龙骑士（Role6，我自己）作为核心近战输出，应获得较高份额以强化冲锋和物理攻击。占星术士（Role1）提供预知和辅助支持，舞者（Role2）和吟游诗人（Role3）增强团队机动性和士气，黑魔法师（Role4）负责高伤害范围魔法，青魔法师（Role5）学习并模仿敌人技能以增加灵活性，暗黑骑士（Role7）作为坦克吸收伤害。优先考虑输出和生存：魔法师类多分点以最大化法术效果，辅助类适中，近战类较高。总和严格为100，确保整数分配。\n\n### 决定\n- Role1 (占星术士): 12点（支持预知技能）。\n- Role2 (舞者): 10点（提升团队闪避和buff）。\n- Role3 (吟游诗人): 11点（群体激励和debuff）。\n- Role4 (黑魔法师): 18点（高伤害输出）。\n- Role5 (青魔法师): 15点（技能模仿潜力）。\n- Role6 (龙骑士): 20点（队长核心，强化龙骑攻击）。\n- Role7 (暗黑骑士): 14点（前线防御）。\n\n总计：12+10+11+18+15+20+14=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 11,\n    \"Role4\": 18,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（career：龙骑士）",
+            "role_obs": [
+                "暗黑骑士",
+                "黑魔法师",
+                "舞者",
+                "吟游诗人",
+                "青魔法师",
+                "占星术士",
+                "龙骑士"
+            ],
+            "response": "### 分析\n作为龙骑士队长，我需要根据团队角色特性分配100行动点数，确保平衡作战、魔法支援和辅助能力。团队组成包括近战（Role1: 暗黑骑士）、黑魔法输出（Role2: 黑魔法师）、辅助/娱乐（Role3: 舞者，Role4: 吟游诗人）、蓝魔法学习型（Role5: 青魔法师）、预言支援（Role6: 占星术士）和同职业龙骑士（Role7）。优先强化核心战斗力：暗黑骑士和龙骑士作为前线需更多点数用于突击；黑魔法师和青魔法师需点数提升输出；舞者、吟游诗人和占星术士作为辅助，分配适中以维持团队协同。分配原则：战斗角色偏多（15-20点），输出魔法15点，辅助10-12点，总和精确100。\n\n### 决定\n- Role1 (暗黑骑士): 18点（前线坦克，需高机动）。\n- Role2 (黑魔法师): 15点（高伤害输出）。\n- Role3 (舞者): 12点（团队buff支援）。\n- Role4 (吟游诗人): 12点（辅助恢复）。\n- Role5 (青魔法师): 15点（学习型魔法，潜力大）。\n- Role6 (占星术士): 13点（预言与控制）。\n- Role7 (龙骑士): 15点（同职业，强化队长协同）。\n\n总计：18+15+12+12+15+13+15=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 12,\n    \"Role5\": 15,\n    \"Role6\": 13,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：龙骑士）",
+            "role_obs": [
+                "吟游诗人",
+                "青魔法师",
+                "占星术士",
+                "黑魔法师",
+                "龙骑士",
+                "舞者",
+                "暗黑骑士"
+            ],
+            "response": "### 分析\n作为龙骑士队长，我需要根据团队平衡和游戏策略分配100行动点数。团队职业多样，包括支持型（吟游诗人、舞者、占星术士）、魔法型（青魔法师、黑魔法师）和近战型（暗黑骑士、我自己作为龙骑士）。优先考虑平衡：魔法师和支持角色需要更多点数用于技能释放和辅助，前线战士用于攻击和防御。分配原则：支持角色15-20点，魔法师20-25点，战士15点，确保总和为100，避免任何角色为0以维持团队协作。\n\n### 决定\n- Role1 (吟游诗人)：18点，用于团队增益和故事推进。\n- Role2 (青魔法师)：22点，学习和施展蓝魔法以应对多样威胁。\n- Role3 (占星术士)：16点，占卜和星象支持决策。\n- Role4 (黑魔法师)：24点，高伤害输出，需要更多行动来施法。\n- Role5 (龙骑士，我自己)：15点，维持前线领导，但不过度消耗。\n- Role6 (舞者)：20点，舞蹈buff全队，提升机动性。\n- Role7 (暗黑骑士)：15点，坦克角色，专注防御和反击。\n\n总和：18+22+16+24+15+20+15=130（抱歉，计算错误，调整为：Role1:15, Role2:20, Role3:15, Role4:20, Role5:15, Role6:10, Role7:5=100）。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：龙骑士）",
+            "role_obs": [
+                "青魔法师",
+                "舞者",
+                "黑魔法师",
+                "占星术士",
+                "暗黑骑士",
+                "龙骑士",
+                "吟游诗人"
+            ],
+            "response": "### 分析\n作为龙骑士队长，我需要根据团队的整体策略分配100行动点数。团队组成包括魔法输出（青魔法师、黑魔法师）、辅助与控制（舞者、占星术士、吟游诗人）和近战/坦克（暗黑骑士、龙骑士）。优先考虑平衡：高输出角色（如黑魔法师和龙骑士）获得更多点数以推动战斗；辅助角色（如舞者和占星术士）适中以支持团队；吟游诗人作为次要辅助稍低；青魔法师因职业特性（可能更偏向学习而非直接输出）分配较少。确保总和为100整数，避免零分配以保持团队活跃。\n\n### 决定\n- Role1 (青魔法师): 8点（学习型辅助，适中支持）。\n- Role2 (舞者): 12点（团队增益关键）。\n- Role3 (黑魔法师): 18点（高输出核心）。\n- Role4 (占星术士): 14点（控制与预知重要）。\n- Role5 (暗黑骑士): 16点（坦克保护前线）。\n- Role6 (龙骑士): 20点（作为队长本人，优先强化）。\n- Role7 (吟游诗人): 12点（辅助buff，平衡分配）。\n\n总计：8+12+18+14+16+20+12=100。\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 20,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：龙骑士）",
+            "role_obs": [
+                "占星术士",
+                "青魔法师",
+                "舞者",
+                "龙骑士",
+                "吟游诗人",
+                "黑魔法师",
+                "暗黑骑士"
+            ],
+            "response": "### 分析\n作为龙骑士队长，我需要根据团队的整体平衡和每个职业的游戏角色来分配100行动点数。龙骑士（我自己，Role4）通常是前线战士，需要较高点数以执行高风险攻击和坦克任务。团队中，黑魔法师（Role6）和暗黑骑士（Role7）是高输出DPS角色，应获得较多资源以最大化伤害。占星术士（Role1）和青魔法师（Role2）提供支援和控制，分配中等点数以维持团队生存。舞者（Role3）和吟游诗人（Role5）是辅助/增益角色，点数稍低但确保他们能持续buff团队。分配原则：优先战斗核心（DPS+坦克），次之支援，总和精确为100整数。\n\n### 决定\n- Role1 (占星术士): 12点（支援预言与恢复）。\n- Role2 (青魔法师): 14点（学习技能与控制）。\n- Role3 (舞者): 10点（节奏增益）。\n- Role4 (龙骑士): 20点（队长核心输出）。\n- Role5 (吟游诗人): 11点（歌唱辅助）。\n- Role6 (黑魔法师): 16点（魔法爆发）。\n- Role7 (暗黑骑士): 17点（黑暗坦克）。\n\n总计：12+14+10+20+11+16+17=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 11,\n    \"Role6\": 16,\n    \"Role7\": 17\n}\n```"
+        },
+        {
+            "role_self": "（career：龙骑士）",
+            "role_obs": [
+                "青魔法师",
+                "吟游诗人",
+                "舞者",
+                "黑魔法师",
+                "占星术士",
+                "龙骑士",
+                "暗黑骑士"
+            ],
+            "response": "### 分析\n作为龙骑士队长，我需要根据团队角色在游戏中的典型功能来分配100行动点数。优先考虑平衡团队：龙骑士（Role6，我自己）需要较高点数以领导和输出伤害；黑魔法师（Role4）和青魔法师（Role1）作为魔法输出核心，应获得中等份额；占星术士（Role5）提供支援；吟游诗人（Role2）和舞者（Role3）增强辅助；暗黑骑士（Role7）作为坦克获得适中支持。分配原则：总和为100，确保整数，避免零分配以保持团队活跃，总输出类角色约占60%，支援类占40%。\n\n### 决定\n- Role1 (青魔法师): 15（魔法输出，学习敌人技能需行动）。\n- Role2 (吟游诗人): 10（ buff 和故事推进，辅助性强）。\n- Role3 (舞者): 12（节奏控制和debuff，团队协同）。\n- Role4 (黑魔法师): 18（高伤害魔法，核心DPS）。\n- Role5 (占星术士): 14（预言和治愈，战略支援）。\n- Role6 (龙骑士): 20（队长，跳跃攻击和领导需高机动）。\n- Role7 (暗黑骑士): 11（近战坦克，吸收伤害）。\n\n总和：15+10+12+18+14+20+11=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 20,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "（career：龙骑士）",
+            "role_obs": [
+                "青魔法师",
+                "舞者",
+                "占星术士",
+                "黑魔法师",
+                "龙骑士",
+                "暗黑骑士",
+                "吟游诗人"
+            ],
+            "response": "### 分析\n作为龙骑士队长，我需要根据团队平衡和角色特性来分配100行动点数。团队包括魔法输出（青魔法师、黑魔法师）、辅助/控制（舞者、占星术士、吟游诗人）和近战输出（暗黑骑士、我自己作为龙骑士）。优先考虑多样性：魔法师需要点数强化技能，辅助角色提升团队生存，我和暗黑骑士作为前线需足够行动力进行突击。分配原则：输出角色稍高（15-20），辅助中等（10-15），避免任何角色为0以确保全员参与，总和精确为100。\n\n### 决定\n- Role1 (青魔法师)：15点，用于学习和施展多样魔法。\n- Role2 (舞者)：12点，提升团队机动性和buff效果。\n- Role3 (占星术士)：14点，加强预知和控制技能。\n- Role4 (黑魔法师)：18点，强化高伤害输出。\n- Role5 (龙骑士，我自己)：20点，作为队长需最高行动力领导冲锋。\n- Role6 (暗黑骑士)：16点，支持近战和坦克职责。\n- Role7 (吟游诗人)：5点，提供基础支援（最低以节省资源给核心）。\n\n总和：15+12+14+18+20+16+5=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 18,\n    \"Role5\": 20,\n    \"Role6\": 16,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：龙骑士）",
+            "role_obs": [
+                "占星术士",
+                "龙骑士",
+                "舞者",
+                "青魔法师",
+                "吟游诗人",
+                "黑魔法师",
+                "暗黑骑士"
+            ],
+            "response": "### 分析\n作为龙骑士队长，我需要根据团队的整体策略分配100行动点数。团队组成包括占星术士（Role1，支持与预言）、龙骑士（Role2，我自己，近战核心）、舞者（Role3，辅助与机动）、青魔法师（Role4，学习敌方技能的多功能法师）、吟游诗人（Role5， buff与叙事支持）、黑魔法师（Role6，进攻魔法输出）和暗黑骑士（Role7，坦克与黑暗近战）。 \n\n我的分配策略优先考虑平衡： \n- 优先强化进攻输出（黑魔法师和青魔法师）和防御（暗黑骑士），因为战斗是核心。\n- 给自己（龙骑士）分配适中点数以维持领导力。\n- 支持角色（占星术士、舞者、吟游诗人）分配较少，但足够激活辅助效果。\n- 总和严格为100，确保整数分配。\n\n具体考量：\n- Role6（黑魔法师）：高分配，用于AOE伤害。\n- Role7（暗黑骑士）：高分配，作为前线坦克。\n- Role4（青魔法师）：中等，用于灵活技能。\n- Role2（龙骑士）：中等，作为队长核心。\n- Role3（舞者）和Role5（吟游诗人）：低到中等，提供团队增益。\n- Role1（占星术士）：最低，用于关键预言，但非主力。\n\n### 决定\n分配如下：Role1: 5, Role2: 15, Role3: 10, Role4: 20, Role5: 10, Role6: 25, Role7: 15（总和100）。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 25,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：龙骑士）",
+            "role_obs": [
+                "吟游诗人",
+                "青魔法师",
+                "舞者",
+                "暗黑骑士",
+                "龙骑士",
+                "占星术士",
+                "黑魔法师"
+            ],
+            "response": "### 分析\n作为龙骑士队长，我需要根据团队角色在游戏中的典型功能和协同潜力来分配100行动点数。龙骑士（我自己，Role5）是近战输出核心，适合多分配点数以提升攻击力和生存力。团队组成包括支援型（吟游诗人、舞者、占星术士）、魔法输出（青魔法师、黑魔法师）、坦克（暗黑骑士）和我自己。优先考虑平衡：输出角色多分配以推动战斗，支援角色适中以维持团队持久性，总和严格为100整数。\n\n- Role1 (吟游诗人)：buff/debuff支援，分配12点增强团队增益。\n- Role2 (青魔法师)：学习敌人技能的灵活输出，分配15点用于技能获取。\n- Role3 (舞者)：节奏buff和辅助，分配10点保持团队节奏。\n- Role4 (暗黑骑士)：坦克与暗系输出，分配18点强化前线防御。\n- Role5 (龙骑士)：队长核心输出，分配20点最大化龙骑突袭。\n- Role6 (占星术士)：预言与星象支援，分配10点提供战略视野。\n- Role7 (黑魔法师)：高伤害魔法输出，分配15点爆发AOE。\n\n此分配确保输出（Role2、4、5、7）占60%，支援（Role1、3、6）占32%，总和100，促进团队高效推进。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        }
+    ]
+}

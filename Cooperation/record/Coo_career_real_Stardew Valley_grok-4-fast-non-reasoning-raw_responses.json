@@ -1,0 +1,1826 @@
+{
+    "english": [
+        {
+            "role_self": "(career: Rancher)",
+            "role_obs": [
+                "Gatherer",
+                "Rancher",
+                "Tiller",
+                "Fisher",
+                "Geologist",
+                "Miner",
+                "Forester"
+            ],
+            "response": "### Analysis\nAs the team leader (a Rancher myself), my goal is to allocate the 100 Action Points to optimize team productivity in a resource-gathering game. Rancher focuses on animal-related resources (e.g., livestock, hides), so I'll prioritize roles that synergize with that, such as Gatherer (wild plants/food to feed animals) and Forester (wood/timber for enclosures). Tiller (crops) can support feed production, while Fisher (aquatic resources) adds dietary variety. Extractive roles like Geologist, Miner (minerals/metals), and even my own Role2 (Rancher) get lower priority unless we need infrastructure, as they don't directly boost immediate food/survival chains. This balanced allocation emphasizes sustainable growth: 40% to core synergies, 30% to agriculture, 20% to extraction, and 10% to fishing.\n\n### Decision\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Rancher)",
+            "role_obs": [
+                "Tiller",
+                "Forester",
+                "Geologist",
+                "Gatherer",
+                "Fisher",
+                "Miner",
+                "Rancher"
+            ],
+            "response": "### Analysis\nAs the Rancher team leader, my goal is to optimize resource gathering for a balanced farm economy. Ranching (my role) focuses on animal products, so it needs significant points for herding and maintenance. Complementary roles like Tiller (crops for feed) and Gatherer (wild resources) get moderate allocation to support sustainability. Forester and Fisher provide wood and food variety, warranting smaller shares. Geologist and Miner are less directly useful for a ranch setup, so they get minimal points to avoid over-investment in non-essentials. Total allocation: 100 points, distributed in integers prioritizing core synergies.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 5,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 5,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "(career: Rancher)",
+            "role_obs": [
+                "Forester",
+                "Geologist",
+                "Rancher",
+                "Tiller",
+                "Fisher",
+                "Miner",
+                "Gatherer"
+            ],
+            "response": "### Analysis\nAs the team leader (Rancher), my goal is to balance resource distribution to support a sustainable game economy, focusing on food production, raw materials, and exploration. Ranchers like myself handle animal husbandry for food/protein, so I'll prioritize complementary roles: Tillers for crops, Fishers for seafood, and Gatherers for wild foods to ensure food security. Foresters and Miners provide wood and metals for tools/buildings, Geologists for resource scouting, but these are secondary. I'll allocate more to core producers (e.g., 20-25 each for Tiller, Fisher, Gatherer, and myself) and less to scouts/extractors (10-15 each) to avoid over-investing in high-risk activities. Total must sum to 100, in integers.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 20,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Rancher)",
+            "role_obs": [
+                "Fisher",
+                "Geologist",
+                "Miner",
+                "Tiller",
+                "Forester",
+                "Rancher",
+                "Gatherer"
+            ],
+            "response": "### Analysis\nAs the team leader (Rancher), my goal is to balance resource allocation across the team to support a sustainable in-game economy. The careers focus on gathering raw materials: Fisher (fish), Geologist (surveys for minerals), Miner (ores/metals), Tiller (crops), Forester (wood/timber), Rancher (livestock), and Gatherer (forage/wild plants). With 100 Action Points total, I prioritize roles that provide essential basics (food from Fisher, Tiller, Gatherer, Rancher) and key materials (Miner, Forester), while giving moderate support to Geologist for long-term mining efficiency. No role gets zero to ensure team cohesion, but allocations are weighted toward immediate productivity (e.g., more to Miner and Forester for building needs, balanced food sources).\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 16,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "(career: Rancher)",
+            "role_obs": [
+                "Geologist",
+                "Forester",
+                "Tiller",
+                "Fisher",
+                "Rancher",
+                "Gatherer",
+                "Miner"
+            ],
+            "response": "### Analysis\nAs the team leader (Rancher), my goal is to optimize resource distribution for balanced team productivity in this game. Rancher focuses on animal husbandry and livestock, which benefits from complementary roles: Tiller (crop production for feed), Forester (wood/timber for structures), Gatherer (foraging for supplementary resources), and Geologist (scouting land/resources). Fisher and Miner are less directly synergistic, so they get minimal allocation. Prioritizing agriculture and support roles ensures sustainable growth, with a slight emphasis on my own Rancher role for leadership efficiency. Total: 100 points, distributed in integers.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 25,\n    \"Role4\": 5,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Rancher)",
+            "role_obs": [
+                "Fisher",
+                "Miner",
+                "Rancher",
+                "Forester",
+                "Geologist",
+                "Gatherer",
+                "Tiller"
+            ],
+            "response": "### Analysis\nAs the team leader (Rancher), my goal is to allocate the 100 Action Points to optimize team productivity in a resource-gathering game. Rancher focuses on animal husbandry (e.g., livestock, meat, hides), so it should receive priority for sustained growth. Complementary roles like Tiller (crops for feed) and Gatherer (foraging for basics) support ranching directly. Miners and Geologists provide metals/tools for equipment, Foresters offer wood for structures, and Fisher adds variety but less synergy. I'll balance by prioritizing core synergies (Rancher, Tiller, Gatherer) while giving moderate support to others, ensuring integers sum to exactly 100.\n\n### Decision\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 12,\n    \"Role3\": 25,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Rancher)",
+            "role_obs": [
+                "Forester",
+                "Geologist",
+                "Miner",
+                "Gatherer",
+                "Tiller",
+                "Rancher",
+                "Fisher"
+            ],
+            "response": "### Analysis\nAs the team leader (Rancher), my goal is to optimize resource distribution for a balanced team economy in this game. Ranchers focus on animal husbandry and food production, so I'll prioritize roles that support sustainable growth: Gatherers and Tillers for basic resources (food/plants), Miners and Geologists for materials/tools, Foresters for wood/timber, and Fishers for alternative protein. Rancher (myself) gets a boost for core operations. To ensure efficiency, I'll allocate more to foundational roles (Gatherer, Tiller, Rancher) while giving moderate support to extractive ones, summing exactly to 100 points in integers. This avoids over-investing in any single area to prevent bottlenecks.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Rancher)",
+            "role_obs": [
+                "Tiller",
+                "Miner",
+                "Rancher",
+                "Forester",
+                "Gatherer",
+                "Fisher",
+                "Geologist"
+            ],
+            "response": "### Analysis\nAs the team leader (Rancher), my goal is to allocate 100 Action Points to optimize team productivity in a resource-gathering game. Ranching focuses on animal husbandry, which benefits from feed (from Tillers), tools/equipment (from Miners and Geologists), wood for structures (from Foresters), wild forage (from Gatherers), and fish for variety (from Fishers). To balance the team, I'll prioritize core supporters of ranching (Tiller for crops, Miner for metals, Forester for wood) with higher allocations, while giving moderate points to others for sustainability. Geologist gets a smaller share as their role (prospecting) is more niche. This ensures no role is starved but emphasizes synergies with my ranching career.\n\n### Decision\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 18,\n    \"Role5\": 12,\n    \"Role6\": 10,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "(career: Rancher)",
+            "role_obs": [
+                "Forester",
+                "Fisher",
+                "Geologist",
+                "Miner",
+                "Tiller",
+                "Rancher",
+                "Gatherer"
+            ],
+            "response": "### Analysis\nAs the team leader (Rancher), my goal is to balance resource distribution across roles to support a sustainable in-game economy, focusing on food production, resource gathering, and mining for growth. Ranchers (like myself) excel in animal husbandry for food/protein, so I'll prioritize complementary roles: Tillers for crops, Fishers for aquatic food, Gatherers for wild resources, Foresters for wood/timber, and Miners/Geologists for metals/minerals to enable expansion. I'll allocate more to core production roles (Tiller, Fisher, Rancher) for immediate needs, moderate to gatherers/miners for sustainability, and less to specialists like Geologist unless exploration is key. Total must sum to 100, in integers: 20 to Tiller (farming base), 15 to Fisher (diverse food), 15 to Rancher (my expertise), 15 to Gatherer (quick resources), 10 to Forester (building materials), 15 to Miner (valuable ores), 10 to Geologist (scouting).\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Rancher)",
+            "role_obs": [
+                "Forester",
+                "Rancher",
+                "Geologist",
+                "Miner",
+                "Fisher",
+                "Gatherer",
+                "Tiller"
+            ],
+            "response": "### Analysis\nAs the team leader (Rancher), my goal is to balance resource distribution to support sustainable team growth in this game. Ranchers like myself focus on animal husbandry and herding, which requires steady action for expansion. Key priorities:\n- **Core production roles**: Allocate more to Rancher (me, for leadership and core output), Tiller (farming base for feed), and Forester (wood/resources for infrastructure).\n- **Extraction roles**: Moderate to Geologist and Miner for mineral gains, but less emphasis as they're volatile.\n- **Support roles**: Lower to Fisher and Gatherer, as they're supplementary and less scalable long-term.\nThis ensures a mix of immediate yields and future stability, totaling exactly 100 points in integers.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 14,\n    \"Role5\": 8,\n    \"Role6\": 10,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "(career: Tiller)",
+            "role_obs": [
+                "Miner",
+                "Tiller",
+                "Gatherer",
+                "Forester",
+                "Geologist",
+                "Fisher",
+                "Rancher"
+            ],
+            "response": "### Analysis\nAs the team leader (Tiller career), my goal is to balance resource distribution to support team sustainability and growth in the game. Tillers focus on farming/agriculture, so they need a solid allocation for planting and maintenance. Miners and Geologists are key for extracting minerals and surveying resources, warranting higher points for exploration and extraction. Gatherers and Foresters handle collection of food/wood, essential for early survival, so they get moderate shares. Fisher and Rancher support food production but are more specialized, thus lower initial priority to avoid over-diversification. Total must sum to 100, prioritizing core production roles while ensuring no one is zeroed out for team cohesion.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 16,\n    \"Role6\": 8,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "(career: Tiller)",
+            "role_obs": [
+                "Fisher",
+                "Geologist",
+                "Forester",
+                "Miner",
+                "Gatherer",
+                "Rancher",
+                "Tiller"
+            ],
+            "response": "### Analysis\nAs the team leader (Tiller), my primary focus is on agriculture and crop production, which requires a stable foundation of resources like food, tools, and materials. To optimize team efficiency, I prioritize roles that directly support tilling (e.g., Gatherer for basic resources, Rancher for animal-related synergies, and Forester for wood/tools) while allocating moderately to extractive roles (Miner, Geologist) for long-term gains. Fisher gets minimal points as it's less synergistic with farming. Role7 (myself as Tiller) gets the largest share to drive core production. This balanced distribution ensures sustainability without over-investing in any single area, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Tiller)",
+            "role_obs": [
+                "Fisher",
+                "Forester",
+                "Rancher",
+                "Geologist",
+                "Miner",
+                "Gatherer",
+                "Tiller"
+            ],
+            "response": "### Analysis\nAs the team leader (Tiller), my goal is to balance resource allocation across the team to support overall sustainability and growth in the game. Tillers focus on farming/agriculture, so I'll prioritize myself (Role7) for core food production. The team covers diverse areas: Fisher (aquatic resources), Forester (wood/timber), Rancher (livestock), Geologist (exploration/minerals), Miner (ore extraction), Gatherer (foraging/wild resources), and Tiller (crops). To optimize, I'll allocate more points to production-heavy roles (e.g., Miner, Rancher, Tiller) for long-term gains, while giving moderate support to gatherers and explorers. This ensures a mix of immediate and sustained output without over-investing in any single area. Total: 100 points, distributed in integers.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 8,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "(career: Tiller)",
+            "role_obs": [
+                "Gatherer",
+                "Geologist",
+                "Forester",
+                "Tiller",
+                "Miner",
+                "Fisher",
+                "Rancher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Tiller career (focused on agriculture and crop production), I prioritize resource allocation to support balanced team growth and sustainability. Tillers rely on inputs from other roles: Gatherers for basic foraging, Geologists and Miners for minerals/tools, Foresters for wood, Fishers and Ranchers for food variety, and my own Tiller role for core farming output. With 100 Action Points to distribute in integers, I aim for equity while slightly favoring resource-gathering roles (Gatherer, Miner, Forester) to enable production, and allocating moderately to Tiller for leadership emphasis. This avoids over-investing in any single role, ensuring the team can engage in diverse in-game activities like exploration, crafting, and harvesting without bottlenecks. Final split: 15 each to the three key gatherers (45 total), 14 to Tiller, and 13 each to the remaining three (39 total), summing to 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 13,\n    \"Role3\": 15,\n    \"Role4\": 14,\n    \"Role5\": 15,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Tiller)",
+            "role_obs": [
+                "Tiller",
+                "Rancher",
+                "Miner",
+                "Forester",
+                "Fisher",
+                "Geologist",
+                "Gatherer"
+            ],
+            "response": "### Analysis\nAs the team leader (Tiller), my primary focus is on agriculture and resource production, so I'll prioritize allocating more points to Role1 (Tiller) for core farming activities. The team has a mix of production roles (Rancher for livestock, Miner for ores, Forester for wood, Fisher for seafood) and support roles (Geologist for exploration, Gatherer for foraging). To balance growth, I'll allocate moderately to production roles while giving smaller shares to support roles, ensuring efficient overall team progress without over-specializing. Total: 100 points, distributed in integers.\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Tiller)",
+            "role_obs": [
+                "Gatherer",
+                "Miner",
+                "Rancher",
+                "Geologist",
+                "Tiller",
+                "Forester",
+                "Fisher"
+            ],
+            "response": "### Analysis\nAs the team leader (Tiller career, focused on farming/cultivation), I prioritize resource allocation based on synergy with my role and overall team sustainability. Tillers benefit from support roles like Gatherers (for seeds/plants), Ranchers (for animal feed integration), and Foresters (for wood/tools). Miners and Geologists are key for long-term resource extraction (ores/tools), while Fisher is more niche for food variety. To balance growth, defense, and efficiency, I'll allocate more to core producers (Gatherer, Miner, Rancher) and moderately to specialists, with minimal to less synergistic roles like Fisher. Total: 100 points, integers only.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "(career: Tiller)",
+            "role_obs": [
+                "Gatherer",
+                "Geologist",
+                "Miner",
+                "Fisher",
+                "Forester",
+                "Tiller",
+                "Rancher"
+            ],
+            "response": "### Analysis\nAs the team leader (Tiller), my goal is to balance resource distribution for sustainable growth in this game-like scenario. Tillers focus on farming/crops, so I'll prioritize agriculture-related roles (Tiller and Rancher for food production) while supporting gatherers (Gatherer, Forester) for basics and extractors (Geologist, Miner) for long-term resources. Fisher gets a smaller share as it's more specialized/less essential early on. Allocation favors synergy: 30% to core production, 40% to gathering, 30% to mining/exploration, ensuring even coverage without over-investing in any single role.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 8,\n    \"Role5\": 15,\n    \"Role6\": 18,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(career: Tiller)",
+            "role_obs": [
+                "Fisher",
+                "Forester",
+                "Tiller",
+                "Geologist",
+                "Gatherer",
+                "Rancher",
+                "Miner"
+            ],
+            "response": "### Analysis\nAs the team leader (Tiller career, focused on farming/cultivation), I prioritize resource allocation to balance team productivity in a survival/resource-gathering game. Key considerations:\n- **Food production**: High priority for sustainability. Allocate more to Fisher (fishing), Rancher (animal husbandry), Gatherer (foraging), and Tiller (crops) to ensure steady food supply.\n- **Resource gathering**: Forester (wood/timber), Geologist (minerals/exploration), and Miner (ore extraction) support building and tools, but secondary to food.\n- **Balance**: Distribute to all roles to avoid bottlenecks, with slight bias toward my Tiller expertise. Total must sum to 100, using integers. Aim for equity with adjustments: 15-20 AP for core food roles, 10-15 for others.\n\nThis allocation promotes early-game stability: ~55% to food, ~45% to materials.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Tiller)",
+            "role_obs": [
+                "Forester",
+                "Gatherer",
+                "Tiller",
+                "Rancher",
+                "Geologist",
+                "Fisher",
+                "Miner"
+            ],
+            "response": "### Analysis\nAs the team leader (Tiller career), my goal is to allocate 100 Action Points to optimize team productivity in a resource-gathering game. Tillers focus on farming/crops, so they should receive a strong allocation for growth activities. Other roles contribute to a balanced economy: Forester and Gatherer for wood/plants, Rancher for animals, Geologist/Fisher/Miner for minerals/fish/ores. To avoid bottlenecks, I'll prioritize core sustainers (Tiller, Gatherer, Forester) with 20-25 points each, then support roles (Rancher, Fisher) with 15 each, and specialized extractors (Geologist, Miner) with 10 each. This sums to 100, promoting synergy without over-investing in any single area.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 25,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Tiller)",
+            "role_obs": [
+                "Tiller",
+                "Geologist",
+                "Gatherer",
+                "Miner",
+                "Rancher",
+                "Forester",
+                "Fisher"
+            ],
+            "response": "### Analysis\nAs the team leader (Tiller), my primary focus is on agriculture and tilling land for sustainable food production, which forms the backbone of team survival and growth. The team composition includes complementary roles: Geologist and Miner for resource extraction (minerals/metals), Gatherer and Forester for organic collection (plants/wood), Rancher for animal husbandry, and Fisher for aquatic resources. To optimize, I'll allocate more points to extraction roles (Miner, Geologist) for immediate material gains, balanced with production roles (Tiller, Rancher, Fisher) for long-term sustainability. Gatherer gets moderate support for quick foraging, while Forester gets less as wood can be secondary to food/minerals. Total allocation sums to 100, prioritizing a balanced economy.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "(career: Miner)",
+            "role_obs": [
+                "Geologist",
+                "Tiller",
+                "Rancher",
+                "Gatherer",
+                "Miner",
+                "Fisher",
+                "Forester"
+            ],
+            "response": "### Analysis\nAs the team leader with a Miner background, my priority is to optimize resource generation for sustainability in a game setting. Miners like myself focus on extracting ores/metals, which are foundational for tools and long-term growth. Key allocations should support mining operations while balancing complementary roles: Geologist for mineral detection (directly aids mining), Tiller and Rancher for food production (prevents starvation), Gatherer and Forester for quick basic resources (wood/plants), and Fisher for alternative food sources. I'll allocate more to mining-related roles (Miner and Geologist) for efficiency, moderate to agriculture (Tiller, Rancher, Fisher), and lower to gatherers (Gatherer, Forester) as they're less scalable. Total: 100 points, integers only.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 12,\n    \"Role4\": 8,\n    \"Role5\": 25,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(career: Miner)",
+            "role_obs": [
+                "Fisher",
+                "Gatherer",
+                "Tiller",
+                "Geologist",
+                "Rancher",
+                "Miner",
+                "Forester"
+            ],
+            "response": "### Analysis\nAs the team leader with a Miner career, my primary focus is on mining-related activities, such as resource extraction and exploration, which aligns closely with Role6 (fellow Miner) and Role4 (Geologist), who supports geological surveys essential for mining success. The team composition covers a broad economy: fishing (Role1), gathering/foraging (Role2), farming (Role3), geology/mining support (Role4), animal husbandry (Role5), mining (Role6), and logging (Role7). To optimize, I'll prioritize mining synergy (Miner and Geologist) for core production, while allocating moderately to sustainable roles like Tiller and Rancher for food/security, and minimally to others to maintain balance without overextending. Total allocation: 100 points, all integers.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 8,\n    \"Role3\": 15,\n    \"Role4\": 25,\n    \"Role5\": 12,\n    \"Role6\": 25,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Miner)",
+            "role_obs": [
+                "Gatherer",
+                "Geologist",
+                "Tiller",
+                "Rancher",
+                "Fisher",
+                "Forester",
+                "Miner"
+            ],
+            "response": "### Analysis\nAs the team leader with a Miner background, my priority is to optimize resource gathering and sustainability in a mining-focused game context. Miners (like myself) excel at extracting ores and minerals, so Role7 (Miner) should receive the bulk of Action Points to maximize core production. Supporting roles like Gatherer (Role1) for basic resources, Geologist (Role2) for mineral scouting, and Forester (Role6) for wood/tools will get moderate allocations to enable mining operations. Other roles (Tiller, Rancher, Fisher) are less directly relevant to mining and get minimal points to avoid over-diversification, ensuring the total sums to 100.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 5,\n    \"Role4\": 5,\n    \"Role5\": 5,\n    \"Role6\": 15,\n    \"Role7\": 45\n}\n```"
+        },
+        {
+            "role_self": "(career: Miner)",
+            "role_obs": [
+                "Tiller",
+                "Rancher",
+                "Gatherer",
+                "Geologist",
+                "Miner",
+                "Forester",
+                "Fisher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Miner background, my focus is on optimizing resource production in a balanced settlement-building game (e.g., inspired by games like RimWorld or Banished). The team covers core survival needs: food (Tiller for crops, Rancher for livestock, Gatherer for foraging, Fisher for seafood, Forester for wood/hunting) and mining/exploration (Geologist for surveying, Miner for extraction). With 100 Action Points to distribute, I prioritize food security first (to avoid starvation), then wood (essential for building/tools), and finally mining (my expertise, for long-term metals/resources). Allocations are integers summing to 100, favoring roles with broader impact: higher points to diverse food producers, moderate to wood/mining, and lower to specialized ones like Geologist.\n\n- Food roles (Tiller, Rancher, Gatherer, Fisher): 60 points total (15 each) for immediate sustainability.\n- Wood (Forester): 20 points, as it's versatile for construction and secondary food.\n- Mining support (Geologist): 10 points, to identify deposits efficiently.\n- Direct mining (Miner): 10 points, leveraging my leadership but not over-allocating early-game.\n\nThis setup ensures balanced growth without over-specializing.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Miner)",
+            "role_obs": [
+                "Forester",
+                "Fisher",
+                "Geologist",
+                "Gatherer",
+                "Tiller",
+                "Rancher",
+                "Miner"
+            ],
+            "response": "### Analysis\nAs the team leader with a Miner background, my priority is to optimize resource gathering for sustainable growth in the game. Miners (like myself in Role7) focus on extracting valuable ores and metals, which are crucial for tools, building, and trade—making this role high-priority for long-term progress. Complementary roles like Forester (wood/timber), Gatherer (foraging basics), and Tiller (crops) provide immediate essentials for survival and expansion. Fisher and Rancher offer food diversity but are less critical early on, while Geologist supports mining indirectly through surveys but isn't essential if we're action-constrained. I'll allocate more to mining and core support roles to balance short-term needs with high-reward extraction, ensuring the total sums to 100 integer points without leftovers.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 5,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 30\n}\n```"
+        },
+        {
+            "role_self": "(career: Miner)",
+            "role_obs": [
+                "Forester",
+                "Rancher",
+                "Tiller",
+                "Geologist",
+                "Fisher",
+                "Miner",
+                "Gatherer"
+            ],
+            "response": "### Analysis\nAs the team leader with a Miner background, my priority is to optimize resource gathering for sustainability and growth in the game. The team has a balanced mix of roles: producers (Forester for wood, Rancher for animals, Tiller for crops, Fisher for seafood, Gatherer for wild resources) and specialists (Geologist for mineral scouting, Miner for extraction). With 100 Action Points to distribute, I favor production roles to ensure steady resource inflow, while allocating moderately to mining-related roles (Geologist and Miner) to support my expertise in ore and materials. Gatherer gets a smaller share as it overlaps with other foraging roles. This even-ish split (15-20 per producer, 10-15 for specialists) promotes team synergy without over-investing in any single area.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Miner)",
+            "role_obs": [
+                "Forester",
+                "Gatherer",
+                "Rancher",
+                "Tiller",
+                "Miner",
+                "Fisher",
+                "Geologist"
+            ],
+            "response": "### Analysis\nAs the team leader with a Miner background, my priority is to optimize resource gathering for sustainability and growth in this game-like scenario. The team covers diverse careers: Forester (wood/timber), Gatherer (foraging/wild resources), Rancher (animal products), Tiller (crops/farming), Miner (minerals/metals), Fisher (seafood/aquatic), and Geologist (surveying/mineral detection, which supports mining). With 100 Action Points to distribute in integers, I focus on balancing immediate production (e.g., food from Tiller, Rancher, Fisher, Gatherer) with long-term gains (e.g., mining via Miner and Geologist for rare resources). Forester gets moderate support for building/tools. Prioritizing mining expertise, I allocate more to Miner and Geologist, while ensuring basic needs are met without starving any role.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Miner)",
+            "role_obs": [
+                "Forester",
+                "Gatherer",
+                "Rancher",
+                "Geologist",
+                "Miner",
+                "Tiller",
+                "Fisher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Miner career, my primary focus is on mining-related activities, but effective resource distribution should balance the team's diverse roles to support overall game progression (e.g., gathering raw materials, farming, and exploration). The total is 100 Action Points, to be allocated in integers summing to exactly 100. I'll prioritize roles that synergize with mining: Geologist (for resource scouting) and Miner (my own role, for direct extraction) get higher shares. Other roles like Forester, Gatherer, and Tiller support sustainable basics, Rancher adds animal resources, and Fisher provides food variety—each gets moderate points to avoid bottlenecks. This ensures team efficiency without over-allocating to any single area.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 20,\n    \"Role6\": 14,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Miner)",
+            "role_obs": [
+                "Forester",
+                "Fisher",
+                "Tiller",
+                "Rancher",
+                "Gatherer",
+                "Geologist",
+                "Miner"
+            ],
+            "response": "### Analysis\nAs the team leader with a Miner career, my primary focus is on mining-related efficiency, so I'll prioritize the Geologist (for resource detection) and myself (Role7, Miner) to maximize ore and mineral yields. The other roles support a balanced economy: Forester and Gatherer for wood/fiber, Fisher and Rancher for food/protein, Tiller for crops. With 100 Action Points, I'll allocate ~40% to mining/geology (40 points total), ~30% to food production (30 points across Fisher, Tiller, Rancher), ~20% to materials (20 points for Forester and Gatherer), ensuring integers sum to 100 without leftovers. This promotes sustainable growth without over-investing in any single area.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Miner)",
+            "role_obs": [
+                "Geologist",
+                "Gatherer",
+                "Tiller",
+                "Forester",
+                "Miner",
+                "Rancher",
+                "Fisher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Miner background, my priority is to optimize resource gathering and production for sustainable growth in this game-like scenario. Miners (like myself) focus on extracting valuable ores and materials, which are foundational for tools, building, and trading. Therefore, I'll allocate the most points to Role5 (Miner) to maximize output. \n\nNext, support roles that enable mining and broaden resource diversity:\n- Geologist (Role1) gets a moderate share to survey and identify mining sites.\n- Gatherer (Role2) for general foraging to supplement basics.\n- Tiller (Role3) and Forester (Role4) for food and wood (essential for mining camps and fuel).\n- Rancher (Role6) and Fisher (Role7) get minimal points, as animal/livestock and fishing are less directly tied to mining efficiency at this stage—focus on core extraction first.\n\nTotal allocation sums to 100, prioritizing mining ecosystem while ensuring team balance.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 40,\n    \"Role6\": 8,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "(career: Geologist)",
+            "role_obs": [
+                "Geologist",
+                "Forester",
+                "Gatherer",
+                "Fisher",
+                "Tiller",
+                "Miner",
+                "Rancher"
+            ],
+            "response": "### Analysis\nAs the team leader (Geologist), my goal is to allocate the 100 Action Points to maximize team efficiency in a resource-gathering game. The team covers diverse careers: geology/mining for minerals, forestry for wood/timber, gathering for wild plants/berries, fishing for aquatic resources, tilling for crops, ranching for livestock, and mining for ores/metals. Since mining (Role6) directly supports geological expertise and often provides high-value resources like metals, it should receive a priority allocation. Other roles get balanced points based on complementary needs: tilling and ranching for sustained food production, forester and gatherer for quick environmental yields, fisher for variety, and my own role (Role1) for oversight/exploration. This ensures broad coverage without over-specializing, summing exactly to 100.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Geologist)",
+            "role_obs": [
+                "Tiller",
+                "Geologist",
+                "Forester",
+                "Miner",
+                "Rancher",
+                "Fisher",
+                "Gatherer"
+            ],
+            "response": "### Analysis\nAs the team leader (Geologist), my goal is to optimize resource distribution for balanced team productivity in this game. Geologists typically focus on exploration, surveying land, and identifying mineral deposits, which supports mining and long-term resource extraction. To maximize efficiency:\n\n- Prioritize mining-related roles (Miner and myself as Geologist) for core resource generation.\n- Allocate moderately to agriculture/sustenance roles (Tiller, Rancher, Fisher, Gatherer) to ensure food and basic supplies.\n- Give less to Forester, as it overlaps with gathering/mining in forested areas but isn't as critical without specific game threats (e.g., no mention of wood shortages).\n\nTotal allocation: 100 points, integers only. Breakdown rationale:\n- Geologist (self/Role2): High allocation for surveys to enable mining.\n- Miner (Role4): Highest for extraction, synergizing with geology.\n- Tiller/Rancher/Fisher/Gatherer: Even split for sustainability.\n- Forester (Role3): Minimal, as secondary to others.\n\nThis setup promotes growth without over-investing in any single area.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 20,\n    \"Role3\": 8,\n    \"Role4\": 25,\n    \"Role5\": 12,\n    \"Role6\": 12,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "(career: Geologist)",
+            "role_obs": [
+                "Rancher",
+                "Gatherer",
+                "Geologist",
+                "Fisher",
+                "Miner",
+                "Forester",
+                "Tiller"
+            ],
+            "response": "### Analysis\nAs the team leader (Geologist), my goal is to optimize resource distribution for a balanced team economy in this game, focusing on sustainable growth, resource gathering, and production. The roles cover farming (Rancher, Tiller), gathering (Gatherer, Fisher, Forester), and extraction (Miner, Geologist). With 100 Action Points total, I prioritize:\n\n- **Geologist (myself, Role3)**: Highest allocation (30 points) to leverage my expertise in surveying and resource discovery, which benefits the entire team by uncovering minerals/gems.\n- **Core producers**: Allocate moderately to Rancher (15, for livestock/wool), Tiller (15, for crops), and Miner (15, for ores) to ensure food, materials, and mining output.\n- **Gatherers**: Lower but essential for quick resources—Forester (10, wood), Gatherer (8, wild plants), Fisher (7, fish) to support early-game needs without over-investing.\n\nThis distribution sums to 100, promotes synergy (e.g., Geologist aids Miner), and avoids starving any role while emphasizing extraction and agriculture for long-term stability.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 8,\n    \"Role3\": 30,\n    \"Role4\": 7,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Geologist)",
+            "role_obs": [
+                "Geologist",
+                "Fisher",
+                "Rancher",
+                "Miner",
+                "Tiller",
+                "Gatherer",
+                "Forester"
+            ],
+            "response": "### Analysis\nAs the team leader (Geologist), my goal is to optimize resource distribution for a balanced survival or development game, focusing on food, materials, and exploration. Total Action Points: 100, to be allocated in integers.\n\n- **Priorities**: Early-game needs emphasize food security (Fisher, Rancher, Tiller, Gatherer) to sustain the team, followed by resource gathering (Miner for metals, Forester for wood/timber). As Geologist, I allocate more to Role1 (myself) for surveying land/resources, which benefits the whole team long-term. Role4 (Miner) gets a boost as mining synergizes with geology. Less urgent roles like Rancher get moderate points to avoid over-investment in livestock initially.\n\n- **Breakdown rationale**:\n  - Food roles (Role2 Fisher, Role5 Tiller, Role6 Gatherer): High allocation (20-25 each) for quick sustenance.\n  - Material roles (Role4 Miner, Role7 Forester): Medium (15-20) for tools/building.\n  - Growth roles (Role3 Rancher): Lower (10) as it scales slower.\n  - Self (Role1 Geologist): Highest (25) for strategic oversight.\n\nThis ensures ~70% on essentials, 30% on expansion, summing to 100.\n\n### Decision\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 20,\n    \"Role6\": 5,\n    \"Role7\": 0\n}\n```"
+        },
+        {
+            "role_self": "(career: Geologist)",
+            "role_obs": [
+                "Fisher",
+                "Miner",
+                "Rancher",
+                "Tiller",
+                "Geologist",
+                "Forester",
+                "Gatherer"
+            ],
+            "response": "### Analysis\nAs the team leader (Geologist), my goal is to optimize resource distribution for a balanced team economy in this game-like scenario. The roles represent different resource production specialties: Fisher (aquatic food), Miner (minerals/metals), Rancher (animal products), Tiller (crops), Geologist (geological surveys/mining support), Forester (wood/timber), and Gatherer (foraging/wild resources). With 100 Action Points total, I prioritize sustainability—food (Fisher, Rancher, Tiller, Gatherer) gets a slight emphasis to avoid shortages, while production roles (Miner, Geologist, Forester) support long-term growth. As Geologist myself, I allocate more to my role for strategic exploration advantages. Distribution: even base of ~14 per role, with adjustments (+5 to Geologist, +3 to food roles, -2 to others for balance).\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 19,\n    \"Role6\": 12,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Geologist)",
+            "role_obs": [
+                "Fisher",
+                "Miner",
+                "Rancher",
+                "Geologist",
+                "Tiller",
+                "Forester",
+                "Gatherer"
+            ],
+            "response": "### Analysis\nAs the team leader (Geologist), I need to allocate 100 Action Points across the team to optimize resource gathering and sustainability in the game. The roles represent different economic activities: Fisher (aquatic resources), Miner (minerals/metals), Rancher (livestock), Geologist (geological surveys/mining support), Tiller (crops), Forester (timber), and Gatherer (foraging). \n\nA balanced distribution ensures diverse resource coverage without over-investing in any single area, preventing bottlenecks (e.g., too much focus on mining might neglect food production). Since I'm the Geologist, I'll prioritize my own role slightly higher for expertise in earth-based resources, which synergizes with Miner. Basic needs like food (Tiller, Rancher, Fisher, Gatherer) get moderate shares, while specialized roles (Forester, Miner) get less to avoid imbalance. Allocations are integers summing to exactly 100.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 18,\n    \"Role5\": 15,\n    \"Role6\": 13,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "(career: Geologist)",
+            "role_obs": [
+                "Geologist",
+                "Gatherer",
+                "Forester",
+                "Tiller",
+                "Rancher",
+                "Fisher",
+                "Miner"
+            ],
+            "response": "### Analysis\nAs the team leader (Geologist), my goal is to balance resource distribution for sustainable growth in this game-like scenario. Geology focuses on mineral/earth resources, so Role1 (fellow Geologist) and Role7 (Miner) get priority for exploration and extraction. The others handle organic/food production: Gatherer (wild foraging), Forester (wood/timber), Tiller (crops), Rancher (livestock), and Fisher (aquatic). To avoid over-reliance on any sector, I'll allocate more to production roles (e.g., Tiller and Rancher for food security) while ensuring mining/geology gets a strong base. Total must sum to 100, in integers. This spread promotes diversification: ~30% to geology/mining, ~50% to food production, ~20% to other gathering.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Geologist)",
+            "role_obs": [
+                "Miner",
+                "Gatherer",
+                "Tiller",
+                "Rancher",
+                "Forester",
+                "Geologist",
+                "Fisher"
+            ],
+            "response": "### Analysis\nAs the team leader and geologist, my primary expertise lies in identifying and extracting mineral resources, which are foundational for long-term sustainability in this game (e.g., for tools, building, or trade). Therefore, I prioritize the Miner (Role1) for efficient resource extraction, followed by the Geologist (Role6, my own role) to support geological surveys and enhancements. Other roles like Gatherer (Role2) and Forester (Role5) get moderate allocations for balanced wild resource collection, while Tiller (Role3), Rancher (Role4), and Fisher (Role7) receive lower points as they focus on slower-yielding agriculture and animal-based activities, which can be scaled up later with mineral outputs. This distribution ensures a strong early-game foundation without overcommitting to any single area, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Geologist)",
+            "role_obs": [
+                "Geologist",
+                "Gatherer",
+                "Fisher",
+                "Forester",
+                "Tiller",
+                "Miner",
+                "Rancher"
+            ],
+            "response": "### Analysis\nAs the team leader (Geologist), my goal is to balance resource allocation for sustainable growth in this game-like scenario. With 100 Action Points to distribute, I prioritize roles based on foundational needs: food (immediate survival via Fisher, Gatherer, Forester, Tiller, Rancher), materials (Miner for metals/minerals), and exploration (Geologist for long-term strategy like mapping resources). \n\n- Food roles get the bulk (60 points) to ensure early stability, split roughly equally but with slight emphasis on diverse sources (e.g., Fisher and Rancher for protein, Gatherer/Tiller/Forester for plants).\n- Miner gets a moderate share (15) for essential tools/weapons.\n- As leader (Role1, Geologist), I allocate myself the remainder (25) for oversight, scouting, and geological surveys to unlock better sites.\n\nThis distribution promotes short-term survival while building toward expansion, assuming integer points and exact sum of 100.\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "(career: Geologist)",
+            "role_obs": [
+                "Forester",
+                "Rancher",
+                "Geologist",
+                "Tiller",
+                "Miner",
+                "Gatherer",
+                "Fisher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Geologist background, I prioritize resource allocation based on synergies in a survival or exploration game context. Geologists typically focus on mineral prospecting and earth sciences, so I'd boost the Miner (Role5) for extraction support and myself (Role3) for core geological surveys. Supporting roles like Forester (Role1) and Gatherer (Role6) get moderate points for basic resource gathering (wood and wild items), while Rancher (Role2) and Fisher (Role7) receive less as animal-based resources are secondary. Tiller (Role4) gets minimal allocation since farming is less critical in early-game geology-focused teams. This balances exploration (high priority) with sustenance (low priority), totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 5,\n    \"Role3\": 25,\n    \"Role4\": 5,\n    \"Role5\": 30,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Forester)",
+            "role_obs": [
+                "Fisher",
+                "Geologist",
+                "Forester",
+                "Gatherer",
+                "Miner",
+                "Rancher",
+                "Tiller"
+            ],
+            "response": "### Analysis\nAs the team leader with a Forester background, I prioritize resource allocation based on a balanced strategy for a sustainable team in a survival-style game. Forestry focuses on wood/timber, so I boost Role3 (Forester) for core production. Complementary roles like Role4 (Gatherer) for foraging, Role7 (Tiller) for farming, and Role6 (Rancher) for animal husbandry get moderate shares to build food and materials. Role1 (Fisher) gets a small allocation for variety in food sources. Extractive roles like Role2 (Geologist), Role5 (Miner) are deprioritized initially to avoid over-reliance on finite resources, allocating minimally to them. This ensures a sum of 100 points, promoting long-term team growth over immediate extraction.\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 5,\n    \"Role3\": 25,\n    \"Role4\": 18,\n    \"Role5\": 5,\n    \"Role6\": 15,\n    \"Role7\": 24\n}\n```"
+        },
+        {
+            "role_self": "(career: Forester)",
+            "role_obs": [
+                "Fisher",
+                "Forester",
+                "Geologist",
+                "Rancher",
+                "Gatherer",
+                "Tiller",
+                "Miner"
+            ],
+            "response": "### Analysis\nAs the team leader (Forester), my goal is to balance resource distribution to support sustainable team growth in the game. Foresters focus on wood/timber production, which is foundational for building and tools, so Role2 (Forester) gets a slight priority. Other roles contribute to a diverse economy: Fisher (Role1) for food from water, Geologist (Role3) for surveys, Rancher (Role4) for livestock, Gatherer (Role5) for foraging, Tiller (Role6) for crops, and Miner (Role7) for metals. With 100 Action Points total, I'll allocate evenly at ~14 per role (7 roles × 14 = 98), then add the remaining 2 to my own role for emphasis on core forestry activities. This ensures no role is neglected while prioritizing strategic needs.\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 14,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(career: Forester)",
+            "role_obs": [
+                "Fisher",
+                "Forester",
+                "Tiller",
+                "Miner",
+                "Rancher",
+                "Gatherer",
+                "Geologist"
+            ],
+            "response": "### Analysis\nAs the team leader (Forester), my goal is to optimize resource distribution for a balanced team economy in the game, focusing on sustainable growth, food security, and resource diversification. With 100 Action Points to allocate:\n\n- **Prioritize core needs**: Food production is essential, so Tiller (Role3, farming) and Fisher (Role1, seafood) get solid allocations to ensure steady supplies.\n- **Synergy with my role**: As a Forester (Role2), I allocate to myself for wood/timber production, which supports construction and trade. Related roles like Gatherer (Role6, foraging) and Rancher (Role5, animal husbandry) complement this by providing additional natural resources.\n- **Secondary resources**: Miner (Role4) and Geologist (Role7) are important for metals and exploration but less immediate, so they get moderate points to avoid over-investment early on.\n- **Balance**: Aim for even distribution with slight emphasis on agriculture and forestry (about 60% of points) to prevent bottlenecks, while ensuring no role is zeroed out for team morale and flexibility.\n\nThis allocation promotes short-term survival (food/wood) and long-term expansion (mining/exploration), totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 12,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(career: Forester)",
+            "role_obs": [
+                "Forester",
+                "Fisher",
+                "Miner",
+                "Gatherer",
+                "Tiller",
+                "Geologist",
+                "Rancher"
+            ],
+            "response": "### Analysis\nAs the team leader (Forester), my goal is to balance resource distribution to support sustainable growth in a game-like environment. Foresters like myself focus on wood/timber, which is foundational for building and tools, so Role1 deserves a strong allocation. Fishers (Role2) provide quick food/protein, Miners (Role3) and Geologists (Role6) handle metals/minerals for tech advancement, Gatherers (Role4) collect wild resources efficiently, Tillers (Role5) enable farming, and Ranchers (Role7) manage livestock. To optimize, I'll prioritize core survival (food/wood) and exploration (mining/geology) while ensuring even coverage. Allocations are integers summing to 100, with slight emphasis on forestry synergy.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 13,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(career: Forester)",
+            "role_obs": [
+                "Fisher",
+                "Gatherer",
+                "Tiller",
+                "Forester",
+                "Rancher",
+                "Miner",
+                "Geologist"
+            ],
+            "response": "### Analysis\nAs the team leader with a Forester career, my focus is on balancing resource distribution for a sustainable team in a game-like survival scenario. The roles cover key areas: fishing (Role1), gathering (Role2), farming (Role3), forestry (Role4, my specialty), animal husbandry (Role5), mining (Role6), and geological surveying (Role7). To optimize, I'll prioritize foundational food production (Fisher, Gatherer, Tiller, Rancher) for immediate survival, allocate moderately to my Forester role for wood/timber efficiency, and give less to extractive/specialized roles (Miner, Geologist) to avoid over-investment in risky or long-term activities. This ensures even coverage without neglecting any role entirely, summing to exactly 100 integer points.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Forester)",
+            "role_obs": [
+                "Tiller",
+                "Fisher",
+                "Forester",
+                "Miner",
+                "Rancher",
+                "Gatherer",
+                "Geologist"
+            ],
+            "response": "### Analysis\nAs the team leader with a Forester background, my allocation prioritizes roles that support sustainable resource production and exploration, given the game's likely focus on balanced growth in a resource-management environment. Forester (myself, Role3) gets the highest share to drive wood/forest-based activities, essential for building and expansion. Complementary roles like Gatherer (Role6) for quick foraging and Geologist (Role7) for long-term surveying receive strong support. Rancher (Role5) aids food/animal resources, while Tiller (Role1) and Fisher (Role2) get minimal focus as they may overlap with others. Miner (Role4) is deprioritized to avoid over-reliance on finite mining early on. This ensures a sum of 100 points, promoting team synergy without waste.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 5,\n    \"Role3\": 30,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Forester)",
+            "role_obs": [
+                "Miner",
+                "Forester",
+                "Rancher",
+                "Gatherer",
+                "Tiller",
+                "Geologist",
+                "Fisher"
+            ],
+            "response": "### Analysis\nAs the team leader (Forester), my strategy prioritizes balanced resource allocation to ensure sustainable growth across the team. Forestry relies on wood and natural resources, so I favor roles that support or complement this: Gatherer (Role4) for quick resource collection, Tiller (Role5) for land preparation, and Forester (Role2, my own role) for core sustainability. Rancher (Role3) gets moderate support for animal-related synergies with forests. Mining (Role1) and fishing (Role7) are less directly tied, so lower allocation. Geologist (Role6) gets some for exploration potential. This distributes 100 points evenly with slight biases toward forestry-aligned roles.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Forester)",
+            "role_obs": [
+                "Tiller",
+                "Fisher",
+                "Miner",
+                "Forester",
+                "Geologist",
+                "Rancher",
+                "Gatherer"
+            ],
+            "response": "### Analysis\nAs the team leader with a Forester career, my allocation prioritizes roles that synergize with forestry and overall team sustainability in a resource-gathering game. Foresters typically focus on wood/timber production, so I boost Role4 (Forester) for core output. Complementary roles like Role7 (Gatherer) for quick wild resources, Role6 (Rancher) for animal/land integration, and Role3 (Miner) for tool/material support get moderate shares. Role1 (Tiller) aids long-term growth, while Role2 (Fisher) and Role5 (Geologist) are lower priority due to less direct overlap with forestry (water-based and exploratory, respectively). This balances immediate production (60 points) with support (40 points) to avoid bottlenecks.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 5,\n    \"Role3\": 15,\n    \"Role4\": 30,\n    \"Role5\": 5,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Forester)",
+            "role_obs": [
+                "Rancher",
+                "Miner",
+                "Tiller",
+                "Fisher",
+                "Forester",
+                "Gatherer",
+                "Geologist"
+            ],
+            "response": "### Analysis\nAs the team leader (Forester), my goal is to optimize resource distribution for balanced team productivity in the game. Foresters like myself focus on wood/timber production, which supports construction and fuel needs. I prioritize my own role (Role5) with the highest allocation to maximize output in that area. Other roles get allocations based on complementary synergies: Rancher (Role1) for food/livestock (15 points), Miner (Role2) and Geologist (Role7) for resource extraction (15 and 10 points), Tiller (Role3) for crops (12 points), Fisher (Role4) for protein (10 points), and Gatherer (Role6) for foraging (8 points). This ensures diverse coverage without over-investing in any single area, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 10,\n    \"Role5\": 30,\n    \"Role6\": 8,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Forester)",
+            "role_obs": [
+                "Rancher",
+                "Fisher",
+                "Geologist",
+                "Gatherer",
+                "Forester",
+                "Miner",
+                "Tiller"
+            ],
+            "response": "### Analysis\nAs the team leader (Forester), my goal is to allocate the 100 Action Points to optimize team productivity in a resource-gathering game. Forester-focused strategies emphasize sustainable growth like wood/forest management, so I'll prioritize roles that support or complement this: Gatherer (direct collection), Tiller (plant-based synergies), and Forester (core role). Rancher and Fisher are less aligned (animal/sea focus), while Geologist and Miner (earth resources) get minimal support for balance. This ensures efficient resource flow without overcommitting to mismatched areas.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 5,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 30,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Gatherer)",
+            "role_obs": [
+                "Fisher",
+                "Gatherer",
+                "Forester",
+                "Miner",
+                "Geologist",
+                "Tiller",
+                "Rancher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Gatherer career, my focus is on efficient resource collection, so I'll prioritize allocating Action Points to roles that complement gathering by emphasizing natural and sustainable yields (e.g., fishing, forestry, gathering, and ranching) while deprioritizing extractive or analytical roles (mining, geology) that may overlap or be less synergistic. The total must sum to 100 integers. I'll distribute as follows: higher points to core collectors (Gatherer, Forester, Fisher for balanced food/wood), moderate to producers (Tiller, Rancher), and minimal to specialists (Miner, Geologist) to maintain team versatility without overcommitting.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 20,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 8,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Gatherer)",
+            "role_obs": [
+                "Tiller",
+                "Geologist",
+                "Fisher",
+                "Forester",
+                "Gatherer",
+                "Miner",
+                "Rancher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Gatherer career, my focus is on efficient resource collection, but I must balance the team's diverse roles for overall sustainability. Tillers and Ranchers support food production, Geologists and Miners handle minerals, Fisher and Forester cover water and wood-based resources, and the extra Gatherer (Role5) can amplify general foraging. To optimize, I'll allocate more points to core production roles (Tiller, Rancher, Miner) for long-term gains, moderate to specialized roles (Geologist, Fisher, Forester), and minimal to the redundant Gatherer to avoid overlap with my leadership role. This ensures a sum of exactly 100 points, prioritizing integers for balanced growth.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 14,\n    \"Role5\": 2,\n    \"Role6\": 20,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Gatherer)",
+            "role_obs": [
+                "Rancher",
+                "Forester",
+                "Gatherer",
+                "Tiller",
+                "Fisher",
+                "Miner",
+                "Geologist"
+            ],
+            "response": "### Analysis\nAs the team leader with a Gatherer career, my focus is on efficient resource collection and balanced team support. The team covers diverse careers: Rancher (animal products), Forester (wood/timber), Gatherer (foraging), Tiller (crops), Fisher (seafood), Miner (ores), and Geologist (surveying/mineral prospecting). To optimize overall progress, I'll allocate more points to core production roles (e.g., Gatherer for synergy with my career, plus Tiller, Rancher, and Forester for food/wood basics) while giving moderate support to extraction roles (Fisher, Miner) and lighter to Geologist (exploratory). This ensures broad coverage without over-investing in any single area, totaling exactly 100 integer points.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 20,\n    \"Role4\": 18,\n    \"Role5\": 12,\n    \"Role6\": 10,\n    \"Role7\": 6\n}\n```"
+        },
+        {
+            "role_self": "(career: Gatherer)",
+            "role_obs": [
+                "Rancher",
+                "Geologist",
+                "Tiller",
+                "Miner",
+                "Gatherer",
+                "Fisher",
+                "Forester"
+            ],
+            "response": "### Analysis\nAs the team leader with a Gatherer career, my focus is on efficient resource collection from natural sources like plants, animals, and forests to support the team's overall sustainability. The team has a balanced mix of roles: production-oriented (Rancher, Tiller, Forester), extraction-focused (Geologist, Miner, Fisher), and another Gatherer for direct foraging. To maximize output, I prioritize roles that align with or complement gathering—such as Forester (wood/forest resources), Rancher (animal husbandry), and Tiller (crops)—while allocating moderately to extraction roles for raw materials. The secondary Gatherer gets a boost for synergy. Total allocation must sum to 100 integers, emphasizing collaborative efficiency over equal distribution.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 10,\n    \"Role3\": 16,\n    \"Role4\": 12,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "(career: Gatherer)",
+            "role_obs": [
+                "Geologist",
+                "Tiller",
+                "Rancher",
+                "Forester",
+                "Fisher",
+                "Gatherer",
+                "Miner"
+            ],
+            "response": "### Analysis\nAs the team leader with a Gatherer career, my focus is on efficient resource collection, which overlaps with roles like Forester and Gatherer for natural yields, while supporting foundational roles like Tiller and Rancher for sustainability. Geologist and Miner aid long-term mining/exploration, Fisher provides specialized food, and Rancher builds on Tiller outputs. To balance, I'll prioritize core production (Tiller, Rancher) and my specialty (Gatherer, Forester), with moderate support for others, ensuring no role is starved but avoiding over-allocation to less immediate needs like mining.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Gatherer)",
+            "role_obs": [
+                "Tiller",
+                "Miner",
+                "Rancher",
+                "Fisher",
+                "Gatherer",
+                "Geologist",
+                "Forester"
+            ],
+            "response": "### Analysis\nAs the team leader with a Gatherer career, my focus is on efficient resource collection from natural environments, so I prioritize allocating Action Points to roles that complement this by enabling sustainable gathering, exploration, and production. Key priorities:\n\n- **High allocation to complementary roles**: Gatherer (Role5, my own role) gets the most to maximize core collection activities. Forester (Role7) and Geologist (Role6) receive substantial points for wood/fiber and mineral surveying, directly supporting gathering expeditions.\n- **Moderate allocation to producers**: Tiller (Role1), Rancher (Role3), and Fisher (Role4) get balanced shares for food and basic resource production, ensuring team sustainability without over-investing in less synergistic areas.\n- **Lower allocation to extractors**: Miner (Role2) gets the least, as mining is more industrial and less aligned with my gatherer focus, but still some to avoid neglect.\n\nThis distribution totals exactly 100 points, promoting balanced team growth while emphasizing my career strengths.\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 12,\n    \"Role4\": 12,\n    \"Role5\": 20,\n    \"Role6\": 18,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "(career: Gatherer)",
+            "role_obs": [
+                "Fisher",
+                "Miner",
+                "Forester",
+                "Gatherer",
+                "Tiller",
+                "Rancher",
+                "Geologist"
+            ],
+            "response": "### Analysis\nAs the team leader with a Gatherer career, my focus is on efficient resource collection, so I'll prioritize roles that align with gathering natural resources (e.g., Fisher for aquatic, Forester for wood, Gatherer for wild plants/berries, and to a lesser extent Tiller and Rancher for cultivated food). Mining and Geology are more industrial/exploratory and less directly synergistic, so they'll get minimal allocation to avoid over-investment in non-core areas. I'll distribute the 100 points somewhat evenly among the top priorities but weighted toward my own Gatherer role for leadership synergy, ensuring integer values that sum exactly to 100.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 5,\n    \"Role3\": 20,\n    \"Role4\": 25,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Gatherer)",
+            "role_obs": [
+                "Geologist",
+                "Miner",
+                "Fisher",
+                "Forester",
+                "Rancher",
+                "Gatherer",
+                "Tiller"
+            ],
+            "response": "### Analysis\nAs the team leader with a Gatherer career, my focus is on efficient resource collection, but the team includes specialized roles for mining (Geologist/Miner), fishing (Fisher), forestry (Forester), animal husbandry (Rancher), gathering (Gatherer), and farming (Tiller). To balance the team, I'll prioritize roles based on their synergy with gathering: allocate more to core producers like Miner (essential for materials), Forester and Gatherer (direct collection), and moderate to others like Fisher, Rancher, and Tiller for sustainability. Geologist gets less as it's supportive to mining. Total allocation: 100 points, integers only, ensuring broad coverage without over-focusing on one area.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Gatherer)",
+            "role_obs": [
+                "Fisher",
+                "Rancher",
+                "Tiller",
+                "Geologist",
+                "Forester",
+                "Miner",
+                "Gatherer"
+            ],
+            "response": "### Analysis\nAs the team leader with a Gatherer career, my focus is on efficient resource collection, particularly from natural sources like plants, fruits, and wild game. The team has a mix of specialized roles: Fisher and Rancher for animal proteins, Tiller for crops, Geologist and Miner for minerals, Forester for wood/timber, and another Gatherer for foraging. To optimize overall team output, I prioritize careers that align with sustainable gathering and farming (e.g., Gatherer, Forester, Tiller) for balanced food/wood production, while allocating moderately to extractive roles (Miner, Geologist) for materials. Less to animal-based (Fisher, Rancher) as they may overlap with gathering. Distribution favors my career expertise: higher to Gatherer/Forester/Tiller (30-25 each), medium to Miner/Geologist (10-8), lower to Fisher/Rancher (5-2) to sum exactly 100.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 2,\n    \"Role3\": 25,\n    \"Role4\": 8,\n    \"Role5\": 30,\n    \"Role6\": 10,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "(career: Gatherer)",
+            "role_obs": [
+                "Forester",
+                "Gatherer",
+                "Miner",
+                "Geologist",
+                "Fisher",
+                "Rancher",
+                "Tiller"
+            ],
+            "response": "### Analysis\nAs the team leader with a Gatherer career, my focus is on optimizing resource collection for sustainability and growth. The team has a mix of careers: Role1 (Forester) for wood/timber, Role2 (Gatherer) for general foraging (aligning with my expertise), Role3 (Miner) for metals/ores, Role4 (Geologist) for exploration/scouting, Role5 (Fisher) for aquatic resources, Role6 (Rancher) for livestock, and Role7 (Tiller) for crops. To balance the team, I'll prioritize core production roles (e.g., gathering, mining, farming) while allocating modestly to support roles like Geologist for future efficiency. This ensures broad coverage without over-investing in any single area, totaling exactly 100 points in integers.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 18,\n    \"Role4\": 8,\n    \"Role5\": 12,\n    \"Role6\": 14,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisher)",
+            "role_obs": [
+                "Geologist",
+                "Rancher",
+                "Fisher",
+                "Tiller",
+                "Miner",
+                "Gatherer",
+                "Forester"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisher career, my focus is on fishing-related activities, but I must balance resources across the team for overall sustainability in a survival game setting. The roles cover diverse resource gathering: Geologist (exploration/scouting), Rancher (animal husbandry), Fisher (fishing/aquatic), Tiller (farming/crops), Miner (ore extraction), Gatherer (foraging/plants), and Forester (wood/timber). With 100 Action Points to distribute in integers, I'll prioritize roles that synergize with fishing (e.g., Gatherer for bait/supplies, Forester for boat materials) while ensuring broad coverage to avoid bottlenecks. I'll allocate more to core producers like Tiller and Miner for food/materials, moderately to support roles, and minimally to less immediate ones like Geologist. This promotes balanced growth without over-investing in any single area.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisher)",
+            "role_obs": [
+                "Rancher",
+                "Fisher",
+                "Miner",
+                "Forester",
+                "Gatherer",
+                "Tiller",
+                "Geologist"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisher career, my primary focus is on fishing-related activities, so Role2 (fellow Fisher) should receive the bulk of resources to maximize efficiency in aquatic resource gathering. Other roles like Rancher (Role1) and Tiller (Role6) support food production and could benefit from some allocation for team sustainability, while extractive roles (Miner, Geologist) and others get minimal points to avoid over-investment in less synergistic areas for our fishing-oriented team. Total allocation must sum to 100, prioritizing balance with emphasis on fishing.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 50,\n    \"Role3\": 5,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 8,\n    \"Role7\": 2\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisher)",
+            "role_obs": [
+                "Forester",
+                "Rancher",
+                "Fisher",
+                "Tiller",
+                "Gatherer",
+                "Miner",
+                "Geologist"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisher career, my focus is on aquatic resource production, but a balanced team requires supporting complementary roles for overall sustainability. Forester (Role1) and Gatherer (Role5) aid in basic resource collection (wood and wild plants), Rancher (Role2) and Tiller (Role4) handle animal and crop farming for food stability, while Miner (Role6) and Geologist (Role7) provide minerals and exploration insights. Fisher (Role3) gets priority for synergy with my leadership. To optimize team efficiency, I'll allocate more to production-heavy roles (Fisher, Tiller, Rancher) while giving moderate support to others, ensuring no role is neglected but avoiding waste on less immediate needs like Geologist.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 25,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisher)",
+            "role_obs": [
+                "Gatherer",
+                "Fisher",
+                "Geologist",
+                "Miner",
+                "Tiller",
+                "Rancher",
+                "Forester"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisher career, my focus is on fishing-related activities, so I'll prioritize the Fisher role (Role2) with the highest allocation to maximize efficiency in resource gathering from water sources. The team has a balanced mix of careers: Gatherer and Forester for foraging/wood, Tiller and Rancher for farming/livestock, Miner and Geologist for mining/earth resources, and Fisher for aquatic yields. To ensure overall team sustainability, I'll distribute points proportionally based on career synergies—higher for primary producers (Gatherer, Fisher, Tiller, Rancher, Forester) and moderate for extractors (Miner, Geologist). This avoids over-reliance on any single area while keeping the total at exactly 100 integer points.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 25,\n    \"Role3\": 10,\n    \"Role4\": 12,\n    \"Role5\": 12,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisher)",
+            "role_obs": [
+                "Fisher",
+                "Tiller",
+                "Geologist",
+                "Miner",
+                "Rancher",
+                "Gatherer",
+                "Forester"
+            ],
+            "response": "### Analysis\nAs the team leader (Fisher), my primary focus is on fishing-related activities, but I must balance resources across the team for overall sustainability in this game-like scenario. The careers suggest a resource-gathering theme: Fisher and Gatherer for quick, low-infrastructure collection; Tiller for farming (long-term food); Geologist and Miner for minerals/ores; Rancher for animal products; Forester for wood/timber. With 100 Action Points to distribute in integers, I'll prioritize core survival needs (food/fishing/gathering) while allocating moderately to production roles. No single role gets everything to avoid bottlenecks—e.g., over-allocating to mining without food support could starve the team. Breakdown: 30% to immediate food sources (Fisher/Tiller/Gatherer), 40% to material extraction (Miner/Geologist/Forester), 30% to support (Rancher). This ensures balanced progress without excess in any area.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 12,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisher)",
+            "role_obs": [
+                "Forester",
+                "Tiller",
+                "Fisher",
+                "Gatherer",
+                "Miner",
+                "Geologist",
+                "Rancher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisher career, my focus is on aquatic resource management (e.g., fishing, water-based activities), but I must balance the team's overall sustainability in a resource-gathering game. The team has diverse careers: Forester (wood/timber), Tiller (farming/crops), Fisher (fishing), Gatherer (foraging), Miner (ore extraction), Geologist (surveying/mineral prospection), and Rancher (livestock breeding). \n\nKey considerations:\n- **Synergy with Fisher**: Prioritize Fisher (Role3) for core fishing output. Support Tiller and Rancher for food production to sustain the team, Gatherer for quick wild resources, and Forester for tools/boats (wood-dependent on fishing).\n- **Lower priority**: Miner and Geologist are more industrial/exploratory and less immediately synergistic with fishing/food basics, so allocate minimally to avoid over-investment in non-essentials.\n- **Balance**: Distribute to ensure broad coverage without starving any role, aiming for efficiency (e.g., higher points to food producers). Total must sum to 100, integers only.\n\nDecision: Allocate more to food/aquatic roles (Fisher, Tiller, Rancher, Gatherer), moderate to support (Forester), low to industrial (Miner, Geologist).\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 25,\n    \"Role4\": 15,\n    \"Role5\": 8,\n    \"Role6\": 7,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisher)",
+            "role_obs": [
+                "Fisher",
+                "Rancher",
+                "Tiller",
+                "Geologist",
+                "Forester",
+                "Gatherer",
+                "Miner"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisher career, my primary focus is on fishing-related activities (e.g., resource gathering from water sources), so I'll prioritize allocating more Action Points to Role1 (Fisher) for maximum efficiency in that domain. The team has a diverse set of careers: Rancher and Tiller for animal/plant farming, Geologist and Miner for mineral extraction, Forester for wood/timber, and Gatherer for general foraging. To balance the team, I'll distribute points proportionally based on career utility in a typical resource-management game—favoring production roles (e.g., Fisher, Rancher, Tiller) over extractive ones (e.g., Miner, Geologist), while ensuring all get some allocation to avoid idling. Total must sum to 100, using integers. Rough breakdown: 25-30 to core producers, 10-15 to supporters, and minimal to niche roles.\n\n### Decision\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 18,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 12,\n    \"Role6\": 10,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisher)",
+            "role_obs": [
+                "Geologist",
+                "Forester",
+                "Tiller",
+                "Miner",
+                "Rancher",
+                "Fisher",
+                "Gatherer"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisher career, my focus is on optimizing resource gathering in a balanced survival or strategy game context. The team includes diverse roles: Geologist (exploration/mining support), Forester (wood/timber), Tiller (farming/crops), Miner (ores/metals), Rancher (livestock/animals), Fisher (fishing/aquatic resources), and Gatherer (foraging/wild plants). With 100 Action Points to distribute, I prioritize roles that synergize with fishing (e.g., Gatherer for complementary wild resources, Rancher for animal-based trade-offs) while ensuring basic coverage for essentials like food (Tiller, Fisher) and materials (Forester, Miner). I allocate modestly to Geologist for long-term scouting. No points to underutilized roles if they don't directly support the team. Distribution aims for balance: higher to core producers (20-25 each), medium to supporters (10-15), minimal to specialists (5-10), summing exactly to 100.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 25,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisher)",
+            "role_obs": [
+                "Fisher",
+                "Gatherer",
+                "Miner",
+                "Forester",
+                "Tiller",
+                "Geologist",
+                "Rancher"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisher career, my primary focus is on fishing-related activities, so Role1 (also Fisher) should receive a substantial allocation to maximize our team's output in aquatic resources. The other roles represent diverse resource-gathering careers: Gatherer for foraging, Miner and Geologist for minerals, Forester for wood, Tiller for crops, and Rancher for livestock. To ensure balanced team productivity, I'll allocate more points to core survival roles (e.g., food producers like Gatherer, Tiller, Rancher) while giving moderate support to specialized roles (e.g., Miner, Forester, Geologist). Role6 (Geologist) gets the least as it's more niche and potentially overlapping with Miner. Total allocation sums to 100, using integers for fairness and efficiency.\n\n### Decision\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 12,\n    \"Role5\": 15,\n    \"Role6\": 8,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "(career: Fisher)",
+            "role_obs": [
+                "Miner",
+                "Forester",
+                "Tiller",
+                "Rancher",
+                "Gatherer",
+                "Fisher",
+                "Geologist"
+            ],
+            "response": "### Analysis\nAs the team leader with a Fisher career, my focus is on optimizing resource production in a balanced survival game context (e.g., similar to games like Don't Starve or RimWorld, where careers represent specialized roles). The team has a mix of primary producers (Miner for metals/tools, Forester for wood, Tiller for crops, Rancher for animal products, Gatherer for wild plants/berries, Fisher for seafood, Geologist for research/mineral scanning). With 100 Action Points to distribute, I prioritize roles that provide foundational resources for early-game sustainability: food (to avoid starvation), materials (for building), and variety (to cover all needs). \n\n- Food-focused roles (Tiller, Rancher, Gatherer, Fisher) get higher allocation since survival depends on them; as Fisher leader, I boost my own role slightly.\n- Material roles (Forester, Miner) get moderate points for crafting essentials.\n- Geologist gets minimal points, as it's more advanced/utility-focused and less urgent initially.\nThis ensures balanced growth without over-investing in any single area, summing exactly to 100.\n\n### Decision\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 16,\n    \"Role5\": 17,\n    \"Role6\": 19,\n    \"Role7\": 3\n}\n```"
+        }
+    ],
+    "chinese": [
+        {
+            "role_self": "（career：牧场主）",
+            "role_obs": [
+                "护林员",
+                "地质学家",
+                "牧场主",
+                "渔夫",
+                "矿工",
+                "耕农",
+                "采集者"
+            ],
+            "response": "### 分析\n作为牧场主队长，我需要根据团队整体策略分配100行动点数。牧场主职业强调畜牧和资源稳定，因此优先支持与农业、采集和可持续资源相关的角色（如耕农、采集者和牧场主自身），以确保食物和基本物资供应。其次，支持渔夫和护林员以扩展资源多样性。地质学家和矿工更偏向探索和矿产，我会给予适中支持。最后，确保总和为100，且均为整数。\n\n分配原则：\n- Role3 (牧场主，我自己)：较高分配以强化核心。\n- Role6 (耕农) 和 Role7 (采集者)：高分配，支持农业基础。\n- Role4 (渔夫)：中等，支持食物多样。\n- Role1 (护林员)：中等，维护环境。\n- Role5 (矿工)：较低，辅助资源。\n- Role2 (地质学家)：最低，探索性较弱于当前需求。\n- Role3 (牧场主)：作为队长，稍高以协调。\n\n计算总和：15+5+20+12+8+25+15=100。\n\n### 决定\n我决定如下分配行动点数，以优化团队的资源生产和平衡发展。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 5,\n    \"Role3\": 20,\n    \"Role4\": 12,\n    \"Role5\": 8,\n    \"Role6\": 25,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：牧场主）",
+            "role_obs": [
+                "护林员",
+                "耕农",
+                "渔夫",
+                "牧场主",
+                "地质学家",
+                "采集者",
+                "矿工"
+            ],
+            "response": "### 分析\n作为牧场主队长，我需要根据游戏逻辑合理分配100行动点数。牧场主（Role4）是我的核心角色，应优先获得资源以发展畜牧业和团队支持（如提供食物）。其他角色基于其职业与牧场主的协同性分配：护林员（Role1）和采集者（Role6）可提供木材和资源支持牧场建设；耕农（Role2）可补充农业生产；渔夫（Role3）提供多样化食物；地质学家（Role5）和矿工（Role7）可探索资源但优先级较低，以避免过度分散。分配原则：优先核心支持（40%给Role4），中等支持（30%给Role1/2/6），剩余（30%）给其他，确保总和为100且为整数。\n\n### 决定\n- Role1 (护林员): 15点，用于森林资源采集，支持牧场围栏。\n- Role2 (耕农): 15点，用于作物种植，与牧场互补。\n- Role3 (渔夫): 10点，用于水产补充食物链。\n- Role4 (牧场主): 40点，用于核心畜牧扩张。\n- Role5 (地质学家): 5点，用于初步地形勘探。\n- Role6 (采集者): 10点，用于野果/材料采集。\n- Role7 (矿工): 5点，用于矿产辅助工具制作。\n\n总和：15+15+10+40+5+10+5=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 40,\n    \"Role5\": 5,\n    \"Role6\": 10,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：牧场主）",
+            "role_obs": [
+                "渔夫",
+                "地质学家",
+                "护林员",
+                "矿工",
+                "耕农",
+                "牧场主",
+                "采集者"
+            ],
+            "response": "### 分析\n作为牧场主队长，我需要根据游戏逻辑合理分配100行动点数。牧场主（Role6）是我的核心角色，应优先获得资源以发展畜牧业（如饲养牲畜、扩展牧场）。其他角色基于其职业的互补性和资源获取效率分配：渔夫（Role1）和耕农（Role5）聚焦食物生产，需中等支持；采集者（Role7）用于基础资源收集，分配稍高；地质学家（Role2）和矿工（Role4）用于矿产探索，分配较低但非零以平衡团队；护林员（Role3）维护生态，分配适中。总和确保为100，优先高效角色，避免浪费。\n\n### 决定\n- Role1 (渔夫): 12点（支持水产食物链）。\n- Role2 (地质学家): 8点（辅助矿产勘探）。\n- Role3 (护林员): 15点（生态平衡关键）。\n- Role4 (矿工): 10点（资源提取基础）。\n- Role5 (耕农): 18点（农业产量高）。\n- Role6 (牧场主): 25点（队长核心，畜牧优先）。\n- Role7 (采集者): 12点（通用资源补充）。\n\n总计：12+8+15+10+18+25+12=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 18,\n    \"Role6\": 25,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：牧场主）",
+            "role_obs": [
+                "矿工",
+                "渔夫",
+                "地质学家",
+                "耕农",
+                "采集者",
+                "牧场主",
+                "护林员"
+            ],
+            "response": "### 分析\n作为牧场主队长，我需要根据游戏逻辑合理分配100行动点数。资源分配应优先考虑团队的整体生存和生产效率：矿工（Role1）负责资源开采，渔夫（Role2）提供食物，地质学家（Role3）辅助勘探，耕农（Role4）种植作物，采集者（Role5）收集野生资源，牧场主（Role6，我自己）管理牲畜，而护林员（Role7）维护生态平衡。考虑到牧场主的核心角色，我会给自己分配较高点数以确保牲畜生产稳定；同时，优先支持食物和资源生产角色（如渔夫、耕农、采集者），而勘探类角色（如地质学家）分配较少以节省点数。分配原则：整数分配，总和精确为100，避免零分配以保持团队活跃。\n\n### 决定\n- Role1 (矿工): 12点（用于开采基础材料，支持团队建设）。\n- Role2 (渔夫): 15点（优先食物供应，确保短期生存）。\n- Role3 (地质学家): 8点（辅助勘探，但非核心）。\n- Role4 (耕农): 14点（作物种植，与牧场互补）。\n- Role5 (采集者): 13点（快速收集野生资源）。\n- Role6 (牧场主): 25点（作为队长，优先管理核心牲畜生产）。\n- Role7 (护林员): 13点（维护生态，避免资源枯竭）。\n\n总和：12+15+8+14+13+25+13=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 8,\n    \"Role4\": 14,\n    \"Role5\": 13,\n    \"Role6\": 25,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：牧场主）",
+            "role_obs": [
+                "牧场主",
+                "护林员",
+                "地质学家",
+                "采集者",
+                "矿工",
+                "耕农",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为牧场主队长，我需要根据每个队员的职业特性合理分配100行动点数，以最大化团队在游戏中的整体效率。牧场主（Role1，包括我自己）专注于畜牧和资源管理，适合多分配点数用于核心协调；护林员（Role2）擅长森林资源采集，需中等支持；地质学家（Role3）负责勘探，点数稍高以推动发现；采集者（Role4）和矿工（Role5）是直接资源获取者，分配较高以提升产量；耕农（Role6）处理农业，需稳定支持；渔夫（Role7）依赖水域，分配适中。总和严格为100，确保平衡：优先资源生产角色（采集者、矿工、耕农），次之勘探（地质学家），再辅助（护林员、渔夫），最后队长协调。\n\n### 决定\n- Role1 (牧场主): 10点（团队协调）。\n- Role2 (护林员): 12点（森林维护）。\n- Role3 (地质学家): 15点（勘探优先）。\n- Role4 (采集者): 18点（高产采集）。\n- Role5 (矿工): 18点（矿产开发）。\n- Role6 (耕农): 17点（农业稳定）。\n- Role7 (渔夫): 10点（水域补充）。\n\n总计：10+12+15+18+18+17+10=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 18,\n    \"Role5\": 18,\n    \"Role6\": 17,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：牧场主）",
+            "role_obs": [
+                "耕农",
+                "护林员",
+                "渔夫",
+                "地质学家",
+                "牧场主",
+                "采集者",
+                "矿工"
+            ],
+            "response": "### 分析\n作为牧场主队长，我需要根据游戏逻辑合理分配100行动点数。牧场主（Role5，我自己）专注于畜牧业，需要较高点数来维护牧场和动物。其他角色应根据其职业的协同作用分配：耕农（Role1）提供饲料基础，渔夫（Role3）和采集者（Role6）补充食物多样性，矿工（Role7）和地质学家（Role4）支持资源勘探，护林员（Role2）确保环境可持续。优先核心生产角色，避免浪费，确保总和为100。\n\n### 决定\n- Role1 (耕农): 20点，用于种植饲料作物，支持牧场。\n- Role2 (护林员): 10点，用于维护生态，避免灾害。\n- Role3 (渔夫): 15点，用于捕鱼补充蛋白资源。\n- Role4 (地质学家): 12点，用于勘探潜在矿产或土地。\n- Role5 (牧场主): 25点，用于核心畜牧管理和扩张。\n- Role6 (采集者): 8点，用于采集野生资源。\n- Role7 (矿工): 10点，用于挖掘矿物，支持工具制作。\n\n总和：20+10+15+12+25+8+10=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 25,\n    \"Role6\": 8,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：牧场主）",
+            "role_obs": [
+                "采集者",
+                "牧场主",
+                "矿工",
+                "渔夫",
+                "地质学家",
+                "耕农",
+                "护林员"
+            ],
+            "response": "### 分析\n作为牧场主队长，我需要根据游戏逻辑和团队平衡来分配100行动点数。牧场主（Role2）专注于畜牧和资源生产，因此优先分配更多点数以支持核心生产活动。其他角色应根据其职业的协同作用分配：采集者（Role1）和耕农（Role6）辅助资源获取，矿工（Role3）和渔夫（Role4）提供多样化资源，地质学家（Role5）支持勘探，护林员（Role7）维护可持续性。分配原则：优先生产和采集（总计70点），剩余30点均衡分给支持角色，确保总和为100，无小数。\n\n### 决定\n- Role1 (采集者): 15点，用于基础资源收集。\n- Role2 (牧场主): 30点，核心生产优先。\n- Role3 (矿工): 12点，矿产补充。\n- Role4 (渔夫): 12点，水产多样化。\n- Role5 (地质学家): 10点，勘探支持。\n- Role6 (耕农): 15点，农业协同。\n- Role7 (护林员): 6点，环境维护。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 30,\n    \"Role3\": 12,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 6\n}\n```"
+        },
+        {
+            "role_self": "（career：牧场主）",
+            "role_obs": [
+                "采集者",
+                "牧场主",
+                "地质学家",
+                "耕农",
+                "护林员",
+                "矿工",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为牧场主队长，我需要根据游戏逻辑合理分配100行动点数。资源分配应优先考虑各角色的职业特性，以最大化团队整体效率：采集者（Role1）适合资源收集，牧场主（Role2，我自己）专注畜牧管理，地质学家（Role3）探索地形，耕农（Role4）农业生产，护林员（Role5）维护生态，矿工（Role6）挖掘矿产，渔夫（Role7）水产捕捞。考虑到平衡，我会给予生产型角色（如Role4和Role2）稍多点数，以确保食物和资源稳定；探索型（如Role3和Role6）适中；采集和维护型（如Role1、Role5、Role7）基础分配。总和严格为100，确保整数。\n\n### 决定\n- Role1 (采集者): 12点（基础收集支持）。\n- Role2 (牧场主): 18点（作为队长，优先畜牧核心）。\n- Role3 (地质学家): 14点（探索潜力高）。\n- Role4 (耕农): 16点（农业是团队食物支柱）。\n- Role5 (护林员): 13点（生态维护必要）。\n- Role6 (矿工): 15点（矿产资源关键）。\n- Role7 (渔夫): 12点（水产补充）。\n\n总计: 12+18+14+16+13+15+12=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 13,\n    \"Role6\": 15,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：牧场主）",
+            "role_obs": [
+                "护林员",
+                "渔夫",
+                "牧场主",
+                "矿工",
+                "采集者",
+                "耕农",
+                "地质学家"
+            ],
+            "response": "### 分析\n作为牧场主队长，我需要根据游戏逻辑分配100行动点数给队员。分配原则考虑每个角色的职业特性与团队协同：牧场主（Role3，我自己）需优先资源以管理畜牧核心；护林员（Role1）和采集者（Role5）辅助资源采集；渔夫（Role2）和耕农（Role6）处理水陆生产；矿工（Role4）和地质学家（Role7）专注矿产勘探。目标是平衡发展，避免任何角色闲置，确保总和为100。基于此，我优先分配给生产型角色较高点数（15-20），辅助型中等（10-15），勘探型稍低（8-12），以优化团队效率。\n\n### 决定\n- Role1 (护林员): 12点，用于森林资源维护。\n- Role2 (渔夫): 15点，用于水产捕捞。\n- Role3 (牧场主): 20点，用于畜牧管理和协调。\n- Role4 (矿工): 10点，用于矿物开采。\n- Role5 (采集者): 14点，用于野外采集。\n- Role6 (耕农): 16点，用于农田耕作。\n- Role7 (地质学家): 13点，用于地形勘探。\n\n总和：12+15+20+10+14+16+13=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：牧场主）",
+            "role_obs": [
+                "耕农",
+                "牧场主",
+                "矿工",
+                "地质学家",
+                "渔夫",
+                "护林员",
+                "采集者"
+            ],
+            "response": "### 分析\n作为牧场主队长，我需要根据游戏逻辑分配100行动点数。牧场主（Role2）与我职业相同，优先支持畜牧相关活动，因此分配较高点数以强化核心生产。其他角色按职业互补性分配：耕农（Role1）支持农业基础，矿工（Role3）和地质学家（Role4）处理资源勘探，渔夫（Role5）和护林员（Role6）覆盖水域与森林，采集者（Role7）辅助通用采集。分配原则：核心角色多分，辅助角色均衡，确保总和为100整数，避免零分配以维持团队平衡。\n\n### 决定\n- Role1 (耕农): 15点，用于种植支持牧场饲料。\n- Role2 (牧场主): 25点，作为副手强化畜牧。\n- Role3 (矿工): 12点，用于矿产开采。\n- Role4 (地质学家): 10点，用于勘探辅助矿工。\n- Role5 (渔夫): 12点，用于水产多样化。\n- Role6 (护林员): 13点，用于森林资源管理。\n- Role7 (采集者): 13点，用于灵活采集补充。\n\n总计：15+25+12+10+12+13+13=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 25,\n    \"Role3\": 12,\n    \"Role4\": 10,\n    \"Role5\": 12,\n    \"Role6\": 13,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：耕农）",
+            "role_obs": [
+                "渔夫",
+                "牧场主",
+                "采集者",
+                "耕农",
+                "地质学家",
+                "矿工",
+                "护林员"
+            ],
+            "response": "### 分析\n作为游戏中的耕农队长，我需要根据每个队员的职业特性来分配100行动点数，以最大化团队整体效率。耕农职业擅长农业生产，因此我优先支持与农业相关的角色（如渔夫、牧场主、采集者和另一位耕农），让他们有更多点数用于食物和资源采集。同时，地质学家和矿工用于资源勘探和开采，护林员用于环境保护，我会给予适中分配。分配原则：基础每人10点，确保公平；剩余点数倾斜向生产型角色，总和精确为100。\n\n- Role1 (渔夫)：水产采集，重要但季节性，分配15点。\n- Role2 (牧场主)：畜牧生产，与耕农互补，分配20点。\n- Role3 (采集者)：野外资源，灵活支持，分配15点。\n- Role4 (耕农)：同职业，核心伙伴，分配25点。\n- Role5 (地质学家)：勘探辅助，分配10点。\n- Role6 (矿工)：矿产开采，中等需求，分配10点。\n- Role7 (护林员)：生态维护，低优先，分配5点。\n\n总计：15+20+15+25+10+10+5=100。\n\n### 决定\n分配如下，优先农业生产以确保团队生存和发展。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 25,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：耕农）",
+            "role_obs": [
+                "牧场主",
+                "耕农",
+                "采集者",
+                "护林员",
+                "渔夫",
+                "地质学家",
+                "矿工"
+            ],
+            "response": "### 分析\n作为游戏中的队长（career: 耕农），我的主要职责是确保农业生产稳定，以支持团队的整体生存和发展。总资源为100行动点数，需要分配给7名队员，每个角色基于其career的专业性进行优先级排序：\n\n- **Role2 (耕农)**：与我相同career，直接支持耕作核心，应获得最高分配，以最大化食物产量。\n- **Role1 (牧场主)**：畜牧业补充食物来源，与农业互补，优先级高。\n- **Role3 (采集者)**：负责采集野生资源（如水果、草药），作为农业的辅助，分配中等。\n- **Role5 (渔夫)**：提供水产食物，增强食物多样性，中等分配。\n- **Role4 (护林员)**：维护森林资源，可能间接支持采集和木材，较低优先。\n- **Role7 (矿工)** 和 **Role6 (地质学家)**：专注于矿产和勘探，属于长期发展型资源，对短期生存贡献较小，分配最低，以保留灵活性。\n\n分配原则：总和精确为100，使用整数；优先农业-食物链（约70%），次要资源支持（约20%），长期开发（约10%）。这能平衡短期生存与长期增长，避免资源浪费。\n\n### 决定\n基于以上分析，我决定如下分配：\n- Role1 (牧场主): 20点（支持畜牧）。\n- Role2 (耕农): 30点（核心农业）。\n- Role3 (采集者): 15点（辅助采集）。\n- Role4 (护林员): 10点（资源维护）。\n- Role5 (渔夫): 15点（食物补充）。\n- Role6 (地质学家): 5点（勘探支持）。\n- Role7 (矿工): 5点（矿产开发）。\n\n总计：20+30+15+10+15+5+5=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 30,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 5,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：耕农）",
+            "role_obs": [
+                "耕农",
+                "采集者",
+                "护林员",
+                "牧场主",
+                "地质学家",
+                "矿工",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为队长（耕农职业），我的角色专注于农业生产，因此我将优先考虑与耕作相关的资源分配，以确保团队的基本食物和资源产出稳定。总行动点数为100，需要分配给7名队员（包括我自己），以整数形式，总和正好为100。\n\n- **优先级考虑**：\n  - Role1 (耕农)：作为队长和同职业队员，我自己需要较高分配来领导农业活动（如耕种、收获），分配25点以最大化团队粮食产量。\n  - Role2 (采集者)：采集者能补充野外资源，与农业互补，分配18点支持日常采集。\n  - Role4 (牧场主)：牧场主涉及畜牧，可与耕农结合提供蛋白质和肥料，分配16点。\n  - Role7 (渔夫)：渔夫提供水产资源，补充食物链，分配15点。\n  - Role3 (护林员)：护林员维护森林环境，有助于可持续采集和农业，分配10点。\n  - Role6 (矿工)：矿工提供矿产，但与我的农业焦点关联较弱，分配8点用于基础工具支持。\n  - Role5 (地质学家)：地质学家更偏向勘探，短期内对团队农业贡献有限，分配最低的8点，用于长期规划。\n\n此分配确保农业核心（耕农+牧场+采集）获得约59%的资源（总和59点），剩余用于辅助角色，总和精确为100点，促进团队平衡发展。\n\n### 决定\n基于以上分析，我决定如下分配行动点数：\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 18,\n    \"Role3\": 10,\n    \"Role4\": 16,\n    \"Role5\": 8,\n    \"Role6\": 8,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：耕农）",
+            "role_obs": [
+                "牧场主",
+                "矿工",
+                "渔夫",
+                "耕农",
+                "采集者",
+                "护林员",
+                "地质学家"
+            ],
+            "response": "### 分析\n作为耕农队长，我需要根据游戏逻辑合理分配100行动点数。耕农职业的核心是农业生产，需要支持种植、耕作和资源转化，因此我会优先分配给与农业相关的角色（如Role4自己，用于核心生产；Role1牧场主，用于畜牧与农田互补；Role5采集者，用于辅助采集种子或肥料）。其次，考虑团队多样性：Role3渔夫和Role6护林员可提供食物和木材支持农业链条，各适度分配；Role2矿工和Role7地质学家提供矿产资源，但农业依赖较低，分配较少；Role4作为同职业，直接多分以确保产量。分配原则：整数，总和精确100，平衡生产与支持，避免任何角色为0以维持团队活力。\n\n### 决定\n- Role1 (牧场主): 18点（支持农牧结合）。\n- Role2 (矿工): 10点（基础矿产支持）。\n- Role3 (渔夫): 15点（食物补充）。\n- Role4 (耕农): 25点（核心农业生产）。\n- Role5 (采集者): 12点（资源采集辅助）。\n- Role6 (护林员): 10点（木材与生态维护）。\n- Role7 (地质学家): 10点（勘探辅助）。\n\n总和：18+10+15+25+12+10+10=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 25,\n    \"Role5\": 12,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：耕农）",
+            "role_obs": [
+                "护林员",
+                "矿工",
+                "采集者",
+                "渔夫",
+                "地质学家",
+                "耕农",
+                "牧场主"
+            ],
+            "response": "### 分析\n作为游戏中的耕农队长，我需要根据每个队员的职业特性来分配100行动点数，以最大化团队整体效率。耕农职业强调农业生产和资源可持续性，因此优先支持与土地、食物和资源采集相关的角色，同时平衡其他角色以避免团队短板。总点数必须精确为100，且为整数。\n\n- **Role1 (护林员)**: 负责森林保护，与耕农的土地利用互补，可用于扩展农田边界。分配较高点数以确保生态平衡。\n- **Role2 (矿工)**: 矿产开采提供工具和建材，支持农业机械化，但非核心食物链，分配中等点数。\n- **Role3 (采集者)**: 直接采集野生资源，可补充耕农的作物产量。分配较高点数以增强即时资源获取。\n- **Role4 (渔夫)**: 水产资源多样化食物来源，与耕农的陆地农业形成互补。分配中等点数。\n- **Role5 (地质学家)**: 勘探土壤和矿藏质量，直接提升耕农土地肥沃度。分配较高点数作为战略投资。\n- **Role6 (耕农)**: 同职业队员，应获得最高优先级，用于核心种植和收获。\n- **Role7 (牧场主)**: 畜牧提供肥料和蛋白质，支持耕农循环。分配较高点数以强化农业链。\n\n分配原则：核心农业相关角色（Role6、Role5、Role7、Role1、Role3）获60%以上点数；辅助角色（Role2、Role4）获剩余。总和精确100，确保无人零分配以维持团队活跃。\n\n### 决定\n基于以上分析，我决定如下分配：优先耕农和支持角色，确保平衡发展。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：耕农）",
+            "role_obs": [
+                "牧场主",
+                "矿工",
+                "耕农",
+                "渔夫",
+                "采集者",
+                "护林员",
+                "地质学家"
+            ],
+            "response": "### 分析\n作为队长（耕农职业），我的主要职责是确保团队的农业和资源生产平衡发展。总行动点数为100，需要分配给7名队员（Role1至Role7），以支持他们的职业特性：Role1（牧场主）适合畜牧养殖，Role2（矿工）负责矿产开采，Role3（耕农）与我同职业可强化农田耕作，Role4（渔夫）专注水产捕捞，Role5（采集者）处理野生资源采集，Role6（护林员）维护森林生态，Role7（地质学家）提供勘探支持。\n\n分配原则：\n- 优先支持核心生产职业（如耕农、牧场主、矿工），以确保食物、材料和矿产的稳定供应。\n- 适度分配给采集、渔业和生态维护角色，以维持多样化资源。\n- 地质学家作为辅助角色，分配较少点数，用于情报支持。\n- 总和严格为100，全部为非负整数，避免零分配以保持团队活跃。\n\n基于此，我将点数倾斜向生产型角色：Role3（同职业）获最多，其次是Role1和Role2；其他角色均衡分配剩余点数。\n\n### 决定\n分配如下：\n- Role1 (牧场主): 18点（支持畜牧扩展）。\n- Role2 (矿工): 16点（强化矿产开采）。\n- Role3 (耕农): 20点（核心农业强化）。\n- Role4 (渔夫): 14点（水产补充）。\n- Role5 (采集者): 12点（野生资源采集）。\n- Role6 (护林员): 10点（生态平衡）。\n- Role7 (地质学家): 10点（勘探辅助）。\n\n总和：18+16+20+14+12+10+10=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 20,\n    \"Role4\": 14,\n    \"Role5\": 12,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：耕农）",
+            "role_obs": [
+                "渔夫",
+                "牧场主",
+                "采集者",
+                "护林员",
+                "地质学家",
+                "耕农",
+                "矿工"
+            ],
+            "response": "### 分析\n作为队长（耕农职业），我的目标是优化资源分配以支持团队整体生存和发展。总行动点数为100，必须以整数分配给7名队员，且总和精确为100。分配原则基于各队员职业的协同性和优先级：\n\n- **优先支持基础生产**：渔夫（Role1）和牧场主（Role2）负责捕鱼和畜牧，提供稳定食物来源，应分配较高点数以确保短期生存。\n- **平衡采集与维护**：采集者（Role3）和护林员（Role4）处理植物和森林资源，适合中等分配以维持生态平衡。\n- **投资长期发展**：地质学家（Role5）和矿工（Role7）聚焦矿产勘探和开采，有潜力带来高回报，但风险较高，因此分配适中点数。\n- **同职业支持**：作为耕农的我（队长）会优先支持另一名耕农（Role6），分配较高点数以强化农业生产，形成核心支柱。\n\n总体策略：基础生产占40%，采集维护占25%，长期投资占20%，同职业支持占15%。这确保团队短期稳定并有增长潜力，避免任何角色得0以保持全员活跃。\n\n### 决定\n基于以上分析，我决定如下分配：\n- Role1 (渔夫): 18点（高优先食物来源）\n- Role2 (牧场主): 16点（高优先畜牧）\n- Role3 (采集者): 12点（中等采集）\n- Role4 (护林员): 13点（中等维护）\n- Role5 (地质学家): 10点（适中勘探）\n- Role6 (耕农): 15点（高支持同职业）\n- Role7 (矿工): 16点（适中开采，平衡长期收益）\n\n总和：18+16+12+13+10+15+16=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 12,\n    \"Role4\": 13,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 16\n}\n```"
+        },
+        {
+            "role_self": "（career：耕农）",
+            "role_obs": [
+                "耕农",
+                "地质学家",
+                "牧场主",
+                "矿工",
+                "采集者",
+                "渔夫",
+                "护林员"
+            ],
+            "response": "### 分析\n作为游戏中的耕农队长，我需要将100行动点数分配给所有队员，包括自己（Role1，也为耕农）。分配原则基于每个角色的职业特性及其对团队资源获取的贡献：耕农（Role1）专注于农业生产，应获得较高份额以确保食物基础；地质学家（Role2）负责勘探和科学支持，需中等支持；牧场主（Role3）管理牲畜，重要但依赖耕农；矿工（Role4）开采矿产，需适中资源；采集者（Role5）和渔夫（Role6）直接获取野生资源，分配均衡；护林员（Role7）维护森林生态，稍低但不可忽视。总体上，优先农业和基础采集角色，总和严格为100，确保团队平衡发展。\n\n### 决定\n- Role1 (耕农): 25点（核心生产角色，优先保障）。\n- Role2 (地质学家): 12点（支持勘探）。\n- Role3 (牧场主): 18点（牲畜管理关键）。\n- Role4 (矿工): 15点（矿产开发）。\n- Role5 (采集者): 10点（野生资源）。\n- Role6 (渔夫): 10点（水产资源）。\n- Role7 (护林员): 10点（生态维护）。\n\n总计：25+12+18+15+10+10+10=100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：耕农）",
+            "role_obs": [
+                "采集者",
+                "牧场主",
+                "矿工",
+                "地质学家",
+                "渔夫",
+                "护林员",
+                "耕农"
+            ],
+            "response": "### 分析\n作为队长（耕农），我的角色专注于农业生产，需要优先确保食物和资源基础稳定。团队中，Role1（采集者）适合收集基本植物资源，Role7（耕农）作为我的副手可强化耕作效率；Role2（牧场主）可扩展动物资源；Role3（矿工）和Role4（地质学家）负责矿产勘探，但初期需求较低；Role5（渔夫）和Role6（护林员）提供水域和森林补充，但非核心。考虑到总资源100点，我将优先分配给农业相关角色（约60%），中等分配给采集和牧场（约30%），剩余少量给勘探和辅助角色，确保平衡发展，避免任何角色为0以维持团队活力。分配均为整数，总和精确为100。\n\n### 决定\n- Role1 (采集者): 20点，用于基础资源收集，支持农业。\n- Role2 (牧场主): 15点，用于动物养殖，补充食物链。\n- Role3 (矿工): 10点，用于矿产开采，满足中期需求。\n- Role4 (地质学家): 10点，用于地形勘探，辅助长期规划。\n- Role5 (渔夫): 12点，用于水产捕捞，提供多样化食物。\n- Role6 (护林员): 13点，用于森林维护，保护生态平衡。\n- Role7 (耕农): 20点，作为核心，强化耕作生产。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 12,\n    \"Role6\": 13,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：耕农）",
+            "role_obs": [
+                "牧场主",
+                "护林员",
+                "渔夫",
+                "耕农",
+                "采集者",
+                "矿工",
+                "地质学家"
+            ],
+            "response": "### 分析\n作为游戏中的耕农队长，我的角色专注于农业生产，这意味着我需要优先确保团队的食物和资源基础稳定。总行动点数为100，我将根据各队员的职业特性进行分配：\n- **Role1 (牧场主)**：专注于畜牧和动物资源，需要较高点数来维持农场生产。\n- **Role2 (护林员)**：管理森林和木材，适合中等工作以支持建筑和燃料。\n- **Role3 (渔夫)**：水产捕捞，提供多样化食物来源，中等工作以平衡农业。\n- **Role4 (耕农)**：与我同职业，作为副手，需要最多点数来强化核心农业输出。\n- **Role5 (采集者)**：采集野果和植物，辅助性工作，低点数以节省资源。\n- **Role6 (矿工)**：挖掘矿产，支持工具和贸易，中等工作。\n- **Role7 (地质学家)**：勘探地质，情报型角色，低点数以探索潜在资源。\n\n分配原则：优先核心生产（耕农、牧场主），其次资源获取（渔夫、矿工、护林员），最后辅助（采集者、地质学家）。总和严格为100，确保整数分配，促进团队平衡发展。\n\n### 决定\n我决定如下分配：Role1 获得18点（强化畜牧），Role2 获得12点（森林维护），Role3 获得14点（渔业补充），Role4 获得25点（农业核心），Role5 获得8点（基本采集），Role6 获得13点（矿产支持），Role7 获得10点（勘探情报）。这能最大化团队的可持续生产。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 25,\n    \"Role5\": 8,\n    \"Role6\": 13,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：矿工）",
+            "role_obs": [
+                "牧场主",
+                "渔夫",
+                "护林员",
+                "矿工",
+                "采集者",
+                "地质学家",
+                "耕农"
+            ],
+            "response": "### 分析\n作为矿工队长，我需要根据团队的整体效率和角色职业特性来分配100行动点数。团队包括牧场主（Role1，适合畜牧和食物生产）、渔夫（Role2，水产资源）、护林员（Role3，森林管理和木材）、矿工（Role4，我的职业，专注矿产开采）、采集者（Role5，野生资源采集）和地质学家（Role6，矿物勘探支持），以及耕农（Role7，农业种植）。  \n\n矿业是我的核心职业，因此优先支持与矿产相关的角色：矿工（Role4）获得最高分配，以最大化核心产出；地质学家（Role6）次之，提供勘探辅助；采集者（Role5）可补充矿区周边资源。其他角色获得较少点数，用于维持团队的基本食物和资源平衡（如牧场主和耕农少量支持食物链，渔夫和护林员最小化以避免浪费）。总和严格为100，确保整数分配。\n\n### 决定\n- Role1 (牧场主): 8点（基本食物支持）\n- Role2 (渔夫): 6点（辅助水产）\n- Role3 (护林员): 7点（木材维护）\n- Role4 (矿工): 35点（核心矿业优先）\n- Role5 (采集者): 15点（资源补充）\n- Role6 (地质学家): 20点（矿产勘探）\n- Role7 (耕农): 9点（农业平衡）\n\n总计：8+6+7+35+15+20+9=100。\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 6,\n    \"Role3\": 7,\n    \"Role4\": 35,\n    \"Role5\": 15,\n    \"Role6\": 20,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "（career：矿工）",
+            "role_obs": [
+                "渔夫",
+                "采集者",
+                "护林员",
+                "牧场主",
+                "耕农",
+                "矿工",
+                "地质学家"
+            ],
+            "response": "### 分析\n作为矿工队长的我，需要根据游戏内的资源获取和团队协作逻辑来分配100行动点数。矿工（Role6）专注于挖掘矿产资源，这是团队的核心生产力，因此应获得较高分配以最大化输出。地质学家（Role7）作为矿业支持角色，能辅助勘探和优化矿工效率，也需优先支持。其他角色负责食物和基础资源链：渔夫（Role1）和牧场主（Role4）提供动物/水产蛋白，采集者（Role2）和耕农（Role5）处理植物采集/耕作，护林员（Role3）维护森林资源以支持可持续性。为平衡团队，我会优先矿业相关角色（约60%资源），剩余分配给食物生产链（渔夫、牧场主、采集者、耕农各适中），护林员最低以防过度开发森林。总和严格为100，确保整数分配。\n\n### 决定\n- Role1 (渔夫): 15点，用于捕鱼补充蛋白。\n- Role2 (采集者): 12点，用于采集野果和植物。\n- Role3 (护林员): 8点，用于维护森林可持续性。\n- Role4 (牧场主): 14点，用于畜牧养殖。\n- Role5 (耕农): 13点，用于田地耕作。\n- Role6 (矿工): 25点，作为队长核心，优先挖掘。\n- Role7 (地质学家): 13点，辅助矿业勘探。\n\n总计：15+12+8+14+13+25+13=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 8,\n    \"Role4\": 14,\n    \"Role5\": 13,\n    \"Role6\": 25,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：矿工）",
+            "role_obs": [
+                "牧场主",
+                "地质学家",
+                "耕农",
+                "护林员",
+                "矿工",
+                "渔夫",
+                "采集者"
+            ],
+            "response": "### 分析\n作为矿工队长，我需要根据团队的整体平衡和我的矿工背景来分配100行动点数。团队包括多种职业：牧场主（Role1，适合畜牧相关活动）、地质学家（Role2，擅长勘探和资源评估）、耕农（Role3，农业生产）、护林员（Role4，森林管理和环保）、矿工（Role5，我的同类，优先挖掘和资源获取）、渔夫（Role6，水产捕捞）和采集者（Role7，野外采集）。  \n\n为了最大化团队效率，我会优先分配给与资源生产直接相关的角色（如矿工、地质学家、耕农），因为矿工职业强调地下和基础资源开发。同时，确保每个角色至少有一些点数以避免闲置，但总和严格为100。分配原则：  \n- Role5（矿工）获得最高优先级，作为我的核心支持。  \n- Role2（地质学家）次之，帮助矿工定位资源。  \n- Role3（耕农）和Role7（采集者）获得中等分配，支持食物和基础物资。  \n- Role1（牧场主）、Role4（护林员）和Role6（渔夫）获得较低分配，因为它们更偏向可持续或辅助活动，在矿工主导的短期资源冲刺中优先级稍低。  \n最终分配：Role5=25, Role2=20, Role3=15, Role7=15, Role1=10, Role4=8, Role6=7，总和=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 8,\n    \"Role5\": 25,\n    \"Role6\": 7,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：矿工）",
+            "role_obs": [
+                "矿工",
+                "地质学家",
+                "渔夫",
+                "耕农",
+                "牧场主",
+                "护林员",
+                "采集者"
+            ],
+            "response": "### 分析\n作为矿工队长，我需要根据每个队员的职业特性合理分配100行动点数，以最大化团队整体效率。矿工（Role1和我自己）专注于资源开采，因此优先分配较高点数以支持核心生产。地质学家（Role2）能辅助矿业勘探，次之。渔夫（Role3）和耕农（Role4）负责水产和作物，牧场主（Role5）管畜牧，护林员（Role6）和采集者（Role7）处理森林与野生资源，这些更偏向可持续采集而非高强度行动，因此分配较低点数。总体上，优先矿业相关角色（约60%），农业/采集类平分剩余（约40%），确保总和为100整数。\n\n### 决定\n- Role1 (矿工): 30点（核心开采，支持团队资源）。\n- Role2 (地质学家): 20点（辅助勘探，提升矿业效率）。\n- Role3 (渔夫): 12点（水产采集，稳定食物来源）。\n- Role4 (耕农): 12点（作物种植，平衡农业）。\n- Role5 (牧场主): 10点（畜牧维护，中等强度）。\n- Role6 (护林员): 8点（森林保护，低强度可持续）。\n- Role7 (采集者): 8点（野生采集，补充资源）。\n\n总计: 30+20+12+12+10+8+8=100。\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 8,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "（career：矿工）",
+            "role_obs": [
+                "地质学家",
+                "矿工",
+                "牧场主",
+                "护林员",
+                "耕农",
+                "渔夫",
+                "采集者"
+            ],
+            "response": "### 分析\n作为矿工队长，我的主要目标是优化资源开采和团队生存。总行动点数为100，需要分配给7名队员，确保总和正好为100，且均为整数。分配原则基于各角色的职业相关性和对矿业活动的贡献：\n\n- **Role1 (地质学家)**：核心支持角色，能勘探矿脉，提高开采效率，应优先分配较高点数。\n- **Role2 (矿工)**：与我同职业，直接负责挖掘，应获得最多点数以推动核心生产。\n- **Role3 (牧场主)**：提供食物和牲畜支持，但与矿业间接相关，分配中等点数维持后勤。\n- **Role4 (护林员)**：管理森林资源，可能用于工具或燃料，分配适中以支持长期开采。\n- **Role5 (耕农)**：农业生产补充食物，类似牧场主，分配中等以确保团队营养。\n- **Role6 (渔夫)**：水产资源多样化食物来源，分配较低但必要以平衡饮食。\n- **Role7 (采集者)**：采集野果或材料，辅助性强，分配最低以覆盖基本需求。\n\n总体策略：优先矿业相关（Role1和Role2占50%），后勤支持（Role3-5占35%），辅助（Role6-7占15%）。这能最大化资源产出，同时避免饥饿或资源短缺。\n\n### 分配决定\n- Role1: 20（勘探支持）\n- Role2: 30（核心挖掘）\n- Role3: 15（牲畜后勤）\n- Role4: 12（森林资源）\n- Role5: 13（农业补充）\n- Role6: 5（渔业多样）\n- Role7: 5（采集辅助）\n\n总和：20+30+15+12+13+5+5=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 30,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 13,\n    \"Role6\": 5,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：矿工）",
+            "role_obs": [
+                "护林员",
+                "矿工",
+                "渔夫",
+                "牧场主",
+                "耕农",
+                "地质学家",
+                "采集者"
+            ],
+            "response": "### 分析\n作为矿工队长，我需要根据团队的整体协作目标分配100行动点数。团队职业多样，包括资源采集（护林员、渔夫、采集者）、生产（牧场主、耕农）、勘探（地质学家）和另一个矿工（Role2）。我的优先级是支持矿业相关活动，因为这是我的专长：优先强化矿工（Role2和我自己相关）和地质学家（Role6，提供勘探支持），其次是采集者和耕农（基础资源支持），最后是其他角色以确保平衡。分配原则：整数，总和100，避免零分配以保持团队活跃，但倾斜向核心支持。\n\n### 决定\n- Role1 (护林员)：10点，用于森林资源补充。\n- Role2 (矿工)：20点，作为矿业伙伴，优先强化挖掘。\n- Role3 (渔夫)：12点，提供食物链支持。\n- Role4 (牧场主)：12点，维持动物资源。\n- Role5 (耕农)：15点，基础作物生产。\n- Role6 (地质学家)：18点，关键矿产勘探。\n- Role7 (采集者)：13点，通用资源采集。\n\n总和：10+20+12+12+15+18+13=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 12,\n    \"Role5\": 15,\n    \"Role6\": 18,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：矿工）",
+            "role_obs": [
+                "渔夫",
+                "耕农",
+                "矿工",
+                "采集者",
+                "地质学家",
+                "护林员",
+                "牧场主"
+            ],
+            "response": "### 分析\n作为矿工队长，我需要根据团队成员的职业特性分配100行动点数，以最大化整体效率。矿工职业（Role3，我自己）优先获得资源，用于挖掘核心材料；地质学家（Role5）作为矿业支持，次之，用于勘探；渔夫（Role1）、耕农（Role2）、牧场主（Role7）负责食物生产，均衡分配以维持生存；采集者（Role4）和护林员（Role6）提供辅助资源，分配较少以避免浪费。分配原则：优先矿业相关（总60点），食物相关（总30点），辅助（总10点），确保整数且总和为100。\n\n### 决定\n- Role1 (渔夫): 10点，用于捕鱼维持食物供应。\n- Role2 (耕农): 10点，用于耕作稳定粮食。\n- Role3 (矿工): 30点，作为队长核心，用于矿业开发。\n- Role4 (采集者): 5点，用于基本资源采集。\n- Role5 (地质学家): 30点，支持矿业勘探。\n- Role6 (护林员): 5点，用于森林维护。\n- Role7 (牧场主): 10点，用于畜牧补充食物。\n\n总计：10+10+30+5+30+5+10=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 30,\n    \"Role4\": 5,\n    \"Role5\": 30,\n    \"Role6\": 5,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：矿工）",
+            "role_obs": [
+                "耕农",
+                "牧场主",
+                "地质学家",
+                "渔夫",
+                "矿工",
+                "护林员",
+                "采集者"
+            ],
+            "response": "### 分析\n作为矿工队长，我需要根据游戏逻辑和各队员职业特性分配100行动点数。矿工职业的核心是资源开采和勘探，因此优先支持与此相关的角色：Role3（地质学家，能辅助矿物勘探）和Role5（矿工，同职业互补）。其次，考虑资源链条——Role1（耕农）和Role2（牧场主）提供食物支持团队生存，Role4（渔夫）补充食物，Role7（采集者）获取基础材料，Role6（护林员）确保环境稳定以防开采中断。分配原则：优先高相关性角色（地质学家和矿工得更多点数），基础支持角色中等，整体均衡，总和正好100点整数。\n\n### 决定\n- Role1 (耕农): 15点（食物基础支持）。\n- Role2 (牧场主): 12点（动物资源补充）。\n- Role3 (地质学家): 20点（直接辅助矿业勘探）。\n- Role4 (渔夫): 10点（额外食物来源）。\n- Role5 (矿工): 25点（同职业核心强化）。\n- Role6 (护林员): 8点（环境维护）。\n- Role7 (采集者): 10点（材料采集）。\n\n总和：15+12+20+10+25+8+10=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 25,\n    \"Role6\": 8,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：矿工）",
+            "role_obs": [
+                "牧场主",
+                "渔夫",
+                "采集者",
+                "地质学家",
+                "耕农",
+                "护林员",
+                "矿工"
+            ],
+            "response": "### 分析\n作为矿工队长，我需要根据游戏逻辑合理分配100行动点数。矿工职业通常依赖资源勘探和提取，因此优先支持地质学家（Role4）以辅助矿业活动，其次是采集者（Role3）和护林员（Role6）来提供辅助资源。牧场主（Role1）和耕农（Role5）属于农业类，可获得中等分配以维持平衡；渔夫（Role2）水产相关，分配较少；作为队长的我（Role7）保留部分点数用于协调。分配原则：优先矿业相关，总和精确为100，确保整数。\n\n### 决定\n- Role1 (牧场主): 12点，用于畜牧维护。\n- Role2 (渔夫): 8点，用于捕捞支持。\n- Role3 (采集者): 18点，用于资源收集。\n- Role4 (地质学家): 25点，核心矿业勘探。\n- Role5 (耕农): 12点，用于农田耕作。\n- Role6 (护林员): 15点，用于森林资源保护。\n- Role7 (矿工): 10点，用于队长协调。\n\n总和：12+8+18+25+12+15+10=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 8,\n    \"Role3\": 18,\n    \"Role4\": 25,\n    \"Role5\": 12,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：矿工）",
+            "role_obs": [
+                "采集者",
+                "牧场主",
+                "地质学家",
+                "耕农",
+                "护林员",
+                "渔夫",
+                "矿工"
+            ],
+            "response": "### 分析\n作为矿工队长，我需要根据团队中各角色的职业特性来分配100行动点数，以最大化整体资源产出和团队效率。矿工职业的核心是挖掘矿产，因此我优先考虑与采矿相关的角色，同时确保其他角色能支持可持续发展和资源多样化：\n- Role1 (采集者)：直接辅助采矿，通过采集木材或辅助材料提升效率，分配较高点数。\n- Role3 (地质学家)：专业勘探矿脉，对矿工团队至关重要，优先高分配。\n- Role7 (矿工)：与我相同职业，直接参与核心挖掘，需大量点数。\n- Role4 (耕农)：提供食物支持长期行动，中等分配。\n- Role6 (渔夫)：补充蛋白质资源，中等分配。\n- Role2 (牧场主)：畜牧提供材料，但与采矿关联较弱，较低分配。\n- Role5 (护林员)：维护环境，但短期内对矿业帮助有限，最低分配。\n\n分配原则：总和精确为100，使用整数；优先采矿支持（约60%），其次生存支持（约30%），其余缓冲（10%）。这能确保团队在游戏中高效推进矿产目标。\n\n### 决定\n基于以上分析，我分配如下：\n- Role1: 20（采集辅助采矿）\n- Role2: 8（基本畜牧支持）\n- Role3: 25（勘探核心）\n- Role4: 15（食物保障）\n- Role5: 7（环境维护）\n- Role6: 12（渔业补充）\n- Role7: 13（矿工协作）\n\n总和：20+8+25+15+7+12+13=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 8,\n    \"Role3\": 25,\n    \"Role4\": 15,\n    \"Role5\": 7,\n    \"Role6\": 12,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：地质学家）",
+            "role_obs": [
+                "护林员",
+                "矿工",
+                "地质学家",
+                "牧场主",
+                "耕农",
+                "采集者",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为地质学家队长，我需要根据队员的职业特性分配100行动点数，以优化团队在游戏中的整体效率。地质学家（Role3，我自己）应获得较高点数，用于勘探和资源评估，这是团队的核心活动。矿工（Role2）作为地下资源专家，与地质相关，也需较多支持。护林员（Role1）和采集者（Role6）负责可持续采集，可适中分配。牧场主（Role4）、耕农（Role5）和渔夫（Role7）更偏向生物资源生产，分配较低以平衡团队，但确保每个人至少有基本行动力。总和严格为100，确保整数分配。\n\n### 决定\n- Role1 (护林员): 12点，用于森林维护和初步资源收集。\n- Role2 (矿工): 18点，支持矿产开采，与地质勘探协同。\n- Role3 (地质学家): 25点，优先用于核心勘探活动。\n- Role4 (牧场主): 10点，用于畜牧管理和资源转化。\n- Role5 (耕农): 11点，用于农田耕作和食物生产。\n- Role6 (采集者): 13点，用于野外采集补充。\n- Role7 (渔夫): 11点，用于水域资源获取。\n\n总计：12+18+25+10+11+13+11=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 25,\n    \"Role4\": 10,\n    \"Role5\": 11,\n    \"Role6\": 13,\n    \"Role7\": 11\n}\n```"
+        },
+        {
+            "role_self": "（career：地质学家）",
+            "role_obs": [
+                "矿工",
+                "采集者",
+                "护林员",
+                "地质学家",
+                "耕农",
+                "渔夫",
+                "牧场主"
+            ],
+            "response": "### 分析\n作为地质学家队长，我需要根据团队的职业特性分配100行动点数，以最大化游戏内的资源采集和生存效率。地质学家（Role4）与矿工（Role1）密切相关，专注于地下资源探索，因此他们应获得较高分配以推动核心矿产开发。采集者（Role2）负责一般资源收集，可作为辅助。护林员（Role3）维护森林资源，耕农（Role5）和牧场主（Role7）处理陆地农业，渔夫（Role6）专注水产。为了平衡，我优先矿业相关角色（总计50点），其次农业和采集（总计35点），剩余分配给维护型角色（15点）。分配以整数形式，确保总和为100，避免任何角色为0以保持团队活跃。\n\n### 决定\n- Role1 (矿工): 20点 – 直接支持地质勘探。\n- Role2 (采集者): 15点 – 补充日常资源。\n- Role3 (护林员): 10点 – 可持续环境维护。\n- Role4 (地质学家): 30点 – 队长优先，推动团队核心。\n- Role5 (耕农): 10点 – 食物生产基础。\n- Role6 (渔夫): 8点 – 水产多样化。\n- Role7 (牧场主): 7点 – 动物资源补充。\n\n总和：20+15+10+30+10+8+7=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 30,\n    \"Role5\": 10,\n    \"Role6\": 8,\n    \"Role7\": 7\n}\n```"
+        },
+        {
+            "role_self": "（career：地质学家）",
+            "role_obs": [
+                "地质学家",
+                "渔夫",
+                "耕农",
+                "护林员",
+                "矿工",
+                "牧场主",
+                "采集者"
+            ],
+            "response": "### 分析\n作为队长（地质学家），我需要根据游戏逻辑合理分配100行动点数。地质学家（Role1，包括我自己）在探索资源和地质相关活动上更有优势，因此优先分配较高点数以支持团队核心决策。其他角色基于其职业特性分配：渔夫（Role2）需点数用于水域活动，耕农（Role3）和牧场主（Role6）需支持农业生产，矿工（Role5）与地质相关需中等支持，护林员（Role4）和采集者（Role7）用于环境维护和资源采集。分配原则：确保平衡，总和为100，优先地质和生产角色，避免任何角色为0以维持团队协作。\n\n### 决定\n- Role1 (地质学家): 25点（队长优先，支持勘探）。\n- Role2 (渔夫): 10点（水产采集）。\n- Role3 (耕农): 15点（粮食生产）。\n- Role4 (护林员): 10点（环境保护）。\n- Role5 (矿工): 20点（矿产开采，与地质协同）。\n- Role6 (牧场主): 10点（畜牧支持）。\n- Role7 (采集者): 10点（辅助资源）。\n\n总计：25+10+15+10+20+10+10=100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：地质学家）",
+            "role_obs": [
+                "护林员",
+                "地质学家",
+                "耕农",
+                "牧场主",
+                "矿工",
+                "采集者",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为地质学家队长，我需要根据游戏中的资源分配逻辑来决定行动点数的分配。总资源为100点，必须以整数分配给所有7名队员，且总和正好为100。分配原则考虑每个角色的职业特性及其对团队的贡献：\n- **地质学家（我自己，Role2）**：作为队长，我优先分配较高点数，用于勘探和协调。\n- **矿工（Role5）**：与地质相关，需较高点数支持挖掘活动。\n- **护林员（Role1）和采集者（Role6）**：自然资源采集角色，分配中等点数以平衡生态。\n- **耕农（Role3）和牧场主（Role4）**：农业生产角色，分配适中点数确保食物供应。\n- **渔夫（Role7）**：水产角色，分配较低点数作为补充。\n\n总体策略：优先地质与矿业（总40点），其次自然采集（总30点），农业（总20点），渔业（10点）。这能最大化团队的资源获取效率，避免任何角色得0点。\n\n### 决定\n分配如下：\n- Role1 (护林员): 15\n- Role2 (地质学家): 20\n- Role3 (耕农): 10\n- Role4 (牧场主): 10\n- Role5 (矿工): 20\n- Role6 (采集者): 15\n- Role7 (渔夫): 10\n\n总和：15+20+10+10+20+15+10=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：地质学家）",
+            "role_obs": [
+                "采集者",
+                "耕农",
+                "护林员",
+                "牧场主",
+                "矿工",
+                "地质学家",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为地质学家队长，我需要根据游戏中各队员的职业特性分配100行动点数，以优化团队整体效率。地质学家（Role6）与我职业相同，应优先获得资源用于勘探和科学活动；矿工（Role5）作为资源提取者，需要支持以挖掘矿产；采集者（Role1）和渔夫（Role7）是基础资源提供者，应有中等分配；耕农（Role2）和牧场主（Role4）负责可持续食物生产，可稍低；护林员（Role3）维护环境，分配最低以平衡生态。分配原则：优先核心资源角色，总和精确为100，确保整数。\n\n### 决定\n- Role1 (采集者): 18点，用于基础采集活动。\n- Role2 (耕农): 12点，用于作物种植。\n- Role3 (护林员): 8点，用于环境维护。\n- Role4 (牧场主): 14点，用于畜牧管理。\n- Role5 (矿工): 20点，用于矿产开采。\n- Role6 (地质学家): 22点，用于勘探和研究。\n- Role7 (渔夫): 6点，用于水产捕捞。\n\n总计：18+12+8+14+20+22+6=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 8,\n    \"Role4\": 14,\n    \"Role5\": 20,\n    \"Role6\": 22,\n    \"Role7\": 6\n}\n```"
+        },
+        {
+            "role_self": "（career：地质学家）",
+            "role_obs": [
+                "牧场主",
+                "耕农",
+                "采集者",
+                "护林员",
+                "矿工",
+                "渔夫",
+                "地质学家"
+            ],
+            "response": "### 分析\n作为地质学家队长，我需要根据游戏逻辑和各队员职业特性分配100行动点数。地质学家（Role7，我自己）应获得较高点数以支持勘探和资源评估等核心活动。其他队员的职业偏向不同领域：牧场主（Role1）和耕农（Role2）适合农业/畜牧，采集者（Role3）和护林员（Role4）适合森林/野外采集，矿工（Role5）适合地下资源，渔夫（Role6）适合水域活动。我会优先支持多样化资源获取，同时确保地质学视角下的平衡——例如，矿工和采集者可辅助地质勘探。分配原则：地质学家和矿工较高（勘探优先），农业/水域中等，森林较低，以优化团队整体生存和探索效率。总和严格为100整数。\n\n### 决定\n- Role1 (牧场主): 12点（支持畜牧资源）。\n- Role2 (耕农): 12点（支持农作物生产）。\n- Role3 (采集者): 14点（辅助野外资源采集，与地质相关）。\n- Role4 (护林员): 10点（森林维护，间接支持）。\n- Role5 (矿工): 18点（直接辅助矿产勘探）。\n- Role6 (渔夫): 11点（水域资源补充）。\n- Role7 (地质学家): 23点（队长核心，领导勘探）。\n\n总计：12+12+14+10+18+11+23=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 10,\n    \"Role5\": 18,\n    \"Role6\": 11,\n    \"Role7\": 23\n}\n```"
+        },
+        {
+            "role_self": "（career：地质学家）",
+            "role_obs": [
+                "护林员",
+                "矿工",
+                "地质学家",
+                "牧场主",
+                "耕农",
+                "渔夫",
+                "采集者"
+            ],
+            "response": "### 分析\n作为地质学家队长，我需要根据游戏逻辑合理分配100行动点数。地质学与矿业、勘探和资源提取相关，因此优先支持与此相近的角色：Role3（地质学家，我自己，需要核心支持以协调团队）、Role2（矿工，直接辅助矿产开采）和Role7（采集者，可用于辅助地质勘探）。其他角色如Role1（护林员，偏环境维护）、Role4（牧场主，畜牧业）、Role5（耕农，农业）和Role6（渔夫，水产）与地质学关联较弱，可分配较少点数以维持基本活动。分配原则：总和为100，确保整数；优先高相关性角色获得更多点数，促进团队整体资源开发。\n\n### 决定\n- Role1 (护林员): 8点（基本维护环境，避免资源冲突）。\n- Role2 (矿工): 20点（高优先，支持矿产提取，与地质学协同）。\n- Role3 (地质学家): 25点（队长核心，最高分配用于勘探领导）。\n- Role4 (牧场主): 10点（中等，支持土地资源平衡）。\n- Role5 (耕农): 12点（中等，支持农业稳定）。\n- Role6 (渔夫): 10点（基本水资源支持）。\n- Role7 (采集者): 15点（辅助地质采集活动）。\n\n总计：8+20+25+10+12+10+15=100。\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 20,\n    \"Role3\": 25,\n    \"Role4\": 10,\n    \"Role5\": 12,\n    \"Role6\": 10,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：地质学家）",
+            "role_obs": [
+                "采集者",
+                "牧场主",
+                "耕农",
+                "地质学家",
+                "渔夫",
+                "矿工",
+                "护林员"
+            ],
+            "response": "### 分析\n作为队长（地质学家），我需要根据游戏逻辑合理分配100行动点数。考虑到每个角色的职业特性，我会优先支持核心资源生产和勘探活动：\n- **采集者 (Role1)** 和 **护林员 (Role7)**：他们负责森林和野生资源采集，适合较高分配以确保基础物资。\n- **牧场主 (Role2)** 和 **耕农 (Role3)**：动物和农作物生产，需要中等支持以维持食物链。\n- **渔夫 (Role5)**：水产资源，分配适中以平衡多样性。\n- **矿工 (Role6)**：矿产开采，与地质相关，但作为队长我更偏向勘探而非直接挖掘。\n- **地质学家 (Role4)**：这是我的副手角色，分配最高以支持勘探和战略决策，可能发现新资源点。\n\n分配原则：总和为100，整数形式。优先地质和采集（约40%），其次生产类（约40%），剩余平衡。避免零分配以保持团队活跃。\n\n### 决定\n- Role1 (采集者): 18点（高采集需求）。\n- Role2 (牧场主): 12点（动物维护）。\n- Role3 (耕农): 12点（作物种植）。\n- Role4 (地质学家): 20点（核心勘探支持）。\n- Role5 (渔夫): 10点（水产补充）。\n- Role6 (矿工): 14点（矿产跟进）。\n- Role7 (护林员): 14点（森林可持续）。\n\n总计：18+12+12+20+10+14+14=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 14,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（career：地质学家）",
+            "role_obs": [
+                "地质学家",
+                "耕农",
+                "采集者",
+                "矿工",
+                "护林员",
+                "牧场主",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为地质学家队长，我需要根据每个队员的职业特性合理分配100行动点数，以优化团队整体效率。地质学家（Role1）与我同职业，优先获得资源用于勘探和规划；耕农（Role2）和牧场主（Role6）负责食物生产，需要较高分配以确保可持续性；采集者（Role3）和渔夫（Role7）是基础资源获取者，分配中等以维持日常供应；矿工（Role4）支持矿产开发，分配较高以推动经济；护林员（Role5）负责生态维护，分配适中以平衡环境。总和严格为100，确保无剩余或超支。\n\n### 决定\n- Role1 (地质学家): 20点（领导与勘探核心）。\n- Role2 (耕农): 18点（农业生产优先）。\n- Role3 (采集者): 12点（基础采集）。\n- Role4 (矿工): 16点（资源开采关键）。\n- Role5 (护林员): 10点（生态支持）。\n- Role6 (牧场主): 14点（畜牧补充）。\n- Role7 (渔夫): 10点（水产多样化）。\n\n总计：20+18+12+16+10+14+10=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 16,\n    \"Role5\": 10,\n    \"Role6\": 14,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：地质学家）",
+            "role_obs": [
+                "耕农",
+                "牧场主",
+                "采集者",
+                "地质学家",
+                "护林员",
+                "矿工",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为地质学家队长，我需要根据每个队员的职业特性分配100行动点数，以最大化团队在游戏中的整体效率。地质学家（Role4，我自己）专注于勘探和资源发现，因此应获得较高分配以驱动团队进展。矿工（Role6）与地质相关，可辅助挖掘，应次之。其他队员的职业更侧重农业和采集：耕农（Role1）和牧场主（Role2）负责食物生产，采集者（Role3）收集基本资源，渔夫（Role7）提供水产，护林员（Role5）维护环境。各分配整数，总和为100，确保平衡但优先核心资源角色。\n\n### 决定\n- Role1 (耕农): 12点（基本食物生产）。\n- Role2 (牧场主): 12点（畜牧补充）。\n- Role3 (采集者): 14点（日常资源采集）。\n- Role4 (地质学家): 25点（队长核心勘探）。\n- Role5 (护林员): 10点（环境维护）。\n- Role6 (矿工): 18点（矿产支持地质工作）。\n- Role7 (渔夫): 9点（水产补充）。\n\n总和：12+12+14+25+10+18+9=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 25,\n    \"Role5\": 10,\n    \"Role6\": 18,\n    \"Role7\": 9\n}\n```"
+        },
+        {
+            "role_self": "（career：护林员）",
+            "role_obs": [
+                "耕农",
+                "牧场主",
+                "渔夫",
+                "护林员",
+                "地质学家",
+                "矿工",
+                "采集者"
+            ],
+            "response": "### 分析\n作为游戏中的护林员队长，我需要将100行动点数分配给7位队员，确保总和为100且均为整数。分配原则基于各角色的职业特性与我的护林员身份优先级：我（Role4，护林员）作为队长，应获得最多资源以维护森林生态；农业相关角色（如耕农、牧场主、采集者）次之，因为它们与土地和资源可持续利用相关；渔夫作为水域角色，分配适中；地质学家和矿工涉及勘探和开采，可能对森林有潜在破坏，因此分配较少，以平衡生态保护。\n\n具体考量：\n- Role1 (耕农)：农业生产，支持食物链，分配较高。\n- Role2 (牧场主)：畜牧业，与土地相关，分配较高。\n- Role3 (渔夫)：水产捕捞，间接支持生态，分配中等。\n- Role4 (护林员)：我自己，核心职责是保护森林，分配最多。\n- Role5 (地质学家)：勘探知识，有助于规划但非直接生产，分配较低。\n- Role6 (矿工)：资源开采，可能破坏环境，分配最低。\n- Role7 (采集者)：野生资源采集，与森林直接相关，分配较高。\n\n总分配目标：优先生态平衡，总和精确为100。\n\n### 决定\n- Role1: 15（支持农业可持续）。\n- Role2: 14（平衡畜牧与土地保护）。\n- Role3: 12（水域活动适中）。\n- Role4: 30（队长核心，森林维护）。\n- Role5: 8（勘探辅助）。\n- Role6: 6（最小化开采风险）。\n- Role7: 15（采集与森林协同）。\n\n总和：15+14+12+30+8+6+15=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 14,\n    \"Role3\": 12,\n    \"Role4\": 30,\n    \"Role5\": 8,\n    \"Role6\": 6,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：护林员）",
+            "role_obs": [
+                "护林员",
+                "矿工",
+                "采集者",
+                "渔夫",
+                "地质学家",
+                "耕农",
+                "牧场主"
+            ],
+            "response": "### 分析\n作为护林员队长，我需要根据游戏逻辑合理分配100行动点数。资源分配应考虑每个角色的职业特性及其对团队生存/发展的贡献：\n- **Role1 (护林员)**：作为队长，我自己需要足够点数来协调巡逻、防火和生态维护，以保护整体资源。\n- **Role2 (矿工)**：矿业需要高投入用于挖掘和勘探，但风险较高，因此分配中等点数以平衡收益。\n- **Role3 (采集者)**：采集是基础资源来源（如食物、木材），需优先较高分配以确保日常供给。\n- **Role4 (渔夫)**：渔业依赖水域，季节性强，分配中等以维持蛋白质来源。\n- **Role5 (地质学家)**：勘探地质有助于长期资源发现，但非即时需求，分配较低点数。\n- **Role6 (耕农)**：农业是稳定食物生产的核心，需较高点数支持耕种和收获。\n- **Role7 (牧场主)**：畜牧提供肉类和副产品，分配中等以支持动物饲养。\n\n总体原则：优先基础生存角色（采集者、耕农），次之生产角色（矿工、渔夫、牧场主），队长协调，地质学家辅助。分配为整数，总和精确100，确保团队平衡发展。\n\n### 决定\n基于以上分析，我决定如下分配：\n- Role1: 15（队长协调）\n- Role2: 12（矿业开发）\n- Role3: 18（基础采集）\n- Role4: 13（渔业维持）\n- Role5: 8（地质勘探）\n- Role6: 20（农业核心）\n- Role7: 14（畜牧支持）\n\n总和：15+12+18+13+8+20+14=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 13,\n    \"Role5\": 8,\n    \"Role6\": 20,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（career：护林员）",
+            "role_obs": [
+                "渔夫",
+                "护林员",
+                "矿工",
+                "采集者",
+                "耕农",
+                "地质学家",
+                "牧场主"
+            ],
+            "response": "### 分析\n作为游戏中的护林员队长，我需要根据每个队员的职业特性来分配100行动点数，以最大化团队整体效率。总资源有限，因此优先考虑与森林/自然环境相关的角色，以支持可持续发展和资源循环。简要评估如下：\n\n- **Role1 (渔夫)**：专注于水域资源，独立性强，但与森林关联较弱，分配较少以避免资源分散。\n- **Role2 (护林员)**：与我同职业，直接负责森林维护和保护，需优先分配以确保核心区域稳定。\n- **Role3 (矿工)**：地下资源开采，可能破坏环境，分配适中以平衡收益，但需监控。\n- **Role4 (采集者)**：直接从森林采集植物/果实，与护林主题高度相关，分配较高以增强供给。\n- **Role5 (耕农)**：农业种植，可与森林边缘结合，但更偏向农田，分配中等。\n- **Role6 (地质学家)**：研究地形和资源分布，能辅助护林决策，分配较高以提供情报支持。\n- **Role7 (牧场主)**：畜牧业可能涉及草地/森林边缘，分配中等以支持食物链。\n\n分配原则：总和为100（整数），优先护林相关（Role2、Role4、Role6），其次支持性角色（Role5、Role7、Role3），最小化非核心（Role1）。预计分配：Role2 和 Role4 各20，Role6 15，Role5 和 Role7 各12，Role3 10，Role1 11（确保总和100）。\n\n### 决定\n基于以上分析，我决定如下分配行动点数，以优化团队在森林环境中的生存和生产。\n\n```json\n{\n    \"Role1\": 11,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 12,\n    \"Role6\": 15,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：护林员）",
+            "role_obs": [
+                "采集者",
+                "矿工",
+                "牧场主",
+                "护林员",
+                "地质学家",
+                "渔夫",
+                "耕农"
+            ],
+            "response": "### 分析\n作为护林员队长，我需要根据游戏中各角色的职业特性分配100行动点数，以最大化团队的整体生存和资源产出。护林员（Role4）职业与森林管理相关，因此优先分配更多点数给自己，以维护生态平衡。其他角色基于其职业贡献排序：\n- 采集者（Role1）和耕农（Role7）直接提供食物和植物资源，需较高分配以确保基本生存。\n- 矿工（Role2）和地质学家（Role5）负责矿产和勘探，适中分配以支持长期发展。\n- 牧场主（Role3）和渔夫（Role6）提供动物/水产资源，但相对次要，因此分配较少。\n总分配严格为100点整数，确保平衡：高优先（Role1、Role4、Role7）占60%，中优先（Role2、Role5）占25%，低优先（Role3、Role6）占15%。\n\n### 决定\n分配如下：Role1获18点（采集食物基础），Role2获12点（矿产开发），Role3获8点（畜牧辅助），Role4获20点（核心护林），Role5获13点（地质支持），Role6获7点（渔业补充），Role7获22点（农业主力）。总和=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 8,\n    \"Role4\": 20,\n    \"Role5\": 13,\n    \"Role6\": 7,\n    \"Role7\": 22\n}\n```"
+        },
+        {
+            "role_self": "（career：护林员）",
+            "role_obs": [
+                "采集者",
+                "护林员",
+                "牧场主",
+                "耕农",
+                "地质学家",
+                "渔夫",
+                "矿工"
+            ],
+            "response": "### 分析\n作为游戏中的护林员队长，我需要根据团队整体策略分配100行动点数。团队包括采集者（Role1，擅长资源采集）、另一位护林员（Role2，支持森林维护）、牧场主（Role3，畜牧相关）、耕农（Role4，农业生产）、地质学家（Role5，勘探资源）、渔夫（Role6，水产捕捞）和矿工（Role7，矿产开采）。考虑到森林环境优先，我会偏重分配给Role2（同职业协作）、Role1（基础资源获取）和Role4（可持续农业），以确保团队生存和扩展。其余角色获得适中分配，支持多样化活动，但避免过度倾斜。总和严格为100，确保整数分配。\n\n### 决定\n- Role1 (采集者): 18点 – 基础资源采集优先。\n- Role2 (护林员): 20点 – 同职业支持，维护森林核心。\n- Role3 (牧场主): 12点 – 畜牧辅助。\n- Role4 (耕农): 18点 – 农业与森林结合。\n- Role5 (地质学家): 10点 – 勘探补充。\n- Role6 (渔夫): 12点 – 水资源平衡。\n- Role7 (矿工): 10点 – 矿产后备。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 12,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：护林员）",
+            "role_obs": [
+                "耕农",
+                "矿工",
+                "牧场主",
+                "护林员",
+                "地质学家",
+                "渔夫",
+                "采集者"
+            ],
+            "response": "### 分析\n作为护林员队长，我需要根据游戏内的资源管理和生态平衡原则分配行动点数。总资源为100点，必须以整数分配给所有7名队员，且总和精确为100。分配考虑如下：\n- **优先级原则**：优先支持与森林生态相关的角色（如我自己Role4护林员、Role7采集者），因为这有助于可持续资源循环。其次是基础生产角色（如Role1耕农、Role3牧场主、Role6渔夫），以确保食物和物资供应。最后是资源提取角色（如Role2矿工、Role5地质学家），以避免过度开发破坏环境。\n- **平衡性**：避免任何角色得0点，以保持团队动力，但核心角色多分配。假设游戏中行动点用于探索、生产或维护，我会根据角色互补性分配：农业/牧业/渔业占基础（约40%），采集/护林占生态（约30%），矿业/地质占开发（约30%）。\n- **计算**：Role1（耕农）15点基础生产；Role2（矿工）12点资源提取；Role3（牧场主）14点牲畜维护；Role4（护林员）18点（我自己，核心生态保护）；Role5（地质学家）13点勘探支持；Role6（渔夫）13点水域资源；Role7（采集者）15点野外采集。总和：15+12+14+18+13+13+15=100。\n\n### 决定\n基于以上分析，我决定如下分配，确保团队高效协作，同时强调生态优先。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 14,\n    \"Role4\": 18,\n    \"Role5\": 13,\n    \"Role6\": 13,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：护林员）",
+            "role_obs": [
+                "采集者",
+                "耕农",
+                "地质学家",
+                "渔夫",
+                "牧场主",
+                "护林员",
+                "矿工"
+            ],
+            "response": "### 分析\n作为游戏中的护林员队长，我需要根据每个队员的职业特性合理分配100行动点数，以最大化团队的整体生存和资源产出。护林员职业强调森林保护、木材采集和生态平衡，因此我优先支持与森林相关的活动（如采集木材、种植树木），同时确保食物和资源多样性。分配原则：\n- **Role1 (采集者)**：直接从森林采集资源，与护林员高度协同，分配较高点数以快速获取木材和植物。\n- **Role2 (耕农)**：提供粮食，但耕作可能侵蚀森林，分配中等点数以平衡生态。\n- **Role3 (地质学家)**：勘探矿产，可能涉及开挖影响森林，分配较低点数。\n- **Role4 (渔夫)**：水产资源独立于森林，分配中等以补充食物链。\n- **Role5 (牧场主)**：畜牧可能导致森林退化，分配较低以控制放牧规模。\n- **Role6 (护林员)**：同职业队员，需高分配以维护森林核心。\n- **Role7 (矿工)**：采矿破坏性强，对森林不利，分配最低以最小化风险。\n\n总分配确保整数且和为100，优先森林协同（采集者和护林员占大头），其次食物来源（耕农和渔夫），最小化破坏性职业。\n\n### 决定\n基于以上分析，我决定如下分配：采集者和护林员各20点以强化森林产出；耕农和渔夫各15点确保食物；地质学家10点用于勘探；牧场主和矿工各10点以限制潜在破坏。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 20,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：护林员）",
+            "role_obs": [
+                "地质学家",
+                "矿工",
+                "耕农",
+                "采集者",
+                "渔夫",
+                "牧场主",
+                "护林员"
+            ],
+            "response": "### 分析\n作为护林员队长，我需要根据团队的整体生存和资源平衡来分配100行动点数。团队角色多样，包括地质学家（探索资源）、矿工（挖掘矿产）、耕农（种植作物）、采集者（采集野生资源）、渔夫（捕鱼）、牧场主（畜牧）和另一位护林员（森林维护）。考虑到森林环境的核心是可持续性和生态平衡，我优先分配给与森林直接相关的角色，如采集者（野生植物/果实）和护林员（防火/维护），以确保团队的食物和栖息地安全。其次，支持农业相关角色如耕农和牧场主，以实现长期自给自足。矿工和地质学家在森林中作用较小，因此分配较少；渔夫可提供补充蛋白，但非优先。分配原则：总和100，整数，确保每人至少1点以保持团队活跃，总分配偏向生态和食物生产。\n\n### 决定\n- Role1 (地质学家): 8点（基本勘探，支持潜在资源发现）。\n- Role2 (矿工): 7点（有限挖掘，避免过度破坏森林）。\n- Role3 (耕农): 18点（农业开发，确保作物产量）。\n- Role4 (采集者): 20点（高优先，采集森林资源作为主要食物来源）。\n- Role5 (渔夫): 12点（水产补充，适中支持）。\n- Role6 (牧场主): 17点（畜牧平衡生态，提供肉类/乳制品）。\n- Role7 (护林员): 18点（作为队长同类，高分配维护森林核心）。\n\n总计：8+7+18+20+12+17+18=100。\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 7,\n    \"Role3\": 18,\n    \"Role4\": 20,\n    \"Role5\": 12,\n    \"Role6\": 17,\n    \"Role7\": 18\n}\n```"
+        },
+        {
+            "role_self": "（career：护林员）",
+            "role_obs": [
+                "牧场主",
+                "地质学家",
+                "矿工",
+                "护林员",
+                "渔夫",
+                "耕农",
+                "采集者"
+            ],
+            "response": "### 分析\n作为游戏中的护林员队长，我需要将100行动点数分配给7名队员，确保总和为100且均为整数。分配原则基于各队员职业的协同性和游戏效率：优先支持与森林/自然资源相关的角色（如采集者、耕农、渔夫），因为我的护林员身份强调生态平衡；其次是牧场主（可持续畜牧）和矿工/地质学家（资源勘探，但需控制以防环境破坏）。Role4（另一名护林员）将获得最高分配以强化核心职责，其他角色均衡分摊剩余点数，避免任何角色为0以保持团队活力。最终分配：Role4得25，Role7得20，Role6得15，Role5得15，Role1得10，Role3得10，Role2得5，总计100。\n\n### 决定\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 5,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 20\n}\n```"
+        },
+        {
+            "role_self": "（career：护林员）",
+            "role_obs": [
+                "耕农",
+                "地质学家",
+                "牧场主",
+                "护林员",
+                "采集者",
+                "矿工",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为游戏中的护林员队长，我需要根据队员的职业特性分配100行动点数，以最大化团队整体效率。护林员（Role4）是我的核心角色，因此优先分配更多点数用于森林维护和资源保护。其他队员的分配考虑他们的职业贡献：\n- Role1 (耕农)：专注于农业生产，需要适中点数支持种植。\n- Role2 (地质学家)：研究地形和资源勘探，分配中等点数以辅助长期规划。\n- Role3 (牧场主)：畜牧业，需要点数用于动物管理和饲料。\n- Role5 (采集者)：采集野生资源，与护林员协同，分配较高点数。\n- Role6 (矿工)：挖掘矿产，分配中等点数避免过度开发森林。\n- Role7 (渔夫)：水域捕捞，分配较低点数以平衡生态。\n\n总体策略：优先森林相关角色（Role4 和 Role5），其次生产角色（Role1、Role3、Role6），最后辅助角色（Role2、Role7）。确保总和为100，使用整数分配。\n\n### 决定\n- Role1 (耕农): 15点（支持农业基础）。\n- Role2 (地质学家): 10点（勘探辅助）。\n- Role3 (牧场主): 12点（畜牧维护）。\n- Role4 (护林员): 25点（核心保护）。\n- Role5 (采集者): 20点（资源采集协同）。\n- Role6 (矿工): 12点（矿产开发）。\n- Role7 (渔夫): 6点（水域补充）。\n\n总计：15+10+12+25+20+12+6=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 25,\n    \"Role5\": 20,\n    \"Role6\": 12,\n    \"Role7\": 6\n}\n```"
+        },
+        {
+            "role_self": "（career：采集者）",
+            "role_obs": [
+                "耕农",
+                "采集者",
+                "渔夫",
+                "护林员",
+                "牧场主",
+                "地质学家",
+                "矿工"
+            ],
+            "response": "### 分析\n作为采集者队长，我需要根据每个队员的职业特性来分配100行动点数，以最大化团队整体效率。总资源有限，因此优先考虑与采集相关的职业（如采集者本身和辅助型角色），并确保分配均衡但倾斜于高产出角色：\n- Role1 (耕农)：专注于农业种植，需要中等资源支持长期产出。\n- Role2 (采集者)：与我职业相同，直接提升采集效率，优先分配较高点数。\n- Role3 (渔夫)：水产采集，类似于采集，分配较高以补充资源多样性。\n- Role4 (护林员)：森林保护和采集，辅助型，分配中等。\n- Role5 (牧场主)：畜牧业，间接支持，需要基本资源。\n- Role6 (地质学家)：勘探地质，可能发现新资源，分配中等以探索潜力。\n- Role7 (矿工)：矿产开采，高风险高回报，分配较高以推动矿业发展。\n\n分配原则：采集相关角色（Role2、Role3、Role7）获30+点数；辅助角色（Role1、Role4、Role5、Role6）获10-15点数。总和精确为100，确保整数。\n\n### 决定\n分配如下：\n- Role1: 12点（耕农基础支持）\n- Role2: 18点（采集者核心强化）\n- Role3: 16点（渔夫水产补充）\n- Role4: 14点（护林员保护）\n- Role5: 10点（牧场主畜牧）\n- Role6: 15点（地质学家探索）\n- Role7: 15点（矿工开采）\n\n总计：12+18+16+14+10+15+15=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 16,\n    \"Role4\": 14,\n    \"Role5\": 10,\n    \"Role6\": 15,\n    \"Role7\": 15\n}\n```"
+        },
+        {
+            "role_self": "（career：采集者）",
+            "role_obs": [
+                "采集者",
+                "矿工",
+                "地质学家",
+                "护林员",
+                "牧场主",
+                "渔夫",
+                "耕农"
+            ],
+            "response": "### 分析\n作为采集者队长，我需要根据每个队员的职业特性来分配100行动点数，以最大化团队的资源产出效率。游戏中，采集者（包括我自己）专注于基础资源采集，矿工和地质学家擅长矿产和勘探，护林员管理森林资源，牧场主、渔夫和耕农则覆盖动物、渔业和农业领域。为了平衡，我会优先分配更多点数给多样化的生产角色（如矿工和耕农），中等分配给支持角色（如地质学家和护林员），少量给重复或低优先级角色（如Role1，作为另一个采集者，我会限制其点数以避免冗余）。总和严格为100，确保整数分配。\n\n### 决定\n- Role1 (采集者)：10点（低分配，避免与队长重复）。\n- Role2 (矿工)：20点（高分配，矿产关键）。\n- Role3 (地质学家)：15点（中等，支持勘探）。\n- Role4 (护林员)：15点（中等，森林可持续性）。\n- Role5 (牧场主)：15点（中等，动物资源）。\n- Role6 (渔夫)：12点（稍低，渔业特定）。\n- Role7 (耕农)：13点（中等，农业基础）。\n\n总计：10+20+15+15+15+12+13=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 12,\n    \"Role7\": 13\n}\n```"
+        },
+        {
+            "role_self": "（career：采集者）",
+            "role_obs": [
+                "护林员",
+                "地质学家",
+                "渔夫",
+                "牧场主",
+                "耕农",
+                "矿工",
+                "采集者"
+            ],
+            "response": "### 分析\n作为采集者队长，我需要根据每个队员的职业特性分配100行动点数，以最大化团队在游戏中的整体效率。采集者（我自己）专注于资源收集，因此优先支持直接贡献资源的角色，同时平衡其他角色以确保团队多样性。职业匹配考虑：\n- **护林员 (Role1)**：森林资源采集，优先级高，与采集主题契合。\n- **地质学家 (Role2)**：地质勘探，间接支持资源发现，适中分配。\n- **渔夫 (Role3)**：水产采集，高优先级。\n- **牧场主 (Role4)**：畜牧管理，资源产出稳定，中等优先级。\n- **耕农 (Role5)**：农业种植，基础资源，适中分配。\n- **矿工 (Role6)**：矿产采集，高优先级，与采集直接相关。\n- **采集者 (Role7)**：纯采集角色，最高优先级，作为我的“副手”。\n\n分配原则：总和100，整数；高优先级角色（渔夫、矿工、采集者、护林员）获较多点数（15-20），中优先级（牧场主、耕农、地质学家）获10-15，确保无零分配以维持团队活跃。总计：20+15+18+12+13+10+12=100。\n\n### 决定\n我决定如下分配行动点数，以优化资源采集和团队平衡。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 13,\n    \"Role6\": 15,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：采集者）",
+            "role_obs": [
+                "采集者",
+                "牧场主",
+                "护林员",
+                "耕农",
+                "矿工",
+                "渔夫",
+                "地质学家"
+            ],
+            "response": "### 分析\n作为采集者队长，我需要根据每个队员的职业特性合理分配100行动点数，以最大化团队整体效率。采集者（Role1和我自己）专注于资源采集，应获得较高点数以支持基础资源获取；牧场主（Role2）和耕农（Role4）涉及动物和作物养殖，需要中等点数维持生产；护林员（Role3）负责森林维护，可稍低但不能忽略；矿工（Role5）和渔夫（Role6）是专业采集型，分配较高点数以提升产量；地质学家（Role7）提供勘探支持，分配适中以辅助他人。总体原则：采集相关职业优先，总和严格为100，确保整数分配。\n\n### 决定\n- Role1 (采集者): 20点（核心采集支持）\n- Role2 (牧场主): 12点（养殖维护）\n- Role3 (护林员): 10点（环境保护）\n- Role4 (耕农): 13点（农业生产）\n- Role5 (矿工): 18点（矿产采集）\n- Role6 (渔夫): 15点（水产采集）\n- Role7 (地质学家): 12点（勘探辅助）\n\n总计：20+12+10+13+18+15+12=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 12,\n    \"Role3\": 10,\n    \"Role4\": 13,\n    \"Role5\": 18,\n    \"Role6\": 15,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：采集者）",
+            "role_obs": [
+                "矿工",
+                "护林员",
+                "渔夫",
+                "耕农",
+                "采集者",
+                "地质学家",
+                "牧场主"
+            ],
+            "response": "### 分析\n作为采集者队长，我需要根据每个队员的职业特性来分配100行动点数，以最大化团队的资源产出效率。采集者职业强调高效收集自然资源，因此优先考虑与资源采集相关的角色：\n\n- **Role1 (矿工)**：专注于矿产采集，适合高投资以挖掘稀有资源，分配较高点数。\n- **Role2 (护林员)**：管理森林资源，平衡可持续性，分配中等点数以避免过度消耗。\n- **Role3 (渔夫)**：水产采集，效率高但季节性强，分配中等点数。\n- **Role4 (耕农)**：农业种植，需要稳定投入，分配中等偏低以支持长期产出。\n- **Role5 (采集者)**：与队长相同职业，高度协同，分配最高点数以强化核心采集链。\n- **Role6 (地质学家)**：勘探地质，支持矿工等角色，分配适中以提供情报。\n- **Role7 (牧场主)**：畜牧业，资源消耗型，分配较低点数以辅助其他采集。\n\n总体策略：优先采集核心（Role5、Role1），其次辅助采集（Role2、Role3、Role6），最后支持型（Role4、Role7）。总和严格为100，确保整数分配。\n\n### 决定\n- Role1: 18（高产矿产）\n- Role2: 14（可持续森林）\n- Role3: 15（高效渔业）\n- Role4: 12（稳定农业）\n- Role5: 20（核心协同）\n- Role6: 13（勘探支持）\n- Role7: 8（辅助畜牧）\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 20,\n    \"Role6\": 13,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "（career：采集者）",
+            "role_obs": [
+                "护林员",
+                "耕农",
+                "矿工",
+                "牧场主",
+                "渔夫",
+                "采集者",
+                "地质学家"
+            ],
+            "response": "### 分析\n作为采集者队长，我需要根据每个队员的职业特性合理分配100行动点数。总资源有限，因此优先考虑职业的核心贡献：护林员（Role1）负责森林维护，需中等资源；耕农（Role2）是粮食基础，优先高分配；矿工（Role3）提供矿产，需稳定投入；牧场主（Role4）管理牲畜，中等需求；渔夫（Role5）补充水产，灵活分配；采集者（Role6）作为我的同类，需平衡支持；地质学家（Role7）辅助勘探，较低但必要。分配原则：基础职业（如耕农）多分，辅助（如地质学家）少分，确保总和为100整数。\n\n### 决定\n- Role1 (护林员): 12点（维护森林资源）。\n- Role2 (耕农): 20点（优先农业生产）。\n- Role3 (矿工): 18点（矿产开采关键）。\n- Role4 (牧场主): 15点（牲畜养殖稳定）。\n- Role5 (渔夫): 14点（水产补充）。\n- Role6 (采集者): 13点（同类支持采集）。\n- Role7 (地质学家): 8点（勘探辅助）。\n\n总和：12+20+18+15+14+13+8=100。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 20,\n    \"Role3\": 18,\n    \"Role4\": 15,\n    \"Role5\": 14,\n    \"Role6\": 13,\n    \"Role7\": 8\n}\n```"
+        },
+        {
+            "role_self": "（career：采集者）",
+            "role_obs": [
+                "牧场主",
+                "渔夫",
+                "矿工",
+                "护林员",
+                "耕农",
+                "采集者",
+                "地质学家"
+            ],
+            "response": "### 分析\n作为游戏中的采集者队长，我需要根据每个队员的职业特性合理分配100行动点数，以最大化团队的资源产出和整体效率。总点数必须精确为100，且为整数分配。以下是简要考虑：\n\n- **Role1 (牧场主)**：专注于畜牧养殖，需要较高点数来维护动物和扩展牧场，适合分配较多以确保稳定食物来源。\n- **Role2 (渔夫)**：依赖水域捕捞，点数用于船只维护和捕鱼活动，中等分配以平衡季节性波动。\n- **Role3 (矿工)**：挖掘矿产资源，劳动密集型，需要中等偏高点数来支持工具和安全操作。\n- **Role4 (护林员)**：管理森林和木材，点数用于巡逻和可持续采集，分配中等以防止资源枯竭。\n- **Role5 (耕农)**：耕种农田，基础食物生产，需要较高点数来覆盖播种、灌溉和收获周期。\n- **Role6 (采集者)**：作为我的职业同类，专注于野生资源采集（如草药、果实），分配较高以补充团队多样性。\n- **Role7 (地质学家)**：勘探地质以发现新矿藏或资源点，点数用于研究和探索，分配较低但非零，以提供长期战略价值。\n\n分配原则：优先基础生产职业（牧场主、耕农、采集者），其次资源提取（渔夫、矿工、护林员），最后支持型（地质学家）。总和确保为100，避免任何角色为0以保持团队活跃。\n\n### 决定\n基于以上分析，我决定如下分配：\n- Role1: 18（高优先，畜牧稳定）\n- Role2: 14（中等，捕捞灵活）\n- Role3: 15（中等偏高，矿产关键）\n- Role4: 13（中等，森林可持续）\n- Role5: 18（高优先，农业基础）\n- Role6: 16（高，采集补充）\n- Role7: 6（低，支持探索）\n\n总计：18+14+15+13+18+16+6=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 15,\n    \"Role4\": 13,\n    \"Role5\": 18,\n    \"Role6\": 16,\n    \"Role7\": 6\n}\n```"
+        },
+        {
+            "role_self": "（career：采集者）",
+            "role_obs": [
+                "耕农",
+                "护林员",
+                "采集者",
+                "渔夫",
+                "地质学家",
+                "牧场主",
+                "矿工"
+            ],
+            "response": "### 分析\n作为采集者队长，我需要根据游戏逻辑合理分配100行动点数给队员。总资源有限，因此优先考虑不同职业的互补性和效率：耕农和牧场主适合稳定食物生产，渔夫和采集者（包括我自己）擅长资源采集，护林员维护环境以支持长期采集，矿工和地质学家则聚焦矿产资源以提供工具或建材。考虑到采集主题，我会偏向支持采集相关角色（如Role3采集者和Role2护林员），同时确保平衡，避免任何角色得0点以保持团队活跃。分配原则：基础10点给每个角色（总70点），剩余30点倾斜给高潜力角色（采集者、渔夫、矿工各多10点）。\n\n### 决定\n- Role1 (耕农): 10点，用于基本耕作支持食物链。\n- Role2 (护林员): 20点，维护森林以提升采集效率。\n- Role3 (采集者): 20点，同职业，强化核心采集活动。\n- Role4 (渔夫): 20点，水域资源多样化采集。\n- Role5 (地质学家): 10点，辅助矿产勘探但非优先。\n- Role6 (牧场主): 10点，畜牧补充但非采集重点。\n- Role7 (矿工): 10点，矿产开采支持工具，但基础水平。\n\n总和：10+20+20+20+10+10+10=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 20,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：采集者）",
+            "role_obs": [
+                "耕农",
+                "采集者",
+                "矿工",
+                "地质学家",
+                "牧场主",
+                "渔夫",
+                "护林员"
+            ],
+            "response": "### 分析\n作为采集者队长，我需要根据每个队员的职业（career）合理分配100行动点数，以优化团队的资源产出和游戏效率。总点数必须精确为100，且为整数。分配原则如下：\n- **耕农 (Role1)**：专注于农业种植，需要较高点数以确保食物和作物产量。\n- **采集者 (Role2)**：与我同职业，擅长采集野生资源，应分配中等点数以补充团队基本物资。\n- **矿工 (Role3)**：挖掘矿产，点数需适中以平衡资源获取，但不宜过高以避免过度消耗。\n- **地质学家 (Role4)**：勘探地质，可能支持其他矿业角色，分配较低点数作为辅助。\n- **牧场主 (Role5)**：畜牧业，需要点数养护动物，提供蛋白质和材料。\n- **渔夫 (Role6)**：捕鱼，点数中等以维持水产供应。\n- **护林员 (Role7)**：森林保护和木材管理，分配点数以可持续利用资源。\n\n总体策略：优先高产出职业（如耕农、牧场主），中等分配采集和渔业，较低给勘探和辅助角色。最终分配：Role1=20, Role2=15, Role3=15, Role4=10, Role5=20, Role6=10, Role7=10，总和=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：采集者）",
+            "role_obs": [
+                "护林员",
+                "采集者",
+                "矿工",
+                "耕农",
+                "牧场主",
+                "渔夫",
+                "地质学家"
+            ],
+            "response": "### 分析\n作为采集者队长的我，需要根据游戏逻辑合理分配100行动点数。每个队员的职业决定了他们的资源获取效率：护林员适合森林资源、采集者（和我相同）擅长一般采集、矿工专注矿产、耕农处理农作物、牧场主管理畜牧、渔夫捕鱼、地质学家勘探地质。我的优先级是平衡团队，确保采集和生产链完整，避免单一角色过度负担。考虑到采集者和矿工是基础资源获取者，我会给他们更多点数（各20），生产型角色（如耕农、牧场主、渔夫）中等（各15），辅助型（如护林员、地质学家）较少（各10），总和正好100。\n\n### 决定\n分配如下：\n- Role1 (护林员): 10点，用于辅助森林资源。\n- Role2 (采集者): 20点，作为主力采集支持。\n- Role3 (矿工): 20点，确保矿产稳定。\n- Role4 (耕农): 15点，支持食物生产。\n- Role5 (牧场主): 15点，维持畜牧链。\n- Role6 (渔夫): 15点，补充水产资源。\n- Role7 (地质学家): 5点，用于勘探辅助。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 15,\n    \"Role7\": 5\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "地质学家",
+                "耕农",
+                "矿工",
+                "采集者",
+                "护林员",
+                "渔夫",
+                "牧场主"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据游戏逻辑合理分配100行动点数。资源分配应优先考虑团队的整体生存和发展：地质学家（Role1）用于勘探资源，耕农（Role2）用于食物生产，矿工（Role3）用于采集矿产，采集者（Role4）用于基础资源，护林员（Role5）用于可持续木材和环境管理，渔夫（Role6）用于水产捕捞（与我的职业相近，可优先支持），牧场主（Role7）用于动物养殖。考虑到平衡，我会给每个角色分配大致相等的基数（约14点），然后根据渔夫视角略微倾斜给渔夫（Role6）和相关采集/生产角色（如Role4和Role2），确保总和正好为100。这能促进团队协作，避免单一角色过强或过弱。\n\n### 决定\n- Role1 (地质学家): 14点（勘探支持整体资源发现）\n- Role2 (耕农): 15点（食物生产关键，略微倾斜）\n- Role3 (矿工): 14点（矿产开发）\n- Role4 (采集者): 15点（基础资源采集，重要）\n- Role5 (护林员): 14点（环境可持续）\n- Role6 (渔夫): 16点（与队长职业相关，优先支持）\n- Role7 (牧场主): 12点（养殖辅助）\n\n总和：14+15+14+15+14+16+12=100。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 15,\n    \"Role3\": 14,\n    \"Role4\": 15,\n    \"Role5\": 14,\n    \"Role6\": 16,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "地质学家",
+                "耕农",
+                "采集者",
+                "护林员",
+                "矿工",
+                "渔夫",
+                "牧场主"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据游戏逻辑分配100行动点数给队员。资源分配应考虑每个角色的职业专长及其对团队的贡献：地质学家（Role1）擅长勘探资源，我会给他适中支持以发现新机会；耕农（Role2）和牧场主（Role7）负责食物生产，需要较高点数以确保稳定供给；采集者（Role3）和护林员（Role4）处理自然资源，分配中等点数以维持平衡；矿工（Role5）聚焦矿产，给予较高支持以提升材料产量；作为渔夫的我（Role6）会分配最多点数给自己，以最大化渔获并领导团队。分配原则：优先核心生产角色，总和精确为100，确保整数且公平。\n\n### 决定\n- Role1 (地质学家): 8点（勘探支持）\n- Role2 (耕农): 15点（食物生产）\n- Role3 (采集者): 12点（资源采集）\n- Role4 (护林员): 10点（环境维护）\n- Role5 (矿工): 18点（矿产开采）\n- Role6 (渔夫): 25点（核心渔业领导）\n- Role7 (牧场主): 12点（畜牧补充）\n\n总计：8+15+12+10+18+25+12=100。\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 10,\n    \"Role5\": 18,\n    \"Role6\": 25,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "牧场主",
+                "护林员",
+                "采集者",
+                "矿工",
+                "渔夫",
+                "地质学家",
+                "耕农"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据游戏逻辑合理分配100行动点数。资源分配应优先考虑团队的整体生存和资源获取效率：牧场主和耕农负责食物生产（优先高分配以确保食物稳定）；采集者和矿工提供基本材料（中等分配）；渔夫（我的职业）专注于捕鱼补充食物（稍高分配）；护林员维护环境（较低）；地质学家提供勘探支持（最低，以避免资源浪费）。总和必须为100，确保整数分配。基于此，我优先食物链角色，其次资源采集，最后辅助角色。\n\n### 决定\n- Role1 (牧场主): 20（高优先食物生产）\n- Role2 (护林员): 10（环境维护，低需求）\n- Role3 (采集者): 15（基本采集，中等）\n- Role4 (矿工): 15（矿产资源，中等）\n- Role5 (渔夫): 18（核心捕鱼，稍高）\n- Role6 (地质学家): 8（勘探辅助，低）\n- Role7 (耕农): 14（农业补充，中等）\n\n总和：20+10+15+15+18+8+14=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 18,\n    \"Role6\": 8,\n    \"Role7\": 14\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "耕农",
+                "矿工",
+                "护林员",
+                "地质学家",
+                "渔夫",
+                "采集者",
+                "牧场主"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据团队的整体生存和资源平衡来分配100行动点数。游戏中，资源生产依赖职业互补：耕农（Role1）负责食物种植，矿工（Role2）开采矿物，护林员（Role3）管理木材和生态，地质学家（Role4）勘探资源，渔夫（Role5，包括我自己）捕鱼补充蛋白质，采集者（Role6）收集野果和草药，牧场主（Role7）养殖动物提供肉和奶。优先考虑基础生存（食物、木材、矿物），然后是勘探和采集，以确保团队可持续性。分配原则：基础职业多分（15-20点），勘探和辅助少分（10-15点），总和精确为100，避免零分配以保持团队活跃。\n\n### 决定\n- Role1 (耕农): 18点（食物核心，需高投入）。\n- Role2 (矿工): 16点（工具和建筑必需）。\n- Role3 (护林员): 15点（木材和环境平衡）。\n- Role4 (地质学家): 12点（长期勘探支持）。\n- Role5 (渔夫): 14点（我的职业，补充水产，但不过度倾斜）。\n- Role6 (采集者): 13点（日常补充资源）。\n- Role7 (牧场主): 12点（动物资源多样化）。\n\n总计：18+16+15+12+14+13+12=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 14,\n    \"Role6\": 13,\n    \"Role7\": 12\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "采集者",
+                "耕农",
+                "地质学家",
+                "渔夫",
+                "护林员",
+                "牧场主",
+                "矿工"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据游戏内的团队协作逻辑分配100行动点数。资源分配应优先考虑团队的整体生存和发展：采集者（Role1）和耕农（Role2）负责基础食物采集和农业，需较高点数以确保稳定供给；地质学家（Role3）和矿工（Role7）处理资源勘探和开采，分配中等点数以支持长期发展；渔夫（Role4）作为我的职业同类，给予稍高支持以强化捕鱼效率；护林员（Role5）和牧场主（Role6）则辅助环境维护和畜牧，分配适中点数避免资源浪费。总体原则是平衡分配，避免任何角色为0，确保总和精确为100。\n\n### 决定\n- Role1 (采集者): 18点（基础采集优先）\n- Role2 (耕农): 17点（农业稳定）\n- Role3 (地质学家): 14点（勘探支持）\n- Role4 (渔夫): 16点（职业协同）\n- Role5 (护林员): 13点（环境维护）\n- Role6 (牧场主): 12点（畜牧辅助）\n- Role7 (矿工): 10点（资源开采）\n\n总和：18+17+14+16+13+12+10=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 17,\n    \"Role3\": 14,\n    \"Role4\": 16,\n    \"Role5\": 13,\n    \"Role6\": 12,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "矿工",
+                "采集者",
+                "耕农",
+                "牧场主",
+                "护林员",
+                "地质学家",
+                "渔夫"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据每个队员的职业特性来分配100行动点数，以最大化团队在游戏中的整体效率。资源分配原则：优先支持与渔夫（捕鱼/水产）相关的职业（如采集者和牧场主，可能涉及水边资源），其次是基础生产（如耕农和矿工），最后是辅助/探索型（如地质学家和护林员）。所有分配均为整数，总和严格为100。假设游戏中行动点数用于职业核心活动（如矿工挖矿、采集者采集等），我避免零分配以保持团队平衡，但地质学家作为探索型可能需求较低。\n\n- Role1 (矿工)：基础资源获取，分配较高以支持工具/建材。\n- Role2 (采集者)：与渔夫协同（野外/水产采集），优先较高。\n- Role3 (耕农)：食物生产，中等分配。\n- Role4 (牧场主)：动物/水产养殖，与渔夫相关，较高。\n- Role5 (护林员)：环境维护，中等。\n- Role6 (地质学家)：探索/研究，较低（非即时生产）。\n- Role7 (渔夫)：作为队长自身，分配最多以领导捕鱼活动。\n\n分配方案：Role7 25, Role2 18, Role4 16, Role1 14, Role3 12, Role5 10, Role6 5（总和100）。\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 16,\n    \"Role5\": 10,\n    \"Role6\": 5,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "地质学家",
+                "渔夫",
+                "牧场主",
+                "护林员",
+                "采集者",
+                "矿工",
+                "耕农"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据每个队员的职业特性来分配100行动点数，以最大化团队在游戏中的整体效率。资源分配原则：优先支持核心生产链（如食物、材料采集），并考虑职业互补性。我的渔夫身份会略微偏向水产相关活动，但整体要平衡。\n\n- **Role1 (地质学家)**：擅长勘探和资源评估，可为团队发现新矿点或地形，分配适中以支持长期探索。\n- **Role2 (渔夫)**：与我同职业，专注捕鱼和水产，效率高，分配较多以强化食物供应。\n- **Role3 (牧场主)**：负责畜牧和动物资源，食物链关键，分配较高以确保蛋白质来源。\n- **Role4 (护林员)**：管理森林和木材，防灾并提供建材，分配中等以维持生态平衡。\n- **Role5 (采集者)**：通用采集植物/果实，灵活性强，分配较高作为基础劳动力。\n- **Role6 (矿工)**：挖掘矿产和金属，工业基础，分配中等以支持工具制造。\n- **Role7 (耕农)**：种植作物，稳定粮食来源，分配最高以优先农业生产。\n\n总分配确保整数且和为100：偏重食物生产（渔夫、牧场主、耕农、采集者），次重资源采集（矿工、地质学家、护林员），以适应生存游戏需求。\n\n### 决定\n分配如下：Role1: 10, Role2: 15, Role3: 15, Role4: 10, Role5: 15, Role6: 10, Role7: 25（总和100）。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 10,\n    \"Role7\": 25\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "地质学家",
+                "渔夫",
+                "牧场主",
+                "护林员",
+                "耕农",
+                "采集者",
+                "矿工"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据游戏逻辑分配100行动点数。资源分配应优先考虑团队整体生存和资源获取：渔夫（Role2，我自己）需要足够点数维持捕鱼活动；耕农（Role5）和牧场主（Role3）负责食物生产，应获得较高份额；采集者（Role6）和护林员（Role4）辅助资源收集；地质学家（Role1）和矿工（Role7）用于探索和矿产，但优先级较低。分配原则：平衡但倾斜向生产角色，总和精确为100。\n\n### 决定\n- Role1 (地质学家): 8点（探索支持）\n- Role2 (渔夫): 20点（核心捕鱼）\n- Role3 (牧场主): 18点（畜牧生产）\n- Role4 (护林员): 12点（森林维护）\n- Role5 (耕农): 22点（农业优先）\n- Role6 (采集者): 10点（辅助采集）\n- Role7 (矿工): 10点（矿产开发）\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 20,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 22,\n    \"Role6\": 10,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "护林员",
+                "耕农",
+                "采集者",
+                "牧场主",
+                "矿工",
+                "渔夫",
+                "地质学家"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据游戏逻辑合理分配100行动点数。资源分配应考虑每个队员的职业特性及其对团队的贡献：护林员（Role1）负责森林管理，可用于资源保护；耕农（Role2）专注于农业生产，是食物基础；采集者（Role3）擅长野外采集，提供多样资源；牧场主（Role4）管理牲畜，确保动物资源；矿工（Role5）挖掘矿产，支持工业；渔夫（Role6）作为我的同职业，优先加强捕鱼以提升团队水产供应；地质学家（Role7）提供勘探知识，有助于长期资源发现。\n\n优先级：渔夫（Role6）最高，因为与我的职业协同；其次是基础生产者如耕农和牧场主；采集者和矿工中等；护林员和地质学家较低，但不可忽略以维持平衡。分配原则：整数，总和精确100，避免零分配以确保团队协作。最终分配偏向生产和协同职业，略微倾斜渔夫以优化渔业产出。\n\n### 决定\n- Role1 (护林员): 10点（基础保护）\n- Role2 (耕农): 20点（农业核心）\n- Role3 (采集者): 15点（补充资源）\n- Role4 (牧场主): 18点（牲畜支持）\n- Role5 (矿工): 12点（矿产开发）\n- Role6 (渔夫): 15点（职业协同，略高）\n- Role7 (地质学家): 10点（勘探辅助）\n\n总和：10+20+15+18+12+15+10=100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 18,\n    \"Role5\": 12,\n    \"Role6\": 15,\n    \"Role7\": 10\n}\n```"
+        },
+        {
+            "role_self": "（career：渔夫）",
+            "role_obs": [
+                "渔夫",
+                "矿工",
+                "耕农",
+                "护林员",
+                "地质学家",
+                "牧场主",
+                "采集者"
+            ],
+            "response": "### 分析\n作为渔夫队长，我需要根据每个队员的职业特性合理分配100行动点数，以最大化团队整体效率。渔夫职业强调资源采集和可持续性，因此优先支持直接生产型角色（如渔夫、矿工、耕农、牧场主、采集者），让他们有更多行动点用于核心活动；辅助型角色（如护林员、地质学家）分配较少点数，用于支持性任务。分配原则：生产角色多分（15-20点），辅助角色少分（5-10点），确保总和为100，且均为整数。Role1（同为渔夫）作为副手，分得最多以协同主线任务。\n\n### 决定\n- Role1 (渔夫)：20点（优先支持同职业，增强渔获效率）。\n- Role2 (矿工)：18点（矿产资源关键，需较高行动用于挖掘）。\n- Role3 (耕农)：18点（农业基础，分配足够点数确保粮食稳定）。\n- Role4 (护林员)：8点（维护环境，支持其他采集，但非核心）。\n- Role5 (地质学家)：6点（勘探辅助，点数适中避免浪费）。\n- Role6 (牧场主)：16点（畜牧生产重要，但略低于矿农以平衡）。\n- Role7 (采集者)：14点（野外资源多样，分配中等以补充团队）。\n\n总和：20+18+18+8+6+16+14=100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 18,\n    \"Role4\": 8,\n    \"Role5\": 6,\n    \"Role6\": 16,\n    \"Role7\": 14\n}\n```"
+        }
+    ]
+}
